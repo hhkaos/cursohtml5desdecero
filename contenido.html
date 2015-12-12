@@ -69,31 +69,31 @@
 		<!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="leccion1">
-    	<h2 id="leccion1">Introducción al curso</h2>
+    	<h2 id="leccion1">Objetivos del curso</h2>
 			
 			<p>
 				<img src="images/html-css-js.png" class="pull-right frontend-logo">
-				Este curso lo puede realizar <strong>cualquier persona</strong>, sólo hace falta tener ganas de aprender.<br>
+				Este curso lo puede realizar <strong>cualquier persona</strong>, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
 			</p>
 
-			<p>
-				El objetivo desarrollar <strong>asentar una buena base</strong> para poder mejorar nuestras habilidades como <a href="https://en.wikipedia.org/wiki/Front_end_development">desarrolladores front-end</a>,
-				para ello vamos a aprender:
-			</p>
-			
 			<ul>
-				<li>Los elementos de HTML5, CSS3 y Javascript que usaremos el día día (lo más común)</li>
-				<li>Dónde encontrar lo que haga falta cuando nos haga falta.</li>
-				<li>Herramientas que usan los profesionales del mundo real como son: <a href="http://github.com">Github</a>, las <a href="https://developer.chrome.com/devtools">herramientas para desarrolladores de Google Chrome</a>, etc.</li>
+				<li>Aprender los elementos de HTML5, CSS3 y Javascript que usaremos el día día (los más comunes)</li>
+				<li>Descubrir dónde podremos resolver nuestras dudas cuando tengamos problemas.</li>
+				<li>Trabajar con algunas de las herramientas que usan los profesionales del mundo real como son <a href="http://github.com">Github</a> o las <a href="https://developer.chrome.com/devtools">herramientas para desarrolladores de Google Chrome</a>.</li>
 			</ul>
+			
 			<p>
-				El objetivo <strong>no es</strong> convertirnos en expertos en estos lenguajes, esto se consigue con años de experiencia.
+				Es <span class="underline">muy importante saber</span> que en la programación web hay muchas formas de resolver un mismo problema, y que todas pueden ser igualmente 
+				válidas. <br>
+				Dicho esto, queremos aclarar que <strong>el objetivo del curso no es</strong> aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y por esto <span class="underline">no entraremos en profundidad en todos y cada uno de los elementos y caractarísticas</span> de cada lenguaje. 
 			</p>
 
 			<p>
-				<strong>Definiciones no exactas</strong>: los contenidos de este curso no son siempre 100% exactos, por lo que no hay que tomar todas
-				las definiciones como tal. Esto está hecho así a conciencia, el motivo es evitar entrar en detalles para evitar desviarnos del objetivo del curso pero al menos dar una imagen aproximada de algún concepto.<br>
-				De todos modos para los más curiosos dejaremos enlaces a páginas con más información.
+				<strong>El objetivo es dotarnos de una buena base</strong> que nos permita sentirnos capaces de afrontar cualquier proyecto, para ello nos centraremos sólamente en los conocimientos y herramientas más importantes de un <a href="https://en.wikipedia.org/wiki/Front_end_development">desarrolladores front-end</a>.
+			</p>
+
+			<p>
+				<strong>Las definiciones estarán simplificadas</strong>, esto está hecho a conciencia ya que no se asume ningún conocimiento previo por parte del alumno, por eso en muchas ocasiones se dirán cosas correctas pero parcialmente válidas (con el objetivo de facilitar su comprensión y evitar distraernos del objetivo del curso). Así que recuerda, <strong>no las tomes al pie de la letra</strong>, tómalas como definiciones lo suficiente buenas como para ayudarnos a entender lo demás. De todos modos para siempre que se de este caso dejaremos los enlaces los recursos donde podremos encontrar la definición exacta para aquellos que se sientan más cómodos.
 			</p>
 
 			<p>
@@ -101,25 +101,42 @@
 				el día que algo no te funcione sabrás mucho mejor por dónde empezar a buscar el error. Además <span class="underline">vuestras dudas nos ayudarán a añadir aclaraciones o mejoras sobre los conceptos para que personas que posteriormente hagan el curso lo tengan más fácil y claro</span>.
 			</p>
 
-
-			<h3>Navegadores y servidores web</h3>
+			<h2>Lección 1</h2>
 			<p>
-				Un navegador web es un programa complejo que entiende y ejecuta código que puede recibir de Internet o de una red local; y un servidor web es un programa
-				que se encarga (entre otras cosas) de enviar el código desde su disco duro al navegador que lo ha solicitado.
+				En esta primera lección vamos a empezar por aprender los <span class="underline">conceptos fundamentales</span> a la hora de entender el funcionamiento de una página web y por tanto la base para entender de dónde pueden venir los errores que comentamos en el futuro, por eso
+				no empezamos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
+			</p>
+
+			<h3>Servidores y navegadores web</h3>
+			<p>
+				A un servidor web es un programa
+				que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los  soliciten (<strong>nota</strong>: también se le llama servidor que al propio ordenador que tiene este software instalado). Y un navegador web es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
 			</p>
 			<p class="text-center">
 				<img src="images/client-server.png">
 			</p>
 			<p>
-				Entre algunos de las responsabilidades que debe garantizar de un navegador se encuentran:
+				Entre algunas de las responsabilidades que debe garantizar de un navegador se encuentran:
 			</p>
 
 			<ul>
 				<li>
-					<strong>Integridad</strong>: Internet utiliza en su mayoría una forma (protocolo/estándar) de comunicación llamada HTTP (<a href="http://www.w3.org/Protocols/">Hypertext Transfer Protocol</a>). Por ello cuando 
-					se envía cualquier información (documento, imagen, web, etc.) desde un servidor a través de Internet se envía dividida en trocidos. 
-					En este caso el navegador también se encarga de recopilar todos los trozos, volver a pedir los que se hayan perdido y verificar que
-					los trozos están correctos antes de hacer cualquier cosa con ellos.
+					<strong>Integridad</strong>: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo <a href="http://www.w3.org/Protocols/">HTTP</a>). Este protocolo es el lenguaje común entre el servidor y el navegador web, los mensajes más frencuentes
+					que le enviará el navegador al servidor serán de dos tipos:
+					<ul>
+						<li>
+							<strong>GET</strong>: para solicitar información.
+						</li>
+						<li>
+							<strong>POST</strong>: para enviar información.
+						</li>
+					</ul>
+					Y el servidor nos responderá con mensajes tipo:
+					<ul>
+						<li><strong>200</strong>: Significa que se ha encontrado correctamente el recurso.</li>
+						<li><strong>403</strong>: Significa que no tenemos permiso para acceso al recurso.</li>
+						<li><strong>404</strong>: Significa que el fichero que le hemos no se ha podido encontrar el disco duro (puede ser porque no esté o porque la ruta es incorrecta).</li>
+					</ul>
 				</li>
 				<li>
 					<strong>Seguridad</strong>: dado que los navegadores reciben código escrito por otras personas, la seguridad en Internet se define a diferentes niveles de seguridad: durante el envío (<a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a>), al ejecutarse en el navegador (<a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>), etc.</li>
