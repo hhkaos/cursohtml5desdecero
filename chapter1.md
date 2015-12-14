@@ -9,7 +9,7 @@ Un servidor web es un programa que se encarga (entre otras cosas) de enviar arch
 
 Entre algunas de las responsabilidades que debe garantizar de un navegador se encuentran:
 
-* **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. Vamos a ver los principales mensajes o como formalmente se suelen llamar: *peticiones*:
+* **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. Vamos a ver los principales mensajes, o como formalmente se suelen llamar *peticiones*:
     * Tipos de peticiones:
         * **GET**: para solicitar información.
         * **POST**: para enviar información.<br>
