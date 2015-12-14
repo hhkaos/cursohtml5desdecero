@@ -16,7 +16,7 @@ Entre algunas de las responsabilidades que debe garantizar de un navegador se en
     * Mensajes de respuesta (del servidor):
         * **200**: Significa que se ha encontrado correctamente el fichero/recurso.
         * **403**: Significa que no tenemos permiso para acceder al fichero/recurso.
-        * **404**: Significa que el fichero que le hemos no se ha podido encontrar el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
+        * **404**: Significa que el fichero/recurso que le hemos no se ha podido encontrar el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
 
 * **Seguridad**: dado que los navegadores reciben código escrito por otras personas, la seguridad en Internet se define a diferentes niveles de seguridad: durante el envío ([HTTPS](https://en.wikipedia.org/wiki/HTTPS)), al ejecutarse en el navegador ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)), etc.
 * **Optimización**: al mismo tiempo que reciben la información integran mecanismos para acelerar la carga y mejorar la experiencia del usuario como es utilizar la memoria caché (memoria de almacenamiento temporal).
