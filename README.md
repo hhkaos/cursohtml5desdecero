@@ -2,7 +2,7 @@
 
 **Objetivo del curso**:
 
-Este curso lo puede realizar **cualquier persona**, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
+Este curso lo puede realizar **cualquier persona**, no hace falta saber programación, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
 
 * Aprender los elementos de HTML5, CSS3 y Javascript que usaremos el día día (los más comunes)
 * Descubrir dónde podremos resolver nuestras dudas cuando tengamos problemas.
