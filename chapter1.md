@@ -85,14 +85,14 @@ Toda página web comparte esta estructura.
 
 A continuación explicamos la función que cumple cada etiqueta:
 
-<!DOCTYPE html> ... </html>: sirve para indicarle al navegador que el código HTML que le vamos a escribir dentro está en la versión 5, osea que es HTML5.
-<head> ... </head>: contiene otras etiquetas que ofrecen principalmente información al navegador, a los buscadores y a otras páginas (como pueden ser redes sociales, etc).
-<meta charset="UTF-8">: indicamos al navegador qué tipo de caracteres contiene la página. Para especificar cuál de todos los disponibles usamos el atributo charset con el valor < href="">UTF-8 que nos servirá para siempre que trabajemos en....
-<title> ... </title>: indica el título de nuetra página, la usan los navegadores, buscadores, etc.
-<body> ... </body>: contiene todo el contenido visible por el visitante de nuestra página.
+* ```<!DOCTYPE html> ... </html>```: sirve para indicarle al navegador que el código HTML que le vamos a escribir dentro está en la versión 5, osea que es HTML5.
+* ```<head> ... </head>```: contiene otras etiquetas que ofrecen principalmente información al navegador, a los buscadores y a otras páginas (como pueden ser redes sociales, etc).
+* ```<meta charset="UTF-8">```: indicamos al navegador qué tipo de caracteres contiene la página. Para especificar cuál de todos los disponibles usamos el atributo charset con el valor < href="">UTF-8 que nos servirá para siempre que trabajemos en....
+* ```<title> ... </title>```: indica el título de nuetra página, la usan los navegadores, buscadores, etc.
+* ```<body> ... </body>```: contiene todo el contenido visible por el visitante de nuestra página.
 Nota ¿por qué tabulamos nuestro código?: la tabulación es muy importante utilizarla usarla para facilitar la lectura del código.
 
-Introducción a Google Chrome Developer Tools
+## Introducción a Google Chrome Developer Tools
 De momento sólo nos vamos a centrar en tres de las pestañas:
 
 Elements
@@ -102,14 +102,15 @@ Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 Espacios, menor que, etc.
 
-Validar nuestro código
+## Validar nuestro código
 Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien. En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
 
-Recursos
-Mozilla CDN
-Chuleta de etiquetas HTML5
-Curso de Chrome Developer Tools
-Dudas
+## Recursos
+* Mozilla CDN
+* Chuleta de etiquetas HTML5
+* Curso de Chrome Developer Tools
+
+## Dudas
 Github code comments / issues
 
 Ejercicio
@@ -117,12 +118,11 @@ Ejercicio tipo test
 
 Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto previamente, configurar Google Chrome para poder editar el fichero y subir nuestro ejercicio a Github.
 
-Crear una carpeta en tu disco duro en la que iremos añadiendo los ejercicios
-Crear un fichero index.html dentro de la carpeta y copiar la estructura básica que hemos visto
-Configurar Google Chrome para poder editar nuestro fichero
-Crear una cuenta en Github si no la tenemos
-Crear un repositorio para este curso
-Subir el código que hemos hecho a nuestro repositorio
-Dudas con los ejercicios, si tienes alguna duda con el ejercicio
+1. Crear una carpeta en tu disco duro en la que iremos añadiendo los ejercicios
+2. Crear un fichero index.html dentro de la carpeta y copiar la estructura básica que hemos visto
+3. Configurar Google Chrome para poder editar nuestro fichero
+4. Crear una cuenta en Github si no la tenemos
+5. Crear un repositorio para este curso
+6. Subir el código que hemos hecho a nuestro repositorio
 
-Licencia / Añadir etiqueta HTML valid y enlace a Github
+Dudas con los ejercicios, si tienes alguna duda con el ejercicio
