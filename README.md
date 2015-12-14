@@ -1,5 +1,3 @@
-<img src="https://hhkaos.github.io/introduccion-a-html5/images/html-css-js.png" style="width:250px;">
-
 **Objetivo del curso**:
 
 Este curso lo puede realizar **cualquier persona**, no hace falta saber programación, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
