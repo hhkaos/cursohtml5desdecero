@@ -14,7 +14,7 @@ Entre algunas de las responsabilidades que debe garantizar de un navegador se en
         * **GET**: para solicitar información.
         * **POST**: para enviar información.<br>
     * Mensajes de respuesta (del servidor):
-        * **200**: Significa que se ha encontrado correctamente el recurso.
+        * **200**: Significa que se ha encontrado correctamente el fichero/recurso.
         * **403**: Significa que no tenemos permiso para acceso al recurso.
         * **404**: Significa que el fichero que le hemos no se ha podido encontrar el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
 
