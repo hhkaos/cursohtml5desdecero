@@ -1,4 +1,4 @@
-**Objetivo del curso**:
+# Presentación del curso
 
 Este curso lo puede realizar **cualquier persona**, no hace falta saber programación, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
 
@@ -13,8 +13,17 @@ Dicho esto, queremos aclarar que **el objetivo del curso no es** aprender todas 
 
 **Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no se asume ningún conocimiento previo por parte del alumno, por eso en muchas ocasiones se dirán cosas correctas pero parcialmente válidas (con el objetivo de facilitar su comprensión y evitar distraernos del objetivo del curso). Así que recuerda, **no las tomes al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarnos a entender lo demás. De todos modos para siempre que se de este caso dejaremos los enlaces los recursos donde podremos encontrar la definición exacta para aquellos que se sientan más cómodos.
 
-**Nota importante**: Si en algún punto de la lección tienes alguna duda [pregúntala aquí](https://www.gitbook.com/book/hhkaos/introduccion-a-html5/discussions), por muy tonta que creas que es. Ya que si consigues terminar **sin ninguna duda**, el día que algo no te funcione sabrás mucho mejor por dónde empezar a buscar el error. Además **vuestras dudas nos ayudarán a añadir aclaraciones o mejoras sobre los conceptos para que personas que posteriormente hagan el curso lo tengan más fácil y claro**.
+## Formato
+Como comentaba este es el material escrito de un curso del curso en vídeo que se celebra periódicamente.
 
-Licencia / Añadir etiqueta HTML valid y enlace a Github
+## Dudas
+Si en algún punto de la lección tienes alguna duda [pregúntala aquí](https://www.gitbook.com/book/hhkaos/introduccion-a-html5/discussions), por muy tonta que creas que es. Ya que si consigues terminar **sin ninguna duda**, el día que algo no te funcione sabrás mucho mejor por dónde empezar a buscar el error. Además **vuestras dudas nos ayudarán a añadir aclaraciones o mejoras sobre los conceptos para que personas que posteriormente hagan el curso lo tengan más fácil y claro**.
+
+## Contribuciones
+Si tienes alguna idea, sugerencia, etc. para mejorar los contenidos de este libro puedes hacerlo a través de los [issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues).
+
+Si encuentras un error, sabes usar Git y quieres corregirlo, te agradeceré que me hagas un [pull request](https://help.github.com/articles/using-pull-requests/).
+
+## Sobre mi
 
 Para la elaboración del curso además de 16 años de experiencia se han utilizado: [Front-end Handbook](https://www.gitbook.com/book/frontendmasters/front-end-handbook/details)
