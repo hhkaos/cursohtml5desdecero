@@ -1,6 +1,3 @@
-Introducción a HTML5
-=======
-
 **Objetivo del curso**:
 
 Este curso lo puede realizar cualquier persona, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
