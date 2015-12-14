@@ -16,6 +16,8 @@ Dicho esto, queremos aclarar que **el objetivo del curso no es** aprender todas 
 ## Formato
 Como comentaba este es el material escrito de un curso del curso en vídeo que se celebra periódicamente.
 
+Tiempo aproximado de duración, etc.
+
 ## Dudas
 Si en algún punto de la lección tienes alguna duda [pregúntala aquí](https://www.gitbook.com/book/hhkaos/introduccion-a-html5/discussions), por muy tonta que creas que es. Ya que si consigues terminar **sin ninguna duda**, el día que algo no te funcione sabrás mucho mejor por dónde empezar a buscar el error. Además **vuestras dudas nos ayudarán a añadir aclaraciones o mejoras sobre los conceptos para que personas que posteriormente hagan el curso lo tengan más fácil y claro**.
 
