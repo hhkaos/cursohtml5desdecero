@@ -95,9 +95,10 @@ Nota ¿por qué tabulamos nuestro código?: la tabulación es muy importante uti
 ## Introducción a Google Chrome Developer Tools
 De momento sólo nos vamos a centrar en tres de las pestañas:
 
-Elements
-Sources
-Network
+* Elements
+* Sources
+* Network
+
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 Espacios, menor que, etc.
