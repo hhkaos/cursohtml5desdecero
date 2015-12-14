@@ -18,3 +18,7 @@ Dicho esto, queremos aclarar que **el objetivo del curso no es** aprender todas 
 **Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no se asume ningún conocimiento previo por parte del alumno, por eso en muchas ocasiones se dirán cosas correctas pero parcialmente válidas (con el objetivo de facilitar su comprensión y evitar distraernos del objetivo del curso). Así que recuerda, **no las tomes al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarnos a entender lo demás. De todos modos para siempre que se de este caso dejaremos los enlaces los recursos donde podremos encontrar la definición exacta para aquellos que se sientan más cómodos.
 
 **Nota importante**: Si en algún punto de la lección tienes alguna duda [pregúntala aquí](https://www.gitbook.com/book/hhkaos/introduccion-a-html5/discussions), por muy tonta que creas que es. Ya que si consigues terminar **sin ninguna duda**, el día que algo no te funcione sabrás mucho mejor por dónde empezar a buscar el error. Además **vuestras dudas nos ayudarán a añadir aclaraciones o mejoras sobre los conceptos para que personas que posteriormente hagan el curso lo tengan más fácil y claro**.
+
+Licencia / Añadir etiqueta HTML valid y enlace a Github
+
+Para la elaboración del curso además de 16 años de experiencia se han utilizado: [Front-end Handbook](https://www.gitbook.com/book/frontendmasters/front-end-handbook/details)
