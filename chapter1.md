@@ -105,7 +105,7 @@ Toda página web comparte esta estructura.
 
 A continuación explicamos la función que cumple cada etiqueta:
 
-* ```<!DOCTYPE html> ... </html>```: sirve para indicarle al navegador que el código HTML que le vamos a escribir dentro está en la versión 5, osea que es HTML5.
+* ```<!DOCTYPE html> ... </html>```: sirve para indicarle al navegador que el código HTML que le vamos a escribir dentro está en la versión 5, osea que es HTML5. [+info](http://www.w3.org/TR/2011/WD-html5-20110525/syntax.html#the-doctype)
 * ```<head> ... </head>```: contiene otras etiquetas que ofrecen principalmente información al navegador, a los buscadores y a otras páginas (como pueden ser redes sociales, etc).
 * ```<meta charset="UTF-8">```: indicamos al navegador qué tipo de caracteres contiene la página. Para especificar cuál de todos los disponibles usamos el atributo charset con el valor < href="">UTF-8 que nos servirá para siempre que trabajemos en....
 * ```<title> ... </title>```: indica el título de nuetra página, la usan los navegadores, buscadores, etc.
