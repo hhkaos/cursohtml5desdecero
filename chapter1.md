@@ -57,11 +57,31 @@ Por tanto las versiones [han evolucionado a lo largo de los años](https://en.wi
 **El fichero index.html**: por defecto los servidores web cuando reciben la petición de un fichero y no se indica explicitamente el nombre del fichero busca en la carpeta un fichero con nombre "index.html", si lo encuentra lo devuelve.
 
 ### Etiquetas y atributos
-Ejemplo
+En el último estándar de HTML (HTML5) existen más de 100 etiquetas. Como comentaba al inicio no las veremos todas (de hecho no es habitual ver a nadie que las conozca todas). 
+
+Vamos a empezar por entender qué pinta tienen. Las etiquetas siguen una estructura como la siguiente:
 
 ```html
-<etiqueta atributo="valor">Contenido<etiqueta>
-<etiqueta atributo="valor">
+<nombre_de_la_etiqueta atributo="valor">Contenido</nombre_de_la_etiqueta>
+<nombre_de_la_etiqueta atributo="valor">
+```
+
+Por ejemplos algunos nombres de etiquetas son: **html**, **head**, **meta**, **title** y **body**. Y ejemplos de atributos son: **class**, **id**, **charset**, **style**, etc. No te preocupes que en los recursos te he dejado una chuleta con todas las etiquetas y algunos de los atributos que aceptan. Ahora lo importante es que entiendas el formato.
+
+Por ejemplo en este caso vemos que la etiqueta **meta** puede contener el atributo **charset** con el valor **UTF-8**:
+
+```html
+<meta charset="UTF-8">
+```
+
+### Anidación de etiquetas
+Unas etiquetas puedes contener a otras, lo que
+http://www.w3.org/TR/2014/REC-html5-20141028/dom.html#phrasing-content-1
+
+```html
+<p class="nueva">
+    asdasd <span>asdasd</span>
+</p>
 ```
 
 ### Estructura básica
@@ -108,7 +128,7 @@ Que el código se muestre en nuestro navegador web como queríamos no implica ne
 
 ## Recursos
 * Mozilla CDN
-* Chuleta de etiquetas HTML5
+* [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
 * Curso de Chrome Developer Tools
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
 * [Especificación HTML5](http://www.w3.org/TR/2014/REC-html5-20141028/)
