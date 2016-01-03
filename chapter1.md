@@ -132,6 +132,7 @@ Que el código se muestre en nuestro navegador web como queríamos no implica ne
 * Curso de Chrome Developer Tools
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
 * [Especificación HTML5](http://www.w3.org/TR/2014/REC-html5-20141028/)
+* [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
 
 ## Dudas
 Github code comments / issues
