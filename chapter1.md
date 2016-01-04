@@ -3,9 +3,19 @@
 En esta primera lección vamos a empezar por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web y por tanto la base para entender de dónde pueden venir los errores que comentamos en el futuro, por eso no empezaremos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
 
 ## Servidores y navegadores web
-Un servidor web es un programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten (nota: también se le llama servidor que al propio ordenador que tiene este software instalado). Y un navegador web es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
+Empecemos con unas definiciones informales:
+- Un **servidor web** es un programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten (nota: también se le llama servidor que al propio ordenador que tiene este software instalado). 
+- Un **navegador web** es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
+
+Para que nos hagamos una idea visual:
 
 ![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+
+Ahora me gustaría aprovechar para aclarar qué es un dominio y qué es un subdominio:
+- **Dominios**: podemos hacer una analogía entre los dominios y los *Accesos directos* de Windows. Para identificar unívocamente una carpeta en nuestro disco duro necesitamos saber la ruta (*p.e: C:\Archivos de programa\Google Chrome\bin\chrome.exe*), para idenfiticar nuestros servidores web necesitamos saber su [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (p.e: 213.242.93.227). Como recordar todos estos dígitos es muy complejo se inventaron los dominios (p.e: google.com, rauljimenez.info, etc.) que no son más que un "*acceso directo*" o *alias* que es más fácil de recordar para un humano. Nota: los dominios se pueden alquilar por Internet y los precios normalmente varían desde los pocos € o $ hasta cien € o $. 
+- **Subdominos**: un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede usar para apuntar a distintas IPs. Así por ejemplo www sería también un subdominio.
+
+El [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial, pero en este curso no aprenderemos a comprar y configurar uno ya que **no** se ha considerado importante para los objetivos planteados.
 
 Entre algunas de las responsabilidades que debe garantizar de un navegador se encuentran:
 
@@ -97,7 +107,11 @@ Me gustaría mencionar que:
 1. No todas las son anidables entre sí; por ejemplo: una etiqueta **title** no puede contener una etiqueta **head**, pero esto lo veremos más adelante.
 2. En muchos casos nos encontraremos muchos niveles de anidación (etiquetas que contienen etiquetas que a su vez contienen etiquetas, etc)
 
-### Estructura básica de una web
+### Estructura básica de una página web
+
+Primero me gustaría hacer una pequeña aclaración sobre terminología que voy a usar, diferenciaremos:
+- **Sitio web (o web)**: como 
+- **Página web**:
 
 Toda página web comparte esta estructura.
 
@@ -140,6 +154,7 @@ Espacios, menor que, etc.
 Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien. En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
 
 ## Recursos
+* [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
 * [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
 * [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
