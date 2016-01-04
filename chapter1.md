@@ -59,7 +59,7 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 * **user:password@**: obvio.
 * **host**: nombre de dominio (p.e.: tusitioweb.com) o IP (79.82.123.1)
 * **port**: puerto (si no se especifica ninguno se usa el 80 por defecto)
-* **path (obligatorio)**: ruta al fichero
+* **path (obligatorio)**: ruta al fichero/recurso
 * **query**: parámetros/variables
 * **fragment**: punto de anclaje
 
