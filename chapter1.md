@@ -154,7 +154,7 @@ Que el código se muestre en nuestro navegador web como queríamos no implica ne
 * [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
 * [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
 * Curso de Chrome Developer Tools
-* Mozilla CDN
+
 
 ## Ejercicios
 
