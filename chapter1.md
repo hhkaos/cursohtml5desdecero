@@ -3,7 +3,7 @@
 En esta primera lección vamos a ver:
 * Qué son y cómo funcionan los servidores y navegadores web
 * Qué vamos a necesitar para el curso
-* Primeros pasos con HTML5
+* Primeros pasos con HTML5: etiquetas y atributos, anidación de etiquetas y estructura básica de una página.
 * Introducción a Google Chrome Developer Tools 
 
 Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. 
@@ -110,7 +110,7 @@ Me gustaría mencionar que:
 1. No todas las son anidables entre sí; por ejemplo: una etiqueta **title** no puede contener una etiqueta **head**, pero esto lo veremos más adelante.
 2. En muchos casos nos encontraremos muchos niveles de anidación (etiquetas que contienen etiquetas que a su vez contienen etiquetas, etc)
 
-### Estructura básica de una página web
+### Estructura básica de una página
 
 Primero me gustaría hacer una pequeña aclaración sobre terminología que voy a usar, diferenciaremos:
 - **Sitio web (o web)**: como todas las páginas en las que podemos navegar dentro de un mismo dominio (p.e: [rauljimenez.info](http://rauljimenez.info/contacto)).
