@@ -59,9 +59,14 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 * **user:password@**: obvio.
 * **host**: nombre de dominio (p.e.: tusitioweb.com) o IP (79.82.123.1)
 * **port**: puerto (si no se especifica ninguno se usa el 80 por defecto)
-* **path (obligatorio)**: ruta al fichero/recurso
-* **query**: parámetros/variables
-* **fragment**: punto de anclaje
+* **path (obligatorio)**: ruta al fichero (por ejemplo: blog/index.php)
+* **query**: parámetros/variables (por ejemplo: preview=true)
+* **fragment**: punto de anclaje (por ejemplo #introducción)
+
+Así una URL válida podría ser:
+```https://hhkaos.gitbooks.io/introduccion-a-html5/content/chapter1.html#primeros-pasos-con-html5
+```
+
 
 ## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un lenguaje de marcas creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
