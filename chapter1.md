@@ -1,4 +1,4 @@
-# Lección 1
+# Lección 1 - Introducción
 
 En esta primera lección vamos a empezar por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web y por tanto la base para entender de dónde pueden venir los errores que comentamos en el futuro, por eso no empezaremos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
 
