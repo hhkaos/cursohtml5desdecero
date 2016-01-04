@@ -139,14 +139,11 @@ Toda *página web* en HTML5 debe empezar con estructura como la siguiente:
 ```html
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="UTF-8">
 	<title>Título de la página</title>
 </head>
-
 <body></body>
-
 </html>
 ```
 
