@@ -1,4 +1,4 @@
-# Lección 1 - Introducción
+# 1.- Introducción
 
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
