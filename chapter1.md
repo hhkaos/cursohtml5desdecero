@@ -3,7 +3,7 @@
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
 * [Qué son y cómo funcionan los servidores y navegadores web](#servidores-y-navegadores-web).
-* [Primeros pasos con HTML5](primeros-pasos-con-html5): 
+* [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
     * Etiquetas y atributos.
     * Anidación de etiquetas. 
     * Estructura básica de una página.
