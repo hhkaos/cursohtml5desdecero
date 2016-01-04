@@ -131,7 +131,7 @@ Me gustaría mencionar que:
 ### Estructura básica de una página
 
 Primero me gustaría hacer una pequeña aclaración sobre terminología que voy a usar, diferenciaremos:
-- **Sitio web (o web)**: como todas las páginas en las que podemos navegar dentro de un mismo dominio (p.e: [rauljimenez.info](http://rauljimenez.info/contacto)).
+- **Sitio web (o web)**: conjunto de todas las páginas en las que podemos navegar dentro de un mismo dominio (p.e: [rauljimenez.info](http://rauljimenez.info/contacto)).
 - **Página web**: a una página individual dentro de un sitio web (p.e: [rauljimenez.info/contacto]( view-source:http://rauljimenez.info/contacto))
 
 Dicho esto, toda *página web* en HTML5 que hagamos debe empezar con una estructura como la siguiente:
