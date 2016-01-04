@@ -81,7 +81,7 @@ Donde:
 
 
 ## Primeros pasos con HTML5
-HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un lenguaje de marcas creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
+HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un [lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado) (*que no es lo mismo que un [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n)*) creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
 
 Por tanto las versiones [han evolucionado a lo largo de los años](https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline): HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), HTML5 (2014), etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de autio, vídeo, etc)
 
@@ -90,14 +90,22 @@ Por tanto las versiones [han evolucionado a lo largo de los años](https://en.wi
 ### Etiquetas y atributos
 En el último estándar de HTML (HTML5) existen más de 100 etiquetas. Como comentaba al inicio no las veremos todas (de hecho no es habitual ver a nadie que las conozca todas). 
 
-Vamos a empezar por entender qué pinta tienen. Las etiquetas siguen una estructura como la siguiente:
+Vamos a empezar por entender qué pinta tienen.
+
+Las etiquetas puede tener una apertura y un cierre como en el siguiente caso:
 
 ```html
 <etiqueta atributo="valor">Contenido</etiqueta>
+```
+Aunque no siempre tienen por qué tener un *cierre*:
+
+```html
 <etiqueta atributo="valor">
 ```
 
-Vamos a ver algunos ejemplos:
+Además es importante saber que el atributo y el valor son opcionales.
+
+Vamos a ver algunos ejemplos de etiquetas:
 - **etiqueta**: *html*, *head*, *meta*, *title*, *body*... 
 - **atributo**: *class*, *id*, *charset*, *style* ...
 - **valor**: *UTF-8*, *modal*, *margin-left: 10px* ...
@@ -110,7 +118,7 @@ Por ejemplo:
 <meta charset="UTF-8">
 ```
 
-En este caso se diría que esto es: *"una etiqueta **meta** con el atributo **charset** con el valor establecido a **UTF-8**"*.
+En este caso se diría que esto es: *"una etiqueta **meta** con el atributo **charset** con el valor establecido a **UTF-8**"*. No hace falta que te preocupes por el significado, luego haremos incapié en esto.
 
 ### Anidación de etiquetas
 Es importante saber que unas etiquetas pueden contener a otras, o como se suele decir "que se pueden anidar". 
