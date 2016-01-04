@@ -194,7 +194,7 @@ El [ICANN](https://www.icann.org/) es la organización que gestiona los dominios
 ### Servidores web
 Como hemos mencionado anteriormente un servidor web no es más que un ordenador* donde guardamos los ficheros que contienen nuestro sitio web.
 
-Nota: **En este curso usaremos nuestra máquina si ningún software en especial** (salvo el Google Chrome) **ya que no nos hará falta de momento**.
+Nota: **En este curso usaremos nuestra máquina si ningún servidor HTTP ya que no nos hará falta de momento**.
 
 Estos ordenadores no tienen por qué tener nada en especial, nuestra máquina puede hacer de servidor web, pero dado que (entre otras muchas cosas), una web se espera que funcione 24 horas, 7 días a la semana y que nuestra máquina la tenemos que apagar de vez en cuando, normalmente se alquila parte de una máquina (o una máquina completa) a una empresa que se dedica exclusivamente a esto: empresas de [hosting o alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web).
 
