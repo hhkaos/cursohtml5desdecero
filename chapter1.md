@@ -161,7 +161,7 @@ Espacios, menor que, etc.
 * [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
 * Curso de Chrome Developer Tools
 
-### Recursos avanzados
+**Recursos avanzados**:
 * [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
 * [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
 
