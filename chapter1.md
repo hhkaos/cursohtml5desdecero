@@ -55,7 +55,7 @@ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 
 Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 
-* **scheme (obligatorio)**: este suele ser http o https normalmente, aunque podría ser file, ftp, mailto, skype, etc
+* **scheme (obligatorio)**: este suele ser http o https normalmente, aunque podría ser también: file, ftp, mailto, skype, etc
 * **user:password@**
 * **host**: nombre de dominio (p.e.: www.tusitioweb.com) o IP (79.82.123.1)
 * **port**: puerto (si no se especifica ninguno se usa el 80 por defecto)
