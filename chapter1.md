@@ -6,7 +6,9 @@ En esta primera lección vamos a ver:
 * Primeros pasos con HTML5
 * Introducción a Google Chrome Developer Tools 
 
-Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
+Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. 
+
+**Es importante interiorizar bien estos conceptos** ya que nos los encontraremos con frecuencia cuando busquemos nuestras dudas en Internet.
 
 ## Servidores y navegadores web
 Empecemos con unas definiciones informales:
