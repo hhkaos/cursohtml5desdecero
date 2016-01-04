@@ -163,7 +163,7 @@ Espacios, menor que, etc.
 
 **Recursos avanzados**.
 
-Accede a estos recursos si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc) o si no le tienes miedo a nada ;D:
+Accede a estos recursos si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc) y queres profundizar en más conceptos o si no le tienes miedo a nada ;D:
 * [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
 * [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
 * [Browser rendering optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860): aprende cómo funciona internamente Google Chrome y cómo optimizarlo.
