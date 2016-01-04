@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.7em;
+
+}
+h1{
+
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.logo{
+    background: url("../images/html-css-js.png") no-repeat;
+    height: 65px;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: top;
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    margin-left: 0;
+    background-size: auto 100%;
+}
+.video-container {
+    position:relative;
+    min-height: 300px;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+
+}
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:96.5%;
+    height:100%;
+    margin-left: 15px;
+    border: 3px solid #333;
+}
+.negative{
+    background-color: #E35130;
+    color: white;
+    padding: 0px 10px;
+}
