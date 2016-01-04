@@ -166,7 +166,6 @@ Espacios, menor que, etc.
 Accede a estos recursos si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc):
 * [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
 * [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
-
 * [Browser rendering optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860): aprende cómo funciona internamente Google Chrome y cómo optimizarlo.
 * [The Web Hypertext Application Technology Working Group](https://html.spec.whatwg.org/multipage/)
 
