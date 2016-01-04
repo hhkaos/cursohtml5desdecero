@@ -5,7 +5,7 @@ En esta primera lección vamos a ver:
 * Qué son y cómo funcionan:
     * [Los servidores y navegadores web](#servidores-y-navegadores-web).
     * [Las URLs](#¿cómo-funcionan-las-urls)    
-    * [Mensajes HTTP](#servidores-y-navegadores-web).
+    * [Peticiones HTTP](#servidores-y-navegadores-web).
 * [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
     * [Etiquetas y atributos.](#etiquetas-y-atributos)
     * [Anidación de etiquetas.](#anidación-de-etiquetas) 
@@ -75,7 +75,7 @@ Donde:
 - query = (vacío)
 - fragment = #primeros-pasos-con-html5
 
-### Mensajes HTTP
+### Peticiones HTTP
 Cuando nuestro navegador se comunica con el servidor para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*.
 
 Existen varios tipos de peticiones, aunque nosotros en este curso trabajaremos con dos tipos:
