@@ -107,7 +107,7 @@ Por ejemplo:
     <title>Título de la página</title>
 </head>
 ```
-En este caso vemos que la etiqueta **head** contiene una etiqueta **title**.
+En este caso vemos que la etiqueta **head** contiene una etiqueta **title**. Si nos fijamos, además, el elemento anidado (*title*) está en una nueva línea y con un nivel de [indentación](https://es.wikipedia.org/wiki/Indentaci%C3%B3n)/sangrado mayor. Esto es así por una  [convención](http://lema.rae.es/drae/srv/search?id=j5dMxst0MDXX2F43uojM) general. 
 
 Me gustaría mencionar que:
 1. No todas las son anidables entre sí; por ejemplo: una etiqueta **title** no puede contener una etiqueta **head**, pero esto lo veremos más adelante.
