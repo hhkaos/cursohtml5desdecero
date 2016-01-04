@@ -156,10 +156,8 @@ Que el código se muestre en nuestro navegador web como queríamos no implica ne
 * Curso de Chrome Developer Tools
 * Mozilla CDN
 
-## Dudas
-Github code comments / issues
+## Ejercicios
 
-Ejercicio
 Ejercicio tipo test
 
 Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto previamente, configurar Google Chrome para poder editar el fichero y subir nuestro ejercicio a Github.
@@ -171,7 +169,7 @@ Este primer ejercicio consiste en crear un documento HTML5 con la estructura que
 5. Crear un repositorio para este curso
 6. Subir el código que hemos hecho a nuestro repositorio
 
-Dudas con los ejercicios, si tienes alguna duda con el ejercicio
+Dudas con los ejercicios, si tienes alguna duda con el ejercicio. Las dudas Github code comments / issues
 
 ## Extra (opcional)
 
@@ -193,3 +191,8 @@ Como hemos mencionado anteriormente un servidor web no es más que un ordenador*
 Nota: **En este curso usaremos nuestra máquina si ningún software en especial** (salvo el Google Chrome) **ya que no nos hará falta de momento**.
 
 Estos ordenadores no tienen por qué tener nada en especial, nuestra máquina puede hacer de servidor web, pero dado que (entre otras muchas cosas), una web se espera que funcione 24 horas, 7 días a la semana y que nuestra máquina la tenemos que apagar de vez en cuando, normalmente se alquila parte de una máquina (o una máquina completa) a una empresa que se dedica exclusivamente a esto: empresas de [hosting o alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web).
+
+Se puede acceder y gestionar estas máquinas que alquilamos en remoto de diferentes maneras: usando gestiores FTPs/SFTPs, paneles de control web, conexiones SSH, etc.
+
+### TCP
+Esto es muy técnico y no recomendable para personas que tengan ciertos conocimientos de redes informáticas. Simplemente quería hacer referencia que tanto los protocoloes HTTP, como FTP, SSH, IMAP, DNS, POP, SMTP, etc. están implementados sobre TCP [(+ìnfo)](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
