@@ -76,7 +76,9 @@ Donde:
 - fragment = #primeros-pasos-con-html5
 
 ### Peticiones HTTP
-Cuando nuestro navegador se comunica con el servidor para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*.
+Cuando nuestro navegador se comunica con el servidor para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*. 
+
+Algunas de las acciones que provocan que el navegador realice una petición HTTP son: pulsar un enlace, escribir una URL en la barra de direcciones o enviar un formulario.
 
 Existen varios tipos de peticiones, aunque nosotros en este curso trabajaremos con dos tipos:
 * **GET**: para solicitar información.
