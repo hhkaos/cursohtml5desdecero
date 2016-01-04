@@ -4,8 +4,8 @@ En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
 * Qué son y cómo funcionan:
     * [Los servidores y navegadores web](#servidores-y-navegadores-web).
+    * [Las URLs](#¿cómo-funcionan-las-urls)    
     * [Mensajes HTTP](#servidores-y-navegadores-web).
-    * [Las URLs](#¿cómo-funcionan-las-urls)
 * [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
     * [Etiquetas y atributos.](#etiquetas-y-atributos)
     * [Anidación de etiquetas.](#anidación-de-etiquetas) 
@@ -42,18 +42,6 @@ etc.
 
 Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web) y de [servidores web](https://es.wikipedia.org/wiki/Servidor_web#Software) en los módulos de HTML5 y CSS3 usaremos principalmente Google Chrome y no usaremos de momento ningún servidor web.
 
-### Mensajes HTTP
-Vamos a ver los principales mensajes, o como formalmente se suelen llamar *peticiones*.
-
-Existen varios tipos de peticiones, aunque nosotros veremos dos tipos:
-* **GET**: para solicitar información.
-* **POST**: para enviar información.<br>
-
-Los mensajes de respuesta del servidor pueden ser de muchos tipos aunque nosotros nos encontraremos normalmente tres:
-* **200**: Significa que se ha encontrado correctamente el fichero/recurso.
-* **403**: Significa que no tenemos permiso para acceder al fichero/recurso.
-* **404**: Significa que el fichero/recurso que le hemos no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
-
 ### ¿Cómo funcionan las URLs?
 
 Para acceder a un fichero/recurso a través de un navegador usamos la URL (Uniform Resource Locator) que sigue el siguiente formato:
@@ -85,6 +73,17 @@ Donde:
 - query = (vacío)
 - fragment = #primeros-pasos-con-html5
 
+### Mensajes HTTP
+Cuando nuestro navegador se comunica con el servidor para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*.
+
+Existen varios tipos de peticiones, aunque nosotros veremos dos tipos:
+* **GET**: para solicitar información.
+* **POST**: para enviar información.<br>
+
+Los mensajes de respuesta del servidor pueden ser de muchos tipos aunque nosotros nos encontraremos normalmente tres:
+* **200**: Significa que se ha encontrado correctamente el fichero/recurso.
+* **403**: Significa que no tenemos permiso para acceder al fichero/recurso.
+* **404**: Significa que el fichero/recurso que le hemos no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
 
 ## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un [lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado) (*que no es lo mismo que un [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n)*) creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
