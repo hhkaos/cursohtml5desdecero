@@ -14,9 +14,7 @@ Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de 
 **Es importante conocer e interiorizar bien estos conceptos y herramientas** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recursos de Internet.
 
 ## ¿Qué vamos a necesitar?
-Un **navegador y un editor de código** (o editor de texto), en este curso vamos a recomendar usar [Google Chrome](https://www.google.com/chrome/) que incluye ambas herramientas (navegador y editor), además de porque considero que es más didáctico.
-
-No es habitual encontrar profesionales que usen Google Chrome como editor de código. Es más habitual verlos usando: [Sublime Text](http://www.sublimetext.com/3), [Atom.io](https://atom.io/), [Brackets](http://brackets.io/), [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ](https://www.jetbrains.com/idea/), etc.
+Un **navegador y un editor de código** (o editor de texto), en este curso vamos a recomendar usar [Google Chrome](https://www.google.com/chrome/) que incluye ambas herramientas (navegador y editor), además de porque **considero que es más didáctico** y nos ayudará a asimilar mejor los conceptos. Es más habitual encontrar profesionales usen otros programas como: [Sublime Text](http://www.sublimetext.com/3), [Atom.io](https://atom.io/), [Brackets](http://brackets.io/), [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ](https://www.jetbrains.com/idea/), etc.
 
 Es posible que hayas oído hablar de Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos, los dos primeros por ser de pago y porque incluyen botones que introducen código (cosa que muchas veces nos incita a introducir código innecesario). El tercero porque considero que es, decimos habitualmente en España: *matar moscas a cañonazos*; además de ser un programa que consume bastantes recursos.
 
