@@ -144,9 +144,6 @@ Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 Espacios, menor que, etc.
 
-## Validar nuestro código
-Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien. En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
-
 ## Recursos
 * [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
 * [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
