@@ -156,13 +156,17 @@ Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 Espacios, menor que, etc.
 
 ## Recursos
-* [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
-* [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
 * [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
 * [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
-* [The Web Hypertext Application Technology Working Group](https://html.spec.whatwg.org/multipage/)
 * Curso de Chrome Developer Tools
+
+### Recursos avanzados
+* [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
+* [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
+
+* [Browser rendering optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860): aprende cómo funciona internamente Google Chrome y cómo optimizarlo.
+* [The Web Hypertext Application Technology Working Group](https://html.spec.whatwg.org/multipage/)
 
 
 ## Ejercicios
