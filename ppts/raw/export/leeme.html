@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Introducción a HTML5" />
+  <meta name="author" content="Introducción" />
+  <title>Introducción a HTML5</title>
+  <style type="text/css">code{white-space: pre; background-color: lightgrey;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+</head>
+<body>
+<header>
+<h1 class="title">Introducción a HTML5</h1>
+<h2 class="author">Introducción</h2>
+<h3 class="date">Raúl Jiménez Ortega - Enero 2016</h3>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#introducción"><span class="toc-section-number">1</span> Introducción</a><ul>
+<li><a href="#objetivos"><span class="toc-section-number">1.1</span> Objetivos</a></li>
+</ul></li>
+<li><a href="#servidores-y-navegadores-web"><span class="toc-section-number">2</span> Servidores y navegadores web</a><ul>
+<li><a href="#definiciones"><span class="toc-section-number">2.1</span> Definiciones</a></li>
+<li><a href="#section"><span class="toc-section-number">2.2</span> </a></li>
+<li><a href="#arquitectura"><span class="toc-section-number">2.3</span> Arquitectura</a></li>
+<li><a href="#código"><span class="toc-section-number">2.4</span> Código</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="introducción"><span class="header-section-number">1</span> Introducción</h1>
+<h2 id="objetivos"><span class="header-section-number">1.1</span> Objetivos</h2>
+<ul>
+<li>Aprender los <strong>conceptos fundamentales</strong> de HTML</li>
+<li>Entender de dónde pueden venir los errores</li>
+<li>Interiorizar bien estos conceptos</li>
+</ul>
+<h1 id="servidores-y-navegadores-web"><span class="header-section-number">2</span> Servidores y navegadores web</h1>
+<h2 id="definiciones"><span class="header-section-number">2.1</span> Definiciones</h2>
+<ul>
+<li><strong>Servidor HTTP</strong></li>
+<li><strong>Servidor web</strong>: programa que se encarga de enviar archivos a los navegadores web que los soliciten</li>
+<li><strong>Navegador web</strong>: programa que recibe, entiende y transforma este código que recibe en algo entendible para un humano</li>
+</ul>
+<h2 id="section"><span class="header-section-number">2.2</span> </h2>
+<figure>
+<img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D" alt="Fuente: monitis.com" /><figcaption>Fuente: monitis.com</figcaption>
+</figure>
+<h2 id="arquitectura"><span class="header-section-number">2.3</span> Arquitectura</h2>
+<figure>
+<img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D" alt="" />
+</figure>
+<h2 id="código"><span class="header-section-number">2.4</span> Código</h2>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
+<span class="kw">&lt;html&gt;</span>
+
+<span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;title&gt;</span>Título de la página<span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+
+<span class="kw">&lt;body&gt;</span>
+<span class="kw">&lt;/body&gt;</span>
+
+<span class="kw">&lt;/html&gt;</span></code></pre></div>
+</body>
+</html>

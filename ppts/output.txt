@@ -1,0 +1,35 @@
+[H[2J/Users/hhkaos/workspace/markdownslides
+Generation mode...             max
+Procesing folder...            ../ppt1
+Cleaning folder...             ../export
+-------------------------------
+Cleaning...                    ../export/leeme-to-slides.md
+Exporting...                   ../export/leeme-deck-slides.html
+Exporting...                   ../export/leeme-reveal-slides.html
+Exporting...                   ../export/leeme-reveal-slides.pdf
+Exporting...                   ../export/leeme-deck-slides-alternative.html
+Exporting...                   ../export/leeme-reveal-slides-alternative.html
+Exporting...                   ../export/leeme-reveal-slides-alternative.pdf
+Exporting...                   ../export/leeme-beamer.pdf
+- - - - - - - - - - - - - - - -
+Cleaning...                    ../export/leeme-to-book.md
+Exporting...                   ../export/leeme.html
+Exporting...                   ../export/leeme.docx
+Exporting...                   ../export/leeme.odt
+Exporting...                   ../export/leeme.pdf
+-------------------------------
+Cleaning...                    ../export/readme-to-slides.md
+Exporting...                   ../export/readme-deck-slides.html
+Exporting...                   ../export/readme-reveal-slides.html
+Exporting...                   ../export/readme-reveal-slides.pdf
+Exporting...                   ../export/readme-deck-slides-alternative.html
+Exporting...                   ../export/readme-reveal-slides-alternative.html
+Exporting...                   ../export/readme-reveal-slides-alternative.pdf
+Exporting...                   ../export/readme-beamer.pdf
+- - - - - - - - - - - - - - - -
+Cleaning...                    ../export/readme-to-book.md
+Exporting...                   ../export/readme.html
+Exporting...                   ../export/readme.docx
+Exporting...                   ../export/readme.odt
+Exporting...                   ../export/readme.pdf
+===============================

@@ -1,0 +1,21 @@
+commit 586943c6f64440f90068237e957207fcb5594b69
+Author: Adolfo Sanz De Diego <asanzdiego@gmail.com>
+Date:   Tue Oct 20 00:52:47 2015 +0200
+
+    update .gitignore
+
+diff --git a/.gitignore b/.gitignore
+index c8cd5f6..e4e7469 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,9 +1 @@
+-1*
+-2*
+-3*
+-4*
+-5*
+-6*
+-7*
+-8*
+-9*
++slides
