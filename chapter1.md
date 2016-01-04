@@ -43,11 +43,11 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 * **fragment**: punto de anclaje
 
 ## ¿Qué vamos a necesitar?
-Un editor de texto (o editor de código), por ejemplo:
+Un **navegador y un editor de código** (o editor de texto), en este curso vamos a recomendar usar [Google Chrome](https://www.google.com/chrome/) que incluye ambas herramientas (navegador y editor), además de porque considero que es más didáctico.
 
-* [Google Chrome](https://www.google.com/chrome/) (recomendado); además de un navegador se puede usar como editor de código ^_^.
-* [Atom.io](https://atom.io/)
-* [Sublime Text](http://www.sublimetext.com/3)
+No es habitual encontrar profesionales que usen Google Chrome como editor de código. Es más habitual verlos usando: [Sublime Text](http://www.sublimetext.com/3), [Atom.io](https://atom.io/), [Brackets](http://brackets.io/), [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ](https://www.jetbrains.com/idea/), etc.
+
+Es posible que hayas oído hablar de Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos, los dos primeros por ser de pago y porque incluyen botones que introducen código (cosa que muchas veces nos incita a introducir código innecesario). El tercero porque considero que es, decimos habitualmente en España: *matar moscas a cañonazos*; además de ser un programa que consume bastantes recursos.
 
 ## Introducción a HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un lenguaje de marcas creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
