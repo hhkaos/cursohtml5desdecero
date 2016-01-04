@@ -104,7 +104,7 @@ Me gustaría mencionar que:
 ### Estructura básica de una página web
 
 Primero me gustaría hacer una pequeña aclaración sobre terminología que voy a usar, diferenciaremos:
-- **Sitio web (o web)**: como 
+- **Sitio web (o web)**: como todas las páginas en las que podemos navegar dentro de un mismo dominio.
 - **Página web**:
 
 Toda página web comparte esta estructura.
