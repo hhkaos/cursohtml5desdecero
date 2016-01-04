@@ -173,19 +173,23 @@ Este primer ejercicio consiste en crear un documento HTML5 con la estructura que
 
 Dudas con los ejercicios, si tienes alguna duda con el ejercicio
 
-## Opcional
+## Extra (opcional)
 
-Aunque no es importante para los objetivos del curso (aprender a programar en HTML5), **los siguientes conceptos si pueden ser de interés para aquellas personas que quieran aprender a alojar un sitio web en un servidor propio**:
+Aunque no es importante para los objetivos del curso (aprender a programar en HTML5), **los siguientes conceptos si pueden ser de interés para aquellas personas que quieran aprender a alojar un sitio web en un servidor propio**.
 
 ### Dominios y subdominios
 
-Ahora me gustaría aprovechar para aclarar qué es un dominio y qué es un subdominio:
+**En este curso no aprenderemos a comprar y configurar un dominio** ya que *no* se ha considerado importante para los objetivos planteados. 
+
+Dicho esto creo que es interesante conocer qué es un dominio y qué es un subdominio:
 - **Dominios**: podemos hacer una analogía entre los dominios y los *Accesos directos* de Windows. Para identificar unívocamente una carpeta en nuestro disco duro necesitamos saber la ruta (*p.e: C:\Archivos de programa\Google Chrome\bin\chrome.exe*), para idenfiticar nuestros servidores web necesitamos saber su [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (p.e: 213.242.93.227). Como recordar todos estos dígitos es muy complejo se inventaron los dominios (p.e: google.com, rauljimenez.info, etc.) que no son más que un "*acceso directo*" o *alias* que es más fácil de recordar para un humano. Nota: los dominios se pueden alquilar por Internet y los precios normalmente varían desde los pocos € o $ hasta cien € o $. 
 - **Subdominos**: un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede usar para apuntar a distintas IPs. Así por ejemplo www sería también un subdominio.
 
-El [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial, pero en este curso no aprenderemos a comprar y configurar uno ya que **no** se ha considerado importante para los objetivos planteados.
+El [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial.
 
 ### Servidores web
 Como hemos mencionado anteriormente un servidor web no es más que un ordenador* donde guardamos los ficheros que contienen nuestro sitio web.
+
+Nota: **En este curso usaremos nuestra máquina si ningún software en especial** (salvo el Google Chrome) **ya que no nos hará falta de momento**.
 
 Estos ordenadores no tienen por qué tener nada en especial, nuestra máquina puede hacer de servidor web, pero dado que (entre otras muchas cosas), una web se espera que funcione 24 horas, 7 días a la semana y que nuestra máquina la tenemos que apagar de vez en cuando, normalmente se alquila parte de una máquina (o una máquina completa) a una empresa que se dedica exclusivamente a esto: empresas de [hosting o alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web).
