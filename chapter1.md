@@ -3,7 +3,10 @@
 En esta primera lección vamos a ver:
 * Qué son y cómo funcionan los servidores y navegadores web.
 * Qué vamos a necesitar para el curso.
-* Primeros pasos con HTML5: etiquetas y atributos, anidación de etiquetas y estructura básica de una página.
+* Primeros pasos con HTML5: 
+    * Etiquetas y atributos
+    * Anidación de etiquetas 
+    * Estructura básica de una página.
 * Introducción a Google Chrome Developer Tools .
 
 Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. 
