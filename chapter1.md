@@ -64,7 +64,8 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 * **fragment**: punto de anclaje (por ejemplo #introducción)
 
 Así una URL válida podría ser:
-```https://hhkaos.gitbooks.io/introduccion-a-html5/content/chapter1.html#primeros-pasos-con-html5
+```
+https://hhkaos.gitbooks.io/introduccion-a-html5/content/chapter1.html#primeros-pasos-con-html5
 ```
 
 
