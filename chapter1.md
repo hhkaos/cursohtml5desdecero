@@ -20,7 +20,7 @@ Para que nos hagamos una idea visual:
 
 ![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
 
-Entre algunas de las responsabilidades que debe garantizar de un navegador se encuentran:
+Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
 * **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. Vamos a ver los principales mensajes, o como formalmente se suelen llamar *peticiones*:
     * Tipos de peticiones:
