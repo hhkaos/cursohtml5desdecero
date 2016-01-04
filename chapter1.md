@@ -3,8 +3,8 @@
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
 * Qué son y cómo funcionan:
-    * [Los servidores web](#servidores-y-navegadores-web).
-    * [Los navegadores web](#servidores-y-navegadores-web).
+    * [Los servidores y navegadores web](#servidores-y-navegadores-web).
+    * [Mensajes HTTP](#servidores-y-navegadores-web).
     * [Las URLs](#¿cómo-funcionan-las-urls)
 * [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
     * [Etiquetas y atributos.](#etiquetas-y-atributos)
@@ -33,20 +33,26 @@ Para que nos hagamos una idea visual:
 
 Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
-* **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. Vamos a ver los principales mensajes, o como formalmente se suelen llamar *peticiones*:
-    * Tipos de peticiones:
-        * **GET**: para solicitar información.
-        * **POST**: para enviar información.<br>
-    * Mensajes de respuesta (del servidor):
-        * **200**: Significa que se ha encontrado correctamente el fichero/recurso.
-        * **403**: Significa que no tenemos permiso para acceder al fichero/recurso.
-        * **404**: Significa que el fichero/recurso que le hemos no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
+* **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. 
 
 * **Seguridad**: dado que los navegadores reciben código escrito por otras personas, la seguridad en Internet se define a diferentes niveles de seguridad: durante el envío ([HTTPS](https://en.wikipedia.org/wiki/HTTPS)), al ejecutarse en el navegador ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)), etc.
+
 * **Optimización**: al mismo tiempo que reciben la información integran mecanismos para acelerar la carga y mejorar la experiencia del usuario como es utilizar la memoria caché (memoria de almacenamiento temporal).
 etc.
 
 Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web) y de [servidores web](https://es.wikipedia.org/wiki/Servidor_web#Software) en los módulos de HTML5 y CSS3 usaremos principalmente Google Chrome y no usaremos de momento ningún servidor web.
+
+### Mensajes HTTP
+Vamos a ver los principales mensajes, o como formalmente se suelen llamar *peticiones*.
+
+Existen varios tipos de peticiones, aunque nosotros veremos dos tipos:
+* **GET**: para solicitar información.
+* **POST**: para enviar información.<br>
+
+Los mensajes de respuesta del servidor pueden ser de muchos tipos aunque nosotros nos encontraremos normalmente tres:
+* **200**: Significa que se ha encontrado correctamente el fichero/recurso.
+* **403**: Significa que no tenemos permiso para acceder al fichero/recurso.
+* **404**: Significa que el fichero/recurso que le hemos no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
 
 ### ¿Cómo funcionan las URLs?
 
