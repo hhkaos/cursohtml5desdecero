@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Introducción a HTML5</title>
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer="defer"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/main.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/umd/tab.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(".tab-bar li a").click(function(e){
+			e.preventDefault()
+			$(".tab-bar .active").removeClass("active");
+			$(this).parent().addClass("active");
+			$("[role='tabpanel']:visible").hide()
+  		$($(this).attr("href")).show();
+		});
+	});
+	</script>
+
+</head>
+<body>
+
+
+  
+	<div class="container">
+
+<nav class="custom-navbar mt1">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Introducción a HTML5</a>
+    </div>
+
+    
+    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+    <div>
+      <ul class="nav navbar-nav tab-bar" >
+        <li  class="active"><a href="#leccion1">Lección 1</a></li>
+        <li ><a href="#leccion2">Lección 2</a></li>
+        <li ><a href="#leccion3" >Lección 3</a></li>
+        <li ><a href="#leccion4" >Lección 4</a></li>
+        
+        
+        
+      </ul>
+      </div>
+
+<div>
+    <!--</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		
+
+		<!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="leccion1">
+    	<h2 id="leccion1">Objetivos del curso</h2>
+			
+			<p>
+				<img src="images/html-css-js.png" class="pull-right frontend-logo">
+				Este curso lo puede realizar <strong>cualquier persona</strong>, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
+			</p>
+
+			<ul>
+				<li>Aprender los elementos de HTML5, CSS3 y Javascript que usaremos el día día (los más comunes)</li>
+				<li>Descubrir dónde podremos resolver nuestras dudas cuando tengamos problemas.</li>
+				<li>Trabajar con algunas de las herramientas que usan los profesionales del mundo real como son <a href="http://github.com">Github</a> o las <a href="https://developer.chrome.com/devtools">herramientas para desarrolladores de Google Chrome</a>.</li>
+			</ul>
+			
+			<p>
+				Es <span class="underline">muy importante saber</span> que en la programación web hay muchas formas de resolver un mismo problema, y que todas pueden ser igualmente 
+				válidas. <br>
+				Dicho esto, queremos aclarar que <strong>el objetivo del curso no es</strong> aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y por esto <span class="underline">no entraremos en profundidad en todos y cada uno de los elementos y caractarísticas</span> de cada lenguaje. 
+			</p>
+
+			<p>
+				<strong>El objetivo es dotarnos de una buena base</strong> que nos permita sentirnos capaces de afrontar cualquier proyecto, para ello nos centraremos sólamente en los conocimientos y herramientas más importantes de un <a href="https://en.wikipedia.org/wiki/Front_end_development">desarrolladores front-end</a>.
+			</p>
+
+			<p>
+				<strong>Las definiciones estarán simplificadas</strong>, esto está hecho a conciencia ya que no se asume ningún conocimiento previo por parte del alumno, por eso en muchas ocasiones se dirán cosas correctas pero parcialmente válidas (con el objetivo de facilitar su comprensión y evitar distraernos del objetivo del curso). Así que recuerda, <strong>no las tomes al pie de la letra</strong>, tómalas como definiciones lo suficiente buenas como para ayudarnos a entender lo demás. De todos modos para siempre que se de este caso dejaremos los enlaces los recursos donde podremos encontrar la definición exacta para aquellos que se sientan más cómodos.
+			</p>
+
+			<p>
+				<strong>Nota importante</strong>: Si en algún punto de la lección tienes alguna duda pregúntala, por muy tonta que creas que es. Ya que si consigues terminar <strong>sin ninguna duda</strong>,
+				el día que algo no te funcione sabrás mucho mejor por dónde empezar a buscar el error. Además <span class="underline">vuestras dudas nos ayudarán a añadir aclaraciones o mejoras sobre los conceptos para que personas que posteriormente hagan el curso lo tengan más fácil y claro</span>.
+			</p>
+
+			<h2>Lección 1</h2>
+			<p>
+				En esta primera lección vamos a empezar por aprender los <span class="underline">conceptos fundamentales</span> a la hora de entender el funcionamiento de una página web y por tanto la base para entender de dónde pueden venir los errores que comentamos en el futuro, por eso
+				no empezamos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
+			</p>
+
+			<h3>Servidores y navegadores web</h3>
+			<p>
+				A un servidor web es un programa
+				que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los  soliciten (<strong>nota</strong>: también se le llama servidor que al propio ordenador que tiene este software instalado). Y un navegador web es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
+			</p>
+			<p class="text-center">
+				<img src="images/client-server.png">
+			</p>
+			<p>
+				Entre algunas de las responsabilidades que debe garantizar de un navegador se encuentran:
+			</p>
+
+			<ul>
+				<li>
+					<strong>Integridad</strong>: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo <a href="http://www.w3.org/Protocols/">HTTP</a>). Este protocolo es el lenguaje común entre el servidor y el navegador web, los mensajes más frencuentes
+					que le enviará el navegador al servidor serán de dos tipos:
+					<ul>
+						<li>
+							<strong>GET</strong>: para solicitar información.
+						</li>
+						<li>
+							<strong>POST</strong>: para enviar información.
+						</li>
+					</ul>
+					Y el servidor nos responderá con mensajes tipo:
+					<ul>
+						<li><strong>200</strong>: Significa que se ha encontrado correctamente el recurso.</li>
+						<li><strong>403</strong>: Significa que no tenemos permiso para acceso al recurso.</li>
+						<li><strong>404</strong>: Significa que el fichero que le hemos no se ha podido encontrar el disco duro (puede ser porque no esté o porque la ruta es incorrecta).</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Seguridad</strong>: dado que los navegadores reciben código escrito por otras personas, la seguridad en Internet se define a diferentes niveles de seguridad: durante el envío (<a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a>), al ejecutarse en el navegador (<a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>), etc.</li>
+				<li>
+					<strong>Optimización</strong>: al mismo tiempo que reciben la información integran mecanismos para acelerar la carga y mejorar la experiencia del usuario como es utilizar la memoria caché (memoria de almacenamiento temporal).
+				</li>
+				<li>etc.</li>
+			</ul>
+
+			<p>Aunque existen multitud de <a href="https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web">navegadores</a> y de <a href="https://es.wikipedia.org/wiki/Servidor_web#Software">servidores web</a> en los módulos de HTML5 y CSS3 usaremos principalmente Google Chrome y no usaremos de momento ningún servidor web.</p>
+
+			<p><strong>¿Cómo funcionan las URLs? (Uniform Resource Locator)</strong></p>
+			<p>Para acceder a un fichero/recurso a través de un navegador usamos la URL que sigue el siguiente formato:</p>
+			<pre class="prettyprint">scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]</pre>
+			<p>Vamos a hacer un pequeño repaso a cada una de las partes de la URL:</p>
+			<ul>
+				<li><strong>scheme (obligatorio)</strong>: este suele ser ser http o https normalmente, aunque podría ser file, ftp, mailto, skype, etc</li>
+				<li><strong>user:password@</strong></li>
+				<li><strong>host</strong>: nombre de dominio (p.e.: www.tusitioweb.com) o IP (79.82.123.1)</li>
+				<li><strong>port</strong>: puerto (si no se especifica ninguno se usa el 80 por defecto)</li>
+				<li><strong>path (obligatorio)</strong>: ruta al fichero</li>
+				<li><strong>query</strong>: parámetros/variables</li>
+				<li><strong>fragment</strong>: punto de anclaje</li>
+			</ul>
+
+
+			<h3>¿Qué vamos a necesitar?</h3>
+			<p>Un editor de texto (o editor de código), por ejemplo:</p>
+			<ul>
+				<li><a href="https://www.google.com/chrome/">Google Chrome</a> (recomendado); además de un navegador se puede usar como editor de código ^_^.</li>
+				<li><a href="https://atom.io/">Atom.io</a></li>
+				<li><a href="http://www.sublimetext.com/3">Sublime Text</a></li>
+			</ul>
+			
+			<h3>Introducción a HTML5</h3>
+			<p>
+				<img src="images/HTML5_Logo_512.png" class="pull-right html-logo">
+				HTML (<a href="http://www.w3.org/html/">Hypertext Markup Language</a>) es un lenguaje de marcas creado por el <a href="http://www.w3.org/">W3C</a>que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que 
+				trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
+			</p>
+			
+			<p>
+				Por tanto las versiones <a href="https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline">han evolucionado a lo largo de los años</a>: HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), HTML5 (2014), etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de autio, vídeo, etc)
+			</p>
+
+
+			<p>
+				<strong>El fichero index.html:</strong> por defecto los servidores web cuando reciben la petición de un fichero y no se indica
+				explicitamente el nombre del fichero busca en la carpeta un fichero con nombre "index.html", si lo encuentra lo devuelve.
+			</p>
+
+			<h3>Etiquetas y atributos</h3>
+			<p>Ejemplo</p>
+			<pre class="prettyprint">&lt;etiqueta atributo="valor"&gt;Contenido&lt;etiqueta&gt;</pre>
+
+			<pre class="prettyprint">&lt;etiqueta atributo="valor"&gt;</pre>
+
+
+			<h3>Estructura básica</h3>
+			<pre class="prettyprint">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Título de la página&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</pre>
+
+			<p>A continuación explicamos la función que cumple cada etiqueta:</p>
+			<ul>
+				<li><strong>&lt;!DOCTYPE html&gt; ... &lt;/html&gt;</strong>: sirve para indicarle al navegador que el código HTML que le vamos a escribir dentro está en la versión 5, osea que es HTML5.</li>
+				<li><strong>&lt;head&gt; ... &lt;/head&gt;</strong>: contiene otras etiquetas que ofrecen principalmente información al navegador, a los buscadores y a otras páginas (como pueden ser redes sociales, etc).</li>
+				<li><strong>&lt;meta charset="UTF-8"&gt;</strong>: indicamos al navegador qué tipo de caracteres contiene la página. Para especificar cuál de todos los disponibles usamos el atributo <em>charset</em> con el valor < href="">UTF-8</a> que nos servirá para siempre que trabajemos en....</li>
+				<li><strong>&lt;title&gt; ... &lt;/title&gt;</strong>: indica el título de nuetra página, la usan los navegadores, buscadores, etc.</li>
+				<li><strong>&lt;body&gt; ... &lt;/body&gt;</strong>: contiene todo el contenido visible por el visitante de nuestra página.</li>
+			</ul>
+
+			<p>Nota ¿por qué tabulamos nuestro código?: la tabulación es muy importante utilizarla usarla para facilitar la lectura del código.</p>
+
+			<h3>Introducción a Google Chrome Developer Tools</h3>
+			<p>De momento sólo nos vamos a centrar en tres de las pestañas:</p>
+			<ul>
+				<li>Elements</li>
+				<li>Sources</li>
+				<li>Network</li>
+			</ul>
+			<p>Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.</p>
+			<p>Espacios, menor que, etc.</p>
+
+	        <h3>Validar nuestro código</h3>
+	        <p>
+	        	Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien.
+	        	En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el 
+	        	usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente
+	        	escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
+	        </p>
+
+			<h3>Recursos</h3>
+			<ul>
+				<li>Mozilla CDN</li>
+				<li>Chuleta de etiquetas HTML5</li>
+				<li>Curso de Chrome Developer Tools</li>
+			</ul>
+	        
+	        <h3>Dudas</h3>
+			<p>Github code comments / issues</p>
+			
+			<hr>
+			
+			<h3>Ejercicio</h3>
+			<p><a href="#">Ejercicio tipo test</a></p>
+			<p>
+			  Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto previamente,
+			  configurar Google Chrome para poder editar el fichero y subir nuestro ejercicio a Github.
+			</p>
+			
+			<ol>
+			  <li>Crear una carpeta en tu disco duro en la que iremos añadiendo los ejercicios</li>
+			  <li>Crear un fichero index.html dentro de la carpeta y copiar la estructura básica que hemos visto</li>
+			  <li>Configurar Google Chrome para poder editar nuestro fichero</li>
+			  <li>Crear una cuenta en Github si no la tenemos</li>
+			  <li>Crear un repositorio para este curso</li>
+			  <li>Subir el código que hemos hecho a nuestro repositorio</li>
+			</ol>
+
+			<p>Dudas con los ejercicios, si tienes alguna duda con el ejercicio </p>
+    </div>
+    
+
+
+    <div role="tabpanel" class="tab-pane" id="leccion2">
+    	<h2>Leccion 2</h2>
+
+    </div>
+    
+
+
+    <div role="tabpanel" class="tab-pane" id="leccion3">
+    	<h2>Leccion 3</h2>
+		</div>
+    
+
+
+    <div role="tabpanel" class="tab-pane" id="leccion4">
+    	<h2>Leccion 4</h2>
+
+    </div>
+  </div>
+
+		
+		<footer>Licencia / Añadir etiqueta HTML valid y enlace a Github</footer>
+	</div>
+	
+</body>
+</html>
