@@ -76,7 +76,7 @@ Donde:
 ### Mensajes HTTP
 Cuando nuestro navegador se comunica con el servidor para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*.
 
-Existen varios tipos de peticiones, aunque nosotros veremos dos tipos:
+Existen varios tipos de peticiones, aunque nosotros en este curso trabajaremos con dos tipos:
 * **GET**: para solicitar información.
 * **POST**: para enviar información.<br>
 
