@@ -179,7 +179,7 @@ Dudas con los ejercicios, si tienes alguna duda con el ejercicio. Las dudas Gith
 
 ## Extra (opcional)
 
-Aunque no es importante para los objetivos del curso (aprender a programar en HTML5), **los siguientes conceptos si pueden ser de interés para aquellas personas que quieran aprender a alojar un sitio web en un servidor propio**.
+Aunque **no es importante para el objetivo del curso**, que es aprender a programar en HTML5, los siguientes conceptos si puede serte útil si quieres aprender a alojar un sitio web en un servidor tuyo propio.
 
 ### Dominios y subdominios
 
