@@ -8,11 +8,12 @@ En esta primera lección vamos a ver:
 
 Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. 
 
-**Es importante interiorizar bien estos conceptos** ya que nos los encontraremos con frecuencia cuando busquemos nuestras dudas en Internet.
+**Es importante conocer e interiorizar bien estos conceptos y herramientas** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recursos de Internet.
 
 ## Servidores y navegadores web
 Empecemos con unas definiciones informales:
-- Un **servidor web** es un programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten (nota: también se le llama servidor que al propio ordenador que tiene este software instalado). 
+- Un **servidor HTTP**: programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten
+- Un **servidor web** al ordenador donde tenemos instalado entre otros programas, el servidor HTTP. 
 - Un **navegador web** es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
 
 Para que nos hagamos una idea visual:
