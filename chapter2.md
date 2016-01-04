@@ -1,4 +1,4 @@
-# Lección 2
+# 2.- (no definitiva)
 
 ## Qué etiquetas son anidables
 
