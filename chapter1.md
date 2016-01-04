@@ -1,6 +1,12 @@
 # Lección 1 - Introducción
 
-En esta primera lección vamos a empezar por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web y por tanto la base para entender de dónde pueden venir los errores que comentamos en el futuro, por eso no empezaremos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
+En esta primera lección vamos a ver:
+* Qué son y cómo funcionan los servidores y navegadores web
+* Qué vamos a necesitar para el curso
+* Primeros pasos con HTML5
+* Introducción a Google Chrome Developer Tools 
+
+Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
 
 ## Servidores y navegadores web
 Empecemos con unas definiciones informales:
@@ -53,7 +59,7 @@ No es habitual encontrar profesionales que usen Google Chrome como editor de có
 
 Es posible que hayas oído hablar de Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos, los dos primeros por ser de pago y porque incluyen botones que introducen código (cosa que muchas veces nos incita a introducir código innecesario). El tercero porque considero que es, decimos habitualmente en España: *matar moscas a cañonazos*; además de ser un programa que consume bastantes recursos.
 
-## Introducción a HTML5
+## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un lenguaje de marcas creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
 
 Por tanto las versiones [han evolucionado a lo largo de los años](https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline): HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), HTML5 (2014), etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de autio, vídeo, etc)
