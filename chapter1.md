@@ -134,7 +134,7 @@ Primero me gustaría hacer una pequeña aclaración sobre terminología que voy 
 - **Sitio web (o web)**: como todas las páginas en las que podemos navegar dentro de un mismo dominio (p.e: [rauljimenez.info](http://rauljimenez.info/contacto)).
 - **Página web**: a una página individual dentro de un sitio web (p.e: [rauljimenez.info/contacto]( view-source:http://rauljimenez.info/contacto))
 
-Dicho esto, toda *página web* en HTML5 debe empezar con estructura como la siguiente:
+Dicho esto, toda *página web* en HTML5 debe empezar con una estructura como la siguiente:
 
 ```html
 <!DOCTYPE html>
