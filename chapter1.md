@@ -62,29 +62,42 @@ En el último estándar de HTML (HTML5) existen más de 100 etiquetas. Como come
 Vamos a empezar por entender qué pinta tienen. Las etiquetas siguen una estructura como la siguiente:
 
 ```html
-<nombre_de_la_etiqueta atributo="valor">Contenido</nombre_de_la_etiqueta>
-<nombre_de_la_etiqueta atributo="valor">
+<etiqueta atributo="valor">Contenido</etiqueta>
+<etiqueta atributo="valor">
 ```
 
-Por ejemplos algunos nombres de etiquetas son: **html**, **head**, **meta**, **title** y **body**. Y ejemplos de atributos son: **class**, **id**, **charset**, **style**, etc. No te preocupes que en los recursos te he dejado una chuleta con todas las etiquetas y algunos de los atributos que aceptan. Ahora lo importante es que entiendas el formato.
+Vamos a ver algunos ejemplos:
+- **etiqueta**: *html*, *head*, *meta*, *title*, *body*... 
+- **atributo**: *class*, *id*, *charset*, *style* ...
+- **valor**: *UTF-8*, *modal*, *margin-left: 10px* ...
+ 
+No te preocupes que en los recursos te he dejado una chuleta con todas las etiquetas y algunos de los atributos que aceptan, pero por ahora lo importante es que entiendas el formato.
 
-Por ejemplo en este caso vemos que la etiqueta **meta** puede contener el atributo **charset** con el valor **UTF-8**:
+Por ejemplo:
 
 ```html
 <meta charset="UTF-8">
 ```
 
+En este caso se diría que esto es: *"una etiqueta **meta** con el atributo **charset** con el valor establecido a **UTF-8**"*.
+
 ### Anidación de etiquetas
-Unas etiquetas puedes contener a otras, lo que
-http://www.w3.org/TR/2014/REC-html5-20141028/dom.html#phrasing-content-1
+Es importante saber que unas etiquetas pueden contener a otras, o como se suele decir "que se pueden anidar". 
+
+Por ejemplo:
 
 ```html
-<p class="nueva">
-    asdasd <span>asdasd</span>
-</p>
+<head>
+    <title>Título de la página</title>
+</head>
 ```
+En este caso vemos que la etiqueta **head** contiene una etiqueta **title**.
 
-### Estructura básica
+Me gustaría mencionar que:
+1. No todas las son anidables entre sí; por ejemplo: una etiqueta **title** no puede contener una etiqueta **head**, pero esto lo veremos más adelante.
+2. En muchos casos nos encontraremos muchos niveles de anidación (etiquetas que contienen etiquetas que a su vez contienen etiquetas, etc)
+
+### Estructura básica de una web
 
 Toda página web comparte esta estructura.
 
@@ -127,12 +140,12 @@ Espacios, menor que, etc.
 Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien. En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
 
 ## Recursos
-* Mozilla CDN
-* [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
-* Curso de Chrome Developer Tools
+* [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
-* [Especificación HTML5](http://www.w3.org/TR/2014/REC-html5-20141028/)
+* [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
 * [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
+* Curso de Chrome Developer Tools
+* Mozilla CDN
 
 ## Dudas
 Github code comments / issues
