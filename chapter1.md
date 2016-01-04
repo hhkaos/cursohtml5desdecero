@@ -130,8 +130,7 @@ Toda *página web* en HTML5 debe empezar con estructura como la siguiente:
 	<title>Título de la página</title>
 </head>
 
-<body>
-</body>
+<body></body>
 
 </html>
 ```
