@@ -2,7 +2,10 @@
 
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
-* [Qué son y cómo funcionan los servidores y navegadores web](#servidores-y-navegadores-web).
+* [Qué son y cómo funcionan](#servidores-y-navegadores-web):
+    * Los servidores web.
+    * Los navegadores web.
+    * Las URLs
 * [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
     * Etiquetas y atributos.
     * Anidación de etiquetas. 
@@ -45,9 +48,9 @@ etc.
 
 Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web) y de [servidores web](https://es.wikipedia.org/wiki/Servidor_web#Software) en los módulos de HTML5 y CSS3 usaremos principalmente Google Chrome y no usaremos de momento ningún servidor web.
 
-**¿Cómo funcionan las URLs? (Uniform Resource Locator)**
+### ¿Cómo funcionan las URLs?
 
-Para acceder a un fichero/recurso a través de un navegador usamos la URL que sigue el siguiente formato:
+Para acceder a un fichero/recurso a través de un navegador usamos la URL (Uniform Resource Locator) que sigue el siguiente formato:
 
 ```
 scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
@@ -67,6 +70,14 @@ Así una URL válida podría ser:
 ```
 https://hhkaos.gitbooks.io/introduccion-a-html5/content/chapter1.html#primeros-pasos-con-html5
 ```
+Donde:
+- scheme = https
+- user:password@ = (vacío)
+- host = hhkaos.gitbooks.io
+- port = 80
+- path = introduccion-a-html5/content/chapter1.html
+- query = (vacío)
+- fragment = #primeros-pasos-con-html5
 
 
 ## Primeros pasos con HTML5
