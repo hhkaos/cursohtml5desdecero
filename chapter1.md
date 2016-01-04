@@ -1,13 +1,26 @@
-# Lección 1
+# Lección 1 - Introducción
 
-En esta primera lección vamos a empezar por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web y por tanto la base para entender de dónde pueden venir los errores que comentamos en el futuro, por eso no empezaremos a hablar de HTML5 hasta el final de la lección. Además es importante interiorizar bien estos conceptos ya que nos los encontraremos con frecuencia en otras páginas, explicaciones, etc.
+En esta primera lección vamos a ver:
+* Qué son y cómo funcionan los servidores y navegadores web
+* Qué vamos a necesitar para el curso
+* Primeros pasos con HTML5
+* Introducción a Google Chrome Developer Tools 
+
+Por tanto empezacemos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. No empezaremos a hablar de HTML5 hasta el final de la lección. 
+
+**Es importante conocer e interiorizar bien estos conceptos y herramientas** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recursos de Internet.
 
 ## Servidores y navegadores web
-Un servidor web es un programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten (nota: también se le llama servidor que al propio ordenador que tiene este software instalado). Y un navegador web es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
+Empecemos con unas definiciones informales:
+- Un **servidor HTTP**: programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten
+- Un **servidor web** al ordenador donde tenemos instalado entre otros programas, el servidor HTTP. 
+- Un **navegador web** es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
+
+Para que nos hagamos una idea visual:
 
 ![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
 
-Entre algunas de las responsabilidades que debe garantizar de un navegador se encuentran:
+Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
 * **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. Vamos a ver los principales mensajes, o como formalmente se suelen llamar *peticiones*:
     * Tipos de peticiones:
@@ -43,13 +56,13 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 * **fragment**: punto de anclaje
 
 ## ¿Qué vamos a necesitar?
-Un editor de texto (o editor de código), por ejemplo:
+Un **navegador y un editor de código** (o editor de texto), en este curso vamos a recomendar usar [Google Chrome](https://www.google.com/chrome/) que incluye ambas herramientas (navegador y editor), además de porque considero que es más didáctico.
 
-* [Google Chrome](https://www.google.com/chrome/) (recomendado); además de un navegador se puede usar como editor de código ^_^.
-* [Atom.io](https://atom.io/)
-* [Sublime Text](http://www.sublimetext.com/3)
+No es habitual encontrar profesionales que usen Google Chrome como editor de código. Es más habitual verlos usando: [Sublime Text](http://www.sublimetext.com/3), [Atom.io](https://atom.io/), [Brackets](http://brackets.io/), [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ](https://www.jetbrains.com/idea/), etc.
 
-## Introducción a HTML5
+Es posible que hayas oído hablar de Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos, los dos primeros por ser de pago y porque incluyen botones que introducen código (cosa que muchas veces nos incita a introducir código innecesario). El tercero porque considero que es, decimos habitualmente en España: *matar moscas a cañonazos*; además de ser un programa que consume bastantes recursos.
+
+## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un lenguaje de marcas creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
 
 Por tanto las versiones [han evolucionado a lo largo de los años](https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline): HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), HTML5 (2014), etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de autio, vídeo, etc)
@@ -62,31 +75,48 @@ En el último estándar de HTML (HTML5) existen más de 100 etiquetas. Como come
 Vamos a empezar por entender qué pinta tienen. Las etiquetas siguen una estructura como la siguiente:
 
 ```html
-<nombre_de_la_etiqueta atributo="valor">Contenido</nombre_de_la_etiqueta>
-<nombre_de_la_etiqueta atributo="valor">
+<etiqueta atributo="valor">Contenido</etiqueta>
+<etiqueta atributo="valor">
 ```
 
-Por ejemplos algunos nombres de etiquetas son: **html**, **head**, **meta**, **title** y **body**. Y ejemplos de atributos son: **class**, **id**, **charset**, **style**, etc. No te preocupes que en los recursos te he dejado una chuleta con todas las etiquetas y algunos de los atributos que aceptan. Ahora lo importante es que entiendas el formato.
+Vamos a ver algunos ejemplos:
+- **etiqueta**: *html*, *head*, *meta*, *title*, *body*... 
+- **atributo**: *class*, *id*, *charset*, *style* ...
+- **valor**: *UTF-8*, *modal*, *margin-left: 10px* ...
+ 
+No te preocupes que en los recursos te he dejado una chuleta con todas las etiquetas y algunos de los atributos que aceptan, pero por ahora lo importante es que entiendas el formato.
 
-Por ejemplo en este caso vemos que la etiqueta **meta** puede contener el atributo **charset** con el valor **UTF-8**:
+Por ejemplo:
 
 ```html
 <meta charset="UTF-8">
 ```
 
+En este caso se diría que esto es: *"una etiqueta **meta** con el atributo **charset** con el valor establecido a **UTF-8**"*.
+
 ### Anidación de etiquetas
-Unas etiquetas puedes contener a otras, lo que
-http://www.w3.org/TR/2014/REC-html5-20141028/dom.html#phrasing-content-1
+Es importante saber que unas etiquetas pueden contener a otras, o como se suele decir "que se pueden anidar". 
+
+Por ejemplo:
 
 ```html
-<p class="nueva">
-    asdasd <span>asdasd</span>
-</p>
+<head>
+    <title>Título de la página</title>
+</head>
 ```
+En este caso vemos que la etiqueta **head** contiene una etiqueta **title**.
 
-### Estructura básica
+Me gustaría mencionar que:
+1. No todas las son anidables entre sí; por ejemplo: una etiqueta **title** no puede contener una etiqueta **head**, pero esto lo veremos más adelante.
+2. En muchos casos nos encontraremos muchos niveles de anidación (etiquetas que contienen etiquetas que a su vez contienen etiquetas, etc)
 
-Toda página web comparte esta estructura.
+### Estructura básica de una página web
+
+Primero me gustaría hacer una pequeña aclaración sobre terminología que voy a usar, diferenciaremos:
+- **Sitio web (o web)**: como todas las páginas en las que podemos navegar dentro de un mismo dominio (p.e: [rauljimenez.info](http://rauljimenez.info/contacto)).
+- **Página web**: a una página individual dentro de un sitio web (p.e: [rauljimenez.info/contacto]( view-source:http://rauljimenez.info/contacto))
+
+Toda *página web* en HTML5 debe empezar con estructura como la siguiente:
 
 ```html
 <!DOCTYPE html>
@@ -105,7 +135,7 @@ Toda página web comparte esta estructura.
 
 A continuación explicamos la función que cumple cada etiqueta:
 
-* ```<!DOCTYPE html> ... </html>```: sirve para indicarle al navegador que el código HTML que le vamos a escribir dentro está en la versión 5, osea que es HTML5.
+* ```<!DOCTYPE html> ... </html>```: indicar al navegador que el código HTML en el que está escrita la página es en la versión 5, osea que es HTML5. [+info](http://www.w3.org/TR/2011/WD-html5-20110525/syntax.html#the-doctype)
 * ```<head> ... </head>```: contiene otras etiquetas que ofrecen principalmente información al navegador, a los buscadores y a otras páginas (como pueden ser redes sociales, etc).
 * ```<meta charset="UTF-8">```: indicamos al navegador qué tipo de caracteres contiene la página. Para especificar cuál de todos los disponibles usamos el atributo charset con el valor < href="">UTF-8 que nos servirá para siempre que trabajemos en....
 * ```<title> ... </title>```: indica el título de nuetra página, la usan los navegadores, buscadores, etc.
@@ -123,20 +153,17 @@ Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 Espacios, menor que, etc.
 
-## Validar nuestro código
-Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien. En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
-
 ## Recursos
-* Mozilla CDN
-* [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
-* Curso de Chrome Developer Tools
+* [Organización sin ánimo de lucro responsable de gestionar los dominios a nivel mundial: ICANN - Wikipedia](https://en.wikipedia.org/wiki/ICANN)
+* [Especificación oficial del estándar HTML5 - W3C](http://www.w3.org/TR/2014/REC-html5-20141028/)
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
-* [Especificación HTML5](http://www.w3.org/TR/2014/REC-html5-20141028/)
+* [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
+* [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
+* Curso de Chrome Developer Tools
 
-## Dudas
-Github code comments / issues
 
-Ejercicio
+## Ejercicios
+
 Ejercicio tipo test
 
 Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto previamente, configurar Google Chrome para poder editar el fichero y subir nuestro ejercicio a Github.
@@ -148,4 +175,30 @@ Este primer ejercicio consiste en crear un documento HTML5 con la estructura que
 5. Crear un repositorio para este curso
 6. Subir el código que hemos hecho a nuestro repositorio
 
-Dudas con los ejercicios, si tienes alguna duda con el ejercicio
+Dudas con los ejercicios, si tienes alguna duda con el ejercicio. Las dudas Github code comments / issues
+
+## Extra (opcional)
+
+Aunque no es importante para los objetivos del curso (aprender a programar en HTML5), **los siguientes conceptos si pueden ser de interés para aquellas personas que quieran aprender a alojar un sitio web en un servidor propio**.
+
+### Dominios y subdominios
+
+**En este curso no aprenderemos a comprar y configurar un dominio** ya que *no* se ha considerado importante para los objetivos planteados. 
+
+Dicho esto creo que es interesante conocer qué es un dominio y qué es un subdominio:
+- **Dominios**: podemos hacer una analogía entre los dominios y los *Accesos directos* de Windows. Para identificar unívocamente una carpeta en nuestro disco duro necesitamos saber la ruta (*p.e: C:\Archivos de programa\Google Chrome\bin\chrome.exe*), para idenfiticar nuestros servidores web necesitamos saber su [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (p.e: 213.242.93.227). Como recordar todos estos dígitos es muy complejo se inventaron los dominios (p.e: google.com, rauljimenez.info, etc.) que no son más que un "*acceso directo*" o *alias* que es más fácil de recordar para un humano. Nota: los dominios se pueden alquilar por Internet y los precios normalmente varían desde los pocos € o $ hasta cien € o $. 
+- **Subdominos**: un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede usar para apuntar a distintas IPs. Así por ejemplo www sería también un subdominio.
+
+El [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial.
+
+### Servidores web
+Como hemos mencionado anteriormente un servidor web no es más que un ordenador* donde guardamos los ficheros que contienen nuestro sitio web.
+
+Nota: **En este curso usaremos nuestra máquina si ningún servidor HTTP ya que no nos hará falta de momento**.
+
+Estos ordenadores no tienen por qué tener nada en especial, nuestra máquina puede hacer de servidor web, pero dado que (entre otras muchas cosas), una web se espera que funcione 24 horas, 7 días a la semana y que nuestra máquina la tenemos que apagar de vez en cuando, normalmente se alquila parte de una máquina (o una máquina completa) a una empresa que se dedica exclusivamente a esto: empresas de [hosting o alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web).
+
+Se puede acceder y gestionar estas máquinas que alquilamos en remoto de diferentes maneras: usando gestiores FTPs/SFTPs, paneles de control web, conexiones SSH, etc.
+
+### TCP
+Esto es muy técnico y no recomendable para personas que tengan ciertos conocimientos de redes informáticas. Simplemente quería hacer referencia que tanto los protocoloes HTTP, como FTP, SSH, IMAP, DNS, POP, SMTP, etc. están implementados sobre TCP [(+ìnfo)](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
