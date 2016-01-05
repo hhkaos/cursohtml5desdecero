@@ -99,6 +99,9 @@ footer .separator{
 .m0{
     margin: 0;
  }
+#mc_embed_signup input[type="email"] {
+    color: #000;
+}
 /* Portrait */
 @media only screen
 and (min-device-width: 320px)
