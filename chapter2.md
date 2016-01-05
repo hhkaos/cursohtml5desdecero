@@ -31,4 +31,5 @@ Este primer ejercicio consiste en crear un documento HTML5 con la estructura que
 
 ## Recursos:
 * Mozilla CDN
+* [Curso de Chrome Developer Tools](https://www.codeschool.com/courses/discover-devtools)
 * [Can I Use?](http://caniuse.com/)
