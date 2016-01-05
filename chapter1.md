@@ -1,4 +1,4 @@
-# 1.- Introducción (no definitiva)
+# 1.- Conceptos básicos (no definitiva)
 
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
