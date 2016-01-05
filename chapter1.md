@@ -179,16 +179,6 @@ A continuación explicamos la función que cumple cada etiqueta:
 * ```<body> ... </body>```: contiene todo el contenido visible por el visitante de nuestra página.
 Nota ¿por qué tabulamos nuestro código?: la tabulación es muy importante utilizarla usarla para facilitar la lectura del código.
 
-## Introducción a Google Chrome Developer Tools
-De momento sólo nos vamos a centrar en tres de las pestañas:
-
-* Elements
-* Sources
-* Network
-
-Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
-
-Espacios, menor que, etc.
 
 ## Recursos
 * [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
