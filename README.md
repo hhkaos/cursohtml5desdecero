@@ -1,6 +1,8 @@
 # Presentación del curso
 
-Este curso lo puede realizar **cualquier persona**, no hace falta saber programación, sólo hace falta tener ganas de aprender. A lo largo del mismo vamos a:
+Este curso lo puede realizar **cualquier persona**, no hace falta saber programación, sólo hace falta tener ganas de aprender. A pesar de esto también puede ser de utilidad para personas que ya saben HTML pero quieren perfecionar o refrescar sus conocimientos sobre HTML5.
+
+A lo largo del mismo vamos a:
 
 * Aprender los elementos de HTML5, CSS3 y Javascript que usaremos el día día (los más comunes)
 * Descubrir dónde podremos resolver nuestras dudas cuando tengamos problemas.
