@@ -31,6 +31,6 @@ Y para aquellos que os sintáis cómodos usando Github, podéis hacer un [pull r
 
 ## Autor(es)
 
-Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), y aunque inicialmente me he lanzado sólo a crear este curso basándome principalmente en mis años de experiencia haciendo webs (ya van 16) y dando formación (otro tantos), he revisado las mejores fuentes que conozco para seleccionar lo mejor de cada curso/tutorial que he encontrado en estos años en Internet.
+Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este curso basándome principalmente en [mis años de experiencia haciendo webs (ya van 16) y dando formación (otro tantos)](http://rauljimenez.info/experiencia/),pero además he revisado las mejores fuentes que conozco para seleccionar lo mejor de cada curso/tutorial que he encontrado en estos años en Internet.
 
-Mi objetivo además al hacer todo el material gratuito y libre es animar a que otros profesionales animen a aportar su granito de arena para mejorar y mantener este curso actualizado durante mucho tiempo. 
+Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales animen a aportar su granito de arena para mejorar y mantener este curso actualizado durante mucho tiempo, **es por eso que me he decidido a hacer el curso libre y gratuito**.
