@@ -4,7 +4,7 @@ Este curso lo puede realizar **cualquier persona**, no hace falta saber programa
 
 A lo largo del mismo vamos a:
 
-* Aprender los elementos de HTML5, CSS3 y Javascript que usaremos el día día (los más comunes)
+* Aprender los elementos más comunes de HTML5, CSS3 y Javascript, osea los que usaremos el día día.
 * Descubrir dónde podremos resolver nuestras dudas cuando tengamos problemas.
 * Trabajar con algunas de las herramientas que usan los profesionales del mundo real como son [Github](http://github.com/) o las [herramientas para desarrolladores de Google Chrome](https://developer.chrome.com/devtools).
 
