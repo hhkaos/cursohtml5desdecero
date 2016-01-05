@@ -194,7 +194,7 @@ Accede a estos recursos si ya tenías un conocimiento previo de programación we
 * [The Web Hypertext Application Technology Working Group](https://html.spec.whatwg.org/multipage/)
 
 
-## Ejercicios
+## Ejercicio
 
 Ejercicio tipo test
 
