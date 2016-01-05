@@ -18,7 +18,7 @@ Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y 
 ## Formato
 Este es el material escrito del curso en vídeo [HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/). **Si lo deseas puedes estudiarte este curso por tu cuenta o inscribirte gratuitamente en la web** para asistir a alguna de las ediciones periódicas que organizo.
 
-Estas ediciones periódicas consiste básicamente en recibir semanalmente un serie de vídeos que tendrás que ver y unos ejercicios que tendrás que hacer. La carga de trabajo pretende ser menor a 2 horas semanales además de una sesión online de 1h semanal para resolver dudas.
+Estas ediciones periódicas consiste básicamente en recibir semanalmente una serie de vídeos que tendrás que ver y unos ejercicios que tendrás que hacer. La carga de trabajo pretende ser menor a 2 horas semanales además de una sesión online de 1h semanal para resolver dudas.
 
 Este formato "tutorizado" del curso **durará entre 4 y 6 semanas**.
 
