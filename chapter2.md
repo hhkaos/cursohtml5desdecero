@@ -3,6 +3,17 @@
 * [Introducción a Google Chrome Developer Tools.](#introducción-a-google-chrome-developer-tools)
 
 
+## Introducción a Google Chrome Developer Tools
+De momento sólo nos vamos a centrar en tres de las pestañas:
+
+* Elements
+* Sources
+* Network
+
+Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
+
+Espacios, menor que, etc.
+
 ## Qué etiquetas son anidables
 
 ## Validar nuestro código
