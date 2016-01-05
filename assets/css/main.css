@@ -71,6 +71,21 @@ h1{
     margin-top: -10px;
 }
 
+footer{
+    color: #444;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+    text-align: center;
+    border-top: 1px solid #cbcbcb;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 20px;
+}
+footer span{
+    padding: 0 15px;
+}
+
 /* Portrait */
 @media only screen
 and (min-device-width: 320px)
@@ -120,4 +135,5 @@ and (orientation: portrait) {
     h2,h3,h4{
         line-height: 1.3em;
     }
+
 }
