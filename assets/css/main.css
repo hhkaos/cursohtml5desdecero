@@ -108,7 +108,7 @@ and (orientation: portrait) {
         width: 100%;
     }
     #mc_embed_signup form{
-        padding: 0 15px;
+        padding: 0;
     }
     .row{
         margin: 0;
