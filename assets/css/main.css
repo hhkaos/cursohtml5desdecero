@@ -70,3 +70,44 @@ h1{
     width: 75%;
     margin-top: -10px;
 }
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    h1{
+        font-size: 1em;
+    }
+    .negative{
+        padding: 0px 3px;
+    }
+    .video-container{
+        padding-top: 0;
+        padding-right: 0px;
+        min-height: 190px;
+        margin-bottom: 20px;
+    }
+    .video-container iframe{
+        width: auto;
+        margin-left: 7px;
+        position: static;
+    }
+    #mc_embed_signup{
+        width: 100%
+    }
+    .logo{
+        width: 100%;
+        background-size: 75% auto;
+        height: 140px;
+        margin-top: 20px;
+    }
+    #content{
+        width: 100%;
+    }
+    #mc_embed_signup form{
+        padding: 0 15px;
+    }
+}
