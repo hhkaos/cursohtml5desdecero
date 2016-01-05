@@ -3,8 +3,8 @@
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
 * Qué son y cómo funcionan:
-    * [Los servidores web y HTTP](#servidores-y-navegadores-web).
-    * [Los navegadores web]()
+    * [Los servidores web y HTTP](#servidores-web-y-http).
+    * [Los navegadores web](#navegadores-web)
     * [Las URLs.](#¿cómo-funcionan-las-urls)    
     * [Peticiones HTTP](#servidores-y-navegadores-web).
 * [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
