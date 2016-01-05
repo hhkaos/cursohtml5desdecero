@@ -1,5 +1,8 @@
 # 2.- (no definitiva)
 
+* [Introducción a Google Chrome Developer Tools.](#introducción-a-google-chrome-developer-tools)
+
+
 ## Qué etiquetas son anidables
 
 ## Validar nuestro código
