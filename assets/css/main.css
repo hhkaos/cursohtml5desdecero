@@ -2,28 +2,44 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 1.7em;
+    background-color: #eee;
+}
 
+header{
+    background-color: #E35130;
+    color: white;
+}
+header .container{
+    background: radial-gradient(ellipse farthest-side at top,#FF7354 0,#E35130 100%);
+    padding: 30px 0;
 }
 h1{
 
     text-align: center;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    padding: 5px 0 15px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    background-color: #FFF;
+    color: #333;
+    font-size: 1.6em;
+    margin-top: 0;
 }
 .logo{
     background: url("../images/html-css-js.png") no-repeat;
-    height: 65px;
+    height: 200px;
     text-align: center;
     background-position-x: center;
     background-position-y: top;
     display: inline-block;
-    width: 150px;
+    width: 390px;
     vertical-align: middle;
     margin-left: 0;
     background-size: auto 100%;
+    float: right;
+    margin-top: 40px;
 }
+
 .video-container {
     position:relative;
     min-height: 300px;
@@ -33,16 +49,24 @@ h1{
 
 }
 .video-container iframe, .video-container object, .video-container embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:96.5%;
-    height:100%;
-    margin-left: 15px;
-    border: 3px solid #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 15%;
+    background-color: #FFF;
+    border: 3px solid #FFF;
 }
 .negative{
-    background-color: #E35130;
+    background-color: #FE7252;
     color: white;
     padding: 0px 10px;
+}
+#content{
+    background-color: #FFF;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    width: 75%;
+    margin-top: -10px;
 }
