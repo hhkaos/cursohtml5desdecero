@@ -196,9 +196,11 @@ Accede a estos recursos si ya tenías un conocimiento previo de programación we
 
 ## Ejercicio
 
-Ejercicio tipo test
+En esta primera lección sólo tengas que realizar un ejercicio tipo test que podrás repetir tantas veces como quieras.
 
-Dudas con los ejercicios, si tienes alguna duda con el ejercicio. Las dudas Github code comments / issues
+[Empezar ejercicio tipo test](http://www.cursohtml5desdecero.com/tests/leccion1.html)
+
+Si hay algo que no te haya quedado claro puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues)
 
 ## Extra (opcional)
 
