@@ -11,7 +11,7 @@ En esta primera lección vamos a ver:
     * [Etiquetas y atributos.](#etiquetas-y-atributos)
     * [Anidación de etiquetas.](#anidación-de-etiquetas) 
     * [Estructura básica de una página.](#estructura-básica-de-una-página)
-* [Introducción a Google Chrome Developer Tools.](#introducción-a-google-chrome-developer-tools)
+
 
 Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de entender el funcionamiento de una página web para adquirir una base que nos permita entender de dónde pueden venir los errores que cometamos en el futuro. 
 
