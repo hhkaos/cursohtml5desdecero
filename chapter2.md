@@ -19,6 +19,15 @@ Espacios, menor que, etc.
 ## Validar nuestro código
 Que el código se muestre en nuestro navegador web como queríamos no implica necesariamente que lo hayamos escrito bien. En muchas ocasiones el navegador es capaz de detectar errores humanos y corregirlos de manera automática para que el usuario vea bien la página, pero esto no es siempre así. Si queremos asegurarnos de que nuestra página está correctamente escrita podemos usar el Validador de HTML del W3C, que además en caso de encontrar errores nos dará pistas sobre cómo resolverlos.
 
+Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto previamente, configurar Google Chrome para poder editar el fichero y subir nuestro ejercicio a Github.
+
+1. Crear una carpeta en tu disco duro en la que iremos añadiendo los ejercicios
+2. Crear un fichero index.html dentro de la carpeta y copiar la estructura básica que hemos visto
+3. Configurar Google Chrome para poder editar nuestro fichero
+4. Crear una cuenta en Github si no la tenemos
+5. Crear un repositorio para este curso
+6. Subir el código que hemos hecho a nuestro repositorio
+
 ## Recursos:
 * Mozilla CDN
 * [Can I Use?](http://caniuse.com/)
