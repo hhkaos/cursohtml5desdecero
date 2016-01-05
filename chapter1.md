@@ -180,7 +180,6 @@ Nota ¿por qué tabulamos nuestro código?: la tabulación es muy importante uti
 
 
 ## Recursos
-* [Curso online W3C - HTML5 W3c Training](http://www.w3devcampus.com/html5-w3c-training/)
 * [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
 * [Artículo: ¿Qué puede ocurrir si realizamos mal la anidación de etiquetas?](http://www.impressivewebs.com/dom-improperly-nested/)
 
