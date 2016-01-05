@@ -1,4 +1,4 @@
-# 2.- (no definitiva)
+# 2.- Nuestro primer HTML (no definitiva)
 
 * [Introducción a Google Chrome Developer Tools.](#introducción-a-google-chrome-developer-tools)
 
