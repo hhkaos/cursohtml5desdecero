@@ -20,7 +20,7 @@ Este es el material escrito del curso en vídeo [HTML5, CSS3 y JS desde cero](ht
 
 Estas ediciones periódicas consiste básicamente en recibir semanalmente una serie de vídeos que tendrás que ver y unos ejercicios que tendrás que hacer. La carga de trabajo pretende ser menor a 2 horas semanales, y además podrás asistir a una sesión online de 1h semanal gratuita para resolver dudas.
 
-Este formato "tutorizado" del curso **durará entre 4 y 6 semanas**.
+El formato MOOC "tutorizado" del curso **durará entre 4 y 6 semanas**.
 
 ## Dudas, ideas, sugerencias, y contribuciones
 Además de en la sesiones online de dudas semanales, podrás realizar cualquier pregunta, idea o sugerencia [en el apartado de issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues). 
