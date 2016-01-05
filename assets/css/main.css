@@ -82,7 +82,7 @@ footer{
     position: relative;
     margin-bottom: 20px;
 }
-footer span{
+footer .separator{
     padding: 0 15px;
 }
 
@@ -134,6 +134,12 @@ and (orientation: portrait) {
     }
     h2,h3,h4{
         line-height: 1.3em;
+    }
+    footer .separator{
+        padding: 0 5px;
+    }
+    .hidden-phone{
+        display: none;
     }
 
 }
