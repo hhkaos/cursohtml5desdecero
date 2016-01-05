@@ -192,7 +192,7 @@ Te dejo dos tipos de recursos, los avanzados te recomiendo que los mires sólo s
 
 ## Ejercicio
 
-En esta primera lección sólo tengas que realizar un ejercicio tipo test que podrás repetir tantas veces como quieras.
+En esta primera lección sólo quiero que hagas un ejercicio tipo test para que puedas comprobar que has entendido todos los conceptos (por cierto, podrás repetirlo tantas veces como quieras).
 
 [Empezar ejercicio tipo test](http://www.cursohtml5desdecero.com/tests/leccion1.html)
 
