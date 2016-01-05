@@ -3,8 +3,9 @@
 En esta primera lección vamos a ver:
 * [Qué vamos a necesitar para el curso.](#¿qué-vamos-a-necesitar)
 * Qué son y cómo funcionan:
-    * [Los servidores y navegadores web](#servidores-y-navegadores-web).
-    * [Las URLs](#¿cómo-funcionan-las-urls)    
+    * [Los servidores web y HTTP](#servidores-y-navegadores-web).
+    * [Los navegadores web]()
+    * [Las URLs.](#¿cómo-funcionan-las-urls)    
     * [Peticiones HTTP](#servidores-y-navegadores-web).
 * [Primeros pasos con HTML5](#primeros-pasos-con-html5): 
     * [Etiquetas y atributos.](#etiquetas-y-atributos)
@@ -23,15 +24,16 @@ Es habitual encontrar profesionales que usen otros programas como: [Sublime Text
 
 **Nota**: Es posible que hayas oído hablar de Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos, no porque los dos primeros sean de pago, sino porque incluyen botones que introducen código (cosa que muchas veces nos incita a introducir código innecesario). El tercero no lo recomiendo porque considero que como decimos habitualmente en España: *es matar moscas a cañonazos*; además de ser un programa que consume bastantes recursos.
 
-## Servidores y navegadores web
-Empecemos con unas definiciones informales:
-- Un **servidor HTTP**: programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten
-- Un **servidor web** al ordenador donde tenemos instalado entre otros programas, el servidor HTTP. 
-- Un **navegador web** es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web)
+## Servidores web y HTTP
+Los que nos interesa saber para este curso sobre qué son estos servidores, nos vale con las siguientes definiciones informales:
+- Un **servidor HTTP**: programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten.
+- Un **servidor web** al ordenador donde tenemos instalado entre otros programas, el servidor HTTP.  
 
-Para que nos hagamos una idea visual:
+Posteriormente en esta lección veremos más en detalle cómo se comunican un servidor web que tiene instalado un servidor HTTP con nuestro navegador.
 
-![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+## Navegadores web
+
+Es un programa que recibe, entiende y transforma este código que recibe a través de la red en algo entendible para un humano (una página web).
 
 Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
@@ -76,7 +78,7 @@ Donde:
 - fragment = #primeros-pasos-con-html5
 
 ### Peticiones HTTP
-Cuando nuestro navegador se comunica con el servidor para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*. 
+Cuando nuestro navegador se comunica con un servidor web para solicitar o enviar un fichero/recurso a través de una URL se hace a través de mensajes HTTP, o como formalmente se suelen llamar *peticiones*. 
 
 Algunas de las acciones que provocan que el navegador realice una petición HTTP son: pulsar un enlace, escribir una URL en la barra de direcciones o enviar un formulario.
 
@@ -88,6 +90,10 @@ Los mensajes de respuesta del servidor pueden ser de muchos tipos aunque nosotro
 * **200**: Significa que se ha encontrado correctamente el fichero/recurso.
 * **403**: Significa que no tenemos permiso para acceder al fichero/recurso.
 * **404**: Significa que el fichero/recurso que le hemos no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
+ 
+El siguiente esquema muestra un diagrama que nos permite hacernos una idea sobre cómo funciona la comunicación entre ambos:
+
+![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
 
 ## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un [lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado) (*que no es lo mismo que un [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n)*) creado por el [W3C](http://www.w3.org/) que sirve para definir la estructura y la semántica de nuestra página web. El W3C es un consorcio de personas, investigadores, empresas, etc. que trabajan continuamente para definir las normas que luego los fabricantes de navegadores deben implementar en sus navegadores que el mismo código funcione de igual manera en todos los navegadores.
