@@ -85,14 +85,13 @@ and (orientation: portrait) {
         padding: 0px 3px;
     }
     .video-container{
-        padding-top: 0;
-        padding-right: 0px;
+        padding: 0 15px;
         min-height: 190px;
         margin-bottom: 20px;
     }
     .video-container iframe{
-        width: auto;
-        margin-left: 7px;
+        width: 100%;
+        margin-left: 0;
         position: static;
     }
     #mc_embed_signup{
@@ -103,11 +102,22 @@ and (orientation: portrait) {
         background-size: 75% auto;
         height: 140px;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     #content{
         width: 100%;
     }
     #mc_embed_signup form{
         padding: 0 15px;
+    }
+    .row{
+        margin: 0;
+    }
+    h1{
+        line-height: 1.5em;
+        padding: 15px;
+    }
+    h2,h3,h4{
+        line-height: 1.3em;
     }
 }
