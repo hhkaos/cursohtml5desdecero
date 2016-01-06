@@ -17,9 +17,6 @@ Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de 
 **Es importante conocer e interiorizar bien estos conceptos y herramientas** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recursos de Internet.
 
 
-### Peticiones HTTP
-
-
 ## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un [lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado) (*que no es lo mismo que un [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n)*) que sirve para definir la estructura y la semántica de nuestra página web, luego veremos que significa esto. HTML fue creado y es mantenido por una organización sin ánimo de lucro llamada [W3C](http://www.w3.org/). El W3C es un consorcio de personas, investigadores, empresas (entre ellas las que desarrollan los principales navegadores como Google, Microsof, Mozilla, Apple...), etc. Desde el consorcio trabajan continuamente en definir cómo debe evolucionar entre otras cosas este lenguaje (y por tanto *la web*) para que luego los fabricantes de navegadores las implementen en sus navegadores, y así de este modo conseguir que un código funcione igual en todos los navegadores, aunque esto desafortunadamente no siempre es así, aunque cada vez es una realidad más cercana.
 
