@@ -1,6 +1,6 @@
 # Etiquetas básicas
 
-Para terminar esta lección vamos a aprender el significado de ocho de las etiquetas que probablemente tendremos que usar con más frecuencia cuando creemos webs:
+Para terminar esta lección vamos a aprender el significado de ocho de las etiquetas que con más frecuencia tendremos que usar cuando creemos páginas web:
 
 * ```<h1></h1>```: esta etiqueta se utiliza para representar el encabezado de una página ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)).
 
