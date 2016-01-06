@@ -10,4 +10,4 @@ Entre algunas de las responsabilidades que debe garantizar un navegador se encue
 
 * **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga para mejorar la experiencia del usuario, por ejemplo: utilizar una memoria de almacenamiento temporal (memoria caché), etc.
 
-Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web) y de [servidores HTTP](https://es.wikipedia.org/wiki/Servidor_web#Software) en los módulos de HTML5 y CSS3 usaremos solamente Google Chrome y nuestra máquina mientras desarrollamos y Github cuando tengamos que publicar nuestros ejercicios, ya que este nos ofrece hosting y un servidor HTTP gratuito.
+Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web) y de [servidores HTTP](https://es.wikipedia.org/wiki/Servidor_web#Software) en los módulos de HTML5 y CSS3 usaremos solamente Google Chrome y nuestra máquina mientras desarrollamos.
