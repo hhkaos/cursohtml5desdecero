@@ -4,11 +4,11 @@ Cuando nuestro navegador quiere acceder a una página web a través de HTTP (*sc
 
 Algunas de las acciones que provocan que un navegador realice una petición HTTP son: pulsar un enlace, refrescar una pestaña, escribir una URL en la barra de direcciones o enviar un formulario.
 
-Existen varios tipos de peticiones, aunque nosotros en este curso trabajaremos con dos tipos:
+Existen varios [tipos de peticiones](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol#M.C3.A9todos_de_petici.C3.B3n), aunque nosotros en este curso trabajaremos con dos tipos:
 * **GET**: para solicitar información.
 * **POST**: para enviar información.
 
-Los mensajes de respuesta del servidor pueden ser de muchos tipos, aunque nosotros nos encontraremos normalmente tres, que significan:
+Los mensajes de respuesta del servidor pueden ser de [muchos tipos](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol#C.C3.B3digos_de_respuesta), aunque nosotros nos encontraremos normalmente tres, que significan:
 * **200**: que se ha encontrado correctamente el fichero/recurso.
 * **403**: que no tenemos permiso para acceder al fichero/recurso.
 * **404**: que el fichero/recurso que le hemos solicitado no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
