@@ -90,7 +90,7 @@
         trackEvent(
           'q' + qnumber + '-answered-incorrectly',
           'Q' + qnumber + ' answered incorrectly');
-        $(".answer").html("<p>¡Incorrecta!</p><p> " + input[currentQuestion].incorrect + "&nbsp;La respuesta correcta es " + input[currentQuestion].answer + ".</p>");
+        $(".answer").html("<p>¡Incorrecta!</p><p> " + input[currentQuestion].incorrect + "&nbsp;La respuesta correcta es: " + input[currentQuestion].answer + ".</p>");
       }
       if (currentQuestion != (input.length-1)) {
         $(".answer").append("<button class='qq-button next'>Siguiente</button>");

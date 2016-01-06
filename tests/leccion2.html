@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Curso gratuito de HTML5 desde Cero - Ejercicio 2</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico">
+
+  <meta property="og:locale"             content="es_ES" />
+  <meta property="og:url"                content="http://www.cursohtml5desdecero.com" />
+  <meta property="og:title"              content="Curso gratuito de HTML5 desde Cero" />
+  <meta property="og:description"        content="Curso 100% gratuito en el que cualquier persona puedes aprender a crear páginas web ya que no hace falta saber programación, sólo hace falta tener ganas de aprender" />
+  <meta property="og:image:url"          content="http://www.cursohtml5desdecero.com/assets/images/social_networks.jpg" />
+  <meta property="fb:app_id"             content="966242223397117" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:description" content="Curso 100% gratuito en el que cualquier persona puedes aprender a crear páginas web ya que no hace falta saber programación, sólo hace falta tener ganas de aprender"/>
+  <meta name="twitter:title" content="Curso gratuito de HTML5 desde Cero"/>
+  <meta name="twitter:site" content="@hhkaos"/>
+  <meta name="twitter:image" content="http://www.cursohtml5desdecero.com/assets/images/social_networks.jpg"/>
+  <meta name="twitter:creator" content="@hhkaos"/>
+
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="/assets/css/form.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/haddock.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+</head>
+<body id="ex">
+
+<header>
+  <h1>
+    <!---->
+    Curso gratuito de HTML5, CSS3 y JS <span class="negative">desde Cero</span>
+  </h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <h2 class="m0">2. Primeros pasos con HTML5 - Ejercicio tipo test</h2>
+        <div class='quiz-container'></div>
+        <script type='text/javascript'>
+          window.jQuery || document.write("<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'><\/script>");
+        </script>
+        <script type='text/javascript'>
+          var input = [{
+            "description": "Hemos visto en esta lección lo que es la anidación de etiquetas, en este ejemplo:<br><br><div class='sourceCode'><pre class='sourceCode html'><code class='sourceCode html'><span class='kw'>&lt;p&gt;</span>!Hola <span class='kw'>&lt;strong&gt;</span>amig@<span class='kw'>&lt;/strong&gt;</span>!<span class='kw'>&lt;/p&gt;</span></code></pre></div>",
+            "question": "¿Cuál de las afirmaciones es correcta?",
+            "a": "La etiqueta \"p\" y la etiqueta \"strong\" son hermanas",
+            "b": "La etiqueta \"p\" es padre de la etiqueta \"strong\"",
+            "c": "La etiqueta \"strong\" es padre de la etiqueta \"p\"",
+            "d": "Ninguna de las anteriores",
+            "answer": "La etiqueta \"p\" es padre de la etiqueta \"strong\"",
+            "incorrect": "004c00610020006500740069007100750065007400610020007000610064007200650020006500730020006c0061002000710075006500200063006f006e007400690065006e0065002000280065006e007600750065006c007600650029002000610020006c00610020006f007400720061002c002000790020006c0061002000680069006a006100200070006f0072002000740061006e0074006f0020006c0061002000710075006500200065007300200063006f006e00740065006e006900640061002f0065006e007600750065006c00740061002e",
+            "correct": "0043006f00720072006500630074006f002c0020006c006100200065007400690071007500650074006100200022007000220020006500730020007000610064007200650020006400650020006c006100200065007400690071007500650074006100200022007300740072006f006e006700220020007900610020007100750065002000220070002200200063006f006e007400690065006e00650020006100200022007300740072006f006e00670022002e",
+            "hint": "Que no te engañe que estén en la misma línea.",
+            "rowNumber": 1
+          }, {
+            "description": "",
+            "question": "En cuanto al orden de cierre de las etiquetas, ¿cuál de las afirmaciones es correcta?",
+            "a": "Se cierra primero la que primero se abre",
+            "b": "El orden no importa mientras se cierren todas",
+            "c": "El orden no importa mientras se cierren aquellas que tienen cierre",
+            "d": "Se cierra primero la última que se abrió",
+            "answer": "Se cierra primero la última que se abrió",
+            "incorrect": "0045006c0020006f007200640065006e0020006500730020006d0075007900200069006d0070006f007200740061006e00740065002e",
+            "correct": "0053006500200063006900650072007200610020007000720069006d00650072006f0020006c0061002000fa006c00740069006d006100200071007500650020007300650020006100620072006900f3",
+            "hint": "Recuerda el ejemplo anterior",
+            "rowNumber": 2
+          }, {
+            "description": "",
+            "question": "¿Son anidables todas las etiquetas entre sí?",
+            "a": "Sí",
+            "b": "No",
+            "c": "Sí, siempre que se cierren en el orden correcto.",
+            "d": "Todas menos las que no se cierran",
+            "answer": "No",
+            "incorrect": "",
+            "correct": "004e006f002c00200063006f006d006f002000760069006d006f00730020006c0061002000650074006900710075006500740061002000220068006500610064002200200070006f007200200065006a0065006d0070006c006f0020006e006f0020007000750065006400650020007300650072002000680069006a006100200064006500200022007400690074006c00650022002e",
+            "hint": "¿Puede ser \"head\" hija de \"title\"?",
+            "rowNumber": 3
+          }, {
+            "description": "",
+            "question": "¿Cual es el nivel máximo de anidamiento entre etiquetas?",
+            "a": "3",
+            "b": "6",
+            "c": "9",
+            "d": "No hay límite",
+            "answer": "No hay límite",
+            "incorrect": "",
+            "correct": "004e006f002000650078006900730074006500200075006e0020006c00ed006d00690074006500200064006500200061006e006900640061006d00690065006e0074006f002c00200075006e006100200065007400690071007500650074006100200070007500650064006500200063006f006e00740065006e00650072002000610020006f007400720061002000710075006500200063006f006e00740065006e00670061002000610020006f007400720061002c0020006500740063002e",
+            "hint": "Es mayor que 3",
+            "rowNumber": 4
+          }, {
+            "description": "",
+            "question": "¿Qué contiene la etiqueta \"head\"?",
+            "a": "El contenido que podrá ver el usuario",
+            "b": "La versión de HTML en la que está escrita la página",
+            "c": "Contenido para los buscadores, redes sociales, etc.",
+            "d": "Ninguna de las anteriores",
+            "answer": "Contenido para los buscadores, redes sociales, etc.",
+            "incorrect": "0045006c00200063006f006e00740065006e00690064006f002000710075006500200070006f0064007200e1002000760065007200200065006c0020007500730075006100720069006f002000650073007400e1002000640065006e00740072006f002000640065002000220062006f006400790022002000790020006c006100200076006500720073006900f3006e002000640065002000480054004d004c0020006c006100200069006e00640069006300610020006c0061002000650074006900710075006500740061002000220044004f004300540059005000450022002e",
+            "correct": "0049006e0066006f0072006d00610063006900f3006e0020007000720069006e0063006900700061006c006d0065006e0074006500200070006100720061003a00200065006c0020006e006100760065006700610064006f0072002c0020006c006f00730020006200750073006300610064006f00720065007300200079002000610020006f00740072006100730020007000e100670069006e00610073002000280063006f006d006f002000700075006500640065006e002000730065007200200072006500640065007300200073006f006300690061006c00650073002c00200065007400630029002e0020004c006100200069006e0066006f0072006d00610063006900f3006e0020006500730070006500630069006600690063006100640061002000640065006e00740072006f002000640065006c002000680065006100640020006e006f0020007300650020006d007500650073007400720061002000640065006e00740072006f0020006400650020006c00610020007000e100670069006e00610020007700650062002000710075006500200076006500200065006c0020007500730075006100720069006f002e",
+            "hint": "Sí es alguna de las anteriores",
+            "rowNumber": 5
+          }, {
+            "description": "",
+            "question": "¿Qué etiquetas son siempre hijas de las etiqueta \"html\"?",
+            "a": "\"DOCTYPE\" y \"head\"",
+            "b": "\"DOCTYPE\" y \"body\"",
+            "c": "\"title\" y \"meta\"",
+            "d": "\"head\" y \"body\"",
+            "answer": "\"head\" y \"body\"",
+            "incorrect": "004c006100200076006500720073006900f3006e002000640065002000480054004d004c0020006c006100200069006e00640069006300610020006c0061002000650074006900710075006500740061002000220044004f004300540059005000450022002e00200050006f00720020006f00740072006f0020006c00610064006f00200022007400690074006c006500220020007900200022006d00650074006100220020007300f3006c006f002000700075006500640065006e0020007300650072002000680069006a006100730020006400650020002200680065006100640022",
+            "correct": "004c006100730020006500740069007100750065007400610073002000220068006500610064002200200079002000220062006f00640079002200200073006f006e0020006f0062006c0069006700610074006f0072006900610073002000790020007300690065006d00700072006500200073006f006e002000680069006a006100730020006400650020002200680074006d006c0022002e",
+            "hint": "\"meta\" sólo puede ser hija de \"head\"",
+            "rowNumber": 6
+          }, {
+            "description": "",
+            "question": "¿Qué etiqueta se utiliza para crear un salto de línea?",
+            "a": "p",
+            "b": "br",
+            "c": "ul",
+            "d": "li",
+            "answer": "br",
+            "incorrect": "004c0061002000650074006900710075006500740061002000220070002200200072006500700072006500730065006e0074006100200075006e0020007000e10072007200610066006f002c002000220075006c002200200075006e00610020006c00690073007400610020006400650073006f007200640065006e0061006400610020007900200022006c0069002200200075006e00200065006c0065006d0065006e0074006f00200064006500200075006e00610020006c0069007300740061002e",
+            "correct": "004c006100200065007400690071007500650074006100200022006200720022002000280042007200650061006b0020004c0069006e00650022002900200072006500700072006500730065006e0074006100200075006e002000730061006c0074006f0020006400650020006c00ed006e00650061002e",
+            "hint": "Recuerda los acrónimos en inglés",
+            "rowNumber": 7
+          }, {
+            "description": "",
+            "question": "¿Qué propósito tiene el código en HTML dentro de una página?",
+            "a": "Para dotar de estilo",
+            "b": "Para dotar de estructura y semántica",
+            "c": "Para dotar de estilo, estructura y semántica",
+            "d": "Ninguna de las anteriores es correcta",
+            "answer": "Para dotar de estructura y semántica",
+            "incorrect": "005000610072006100200064006f00740061007200200064006500200065007300740069006c006f0020007300650020007500730061006e0020006c0061007300200068006f006a0061007300200064006500200065007300740069006c006f002000280043005300530029",
+            "correct": "00480054004d004c0020007300f3006c006f0020007300690072007600650020007000610072006100200064006f0074006100720020006400650020006500730074007200750063007400750072006100200079002000730065006d00e1006e007400690063006100200061006c00200063006f006e00740065006e00690064006f",
+            "hint": "Sí es alguna de las anteriores",
+            "rowNumber": 8
+          }];
+          var pubStylesheet = 'http://assets.sbnation.com.s3.amazonaws.com/features/quiz-generator/quiz-sbnation.css';
+          var pub = 'sbnation';
+        </script>
+
+        <script src='/assets/js/quiz.js'></script>
+        <style type="text/css">
+          ol.answers > li:before{
+            background-color: #E35130;
+          }
+
+          ol.answers > li:before,
+          .question,
+          .qq-question,
+          ol.answers > li,
+          .progress,
+          .qq-description,
+          .qq-button{
+            font-family: 'Open Sans', sans-serif !important;
+          }
+
+          .progress{
+            font-size: .9em;
+            padding: 5px 15px;
+          }
+
+          ol.answers > li{
+            font-size: 1.2em;
+          }
+          .qq-description{
+            font-size: .9em;
+          }
+        </style>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container" id="content">
+
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="hidden-phone">Licencia:</span> <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons <i class="fa fa-creative-commons"></i></a>
+    <span class="separator">|</span>
+    <span class="hidden-phone">Autor:</span> <a href="https://twitter.com/hhkaos" target="_blank">@hhkaos <i class="fa fa-twitter"></i></a>
+    <span class="separator">|</span>
+    <span class="hidden-phone">Código fuente y hosting:</span> <a href="https://github.com/hhkaos/introduccion-a-html5/tree/gh-pages" target="_blank">Github <i class="fa fa-github"></i></a>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
