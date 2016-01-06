@@ -1,6 +1,6 @@
 # Navegadores
 
-Un navegador es un programa que entiende y transforma el código que recibe desde un servidor<sup>1</sup> en algo entendible para un humano (una página web, imágenes, etc).
+Un navegador es un programa (complejo) que entiende y transforma el código que recibe desde un servidor<sup>1</sup> en algo entendible para un humano (una página web, imágenes, etc).
 
 Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
