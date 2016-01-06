@@ -18,22 +18,7 @@ Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de 
 
 
 ### Peticiones HTTP
-Cuando nuestro navegador quiere acceder a una página web a través de HTTP (*scheme* = http), lo que hace es comunicarse con el servidor HTTP instalado en un servidor web. Para ello descompone la URL que le permite conocer la dirección de la máquina, el *path* (ruta) del recurso que se quiere solicitar o el *path* del recurso que quiere enviar, y envía un mensaje a la máquina, lo como formalmente se conoce como una *petición*.
 
-Algunas de las acciones que provocan que el navegador realice una petición HTTP son: pulsar un enlace, escribir una URL en la barra de direcciones o enviar un formulario.
-
-Existen varios tipos de peticiones, aunque nosotros en este curso trabajaremos con dos tipos:
-* **GET**: para solicitar información.
-* **POST**: para enviar información.
-
-Los mensajes de respuesta del servidor pueden ser de muchos tipos, aunque nosotros nos encontraremos normalmente tres, que significan:
-* **200**: que se ha encontrado correctamente el fichero/recurso.
-* **403**: que no tenemos permiso para acceder al fichero/recurso.
-* **404**: que el fichero/recurso que le hemos solicitado no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
- 
-El siguiente esquema muestra un esquema simplificado que nos permite hacernos una idea sobre cómo funciona la comunicación entre ambos:
-
-![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
 
 ## Primeros pasos con HTML5
 HTML ([Hypertext Markup Language](http://www.w3.org/html/)) es un [lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado) (*que no es lo mismo que un [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n)*) que sirve para definir la estructura y la semántica de nuestra página web, luego veremos que significa esto. HTML fue creado y es mantenido por una organización sin ánimo de lucro llamada [W3C](http://www.w3.org/). El W3C es un consorcio de personas, investigadores, empresas (entre ellas las que desarrollan los principales navegadores como Google, Microsof, Mozilla, Apple...), etc. Desde el consorcio trabajan continuamente en definir cómo debe evolucionar entre otras cosas este lenguaje (y por tanto *la web*) para que luego los fabricantes de navegadores las implementen en sus navegadores, y así de este modo conseguir que un código funcione igual en todos los navegadores, aunque esto desafortunadamente no siempre es así, aunque cada vez es una realidad más cercana.
