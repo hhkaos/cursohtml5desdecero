@@ -1,6 +1,7 @@
 # Summary
 
 * [Presentación del curso](README.md)
+* [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
 * [Conceptos básicos](chapter1.md)
    * [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
    * [Servidores web y HTTP](leccion1/servidores_web_y_http.md)
