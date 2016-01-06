@@ -8,7 +8,7 @@ En este curso usarás tu máquina como servidor mientras estés haciendo pruebas
 
 En el apartado *Peticiones HTTP* veremos en detalle cómo se comunica un servidor web que tiene instalado un servidor HTTP con nuestro navegador.
 
-Algunos de los [servidores web ](https://es.wikipedia.org/wiki/Servidor_web#Software) más populares son: Nginx, Apache, IIS, etc.
+Algunos de los [servidores web ](https://es.wikipedia.org/wiki/Servidor_web#Software) más populares son: Apache, IIS, Nginx etc.
 
 <small>Notas:</small><br>
 <small>1. Hay muchos [tipos de hosting](https://en.wikipedia.org/wiki/Web_hosting_service#Types_of_hosting), aunque a nosotros nos vale con esta definición</small><br>
