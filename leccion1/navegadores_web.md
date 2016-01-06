@@ -6,7 +6,7 @@ Entre algunas de las responsabilidades que debe garantizar un navegador se encue
 
 * **Integridad**: para transmitir páginas web se utiliza una forma de comunicación llamada HTTP (o protocolo [HTTP](http://www.w3.org/Protocols/)). Este protocolo es el lenguaje común entre el servidor y el navegador web. 
 
-* **Seguridad**: dado que los navegadores reciben código escrito normalmente por otras personas, el navegador implementa lgunas reglas de seguridad. Estas reglas se definen a diferentes niveles: durante la conexión entre las máquinas y el envío ([HTTPS](https://en.wikipedia.org/wiki/HTTPS)), al ejecutarse en el navegador ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)), etc.
+* **Seguridad**: dado que los navegadores reciben código escrito normalmente por otras personas, el navegador implementa algunas reglas de seguridad. Estas reglas se definen a diferentes niveles: durante la conexión entre las máquinas y el envío ([HTTPS](https://en.wikipedia.org/wiki/HTTPS)), al ejecutarse en el navegador ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)), etc.
 
 * **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga para mejorar la experiencia del usuario, por ejemplo: utilizar una memoria de almacenamiento temporal (memoria caché), etc.
 
