@@ -2,7 +2,7 @@
 
 En esta primera lección vamos a ver qué son y cómo funcionan:
 * Los servidores web y HTTP
-* Los navegadores web
+* Los navegadores
 * Las URLs
 * Peticiones HTTP
 
