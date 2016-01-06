@@ -12,5 +12,5 @@ Entre algunas de las responsabilidades que debe garantizar un navegador se encue
 
 Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web), aunque nosotros usaremos solamente Google Chrome (de momento).
 
-<small>Notas:</small><br>
+<small>Aclaraciones:</small><br>
 <small>1. Normalmente a través de un servidor web HTTP</small><br>
