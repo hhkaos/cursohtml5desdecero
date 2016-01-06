@@ -14,7 +14,8 @@
    * [2.2. Anidación de etiquetas](leccion2/anidacion_de_etiquetas.md)
    * [2.3. Estructura básica de una página](leccion2/estructura_basica_de_una_pagina_md.md)
    * [2.4. Etiquetas básicas](leccion2/etiquetas_basicas.md)
-   * [2.5. Ejercicio](leccion2/ejercicio.md)   
+   * [2.5. Ejercicio](leccion2/ejercicio.md)
    * [2.6. Recursos](leccion2/recursos.md)
+   * ejemplo_con_etiquetas_basicas.html
 * [3. Nuestro primer HTML](chapter3.md)
 
