@@ -7,7 +7,7 @@
    * [Navegadores web](leccion1/navegadores_web.md)
    * [Funcionamiento de las URLs](leccion1/funcionamiento_de_las_urls.md)
    * [Peticiones HTTP](leccion1/peticiones_http.md)
-   * [1.6. Ejercicio](leccion1/ejercicio.md)
+   * [Ejercicio](leccion1/ejercicio.md)
    * [1.7. Recursos](leccion1/extra_opcional.md)
 * [2. Primeros pasos con HTML5](chapter2.md)
    * [2.1. Etiquetas y atributos](leccion2/etiquetas_y_atributos.md)
