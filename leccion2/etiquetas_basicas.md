@@ -1,6 +1,6 @@
 # 2.4. Etiquetas básicas
 
-Para terminar esta lección vamos a aprender el significado de ocho de las etiquetas que nos encontraremos con mucha frecuencia:
+Para terminar esta lección vamos a aprender el significado de ocho de las etiquetas que probablemente tendremos que usar con más frecuencia cuando creemos webs:
 
 * ```<h1></h1>```: esta etiqueta seutiliza para representar el encabezado de una páginathese elements represent headings for their sections.
 * ```<p></p>```: The p element represents a paragraph.
