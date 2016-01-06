@@ -43,4 +43,4 @@ Recordemos que hay etiquetas que no es necesario cerrarlas por lo que esto serí
 
 Me gustaría puntualizar otros dos detalles:
 1. No todas las etiquetas son anidables entre sí; por ejemplo: una etiqueta **title** no puede contener una etiqueta **head**. Pero no te preocupes de momento por esto, en otra lección veremos cómo podemos saber qué etiquetas son anidables entre sí.
-2. Es importante indentar bien el código porque en muchos casos nos encontraremos muchos niveles de anidación, etiquetas que contienen etiquetas que a su vez contienen etiquetas, etc. ya no hay límite de anidamiento.
+2. Es importante indentar bien el código porque en muchos casos nos encontraremos muchos niveles de anidación, etiquetas que contienen etiquetas que a su vez contienen etiquetas, etc. ya **no hay límite de anidamiento**.
