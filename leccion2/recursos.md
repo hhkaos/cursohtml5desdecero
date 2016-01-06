@@ -1,6 +1,6 @@
 # Recursos
 
-Te dejo dos tipos de recursos, los avanzados te recomiendo que los mires sólo si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc) o... si no le tienes miedo a nada ;D:
+Aquí te dejo dos tipos de recursos. Los avanzados míralos sólo si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc) o... si no le tienes miedo a nada ;D:
 
 * Básicos:
     * [Chuleta de etiquetas HTML5](images/html5-cheat-sheet.png)
