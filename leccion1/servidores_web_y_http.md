@@ -1,4 +1,4 @@
-# Alojamiento web y servidores web HTTP
+# Alojamiento y servidores HTTP
 
 Para este curso nos vale con entender las siguientes definiciones (informales):
 - **[Servidor web HTTP](https://es.wikipedia.org/wiki/Servidor_web)** (o simplemente: *servidor web* o *servidor HTTP*): es programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten.
