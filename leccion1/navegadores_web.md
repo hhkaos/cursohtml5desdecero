@@ -1,6 +1,6 @@
 # Navegadores
 
-Un navegador es un programa que entiende y transforma el código que recibe desde un servidor web<sup>1</sup> en algo entendible para un humano (una página web, imágenes, etc).
+Un navegador es un programa que entiende y transforma el código que recibe desde un servidor<sup>1</sup> en algo entendible para un humano (una página web, imágenes, etc).
 
 Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
@@ -11,3 +11,6 @@ Entre algunas de las responsabilidades que debe garantizar un navegador se encue
 * **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga para mejorar la experiencia del usuario, por ejemplo: utilizar una memoria de almacenamiento temporal (memoria caché), etc.
 
 Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web), aunque nosotros usaremos solamente Google Chrome (de momento).
+
+<small>Notas:</small><br>
+<small>1. Normalmente de un servidor web HTTP</small><br>
