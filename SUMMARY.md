@@ -10,6 +10,6 @@
 * [2. Primeros pasos con HTML5](chapter2.md)
    * [2.1. Etiquetas y atributos](leccion2/etiquetas_y_atributos.md)
    * [2.2. Anidación de etiquetas](leccion2/anidacion_de_etiquetas.md)
-   * Estructura básica de una página
+   * [2.3. Estructura básica de una página](leccion2/estructura_basica_de_una_pagina.md)
 * [4. Nuestro primer HTML](chapter3.md)
 
