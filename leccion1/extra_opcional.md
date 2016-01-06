@@ -4,13 +4,13 @@ Aunque **no es importante para el objetivo del curso**, que es: *aprender a crea
 
 ### Dominios y subdominios
 
-**En este curso no aprenderemos a comprar y configurar un dominio** ya que *no* se ha considerado importante para los objetivos planteados (hay muchos tutoriales online). 
+**En este curso no aprenderemos a comprar y configurar un dominio** ya que *no* se ha considerado importante para los objetivos planteados ([hay muchos tutoriales online](https://www.google.es/webhp?ie=UTF-8#q=comprar%20y%20configurar%20un%20dominio)). 
 
 Dicho esto creo que es interesante conocer qué es un dominio y qué es un subdominio:
-- **Dominios**: podemos hacer una analogía entre los dominios y los *Accesos directos* de Windows. Para identificar unívocamente una carpeta en nuestro disco duro necesitamos saber la ruta (*p.e: C:\Archivos de programa\Google Chrome\bin\chrome.exe*), para idenfiticar nuestros servidores web necesitamos saber su [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (p.e: 213.242.93.227). Como recordar todos estos dígitos es muy complejo se inventaron los dominios (p.e: google.com, rauljimenez.info, etc.) que no son más que un "*acceso directo*" o *alias* que es más fácil de recordar para un humano. Nota: los dominios se pueden alquilar por Internet y los precios normalmente varían desde los pocos € o $ hasta cien € o $. 
-- **Subdominos**: un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede usar para apuntar a distintas IPs. Así por ejemplo www sería también un subdominio.
+- **[Dominios](https://es.wikipedia.org/wiki/Dominio_de_Internet)**: podemos hacer una analogía entre los dominios y los *Accesos directos* del sistema operativo. Para identificar unívocamente una carpeta en nuestro disco duro necesitamos saber la ruta (*p.e: C:\Archivos de programa\Google Chrome\bin\chrome.exe*), pues para idenfiticar nuestros servidores en Internet necesitamos saber su [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (p.e: 213.242.93.227). Pero como recordar todos estos dígitos es muy complejo, hace años se los dominios (p.e: google.com, rauljimenez.info, etc.) que no son más que nombres que apuntan a estas direcciones (algo así como un "*acceso directo*") y que son más fáciles de recordar para un humano. Nota: los dominios se pueden alquilar por Internet y los precios normalmente varían desde los pocos € o $ hasta cientos de € o $. 
+- **[Subdominos](https://es.wikipedia.org/wiki/Subdominio)**: un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede configurar que para apunte a distintas IPs o "carpetas de nuestro disco duro". Así por ejemplo www sería también un subdominio.
 
-El [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial.
+Aunque el [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial, existen multitud de empresas autorizadas para vender dominios.
 
 ### Servidores web
 Como hemos mencionado anteriormente un servidor web no es más que un ordenador* donde guardamos los ficheros que contienen nuestro sitio web.
