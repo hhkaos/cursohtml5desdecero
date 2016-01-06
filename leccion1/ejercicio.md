@@ -1,4 +1,4 @@
-# 1.7. Ejercicio
+# Ejercicio
 
 En esta primera lección sólo quiero que hagas un ejercicio tipo test para que puedas comprobar que has entendido todos los conceptos (por cierto, podrás repetirlo tantas veces como quieras).
 
