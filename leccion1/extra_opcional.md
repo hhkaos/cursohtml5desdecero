@@ -1,4 +1,4 @@
-# 1.6. Extra (Opcional)
+# 1.6. Recursos
 
 Aunque **no es importante para el objetivo del curso**, que es: *aprender a crear webs con HTML5, CSS3 y JavaScript*, los siguientes conceptos si puede serte útil si quieres aprender a alojar un sitio web en un servidor tuyo propio.
 
