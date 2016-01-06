@@ -25,7 +25,7 @@ Vamos a ver algunos ejemplos de nombres de etiquetas:
 - **atributo**: *charset*, *class*, *id*, ...
 - **valor**: *UTF-8*, *modal*, ...
  
-No te preocupes que en los recursos te he dejado una chuleta con todas las etiquetas y algunos de los atributos que aceptan, pero por ahora lo importante es que entiendas el formato.
+A mi siempre me gusta tener esta "[chuleta](images/html5-cheat-sheet.png)" (o cheatsheet) a mano que resume todas las etiquetas y algunos de los atributos que aceptan. Pero por ahora no hace falta que te distraigas con esto, lo importante es que entiendas el formato.
 
 Por ejemplo:
 
