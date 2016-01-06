@@ -1,4 +1,4 @@
-# 2.4. Etiquetas básicas
+# Etiquetas básicas
 
 Para terminar esta lección vamos a aprender el significado de ocho de las etiquetas que probablemente tendremos que usar con más frecuencia cuando creemos webs:
 
