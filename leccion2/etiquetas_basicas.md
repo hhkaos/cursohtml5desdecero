@@ -60,5 +60,8 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
 </html>
 ```
 
+Esto generaría una página como la siguiente:
+![](./images/primer_ejemplo.png)
+
 Puedes ver [cómo se vería este código aquí](https://hhkaos.gitbooks.io/introduccion-a-html5/content/leccion2/ejemplo_con_etiquetas_basicas.html).
 
