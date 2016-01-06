@@ -1,8 +1,8 @@
 # Etiquetas y atributos
 
-En el último estándar de HTML (HTML5) existen más de 100 etiquetas. Como comentaba al inicio del curso no las veremos todas, de hecho no es habitual ver a nadie que las conozca todas, ni siquiera los que llevamos tantos años haciendo webs, lo importante es saber dónde buscarlas y saber cómo usarlas.
+En el último estándar de HTML (HTML5) existen [más de 100 etiquetas](http://www.w3.org/TR/2014/REC-html5-20141028/). Como comentaba al inicio del curso no las veremos todas, de hecho no es habitual ver a nadie que las conozca todas, ni siquiera los que llevamos tantos años haciendo webs, lo importante es saber dónde buscarlas y saber cómo usarlas.
 
-Por esto vamos a empezar por entender qué pinta tienen. Lo primero es saber que las etiquetas sólo pueden ser de dos tipos:
+Por esto vamos a empezar por entender qué aspecto tienen. Lo primero es saber que las etiquetas sólo pueden ser de dos tipos:
 
 1) Las que tienen una apertura y un cierre como en el siguiente caso:
 
@@ -10,7 +10,7 @@ Por esto vamos a empezar por entender qué pinta tienen. Lo primero es saber que
 <etiqueta atributo="valor">Contenido</etiqueta>
 ```
 
-Vemos que las etiquetas **siempre** están contenidas entre los símbolos *< >*, y que el cierre contiene se hará usando el nombre de la etiqueta precedido de una barra lateral: */* (p.e. </etiqueta>).
+Vemos que las etiquetas **siempre** están contenidas entre los símbolos *< >*, y que el cierre se hará usando el nombre de la etiqueta precedido de una barra lateral: */* (p.e. </etiqueta>).
 
 2) Por otro lado están las etiquetas que no se cierran explítictamente:
 
