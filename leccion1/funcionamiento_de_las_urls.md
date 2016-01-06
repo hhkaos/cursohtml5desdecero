@@ -11,7 +11,7 @@ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 
 * **scheme (obligatorio)**: este suele ser http o https normalmente, aunque podría ser también: file, ftp, mailto, data, skype, etc.
-* **user:password@**: usuario y contraseña (p.e. hhkaos:mipass@). Esto normalmente se utiliza por ejemplo en conexiones FTP o SSH que requieren autentificación. También se puede usar si queremos identificarnos directamente con un sistema que use [.htpasswd](https://en.wikipedia.org/wiki/.htpasswd) ([ver imagen](../images/htpasswd.jpg)).
+* **user:password@**: usuario y contraseña (p.e. hhkaos:mipass@). Esto normalmente se utiliza por ejemplo en conexiones FTP o SSH que requieren autentificación. También se puede usar si queremos identificarnos directamente en un sistema que use [.htpasswd](https://en.wikipedia.org/wiki/.htpasswd) como en el que se muestra en la siguiente imagen:<br>![](../images/htpasswd.jpg)
 * **host**: nombre de dominio (p.e. tusitioweb.com) o dirección IP del servidor web (p.e. 79.82.123.1)
 * **port**: puerto (si no se especifica ninguno se usa el 80 por defecto)
 * **path (obligatorio)**: ruta al fichero (p.e. blog/index.php)
