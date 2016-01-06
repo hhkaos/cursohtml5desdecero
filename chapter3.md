@@ -15,6 +15,8 @@ Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 Espacios, menor que, etc.
 
+## Convenciones de estilo
+
 ## Qué etiquetas son anidables
 
 ## Validar nuestro código
