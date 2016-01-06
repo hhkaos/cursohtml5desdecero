@@ -8,9 +8,9 @@ En este curso usarás tu máquina como servidor mientras estés haciendo pruebas
 
 En el apartado *Peticiones HTTP* veremos en detalle cómo se comunica un servidor web que tiene instalado un servidor HTTP con nuestro navegador.
 
-Algunos de los servidores webs y empresas de alojamiento más famosas son:
+Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 * Servidores web: Apache, IIS, Nginx, etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
-* Alojamiento web: 1and1, AWS, Linode, etc.([ver más](http://hostarting.es/hostings/))
+* Alojamiento web: 1and1, AWS, Linode, etc. ([ver más](http://hostarting.es/hostings/))
 
 <small>Notas:</small><br>
 <small>1. Hay muchos [tipos de hosting](https://es.wikipedia.org/wiki/Alojamiento_web#Tipos_de_alojamiento_web_en_Internet), aunque a nosotros nos vale con esta definición</small><br>
