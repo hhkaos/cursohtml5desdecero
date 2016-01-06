@@ -39,7 +39,7 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
     
     <h2>Etiqueta ul+li</h2>
     <p>
-        Por ejemplo si no importa el orden, como si listamos personas nominadas a los Oscars,  podemos de los elementos en una lista debemos usar <em>ul</em>. 
+        Por ejemplo si no importa el orden, como si listamos personas nominadas a los Oscars, debemos usar <em>ul</em>. 
     </p>
     <ul>
         <li>David Verdaguer</li>
