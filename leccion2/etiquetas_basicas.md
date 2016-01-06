@@ -18,7 +18,7 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 
 * ```<em></em>```: The em element represents stress emphasis of its contents. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-em-element)).
 
-* ```<!-- -->```: comentarios ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#comments)).
+* ```<!-- -->```: se utiliza para comentarios dentro del código que el usuario no podrá ver. Por ejemplo para añadir notas de tareas pendientes, aclaraciones que nos ayuden a nosotros o a otras personas a entender el código, etc.  ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#comments)).
 
 El siguiente ejemplo muestra una página web que combina todas ellas:
 
