@@ -1,10 +1,10 @@
 # Recursos
 
-Aunque **no es importante para el objetivo del curso**, que es: *aprender a crear webs con HTML5, CSS3 y JavaScript*, los siguientes conceptos si puede serte útil si quieres aprender a alojar un sitio web en un servidor tuyo propio.
+Aunque **no es importante para el objetivo del curso**, que es: *aprender a crear webs con HTML5, CSS3 y JavaScript*, los siguientes conceptos si pueden serte útiles si quieres aprender a alojar un sitio web en un servidor tuyo propio.
 
 ### Dominios y subdominios
 
-**En este curso no aprenderemos a comprar y configurar un dominio** ya que *no* se ha considerado importante para los objetivos planteados. 
+**En este curso no aprenderemos a comprar y configurar un dominio** ya que *no* se ha considerado importante para los objetivos planteados (hay muchos tutoriales online). 
 
 Dicho esto creo que es interesante conocer qué es un dominio y qué es un subdominio:
 - **Dominios**: podemos hacer una analogía entre los dominios y los *Accesos directos* de Windows. Para identificar unívocamente una carpeta en nuestro disco duro necesitamos saber la ruta (*p.e: C:\Archivos de programa\Google Chrome\bin\chrome.exe*), para idenfiticar nuestros servidores web necesitamos saber su [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (p.e: 213.242.93.227). Como recordar todos estos dígitos es muy complejo se inventaron los dominios (p.e: google.com, rauljimenez.info, etc.) que no son más que un "*acceso directo*" o *alias* que es más fácil de recordar para un humano. Nota: los dominios se pueden alquilar por Internet y los precios normalmente varían desde los pocos € o $ hasta cien € o $. 
