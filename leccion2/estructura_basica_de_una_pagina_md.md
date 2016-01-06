@@ -1,4 +1,4 @@
-# 2.3. Estructura básica de una página
+# Estructura básica de una página
 
 Primero me gustaría hacer una pequeña aclaración sobre terminología que voy a usar, diferenciaremos:
 - **Sitio web (o web)**: como el conjunto de todas las páginas en las que podemos navegar dentro de un mismo dominio (p.e: [rauljimenez.info](http://rauljimenez.info), [rauljimenez.info/contacto](http://rauljimenez.info/contacto), etc).
