@@ -11,5 +11,6 @@
    * [2.1. Etiquetas y atributos](leccion2/etiquetas_y_atributos.md)
    * [2.2. Anidación de etiquetas](leccion2/anidacion_de_etiquetas.md)
    * [2.3. Estructura básica de una página](leccion2/estructura_basica_de_una_pagina_md.md)
+   * 2.4. Etiquetas básicas
 * [4. Nuestro primer HTML](chapter3.md)
 
