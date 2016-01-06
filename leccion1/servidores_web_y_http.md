@@ -13,7 +13,7 @@ Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 * Servidores web: [Apache](http://www.apache.org/), [Nginx](http://nginx.org/) y [IIS](https://www.iis.net/), etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
 
 
-![Fuente: monitis.com](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+
 Fuente: [monitis.com - 16 de Enero de 2013](http://www.monitis.com/blog/2013/01/16/apache-rules-alexa-with-nginx-microsoft-and-others-playing-catch-up/)
 
 <small>Aclaraciones:</small><br>
