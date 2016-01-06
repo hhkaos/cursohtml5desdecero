@@ -29,4 +29,8 @@ Donde:
 - port = 80
 - path = introduccion-a-html5/content/chapter1.html
 - query = (vacío)
-- fragment = #primeros-pasos-con-html5
+- fragment = #primeros-pasos-con-html5 
+
+Otro ejemplo de URL válida podría ser: ```file:///Users/hhkaos/index.html```
+
+En este caso estamos le estamos indicando al navegador que acceda a un fichero que se encuentra en nuestro disco duro.
