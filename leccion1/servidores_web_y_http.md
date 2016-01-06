@@ -10,7 +10,7 @@ En el apartado *Peticiones HTTP* veremos en detalle cómo se comunica un servido
 
 Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 * Alojamiento web: 1and1, AWS, Linode, etc. ([ver más](http://hostarting.es/hostings/)) 
-* Servidores web: Apache, IIS, Nginx, etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
+* Servidores web: Apache, Nginx, IIS, etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
 
 
 ![Fuente: monitis.com](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
