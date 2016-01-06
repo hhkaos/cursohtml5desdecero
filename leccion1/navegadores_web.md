@@ -1,4 +1,4 @@
-# 1.3. Navegadores web
+# Navegadores web
 
 Es un programa que recibe, entiende y transforma el código que recibe desde un servidor web en algo entendible para un humano (una página web, imágenes, etc).
 
