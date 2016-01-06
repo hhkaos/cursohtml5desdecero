@@ -13,7 +13,7 @@ Dicho esto creo que es interesante conocer qué es un dominio y qué es un subdo
 Aunque el [ICANN](https://www.icann.org/) es la organización que gestiona los dominios a nivel mundial, existen multitud de empresas autorizadas para vender dominios.
 
 ### Servidores
-Como hemos mencionado anteriormente un servidor o hosting no es más que un ordenador* donde guardamos los ficheros que contienen nuestro sitio web.
+Como [hemos mencionado anteriormente](servidores_web_y_http.html) un servidor o hosting no es más que un ordenador* donde guardamos los ficheros que contienen nuestro sitio web.
 
 <small>Recordatorio: **En este curso usaremos nuestra máquina si ningún servidor HTTP ya que no nos hará falta de momento**.</small>
 
