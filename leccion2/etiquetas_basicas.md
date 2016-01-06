@@ -73,6 +73,6 @@ Es importante destacar que aunque el navegador le añade un estilo por defecto a
 
 Esto no es responsabilidad del HTML, esto lo podremos personalizar en un futuro con CSS. HTML sirve para dotar de estructura al contenido, y por tanto **lo importante es entender que lo que estamos haciendo es darle un valor semántico al mismo**.
 
-Este valor semántico es **muy importante** entre otras cosas para que los buscadores (que no son más que programas automatizados) puedan "entender" el contenido de nuestra página y así poder detectar de qué habla nuestra página y qué es importante.
+Este valor semántico es **muy importante** entre otras cosas para que los buscadores (que no son más que programas automatizados) puedan "entender" el contenido de nuestra página y así poder detectar de qué estamos hablando y qué es importante.
 
-Además de para los buscadores, esta estructura es muy importante para otras herramientas como los navegadores para invidentes (por ejemplo [WebbIE](http://www.webbie.org.uk/es/)) que lo que hacen es leer el código al usuario.
+Pero no sólo es importante para los buscadores, esta estructura es muy importante para otras herramientas como por ejemplo los navegadores para invidentes (por ejemplo [WebbIE](http://www.webbie.org.uk/es/)) que lo que hacen es leer el contenido al usuario.
