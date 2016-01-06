@@ -1,4 +1,4 @@
-# 1.- Conceptos básicos
+# Conceptos básicos
 
 En esta primera lección vamos a ver:
 * Qué vamos a necesitar para el curso
