@@ -16,13 +16,6 @@ Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de 
 
 **Es importante conocer e interiorizar bien estos conceptos y herramientas** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recursos de Internet.
 
-## ¿Qué vamos a necesitar?
-Un **navegador y un editor de código** (o editor de texto), en este curso te recomiendo usar [Google Chrome](https://www.google.com/chrome/) porque incluye ambas herramientas (navegador y editor), además de porque **considero que es más didáctico** y te ayudará a asimilar mejor los conceptos.
-
-Es habitual encontrar profesionales que usen otros programas como: [Sublime Text](http://www.sublimetext.com/3), [Atom.io](https://atom.io/), [Brackets](http://brackets.io/), [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ](https://www.jetbrains.com/idea/), ... pero nosotros de momento no usaremos ninguno de ellos.
-
-**Nota**: Es posible que hayas oído hablar de Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos, no porque los dos primeros sean de pago, sino porque incluyen botones que introducen código (cosa que muchas veces nos incita a introducir código innecesario). El tercero no lo recomiendo porque considero que como decimos habitualmente en España: *es matar moscas a cañonazos*; además de ser un programa que consume bastantes recursos.
-
 ## Servidores web y HTTP
 Para este curso nos vale con entender las siguientes definiciones (informales):
 - Un **servidor HTTP**: programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten.
