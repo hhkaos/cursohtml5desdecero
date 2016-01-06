@@ -68,13 +68,14 @@ Esto generaría una página como la siguiente:
 <hr>
 Si quieres puedes ver [el ejemplo en vivo aquí](https://hhkaos.gitbooks.io/introduccion-a-html5/content/leccion2/ejemplo_con_etiquetas_basicas.html).
 
-Es importante destacar que aunque el navegador le añade un estilo por defecto a las etiquetas, por ejemplo:
+Es importante destacar que aunque el navegador le añade un estilo (CSS) por defecto a las etiquetas, por ejemplo:
+* ```h1``` y ```h2``` una fuente mayor y negrita
 * ```strong```en negrita
 * ```ul``` y ```ol``` con un margen a la izquierda y un punto o número respectivamente
 * ```em``` en cursiva
 
-Esto no es responsabilidad del HTML, esto lo podremos personalizar en un futuro con CSS. HTML sirve para dotar de estructura al contenido, y por tanto **lo importante es entender que lo que estamos haciendo es darle un valor semántico al mismo**.
+Esto no es responsabilidad del HTML, esto lo podremos personalizar en un futuro con CSS. Así que insisto, recuerda que HTML **sólo sirve** para dotar de estructura al contenido, y por tanto **lo importante es entender que: lo que estamos haciendo es darle un valor semántico al mismo**.
 
-Este valor semántico es **muy importante** entre otras cosas para que los buscadores (que no son más que programas automatizados) puedan "entender" el contenido de nuestra página y así poder detectar de qué estamos hablando y qué es importante.
-
-Pero no sólo es importante para los buscadores, esta estructura es muy importante para otras herramientas como por ejemplo los navegadores para invidentes (por ejemplo [WebbIE](http://www.webbie.org.uk/es/)) que lo que hacen es leer el contenido al usuario.
+Este valor semántico es **muy importante** entre otras cosas para por ejemplo:
+* Que los buscadores (que no son más que programas automatizados) puedan "entender" el contenido de nuestra página y así poder detectar de qué estamos hablando y qué es importante.
+* Para que otras herramientas como por ejemplo los navegadores para invidentes (por ejemplo [WebbIE](http://www.webbie.org.uk/es/)) que lo que hacen es leer el contenido al usuario.
