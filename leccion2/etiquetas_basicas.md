@@ -10,27 +10,27 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 
 * ```<ul></ul>```: representa una lista de elementos, donde el orden de los elementos no es importante - esto quiere decir que el cambio del orden no modifica el significado. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-ul-element)).
 
-* ```<li></li>```: representa un elemento de la lista. Si su padre es *ol*, o *ul*, entonces The li element represents a list item. If its parent element is an ol, or ul, then the element is an item of the parent element's list, as defined for those elements. Otherwise, the list item has no defined list-related relationship to any other li element. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-li-element)).
+* ```<ol></ol>```: representa una lista de elementos, donde el orden de los elementos sí es importante - esto quiere decir que el cambio del orden modifica el significado. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-ol-element)).
 
-* ```<ol></ol>```: The ol element represents a list of items, where the items have been intentionally ordered, such that changing the order would change the meaning of the document. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-ol-element)).
+* ```<li></li>```: representa un elemento de la lista y su padre siempre tiene que ser una etiqueta *ol* o *ul*. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-li-element)).
 
-* ```<strong></strong>```: The strong element represents strong importance, seriousness, or urgency for its contents. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-strong-element)).
+* ```<strong></strong>```: representa algo muy importante, serio (para avisos o precauciones) o urgente (que debe ser leído antes). ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-strong-element)).
 
-* ```<em></em>```: The em element represents stress emphasis of its contents. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-em-element)).
+* ```<em></em>```: sirve para enfatizar en el contenido. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-em-element)).
 
-* ```<!-- -->```: se utiliza para comentarios dentro del código que el usuario no podrá ver. Por ejemplo para añadir notas de tareas pendientes, aclaraciones que nos ayuden a nosotros o a otras personas a entender el código, etc.  ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#comments)).
+* ```<!-- -->```: se utiliza para añadir comentarios dentro del código que el usuario no podrá ver. Por ejemplo para añadir notas de tareas pendientes, aclaraciones que nos ayuden a nosotros o a otras personas a entender el código, etc.  ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#comments)).
 
 El siguiente ejemplo muestra una página web que combina todas ellas:
 
 ```html
 <!DOCTYPE html>
+<!-- TODO: añadir la etiqueta lang -->
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Ejemplo con etiquetas básicas</title>
 </head>
 <body>
-    <!-- Este comentario no lo podrá ver el visitante -->
     <h1>Mi primer ejemplo</h1>
     <p>
         Este ejemplo muestra cómo combinar algunas de las etiquetas más básicas de HTML5. <br>
