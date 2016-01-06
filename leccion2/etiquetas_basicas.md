@@ -31,12 +31,13 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
 	<title>Ejemplo con etiquetas básicas</title>
 </head>
 <body>
-    <h1>Mi primer ejemplo</h1>
+    <h1>Significado de las etiquetas en HTML</h1>
     <p>
         Este ejemplo muestra cómo combinar algunas de las etiquetas más básicas de HTML5. <br>
         Recuerda que <strong>es importante entender la diferencias entre ellas</strong>.
     </p>
     
+    <h2>Etiqueta ul+li</h2>
     <p>
         Por ejemplo si no importa el orden, como si listamos personas nominadas a los Oscars,  podemos de los elementos en una lista debemos usar <em>ul</em>. 
     </p>
@@ -47,6 +48,7 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
         <li>Dani Rovira</li>
     </ul>
     
+    <h2>Etiqueta ol+li</h2>
     <p>
         Pero si estamos listando elementos donde el orden el importante, como por ejemplo la clasificación del mundial de fútbol del 2010 debemos usar <em>ol</em>.
     </p>
