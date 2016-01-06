@@ -39,7 +39,7 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
     
     <h2>Etiqueta ul+li</h2>
     <p>
-        Por ejemplo si no importa el orden, como si listamos personas nominadas a los Oscars, debemos usar <em>ul</em>. 
+        Si listamos personas nominadas a los Oscars, dado que el orden no altera el significado, debemos usar <em>ul</em>. 
     </p>
     <ul>
         <li>David Verdaguer</li>
@@ -50,7 +50,7 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
     
     <h2>Etiqueta ol+li</h2>
     <p>
-        Pero si estamos listando elementos donde el orden es importante, como por ejemplo la clasificación del mundial de fútbol del 2010, debemos usar <em>ol</em>.
+        En el caso de que estemos listando elementos donde el orden es importante, como por ejemplo la clasificación de un mundial de fútbol, debemos usar <em>ol</em>.
     </p>
     <ol>	 
         <li>España</li>
