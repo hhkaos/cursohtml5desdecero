@@ -4,7 +4,7 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 
 * ```<h1></h1>```: esta etiqueta se utiliza para representar el encabezado de una página ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)).
 
-* ```<p></p>```: The p element represents a paragraph ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-p-element)).
+* ```<p></p>```: representa un párrafo ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-p-element)).
 
 * ```<br>```: The br element represents a line break. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-p-element)).
 
@@ -22,3 +22,26 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 
 El siguiente ejemplo muestra una página web que combina todas ellas:
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo con etiquetas básicas</title>
+</head>
+<body>
+    <!-- Este comentario no lo podrá ver el visitante -->
+    <h1>Mi primer ejemplo</h1>
+    <p>
+        Este ejemplo muestra cómo combinar algunas de las etiquetas más básicas de HTML5. <br>
+        Recuerda que <strong>es importante entender la diferenciae entre ellas</strong>, por ejemplo tenemos dos etiquetas para crear listas:
+    </p>
+    <ul>
+        <li><em>ul</em> para listas desordenadas</li>
+        <li><em>ol</em> para listas ordenadas</li>
+    </ul>
+</body>
+</html>
+```
+
+En este código 
