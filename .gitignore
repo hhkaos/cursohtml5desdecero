@@ -16,3 +16,5 @@ _book
 *.pdf
 *.iml
 .idea
+
+*.zip

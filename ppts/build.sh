@@ -175,10 +175,11 @@ function buildDeckSlides() {
 function buildRevealSlides() {
 
   downloadLib hakimel reveal.js
+  downloadLib denehyg reveal.js-menu
 
   echo -e "Exporting...                   ../export/$1-reveal-slides$2.html"
 
-  pandoc -w revealjs --template $ORIGIN/templates/reveal-slides-template$2.html --number-sections --email-obfuscation=none -o ../export/$1-reveal-slides$2.html ../export/$1-to-slides.md
+  pandoc -w revealjs --template $ORIGIN/templates/reveal-slides-template$2.html --number-sections --email-obfuscation=none --highlight-style=haddock -o ../export/$1-reveal-slides$2.html ../export/$1-to-slides.md
 
   sed -i s/h1\>/h2\>/g ../export/$1-reveal-slides$2.html
   sed -i s/\>\<h2/\>\<h1/g ../export/$1-reveal-slides$2.html
@@ -204,7 +205,7 @@ function buildHtml() {
 
   echo -e "Exporting...                   ../export/$1.html"
 
-  pandoc -w html5 --template $ORIGIN/templates/html-template.html --number-sections --email-obfuscation=none --toc --highlight-style=tango -o ../export/$1.html ../export/$1-to-book.md
+  pandoc -w html5 --template $ORIGIN/templates/html-template.html --number-sections --email-obfuscation=none --toc --highlight-style=monokai -o ../export/$1.html ../export/$1-to-book.md
 }
 
 function buildDocx() {
@@ -232,19 +233,19 @@ function exportMdToSlides() {
 
   cleanMdToSlides $1
 
-  buildDeckSlides $1
+  #buildDeckSlides $1
 
   if [ $GENERATION_MODE == "med" -o $GENERATION_MODE == "max" ]; then
     buildRevealSlides $1
-    buildRevealSlidesPdf $1
+    #buildRevealSlidesPdf $1
   fi
 
-  if [ $GENERATION_MODE == "max" ]; then
-    buildDeckSlides $1 -alternative
-    buildRevealSlides $1 -alternative
-    buildRevealSlidesPdf $1 -alternative
-    buildBeamer $1
-  fi
+  #if [ $GENERATION_MODE == "max" ]; then
+    #buildDeckSlides $1 -alternative
+    #buildRevealSlides $1 -alternative
+    #buildRevealSlidesPdf $1 -alternative
+    #buildBeamer $1
+  #fi
 }
 
 function exportMdToBook() {
@@ -268,7 +269,7 @@ function exportMdFile() {
 
   exportMdToSlides $1
   echo -e "- - - - - - - - - - - - - - - -"
-  exportMdToBook $1
+  #exportMdToBook $1
 }
 
 function processFolder() {

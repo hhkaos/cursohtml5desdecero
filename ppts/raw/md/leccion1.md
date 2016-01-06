@@ -1,6 +1,6 @@
-% Introducción a HTML5
-% Introducción
-% Raúl Jiménez Ortega - Enero 2016
+% Conceptos básicos
+% Lección 1
+% www.cursohtml5desdecero.com
 
 # Introducción
 

@@ -15,6 +15,7 @@ $endfor$
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.css">
+  <link rel="stylesheet" href="../lib/reveal.js-menu-master/menu.css">
 $if(highlighting-css)$
   <style type="text/css">
 $highlighting-css$
@@ -66,13 +67,15 @@ $endif$
   <!-- Overwrite images -->
   <style type="text/css">
     .reveal pre code {
-      background: rgba(255, 255, 255, 0.7);
+      background: rgba(255, 255, 255, 1);
       color: rgba(0, 0, 0, 0.7);
+      padding: 1em;
     }
     .reveal section img {
       margin: 15px 0px;
       padding: 15px;
       background: rgba(255, 255, 255, 0.9);
+      max-height: 450px;
     }
     strong {
       color: #777
@@ -149,6 +152,7 @@ $endfor$
 
   <script src="../lib/reveal.js-master/lib/js/head.min.js"></script>
   <script src="../lib/reveal.js-master/js/reveal.js"></script>
+  <script src="../lib/reveal.js-menu-master/menu.js"></script>
 
   <script>
 
