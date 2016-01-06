@@ -6,7 +6,7 @@
    * [Servidores web y HTTP](leccion1/servidores_web_y_http.md)
    * [Navegadores web](leccion1/navegadores_web.md)
    * [Funcionamiento de las URLs](leccion1/funcionamiento_de_las_urls.md)
-   * [1.5. Peticiones HTTP](leccion1/peticiones_http.md)
+   * [Peticiones HTTP](leccion1/peticiones_http.md)
    * [1.6. Ejercicio](leccion1/ejercicio.md)
    * [1.7. Recursos](leccion1/extra_opcional.md)
 * [2. Primeros pasos con HTML5](chapter2.md)
