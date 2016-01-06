@@ -1,6 +1,6 @@
 # Peticiones HTTP
 
-Cuando nuestro navegador quiere acceder a una página web a través de HTTP (*scheme* = http), lo que hace es comunicarse con un servidor HTTP. Para ello descompone la URL en diferentes partes que le permite conocer la dirección de la máquina (host) y la ruta (*path*) del recurso que se quiere solicitar (o el del que se quiere enviar), y envía un mensaje a la máquina, lo que formalmente se conoce como una *petición*.
+Cuando nuestro navegador quiere acceder a una página web a través de HTTP (*scheme* = http), lo que hace es comunicarse con un servidor HTTP. Para ello descompone la URL en diferentes partes que le permite conocer la dirección de la máquina (host) y la ruta (*path*) del recurso que al que quiere acceder (o al que le va a enviar información), y envía un mensaje a la servidor, lo que formalmente se conoce como una *petición*.
 
 Algunas de las acciones que provocan que el navegador realice una petición HTTP son: pulsar un enlace, refrescar una pestaña, escribir una URL en la barra de direcciones o enviar un formulario.
 
