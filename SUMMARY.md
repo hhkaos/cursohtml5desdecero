@@ -16,6 +16,6 @@
    * [2.4. Etiquetas básicas](leccion2/etiquetas_basicas.md)
    * [2.5. Ejercicio](leccion2/ejercicio.md)
    * [2.6. Recursos](leccion2/recursos.md)
-   * ejemplo_con_etiquetas_basicas.html
+   * [ejemplo_con_etiquetas_basicas.html](ejemplocon_etiquetas_basicas_html.html)
 * [3. Nuestro primer HTML](chapter3.md)
 
