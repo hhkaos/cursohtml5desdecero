@@ -9,5 +9,6 @@
    * [1.5. Peticiones HTTP](leccion1/peticiones_http.md)
 * [2. Primeros pasos con HTML5](chapter2.md)
    * [2.1. Etiquetas y atributos](leccion2/etiquetas_y_atributos.md)
+   * 2.2. Anidación de etiquetas
 * [4. Nuestro primer HTML](chapter3.md)
 
