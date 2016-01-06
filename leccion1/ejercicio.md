@@ -6,4 +6,4 @@ En esta primera lección sólo quiero que hagas un ejercicio tipo test para ver 
 
 Ah! por cierto, puedes repetirlo tantas veces como quieras.
 
-Si hay algo que no te haya quedado claro puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues).
+Si hay algo que no te haya quedado claro, recuerda que puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues).
