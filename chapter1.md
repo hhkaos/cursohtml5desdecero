@@ -179,8 +179,22 @@ A continuación explicamos la función que cumple cada etiqueta:
 * ```<title> ... </title>```: indica el título de nuetra página. Este se muestra en: la pestaña del navegador, el enlace que indexan los buscadores, etc.
 * ```<body> ... </body>```: contiene todo el contenido visible por el usuario *dentro* de nuestra página.
 
-## Etiquetas
-h1,.. comentarios, p br, ul, ol, a,
+## Etiquetas básicas
+
+Para terminar esta lección vamos a aprender el significado de ocho de las etiquetas que nos encontraremos con mucha frecuencia:
+
+* ```<h1></h1>```: esta etiqueta seutiliza para representar el encabezado de una páginathese elements represent headings for their sections.
+* ```<p></p>```: The p element represents a paragraph.
+* ```<br>```: The br element represents a line break.
+* ```<ul></ul>```: The ul element represents a list of items, where the order of the items is not important — that is, where changing the order would not materially change the meaning of the document.
+* ```<li></li>```: The li element represents a list item. If its parent element is an ol, or ul, then the element is an item of the parent element's list, as defined for those elements. Otherwise, the list item has no defined list-related relationship to any other li element.
+* ```<ol></ol>```: The ol element represents a list of items, where the items have been intentionally ordered, such that changing the order would change the meaning of the document.
+* ```<strong></strong>```: The strong element represents strong importance, seriousness, or urgency for its contents.
+* ```<em></em>```: The em element represents stress emphasis of its contents.
+
+* ```<!-- -->```: comentarios
+
+
 
 ## Recursos
 Te dejo dos tipos de recursos, los avanzados te recomiendo que los mires sólo si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc) o... si no le tienes miedo a nada ;D:
@@ -197,9 +211,9 @@ Te dejo dos tipos de recursos, los avanzados te recomiendo que los mires sólo s
 
 En esta primera lección sólo quiero que hagas un ejercicio tipo test para que puedas comprobar que has entendido todos los conceptos (por cierto, podrás repetirlo tantas veces como quieras).
 
-[Empezar ejercicio tipo test de autoevaluación](http://www.cursohtml5desdecero.com/tests/leccion1.html)
+[Empezar ejercicio tipo test de autoevaluación.](http://www.cursohtml5desdecero.com/tests/leccion1.html)
 
-Si hay algo que no te haya quedado claro puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues)
+Si hay algo que no te haya quedado claro puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues).
 
 ## Extra (opcional)
 
