@@ -85,7 +85,7 @@ Es importante destacar que aunque el navegador le añade un estilo (CSS) por def
 * ```ul``` y ```ol``` con un margen a la izquierda y un punto o número respectivamente
 * ```em``` en cursiva
 
-Esto no es responsabilidad del HTML, esto lo podremos personalizar en un futuro con CSS. Así que insisto, recuerda que HTML **sirve** para dotar de estructura al contenido, y por tanto **lo importante es entender que: lo que estamos haciendo es darle un valor semántico al mismo**.
+Esto no es responsabilidad del HTML, esto lo podremos personalizar en un futuro con CSS. Así que insisto, recuerda que HTML **sólo sirve para dotar de estructura y semántica al contenido**.
 
 Este valor semántico es **muy importante** entre otras cosas para por ejemplo:
 * Que los buscadores (que no son más que programas automatizados) puedan "entender" el contenido de nuestra página y así poder detectar de qué estamos hablando y qué es importante.
