@@ -34,12 +34,28 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
     <h1>Mi primer ejemplo</h1>
     <p>
         Este ejemplo muestra cómo combinar algunas de las etiquetas más básicas de HTML5. <br>
-        Recuerda que <strong>es importante entender la diferenciae entre ellas</strong>, por ejemplo tenemos dos etiquetas para crear listas:
+        Recuerda que <strong>es importante entender la diferencias entre ellas</strong>.
+    </p>
+    
+    <p>
+        Por ejemplo si no importa el orden, como si listamos personas nominadas a los Oscars,  podemos de los elementos en una lista debemos usar <em>ul</em>. 
     </p>
     <ul>
-        <li><em>ul</em> para listas desordenadas</li>
-        <li><em>ol</em> para listas ordenadas</li>
+        <li>David Verdaguer</li>
+        <li>Jesús Castro</li>
+        <li>Israel Elejalde</li>
+        <li>Dani Rovira</li>
     </ul>
+    
+    <p>
+        Pero si estamos listando elementos donde el orden el importante, como por ejemplo la clasificación del mundial de fútbol del 2010 debemos usar <em>ol</em>.
+    </p>
+    <ol>	 
+        <li>España</li>
+        <li>Países Bajos</li>
+        <li>Alemania</li>
+        <li>Uruguay</li>
+    </ol>
 </body>
 </html>
 ```
