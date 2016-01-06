@@ -1,4 +1,4 @@
-# 1.4. Funcionamiento de las URLs
+# 1.4. URLs
 
 Para acceder a un fichero/recurso a través de un navegador usamos la URL (Uniform Resource Locator). Cualquier URL sigue el siguiente formato:
 
