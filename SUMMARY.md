@@ -9,7 +9,7 @@
    * [Peticiones HTTP](leccion1/peticiones_http.md)
    * [Ejercicio](leccion1/ejercicio.md)
    * [Recursos](leccion1/extra_opcional.md)
-* [2. Primeros pasos con HTML5](chapter2.md)
+* [Primeros pasos con HTML5](chapter2.md)
    * [2.1. Etiquetas y atributos](leccion2/etiquetas_y_atributos.md)
    * [2.2. Anidación de etiquetas](leccion2/anidacion_de_etiquetas.md)
    * [2.3. Estructura básica de una página](leccion2/estructura_basica_de_una_pagina_md.md)
