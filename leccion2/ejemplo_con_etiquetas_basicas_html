@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo con etiquetas básicas</title>
+</head>
+<body>
+    <!-- Este comentario no lo podrá ver el visitante -->
+    <h1>Mi primer ejemplo</h1>
+    <p>
+        Este ejemplo muestra cómo combinar algunas de las etiquetas más básicas de HTML5. <br>
+        Recuerda que <strong>es importante entender la diferenciae entre ellas</strong>, por ejemplo tenemos dos etiquetas para crear listas:
+    </p>
+    <ul>
+        <li><em>ul</em> para listas desordenadas</li>
+        <li><em>ol</em> para listas ordenadas</li>
+    </ul>
+</body>
+</html>
