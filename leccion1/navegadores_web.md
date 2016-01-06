@@ -1,6 +1,6 @@
-# Navegadores web
+# Navegadores
 
-Es un programa que recibe, entiende y transforma el código que recibe desde un servidor web en algo entendible para un humano (una página web, imágenes, etc).
+Un navegador es un programa (complejo) que entiende y transforma el código que recibe desde un servidor<sup>1</sup> en algo entendible para un humano (una página web, imágenes, etc).
 
 Entre algunas de las responsabilidades que debe garantizar un navegador se encuentran:
 
@@ -8,6 +8,9 @@ Entre algunas de las responsabilidades que debe garantizar un navegador se encue
 
 * **Seguridad**: dado que los navegadores reciben código escrito normalmente por otras personas, el navegador implementa algunas reglas de seguridad. Estas reglas se definen a diferentes niveles: durante la conexión entre las máquinas y el envío ([HTTPS](https://en.wikipedia.org/wiki/HTTPS)), al ejecutarse en el navegador ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)), etc.
 
-* **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga para mejorar la experiencia del usuario, por ejemplo: utilizar una memoria de almacenamiento temporal (memoria caché), etc.
+* **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga y mejorar la experiencia del usuario, por ejemplo: utilizar una memoria de almacenamiento temporal (memoria caché), comprimir/descomprimir los mensajes durante las comunicaciones,  etc.
 
-Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web) y de [servidores HTTP](https://es.wikipedia.org/wiki/Servidor_web#Software) en los módulos de HTML5 y CSS3 usaremos solamente Google Chrome y nuestra máquina mientras desarrollamos y Github cuando tengamos que publicar nuestros ejercicios, ya que este nos ofrece un servidor web y HTTP gratuito.
+Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web), nosotros usaremos Google Chrome durante todo el curso.
+
+<small>Aclaraciones:</small><br>
+<small>1. Normalmente a través de un servidor web HTTP</small><br>
