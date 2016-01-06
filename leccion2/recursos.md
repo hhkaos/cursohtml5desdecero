@@ -1,4 +1,4 @@
-# 2.5. Recursos
+# Recursos
 
 Te dejo dos tipos de recursos, los avanzados te recomiendo que los mires sólo si ya tenías un conocimiento previo de programación web (XHTML, HTML4, etc) o... si no le tienes miedo a nada ;D:
 
