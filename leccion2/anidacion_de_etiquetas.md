@@ -7,11 +7,13 @@ Por ejemplo:
 ```html
 <head>
     <title>Título de la página</title>
+    <meta name="author" content="Raúl Jiménez Ortega - @hhkaos">
 </head>
 ```
 En este caso vemos que la etiqueta **head** tiene como contenido a otra etiqueta **title**. En este caso se dice que:
-* La etiqueta *head* es el **padre** de la etiqueta *title*.
-* Y que la etiqueta *title* es **hija** de la etiqueta *head*.
+* La etiqueta *head* es el **padre** de la etiqueta *title* y *meta*.
+* Y que la etiqueta *title* y *meta* son **hijas** de la etiqueta *head*.
+* La etiqueta *title* y *meta* son hermanas.
 
 Si nos fijamos, además, la etiqueta anidada (*title*) está en una nueva línea y con un nivel de [indentación](https://es.wikipedia.org/wiki/Indentaci%C3%B3n)/sangrado mayor. Esto es así por una [convención](http://lema.rae.es/drae/srv/search?id=j5dMxst0MDXX2F43uojM) mundial a la que se ha llegado para que los programadores escribamos código de una manera similar, tanto para hacernos más fácil y comprensible el código cuando este crezca, como para cuando tengamos que compartirlo con otros programadores.
 
