@@ -1,6 +1,6 @@
 # ¿Qué vamos a necesitar?
 
-Un **navegador y un editor de código** (o editor de texto), en este curso te recomiendo usar [Google Chrome](https://www.google.com/chrome/) porque incluye ambas herramientas (navegador y editor), además de porque **considero que es más didáctico** y te ayudará a asimilar mejor los conceptos.
+Un **navegador y un editor de código** (o editor de texto), en este curso usaremos [Google Chrome](https://www.google.com/chrome/) porque incluye ambas herramientas (navegador y editor), además de porque **considero que es más didáctico** y te ayudará a asimilar mejor los conceptos.
 
 Es habitual encontrar profesionales que usen otros programas como: [Sublime Text](http://www.sublimetext.com/3), [Atom.io](https://atom.io/), [Brackets](http://brackets.io/), [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ](https://www.jetbrains.com/idea/), ... pero nosotros de momento no usaremos ninguno de ellos.
 
