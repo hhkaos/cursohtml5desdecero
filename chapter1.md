@@ -16,13 +16,6 @@ Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de 
 
 **Es importante conocer e interiorizar bien estos conceptos y herramientas** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recursos de Internet.
 
-## Servidores web y HTTP
-Para este curso nos vale con entender las siguientes definiciones (informales):
-- Un **servidor HTTP**: programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten.
-- Un **servidor web**: ordenador conectado a Internet en el que hay instalado entre otros programas, el servidor HTTP y al que podemos solicitarle recursos.
-
-Posteriormente en esta lección veremos más en detalle cómo se comunica un servidor web que tiene instalado un servidor HTTP con nuestro navegador.
-
 ## Navegadores web
 
 Es un programa que recibe, entiende y transforma el código que recibe desde un servidor web en algo entendible para un humano (una página web, imágenes, etc).
