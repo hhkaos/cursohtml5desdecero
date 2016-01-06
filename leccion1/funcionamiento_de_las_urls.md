@@ -6,7 +6,7 @@ Para acceder a un fichero/recurso a través de un navegador usamos la URL (Unifo
 scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 ```
 
-**Aclaración**: En informática se utilizan los corchetes **[]** para indicar que lo que se encuentra contenido entre ellos es opcional.
+**Aclaración**: En informática se utilizan los corchetes **[ ]** para indicar que lo que se encuentra contenido entre ellos es opcional.
 
 Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 
