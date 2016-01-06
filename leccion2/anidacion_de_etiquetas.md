@@ -1,4 +1,4 @@
-# 2.2. Anidación de etiquetas
+# Anidación de etiquetas
 
 También es importante saber que unas etiquetas pueden contener a otras (una o varias), o como se suele decir "que se pueden anidar".
 
