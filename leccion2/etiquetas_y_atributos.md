@@ -18,7 +18,7 @@ Vemos que las etiquetas **siempre** están contenidas entre los símbolos *< >*,
 <etiqueta atributo="valor">
 ```
 
-Otro detalle importante es que el *atributo* y el *valor* son opcionales.
+Es importante destacar que el *atributo* es un valor opcional
 
 Vamos a ver algunos ejemplos de etiquetas:
 - **etiqueta**: *html*, *head*, *meta*, *title*, *body*... 
