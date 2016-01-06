@@ -20,6 +20,17 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 
 * ```<!-- -->```: se utiliza para añadir comentarios dentro del código que el usuario no podrá ver. Por ejemplo para añadir notas de tareas pendientes, aclaraciones que nos ayuden a nosotros o a otras personas a entender el código, etc.  ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#comments)).
 
+
+**Truco**: Para que recuerdes mejor qué significa cada elemento, las etiquetas piensa en los acrónimos en inglés:
+* h1 = **h**eading**1**; h2 = **h**eading **2**; ...
+* p = **p**aragraph
+* br = **b**reak **l**ine
+* ul = **u**nordered **l**ist
+* ol = **o**rdered **l**ist
+* li = **l**ist **i**tem
+* em = **em**phasis
+
+
 El siguiente ejemplo muestra una página web que combina todas ellas:
 
 ```html
