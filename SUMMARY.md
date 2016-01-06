@@ -16,6 +16,6 @@
    * [Etiquetas básicas](leccion2/etiquetas_basicas.md)
    * [Ejercicio](leccion2/ejercicio.md)
    * [Recursos](leccion2/recursos.md)
-   * Introducción a HTML5
+   * [Introducción a HTML5](leccion1/introduccion_a_html5.md)
 * [Nuestro primer HTML](chapter3.md)
 
