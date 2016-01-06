@@ -13,8 +13,8 @@ Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 * Servidores web: [Apache](http://www.apache.org/), [Nginx](http://nginx.org/) y [IIS](https://www.iis.net/), etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
 
 
-
-Fuente: [monitis.com - 16 de Enero de 2013](http://www.monitis.com/blog/2013/01/16/apache-rules-alexa-with-nginx-microsoft-and-others-playing-catch-up/)
+![](../images/ranking_servers.png)<br>
+Fuente: [w3techs - 6 de Enero de 2016](http://w3techs.com/technologies/overview/web_server/all)
 
 <small>Aclaraciones:</small><br>
 <small>1. Hay muchos [tipos de hosting](https://es.wikipedia.org/wiki/Alojamiento_web#Tipos_de_alojamiento_web_en_Internet), aunque a nosotros nos vale con esta definición</small><br>
