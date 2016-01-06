@@ -78,4 +78,4 @@ Esto no es responsabilidad del HTML, esto lo podremos personalizar en un futuro 
 
 Este valor semántico es **muy importante** entre otras cosas para por ejemplo:
 * Que los buscadores (que no son más que programas automatizados) puedan "entender" el contenido de nuestra página y así poder detectar de qué estamos hablando y qué es importante.
-* Para que otras herramientas como por ejemplo los navegadores para invidentes (por ejemplo [WebbIE](http://www.webbie.org.uk/es/)) que lo que hacen es leer el contenido al usuario.
+* Para que otras herramientas como por ejemplo los navegadores para invidentes (p.e. [WebbIE](http://www.webbie.org.uk/es/)) que lo que hacen es leer el contenido al usuario u otros [navegadores basados en texto](https://es.wikipedia.org/wiki/Navegador_web#Navegadores_web_basados_en_texto).
