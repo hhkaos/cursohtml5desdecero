@@ -9,8 +9,12 @@ En este curso usarás tu máquina como servidor mientras estés haciendo pruebas
 En el apartado *Peticiones HTTP* veremos en detalle cómo se comunica un servidor que tenga un servidor HTTP instalado con nuestro navegador.
 
 Algunos de los servidores webs y empresas que ofrecen alojamiento web:
+* Alojamiento web: 1and1, AWS, Linode, etc. ([ver más](http://hostarting.es/hostings/)) 
 * Servidores web: Apache, IIS, Nginx, etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
-* Alojamiento web: 1and1, AWS, Linode, etc. ([ver más](http://hostarting.es/hostings/))
+
+
+![Fuente: monitis.com](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+Fuente: [monitis.com](http://www.monitis.com/blog/2013/01/16/apache-rules-alexa-with-nginx-microsoft-and-others-playing-catch-up/)
 
 <small>Aclaraciones:</small><br>
 <small>1. Hay muchos [tipos de hosting](https://es.wikipedia.org/wiki/Alojamiento_web#Tipos_de_alojamiento_web_en_Internet), aunque a nosotros nos vale con esta definición</small><br>
