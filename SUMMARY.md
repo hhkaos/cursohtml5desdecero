@@ -4,7 +4,7 @@
 * [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
 * [Conceptos básicos](chapter1.md)
    * [Servidores web y HTTP](leccion1/servidores_web_y_http.md)
-   * [Navegadores web](leccion1/navegadores_web.md)
+   * [Navegadores](leccion1/navegadores_web.md)
    * [URLs](leccion1/funcionamiento_de_las_urls.md)
    * [Peticiones HTTP](leccion1/peticiones_http.md)
    * [Ejercicio](leccion1/ejercicio.md)
