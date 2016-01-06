@@ -8,5 +8,6 @@
    * [1.4. Funcionamiento de las URLs](leccion1/funcionamiento_de_las_urls.md)
    * [1.5. Peticiones HTTP](leccion1/peticiones_http.md)
 * [2. Primeros pasos con HTML5](chapter2.md)
+   * 2.1. Etiquetas y atributos
 * [4. Nuestro primer HTML](chapter3.md)
 
