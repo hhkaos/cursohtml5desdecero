@@ -17,6 +17,6 @@ Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 Fuente: [w3techs - 6 de Enero de 2016](http://w3techs.com/technologies/overview/web_server/all)
 
 <small>Aclaraciones:</small><br>
-<small>1. No siempre tiene que ser con un navegador, puede ser con otro tipo de software.</small><br>
+<small>1. No siempre tiene que ser también con un navegador, puede ser con otro tipo de software.</small><br>
 <small>2. Hay muchos [tipos de hosting](https://es.wikipedia.org/wiki/Alojamiento_web#Tipos_de_alojamiento_web_en_Internet), aunque a nosotros nos vale con esta definición</small><br>
 <small>3. También podría estar conectado a una [intranet](https://en.wikipedia.org/wiki/Intranet) (o red local)</small>
