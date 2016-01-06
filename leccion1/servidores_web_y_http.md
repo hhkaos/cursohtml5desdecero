@@ -1,7 +1,7 @@
 # Alojamiento y servidores HTTP
 
 Para este curso nos vale con entender las siguientes definiciones (informales):
-- **[Servidor web HTTP](https://es.wikipedia.org/wiki/Servidor_web)** (o simplemente: *servidor web* o *servidor HTTP*): es programa que se encarga (entre otras cosas) de enviar archivos desde el disco duro del ordenador donde está instalado a los navegadores web que los soliciten.
+- **[Servidor web HTTP](https://es.wikipedia.org/wiki/Servidor_web)** (o simplemente: *servidor web* o *servidor HTTP*): es programa que se encarga (entre otras cosas) de las comunicaciones con el navegador. Envia y recibe mensajes y archivos.
 - Un **[alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web)** (*web hosting* o *hosting*): es un ordenador<sup>1</sup> conectado a Internet<sup>2</sup> (normalmente 24 horas, 7días a la semana) en el que hay instalado entre otros programas, el servidor HTTP y al que podemos solicitarle recursos. Comúnmente también se le llama: **servidor**.
 
 En este curso usarás tu máquina como servidor mientras estés haciendo pruebas, y posteriomente usarás el hosting gratuito y el servidor HTTP que ofrece Github para entregar los ejercicios.
