@@ -6,7 +6,7 @@ Para este curso nos vale con entender las siguientes definiciones (informales):
 
 En este curso usarás tu máquina como servidor mientras estés haciendo pruebas, y posteriomente usarás el hosting gratuito y el servidor HTTP que ofrece Github para entregar los ejercicios.
 
-En el apartado *Peticiones HTTP* veremos en detalle cómo se comunica un servidor web que tiene instalado un servidor HTTP con nuestro navegador.
+En el apartado *Peticiones HTTP* veremos en detalle cómo se comunica un servidor que tiene instalado un servidor HTTP con nuestro navegador.
 
 Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 * Servidores web: Apache, IIS, Nginx, etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
