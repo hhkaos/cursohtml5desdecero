@@ -11,9 +11,13 @@ A lo largo del mismo te voy a:
 Es **importante** saber que en el mundo de la programación web hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
 Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y es por ello que **no entraré en profundidad en todos y cada uno de los elementos y características** de cada lenguaje.
 
-**El objetivo del curso es dotarte de una buena base** que te permita sentirte capaz de afrontar cualquier proyecto, para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development).
+**El objetivo del curso es dotarte de una buena base** que te permita sentirte lo suficientemente seguro para afrontar cualquier proyecto y así seguir aprendiendo. Para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development).
 
-**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no he querido asumir que tengas que tener ningún conocimiento previo, por eso en muchas ocasiones te explicaré conceptos correctos pero no 100% precisas (con el objetivo de facilitarte la comprensión y evitar distraerte del objetivo del curso). Así que recuerda, **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender lo demás. De todos modos para siempre que se dé este caso te marcaré la palabra con un asterisco (*) y te dejaré el enlace, bien en el apartado de recursos, o bien en la misma definición donde podrás encontrar la definición exacta.
+**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no se asume que tengas ningún conocimiento previo sobre desarrollo web. Por eso, en muchas ocasiones te explicaré conceptos que no serán 100% precisos pero que sí serán correctos (para facilitarte la comprensión y evitar distraerte del objetivo del curso). 
+
+Así que recuerda, **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender lo demás. De todos modos, siempre que se dé este caso te añadiré la descripción exacta:
+* O bien con una nota<sup>1</sup> y añadiendo el enlace en al final de la página.
+* O añadiendo directamente un enlace en la palabra.
 
 ## Formato
 Este es el material escrito del curso en vídeo [HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/). **Si lo deseas puedes estudiarte este curso por tu cuenta o inscribirte gratuitamente en la web** para asistir a alguna de las ediciones periódicas que organizo.
