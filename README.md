@@ -8,7 +8,7 @@ A lo largo del mismo te voy a:
 * Mostrar dónde podrás resolver tus dudas cuando tengas problemas.
 * Explicar cómo trabajar con algunas de las herramientas que usan los profesionales del mundo real como son [Github](http://github.com/) o las [herramientas para desarrolladores de Google Chrome](https://developer.chrome.com/devtools).
 
-Es **importante** saber que en el mundo de la programación web hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
+Es **importante** saber que en el mundo de la programación hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
 Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y es por ello que **no entraré en profundidad en todos y cada uno de los elementos y características** de cada lenguaje.
 
 **El objetivo del curso es dotarte de una buena base** que te permita sentirte lo suficientemente seguro para afrontar cualquier proyecto y así seguir aprendiendo. Para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development) (programador que domina HTML, CSS y Javascript).
