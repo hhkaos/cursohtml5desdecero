@@ -39,4 +39,6 @@ Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es anima
 
 Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en [Github](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) sino también dentro de los contenidos del libro.
 
- que programador que domina HTML, CSS y Javascript).
+<small>Aclaraciones:</small><br>
+<small>1. Un programador front-end no es más que un programador que domina HTML, CSS y Javascript.</small>
+ 
