@@ -1,4 +1,4 @@
-# Presentación del curso
+# Presentación
 
 Este curso es **gratuito** y lo puedes realizar **incluso si no sabes nada de programación**, sólo hace falta tener ganas de aprender. A pesar de esto también puede serte útil si ya sabes HTML pero quieres perfeccionar o refrescar tus conocimientos sobre HTML5, CSS3 o Javascript.
 
