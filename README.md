@@ -20,7 +20,7 @@ Así que **no tomes todas las definiciones al pie de la letra**, tómalas como d
 ## Formato
 Este es el material escrito del [Curso de HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/), **si quieres puedes estudiarte este curso por tu cuenta o inscribirte al formato [MOOC](https://es.wikipedia.org/wiki/Mooc) a través de la web** para que te avise en las próximas ediciones que organice.
 
-Estas ediciones que se celebran periódicamente consisten en ver una serie de vídeo-tutoriales y hacer unos ejercicios que te enviaré semanalmente. La carga de trabajo pretende ser menor a 2 horas semanales e incluyen una sesión online grupal de 1h a la semana para resolver dudas.
+Estas ediciones que se celebran periódicamente consisten en ver una serie de vídeo-tutoriales y hacer unos ejercicios que te enviaré semanalmente. La carga de trabajo pretende ser menor a 3 horas semanales e incluyen una sesión online (en grupo) de 1h a la semana para resolver dudas.
 
 El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 
