@@ -41,10 +41,6 @@ Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es anima
 
 Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en [Github](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) sino también dentro de los contenidos del libro.
 
-<small>Aclaraciones:</small><br>
-<small>1. A lo largo de todo el libro usaré el masculino por facilitar la lectura evitando los: "seguro/a", o los "segur@", espero que nadie se ofenda ;-P.</small><br>
-<small>2. Un programador front-end no es más que un programador que domina HTML, CSS y JavaScript.</small>
-
 ## Motivación - ¿Por qué?
 
 ¿Por qué otro curso de HTML/HTML5?, pues las razones que me han llevado a lanzarme a esta aventura son:
@@ -55,3 +51,7 @@ Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo e
 4. **Disfruto compartiendo lo que sé y ayudando a los demás**: siempre quise montar una empresa para crear algún producto que cambiase a mejor aunque fuese un poco la vida de miles/millones de personas, pero después de 6 años me he dado cuenta de que también es posible cambiar la vida de muchas personas enseñándoles lo que sé.
  
 Todo esto ha sido más que suficiente para que decida a dedicar **muchas horas** (y cariño) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
+
+<small>Aclaraciones:</small><br>
+<small>1. A lo largo de todo el libro usaré el masculino por facilitar la lectura evitando los: "seguro/a", o los "segur@", espero que nadie se ofenda ;-P.</small><br>
+<small>2. Un programador front-end no es más que un programador que domina HTML, CSS y JavaScript.</small>
