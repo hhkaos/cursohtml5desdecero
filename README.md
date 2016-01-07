@@ -37,4 +37,4 @@ Y si te sientes cómodo usando Github, puedes hacer un [pull request](https://he
 
 Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este curso basándome principalmente en [mis años de experiencia haciendo webs (ya van 16) y dando formación (otro tantos)](http://rauljimenez.info/experiencia/), pero además he revisado las mejores fuentes que conozco para seleccionar lo mejor de cada curso/tutorial que he encontrado en estos años en Internet.
 
-Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales aporten su granito de arena para mejorar y mantener este curso actualizado durante mucho tiempo, **es por eso que me he decidido a hacer el curso libre**.
+Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales aporten su granito de arena para mejorar y mantener este curso actualizado durante mucho tiempo, **es por eso que me he decidido a hacer este material libre**.
