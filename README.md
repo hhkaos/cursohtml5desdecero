@@ -1,6 +1,6 @@
 # Presentación del curso
 
-Este curso es **100% gratuito** y lo puede realizar **cualquier persona ya que no hace falta saber programación**, sólo hace falta tener ganas de aprender. A pesar de esto también puede ser de utilidad para personas que ya saben HTML pero quieren perfeccionar o refrescar sus conocimientos sobre HTML5, CSS3 o Javascript.
+Este curso es **gratuito** y lo puede realizar **cualquier persona ya que no hace falta saber programación**, sólo hace falta tener ganas de aprender. A pesar de esto también puede ser de utilidad para personas que ya saben HTML pero quieren perfeccionar o refrescar sus conocimientos sobre HTML5, CSS3 o Javascript.
 
 A lo largo del mismo te voy a:
 
