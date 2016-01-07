@@ -22,7 +22,7 @@ Así que recuerda, **no tomes todas las definiciones al pie de la letra**, tóma
 ## Formato
 Este es el material escrito del curso en vídeo [HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/). **Si lo deseas puedes estudiarte este curso por tu cuenta o inscribirte en la web**, si lo haces desde la web te avisaré cuando organice las próximas ediciones del MOOC "tutorizado".
 
-Estas ediciones periódicas consisten básicamente en recibir semanalmente una serie de vídeos que tendrás que ver y unos ejercicios que tendrás que hacer. La carga de trabajo pretende ser menor a 2 horas semanales, y además podrás asistir a una sesión online de 1h semanal gratuita para resolver dudas.
+Estas ediciones periódicas consisten básicamente en recibir semanalmente una serie de vídeos que tendrás que ver y unos ejercicios que tendrás que hacer. La carga de trabajo pretende ser menor a 2 horas semanales, y además podrás asistir a una sesión online de 1h semanal para resolver dudas.
 
 El formato MOOC "tutorizado" del curso **durará entre 4 y 6 semanas**.
 
