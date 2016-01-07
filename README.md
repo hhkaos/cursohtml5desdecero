@@ -54,4 +54,4 @@ Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo e
 3. **Creo que los tiempos han cambiado**: y creo que hay muchísimas personas con mucho potencial a las que saber HTML, CSS y JavaScript les "daría alas" y les abrirían muchas puertas profesionales.
 4. **Disfruto compartiendo lo que sé y ayudando a los demás**: siempre quise montar una empresa para crear algún producto que cambiase a mejor aunque fuese un poco la vida de miles/millones de personas, pero después de 6 años me he dado cuenta de que también es posible cambiar la vida de muchas personas enseñándoles lo que sé.
  
-Todo esto ha sido más que suficiente para que decida a dedicar **muchas horas** (y *cariño*) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
+Todo esto ha sido más que suficiente para que decida a dedicar **muchas horas** (y cariño) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
