@@ -45,7 +45,7 @@ Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo e
 
 ¿Por qué otro curso de HTML/HTML5?, pues las razones que me han llevado a lanzarme a esta aventura son:
 
-1. **Compartir los trucos y consejos**: a lo largo de estos años me he ido aprendiendo muchos trucos y aprendiendo muchas lecciones sobre cómo ser más productivo y me gustaría compartirlos con vosotros.
+1. **Compartir los trucos y consejos**: a lo largo de estos años he ido aprendiendo muchos trucos y aprendiendo muchas lecciones sobre cómo ser más productivo y me gustaría compartirlos con vosotros.
 2. **Asentar una buena base**: después de revisar muchos cursos (algunos de ellos muy buenos), tengo la sensación de que ninguno explica todos los conceptos necesarios para crear una buena base que te permita sentirte cómodo a la hora de continuar creciendo por tu cuenta.
 3. **Creo que los tiempos han cambiado**: y creo que hay muchísimas personas con mucho potencial a las que saber HTML, CSS y JavaScript les "daría alas" y les abrirían muchas puertas profesionales.
 4. **Disfruto compartiendo lo que sé y ayudando a los demás**: siempre quise montar una empresa para crear algún producto que cambiase a mejor aunque fuese un poco la vida de miles/millones de personas, pero después de 6 años me he dado cuenta de que también es posible cambiar la vida de muchas personas enseñándoles lo que sé.
