@@ -4,6 +4,9 @@ body{
     line-height: 1.7em;
     background-color: #eee;
 }
+strong{
+    text-decoration: underline;
+}
 
 header{
     background-color: #E35130;
