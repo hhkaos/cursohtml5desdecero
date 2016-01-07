@@ -4,7 +4,7 @@ Este curso es **gratuito** y lo puedes realizar **incluso si no sabes nada de pr
 
 A lo largo del mismo te voy a:
 
-* Enseñar los elementos más comunes de HTML5, CSS3 y Javascript, osea los que usaremos el día día.
+* Enseñar los elementos más comunes de HTML5, CSS3 y JavaScript, osea los que usaremos el día día.
 * Mostrar dónde podrás resolver tus dudas cuando tengas problemas.
 * Explicar cómo trabajar con algunas de las herramientas que usan los profesionales del mundo real como son [Github](http://github.com/) o las [herramientas para desarrolladores de Google Chrome](https://developer.chrome.com/devtools).
 
