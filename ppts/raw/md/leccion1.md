@@ -4,46 +4,93 @@
 
 # Introducción
 
-## Objetivos
+## Contenidos
 
-- Aprender los **conceptos fundamentales** de HTML
-- Entender de dónde pueden venir los errores
-- Interiorizar bien estos conceptos
+Qué son y cómo funcionan:
 
-# Servidores y navegadores web
+* Los servidores web y HTTP
+* Los navegadores
+* Las URLs
+* Peticiones HTTP
+
+# Alojamiento y servidores HTTP
 
 ## Definiciones
 
-- **Servidor HTTP**
-- **Servidor web**: programa que se encarga de enviar archivos a los navegadores web que los soliciten 
-- **Navegador web**: programa que recibe, entiende y transforma este código que recibe en algo entendible para un humano
+- **[Servidor web HTTP](https://es.wikipedia.org/wiki/Servidor_web)** (o simplemente: *servidor web* o *servidor HTTP*): es programa que se encarga principalmente de las comunicaciones con el navegador.
 
-## Iframe
-<iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="http://jsbin.com/yuteti/edit?output" src="http://jsbin.com/yuteti/edit?output" style="width: 960px;height: 500px;"></iframe>
+- Un **[alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web)** (*web hosting* o *hosting*): es un ordenador conectado a Internet. Comúnmente también se le llama: **servidor**.
 
-## image
-<img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D">
+## Servidores web y empresas de hosting
 
-## 
-![Fuente: monitis.com](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+* Empresas de hosting: 1and1, AWS, Linode, etc. ([ver más](http://hostarting.es/hostings/))
 
-## Arquitectura
+* Servidores web: [Apache](http://www.apache.org/), [Nginx](http://nginx.org/) y [IIS](https://www.iis.net/), etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
 
-![](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+## Ranking de servidores
+![](https://hhkaos.gitbooks.io/introduccion-a-html5/content/images/ranking_servers.png)<br>
+Fuente: [w3techs - 6 de Enero de 2016](http://w3techs.com/technologies/overview/web_server/all)
 
-## Código
+# Navegadores
 
-~~~~html
-<!DOCTYPE html>
-<html>
+## Definición
 
-<head>
-    <meta charset="UTF-8">
-    <title>Título de la página</title>
-</head>
+Un navegador es un programa **complejo** que entiende y transforma el código que recibe desde un servidor en algo entendible para un humano (una página web, imágenes, etc).
 
-<body>
-</body>
+## Responsabilidades
 
-</html>
-~~~~
+* **Integridad**
+
+* **Seguridad**
+
+* **Optimización**
+
+## Ranking de navegadores
+
+![](https://hhkaos.gitbooks.io/introduccion-a-html5/content/images/quota_navegadores.png)<br>
+Fuente: [StatCounter](http://gs.statcounter.com/#browser-ww-monthly-201411-201601-bar)
+
+# URLs
+
+## Formato
+
+```
+scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
+```
+
+Ejemplos:
+
+```
+https://hhkaos.gitbooks.io/introduccion-a-html5/chapter1.html#introduccion
+```
+
+```
+http://www.google.es/webhp?q=pandoc+reveal.js
+```
+
+```
+https://hhkaos:mipass@rauljimenez.info/privado:8080
+```
+
+```
+file:///Users/hhkaos/index.html
+```
+# Peticiones HTTP
+
+## Tipos de peticiones
+
+* **GET**: para solicitar información.
+
+* **POST**: para enviar información.
+
+## Mensajes de respuesta
+
+* **200**: se ha encontrado correctamente el fichero/recurso.
+
+* **403**: no tenemos permiso para acceder al fichero/recurso.
+
+* **404**: el fichero/recurso que le hemos solicitado no se ha podido encontrar.
+
+## Esquema simplificado
+
+![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
