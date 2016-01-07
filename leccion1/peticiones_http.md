@@ -15,4 +15,4 @@ Los mensajes de respuesta del servidor pueden ser de [muchos tipos](https://es.w
  
 El siguiente esquema muestra un esquema simplificado que nos permite hacernos una idea sobre cómo funciona la comunicación entre ambos:
 
-![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+![Arquitectura](../images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
