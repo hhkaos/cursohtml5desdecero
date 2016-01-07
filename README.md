@@ -20,14 +20,14 @@ Así que recuerda, **no tomes todas las definiciones al pie de la letra**, tóma
 ## Formato
 Este es el material escrito del [Curso de HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/), **si quieres puedes estudiarte este curso por tu cuenta o inscribirte al formato [MOOC](https://es.wikipedia.org/wiki/Mooc) a través de la web** para que te avise en las próximas ediciones que organice.
 
-Estas ediciones que se celebran periódicamente consisten en ver una serie de vídeos y hacer unos ejercicios que te enviaré semanalmente. La carga de trabajo pretende ser menor a 2 horas semanales e incluyen una sesión online grupal de 1h a la semana para resolver dudas.
+Estas ediciones que se celebran periódicamente consisten en ver una serie de vídeo-tutoriales y hacer unos ejercicios que te enviaré semanalmente. La carga de trabajo pretende ser menor a 2 horas semanales e incluyen una sesión online grupal de 1h a la semana para resolver dudas.
 
 El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 
 ## Dudas, ideas, sugerencias, y contribuciones
 Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues). 
 
-Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti ten por seguro que le surgirá a más personas. Además si consigues terminar el curso **sin ninguna duda**, sabrás mucho mejor por dónde empezar a buscar los errores el día que estés haciendo un proyecto y algo no te funcione. Por último, piensa que **tus dudas también me ayudarán a añadir aclaraciones o mejoras al contenido del curso para facilitarles el aprendizaje a otras personas que vengan detrás**.
+Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti, ten por seguro que le surgirá a más personas. Además si consigues terminar el curso **sin ninguna duda**, sabrás mucho mejor por dónde empezar a buscar los errores el día que estés haciendo un proyecto y algo no te funcione. Por último, piensa que **tus dudas también me ayudarán a añadir aclaraciones o mejoras al contenido del curso para facilitarles el aprendizaje a otras personas que vengan detrás**.
 
 Y si te sientes cómodo usando [Github](https://github.com/), puedes hacer un [pull request](https://help.github.com/articles/using-pull-requests/) al repositorio resolviendo cualquier error que encuentres.
 
