@@ -25,7 +25,7 @@ Estas ediciones que se celebran periódicamente consisten en ver una serie de v�
 El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 
 ## Dudas, ideas, sugerencias, y contribuciones
-Además de en la sesiones online de dudas semanales, podrás realizar cualquier pregunta, idea o sugerencia [en el apartado de issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues). 
+Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues). 
 
 Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti ten por seguro que le surgirá a más personas. Además si consigues terminar el curso **sin ninguna duda**, sabrás mucho mejor por dónde empezar a buscar los errores el día que estés haciendo un proyecto y algo no te funcione. Por último, piensa que **tus dudas también me ayudarán a añadir aclaraciones o mejoras al contenido del curso para que otras personas que posteriormente lo hagan lo tengan más fácil y claro**.
 
