@@ -20,7 +20,7 @@ Así que recuerda, **no tomes todas las definiciones al pie de la letra**, tóma
 * O añadiendo directamente un enlace en la palabra.
 
 ## Formato
-Este es el material escrito del curso en vídeo [HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/). **Si lo deseas puedes estudiarte este curso por tu cuenta o inscribirte en la web**, si lo haces desde la web podrás asistir a alguna de las ediciones del MOOC "tutorizado" que organizo gratuitamente.
+Este es el material escrito del curso en vídeo [HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/). **Si lo deseas puedes estudiarte este curso por tu cuenta o inscribirte en la web**, si lo haces desde la web podrás asistir a alguna de las ediciones del MOOC "tutorizado" que organizo.
 
 Estas ediciones periódicas consisten básicamente en recibir semanalmente una serie de vídeos que tendrás que ver y unos ejercicios que tendrás que hacer. La carga de trabajo pretende ser menor a 2 horas semanales, y además podrás asistir a una sesión online de 1h semanal gratuita para resolver dudas.
 
