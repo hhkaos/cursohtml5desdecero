@@ -37,4 +37,4 @@ Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este cu
 
 Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales aporten su granito de arena para mejorar y mantener este curso actualizado durante mucho tiempo, **es por eso que me he decidido a hacer este material libre**.
 
-Las personas que vayan contribuyendo tendrán su reconocimiento no sólo en el [apartado de contribuyentes](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) de Github sino también a lo largo del libro.
+Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en el [apartado de contribuyentes](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) de Github sino también a lo largo del libro.
