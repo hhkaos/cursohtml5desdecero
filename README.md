@@ -33,7 +33,7 @@ Además si consigues terminar el curso **sin ninguna duda**, el día que estés 
 
 Y si te sientes cómodo usando [Github](https://github.com/), puedes hacer un [pull request](https://help.github.com/articles/using-pull-requests/) al repositorio resolviendo cualquier error que encuentres.
 
-## Autor(es)
+## Autor/es
 
 Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este curso basándome principalmente en [mis años de experiencia haciendo webs (llevo desde 1999) y dando formación (desde 2009)](http://rauljimenez.info/experiencia/), pero además he revisado las mejores fuentes que conozco para seleccionar lo mejor de cada curso/tutorial que he encontrado en estos años en Internet.
 
