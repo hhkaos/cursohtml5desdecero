@@ -13,7 +13,7 @@ Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y 
 
 **El objetivo del curso es dotarte de una buena base** que te permita sentirte lo suficientemente segur@ para afrontar cualquier proyecto y así seguir aprendiendo. Para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development)<sup>1</sup>.
 
-**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no se asume que tengas ningún conocimiento previo sobre desarrollo web. Por eso, en muchas ocasiones te explicaré conceptos que no serán 100% precisos pero que sí serán correctos (para facilitarte la comprensión y evitar distraerte del objetivo del curso). 
+**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré en muchas ocasiones conceptos que no serán 100% precisos pero que sí serán correctos. 
 
 Así que recuerda, **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender lo demás. De todos modos, siempre que se dé este caso te añadiré un link a un recurso con más información o añadiré una nota<sup>1</sup> con aclaraciones al final de la página.
 
