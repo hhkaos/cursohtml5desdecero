@@ -27,7 +27,7 @@ El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 ## Dudas, ideas, sugerencias, y contribuciones
 Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues). 
 
-Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti ten por seguro que le surgirá a más personas. Además si consigues terminar el curso **sin ninguna duda**, sabrás mucho mejor por dónde empezar a buscar los errores el día que estés haciendo un proyecto y algo no te funcione. Por último, piensa que **tus dudas también me ayudarán a añadir aclaraciones o mejoras al contenido del curso para que otras personas que posteriormente lo hagan lo tengan más fácil y claro**.
+Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti ten por seguro que le surgirá a más personas. Además si consigues terminar el curso **sin ninguna duda**, sabrás mucho mejor por dónde empezar a buscar los errores el día que estés haciendo un proyecto y algo no te funcione. Por último, piensa que **tus dudas también me ayudarán a añadir aclaraciones o mejoras al contenido del curso para facilitarles el aprendizaje a otras personas que vengan detrás**.
 
 Y si te sientes cómodo usando [Github](https://github.com/), puedes hacer un [pull request](https://help.github.com/articles/using-pull-requests/) al repositorio resolviendo cualquier error que encuentres.
 
@@ -36,3 +36,5 @@ Y si te sientes cómodo usando [Github](https://github.com/), puedes hacer un [p
 Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este curso basándome principalmente en [mis años de experiencia haciendo webs (ya van 16) y dando formación (otro tantos)](http://rauljimenez.info/experiencia/), pero además he revisado las mejores fuentes que conozco para seleccionar lo mejor de cada curso/tutorial que he encontrado en estos años en Internet.
 
 Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales aporten su granito de arena para mejorar y mantener este curso actualizado durante mucho tiempo, **es por eso que me he decidido a hacer este material libre**.
+
+Las personas que vayan contribuyendo tendrán su reconocimiento no sólo en el [apartado de contribuyentes](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) de Github sino también a lo largo del libro.
