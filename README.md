@@ -11,7 +11,7 @@ A lo largo del mismo te voy a:
 Es **importante** saber que en el mundo de la programación hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
 Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y es por ello que **no entraré en profundidad en todos y cada uno de los elementos y características** de cada lenguaje.
 
-**El objetivo del curso es dotarte de una buena base** que te permita sentirte lo suficientemente segur@ para afrontar cualquier proyecto y así seguir aprendiendo. Para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development)<sup>1</sup>.
+**El objetivo del curso es dotarte de una buena base** que te permita sentirte lo suficientemente seguro<sup>1</sup> para afrontar cualquier proyecto y así seguir aprendiendo. Para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development)<sup>2</sup>.
 
 **Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré en muchas ocasiones conceptos que no serán 100% precisos pero que sí serán correctos. 
 
@@ -42,5 +42,6 @@ Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es anima
 Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en [Github](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) sino también dentro de los contenidos del libro.
 
 <small>Aclaraciones:</small><br>
-<small>1. Un programador front-end no es más que un programador que domina HTML, CSS y Javascript.</small>
+<small>1. A lo largo de todo el libro usaré el masculino por evitar los: "seguro/a", o los "segur@".</small><br>
+<small>2. Un programador front-end no es más que un programador que domina HTML, CSS y JavaScript.</small>
  
