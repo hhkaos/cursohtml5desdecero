@@ -77,7 +77,7 @@ Esto generaría una página como la siguiente:
 <hr>
 ![](../images/primer_ejemplo.png)
 <hr>
-Si quieres puedes ver [el ejemplo en vivo aquí](https://hhkaos.gitbooks.io/introduccion-a-html5/content/leccion2/ejemplo_con_etiquetas_basicas.html).
+Si quieres puedes ver [el ejemplo en vivo aquí](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/leccion2/ejemplo_con_etiquetas_basicas.html).
 
 Es importante destacar que aunque el navegador le añade un estilo (CSS) por defecto a las etiquetas, por ejemplo:
 * ```h1``` y ```h2``` una fuente mayor y negrita

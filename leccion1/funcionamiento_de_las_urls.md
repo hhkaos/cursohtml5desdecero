@@ -20,14 +20,14 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 
 Así una URL válida podría ser:
 ```
-https://hhkaos.gitbooks.io/introduccion-a-html5/content/chapter1.html#primeros-pasos-con-html5
+https://hhkaos.gitbooks.io/cursohtml5desdecero/content/chapter1.html#primeros-pasos-con-html5
 ```
 Donde:
 - scheme = https
 - user:password@ = (vacío)
 - host = hhkaos.gitbooks.io
 - port = 80
-- path = introduccion-a-html5/content/chapter1.html
+- path = cursohtml5desdecero/content/chapter1.html
 - query = (vacío)
 - fragment = #primeros-pasos-con-html5 
 

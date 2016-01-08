@@ -25,7 +25,7 @@ Estas ediciones que se celebran periódicamente consisten en ver una serie de v�
 El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 
 ## Dudas, ideas, sugerencias, y contribuciones
-Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/introduccion-a-html5/issues). 
+Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
 Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti, ten por seguro que le surgirá a más personas. **Así me ayudarás también saber qué  aclaraciones añadir o qué mejoras puedo hacer al contenido del curso** para facilitarles el aprendizaje a otras personas que vengan detrás.
 
@@ -39,7 +39,7 @@ Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este cu
 
 Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales aporten su granito de arena para mejorar el contenido y mantener este curso actualizado durante mucho tiempo, **es por eso que he decidido liberar este libro licenciándolo como Creative Commons ([CC-BY-NC-SA 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/))**.
 
-Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en [Github](https://github.com/hhkaos/introduccion-a-html5/graphs/contributors) sino también dentro de los contenidos del libro.
+Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en [Github](https://github.com/hhkaos/cursohtml5desdecero/graphs/contributors) sino también dentro de los contenidos del libro.
 
 ## Motivación - ¿Por qué?
 
