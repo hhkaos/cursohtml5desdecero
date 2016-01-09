@@ -13,6 +13,6 @@ Los mensajes de respuesta del servidor pueden ser de [muchos tipos](https://es.w
 * **403**: que no tenemos permiso para acceder al fichero/recurso.
 * **404**: que el fichero/recurso que le hemos solicitado no se ha podido encontrar en el disco duro (puede ser porque no esté o porque la ruta es incorrecta).
  
-El siguiente esquema muestra un esquema simplificado que nos permite hacernos una idea sobre cómo funciona la comunicación entre ambos:
+El siguiente gráfico muestra un esquema simplificado que nos permite hacernos una idea sobre cómo funciona la comunicación entre ambos:
 
 ![Arquitectura](../images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
