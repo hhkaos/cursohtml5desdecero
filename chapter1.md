@@ -10,4 +10,4 @@ Por tanto empezaremos por aprender los **conceptos fundamentales** a la hora de 
 
 **Es importante conocer e interiorizar bien estos conceptos** ya que los usaremos y nos los encontraremos continuamente tanto en este curso como en cualquier otro recurso de Internet.
 
-Si crees que ya dominas estos conceptos puedes probar a hacer el [ejercicio tipo test de esta lección](http://www.cursohtml5desdecero.com/tests/leccion1.html). Si sacas un 100% de aciertos puedes pasar a la siguiente, sino te recomiendo que no te la saltes.
+Si crees que ya dominas estos conceptos puedes probar a hacer el [ejercicio tipo test de esta lección](http://www.cursohtml5desdecero.com/tests/leccion1.html). Si sacas un 100% de aciertos puedes pasar a la siguiente lección, sino te recomiendo que no te la saltes.
