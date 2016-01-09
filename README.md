@@ -11,7 +11,7 @@ A lo largo del mismo te voy a:
 Es **importante** saber que en el mundo de la programación hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
 Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y es por ello que **no entraré en profundidad en todos y cada uno de los elementos y características** de cada lenguaje.
 
-**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré en muchas ocasiones conceptos que no serán 100% precisos pero que sí serán correctos.
+**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré en muchas ocasiones conceptos que no serán 100% precisos pero que sí serán correctos.
 
 Así que **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender el contexto. De todos modos, siempre que se dé este caso te añadiré un link a un recurso con más información o añadiré un [superíndice](http://dle.rae.es/?id=Yk4qfET) con aclaraciones al final de la página.
 
