@@ -33,7 +33,7 @@ Donde:
 
 Otro ejemplo de URL válida podría ser: ```file:///Users/hhkaos/index.html```
 
-En este caso estamos le estamos indicando al navegador que acceda a un fichero que se encuentra en nuestro disco duro.
+En este caso le estamos indicando al navegador que acceda a un fichero que se encuentra en nuestro disco duro.
 
 <small>Aclaraciones:</small><br>
 <small>1. Los puertos son números enteros que nos permiten especificar a qué "*puerta*" o "*canal*" de una máquina nos queremos conectar. Por ejemplo en la web se suele usar el 80 para los servidores HTTP (aunque Skype también lo usa), el 21 para el FTP, el 22 para el SFTP, etc</small><br>
