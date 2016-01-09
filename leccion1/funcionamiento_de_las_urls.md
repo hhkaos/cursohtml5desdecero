@@ -16,7 +16,7 @@ Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 * **port**: [puerto](https://es.wikipedia.org/wiki/Puerto_de_red)<sup>1</sup> (si no se especifica ninguno se usa el 80 por defecto)
 * **path (obligatorio)**: ruta al fichero (p.e. blog/index.php)
 * **query**: parámetros/variables (p.e. preview=true)
-* **fragment**: punto de anclaje (p.e. #introducción)
+* **fragment**: punto de anclaje<sup>2</sup> (p.e. #introducción)
 
 Así una URL válida podría ser:
 ```
@@ -37,3 +37,4 @@ En este caso estamos le estamos indicando al navegador que acceda a un fichero q
 
 <small>Aclaraciones:</small><br>
 <small>1. Los puertos son números enteros que nos permiten especificar a qué "*puerta*" o "*canal*" de una máquina nos queremos conectar. Por ejemplo en la web se suele usar el 80 para los servidores HTTP (aunque Skype también lo usa), el 21 para el FTP, el 22 para el SFTP, etc</small><br>
+<small>2. Un punto de anclaje nos permite introducir una URL al abrirla hace scroll hasta un punto de la página determinado ([ejemplo](https://es.wikipedia.org/wiki/HTML#C.C3.B3digos_HTML_b.C3.A1sicos))</small><br>
