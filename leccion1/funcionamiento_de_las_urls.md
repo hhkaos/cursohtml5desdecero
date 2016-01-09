@@ -11,8 +11,8 @@ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 Vamos a hacer un pequeño repaso a cada una de las partes de la URL:
 
 * **scheme (obligatorio)**: este suele ser "http" o "https", aunque podría ser también: file, ftp, mailto, data, skype, etc.
-* **user:password@**: usuario y contraseña (p.e. hhkaos:mipass@). Esto por ejemplo se utiliza en conexiones FTP o SSH que requieren autentificación. También se puede usar para conectar a sistemas que usen [.htpasswd](https://en.wikipedia.org/wiki/.htpasswd) como en el que se muestra en la siguiente imagen:<br>![](../images/htpasswd.jpg)
-* **host**: nombre de dominio (p.e. rauljimenez.info) o dirección IP del servidor web (p.e. 79.82.123.1)
+* **user:password@**: usuario y contraseña (p.e. hhkaos:mipass@). Esto por ejemplo se utiliza en otro tipo de conexiones [FTP](https://es.wikipedia.org/wiki/File_Transfer_Protocol) o [SSH](https://es.wikipedia.org/wiki/Secure_Shell) que requieren identificación. También se puede usar para conectar a sistemas que usen [.htpasswd](https://en.wikipedia.org/wiki/.htpasswd), podremos identificar que una página está protegida con este sistema cuando al acceder nos aparece una ventana parecida a esta:<br>![](../images/htpasswd.jpg)
+* **host**: nombre de dominio (p.e. rauljimenez.info), subdominio o dirección IP del servidor web (p.e. 79.82.123.1)
 * **port**: [puerto](https://es.wikipedia.org/wiki/Puerto_de_red)<sup>1</sup> (si no se especifica ninguno se usa el 80 por defecto)
 * **path (obligatorio)**: ruta al fichero (p.e. blog/index.php)
 * **query**: parámetros/variables (p.e. preview=true)
