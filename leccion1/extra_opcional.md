@@ -19,7 +19,7 @@ Como [hemos mencionado anteriormente](servidores_web_y_http.html) un servidor o 
 
 Estos ordenadores no tienen por qué tener nada en especial, nuestra máquina puede hacer de servidor web, pero dado que (entre otras muchas cosas), una web se espera que funcione 24 horas, 7 días a la semana y que nuestra máquina la tenemos que apagar de vez en cuando, normalmente se alquila parte de una máquina (o una máquina completa) a una empresa que se dedica exclusivamente a esto: empresas de [hosting o alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web).
 
-Se puede acceder y gestionar estas máquinas que alquilamos en remoto de diferentes maneras: usando gestiores FTPs/SFTPs, paneles de control web, conexiones SSH, etc.
+Se puede acceder y gestionar estas máquinas que alquilamos en remoto de diferentes maneras: usando [clientes FTPs](https://es.wikipedia.org/wiki/Cliente_FTP)/SFTPs, paneles de control web, conexiones/clientes [SSH](https://es.wikipedia.org/wiki/Secure_Shell), etc.
 
 ### TCP
-**Ignora este apartado si no has estudiado nada relacionado con informática o telecomunicaciones**. Simplemente quería hacer referencia que tanto los protocolos HTTP, como FTP, SSH, IMAP, DNS, POP, SMTP, etc. están implementados sobre TCP [(+ìnfo)](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
+**Ignora este apartado si no has estudiado nada relacionado con informática o telecomunicaciones**. Simplemente quería hacer referencia que tanto los protocolos HTTP, como FTP, SSH, [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol), [DNS](https://en.wikipedia.org/wiki/Domain_Name_System), [POP](https://en.wikipedia.org/wiki/Post_Office_Protocol), [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol), etc. están implementados sobre TCP [(+ìnfo)](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
