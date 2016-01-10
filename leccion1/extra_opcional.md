@@ -1,6 +1,6 @@
 # Recursos
 
-Aunque **no es imprescindible para entender y aprender a crear webs con HTML5, CSS3 y JavaScript**, los siguientes conceptos si pueden serte útiles si quieres aprender a alojar un sitio web en un servidor tuyo propio.
+Aunque **no es imprescindible para entender y aprender a crear webs con HTML5, CSS3 y JavaScript**, los siguientes conceptos sí pueden serte útiles si quieres aprender a alojar un sitio web en un servidor tuyo propio.
 
 ### Dominios y subdominios
 
