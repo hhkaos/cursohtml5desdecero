@@ -17,7 +17,7 @@ En este caso decimos que: "*tenemos una etiqueta **a** donde el valor del atribu
 
 Si nos fijamos las etiquetas **siempre** están contenidas entre los símbolos *< >*, y que el cierre sólo incluye el nombre de la etiqueta precedido de una barra lateral: */* (p.e. </nombre>).
 
-2) Por otro lado están ^^las etiquetas que no se cierran explítictamente**:
+2) Por otro lado están ^^las etiquetas que no se cierran explítitamente**:
 
 ```html
 <etiqueta atributo="valor">
