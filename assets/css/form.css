@@ -102,18 +102,39 @@ h4{
 #mc_embed_signup div.mce_inline_error{
     background-color: #F44336 !important;
     font-weight: normal;
+    border: 1px solid #FFF;
+    margin-top: .5em !important;
+    margin-bottom: .5em !important;
 }
 
-#mc_embed_signup #mce-success-response {
+#mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 1em 0;
+    clear: both;
+}
+
+#mc_embed_signup, #mce-success-response {
     width: 100% !important;
     margin: 0 0 10px !important;
     padding: 0 !important;
 }
-#mc_embed_signup div#mce-responses{
+#mce-success-response{
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0.5em !important;
     color: #56AF00 !important;
+    background-color: rgba(255,255,255,.85);
+}
+#mce-responses > div.response{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: .5em !important;
+    color: #56AF00 !important;
+    background-color: rgba(255,255,255,.85);
 }
 
 #mc_embed_signup input {
