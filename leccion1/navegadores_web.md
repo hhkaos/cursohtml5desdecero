@@ -8,7 +8,7 @@ Entre algunas de las responsabilidades que debe garantizar un navegador se encue
 
 * **Seguridad**: dado que los navegadores reciben código escrito normalmente por otras personas, el navegador implementa algunas reglas de seguridad. Estas reglas se definen a diferentes niveles: durante la conexión entre las máquinas y el envío ([HTTPS](https://en.wikipedia.org/wiki/HTTPS)), al ejecutarse en el navegador ([CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)), etc.
 
-* **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga y mejorar la experiencia del usuario, por ejemplo: utilizar una memoria de almacenamiento temporal (memoria caché), comprimir/descomprimir los mensajes durante las comunicaciones,  etc.
+* **Optimización**: al mismo tiempo que reciben la información, los navegadores integran mecanismos para acelerar la carga y mejorar la experiencia del usuario, por ejemplo acelerar el tiempo de carga utilizando una memoria de almacenamiento temporal (memoria caché), o comprimiendo los mensajes durante las comunicaciones.
 
 Aunque existen multitud de [navegadores](https://es.wikipedia.org/wiki/Navegador_web#Ejemplos_de_navegadores_web), nosotros usaremos Google Chrome durante todo el curso.
 

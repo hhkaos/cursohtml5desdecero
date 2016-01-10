@@ -11,14 +11,14 @@ A lo largo del mismo te voy a:
 Es **importante** saber que en el mundo de la programación hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
 Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y es por ello que **no entraré en profundidad en todos y cada uno de los elementos y características** de cada lenguaje.
 
-**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que no como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré en muchas ocasiones conceptos que no serán 100% precisos pero que sí serán correctos.
+**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré conceptos en muchas ocasiones que no serán 100% precisos pero que sí correctos.
 
-Así que **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender el contexto. De todos modos, siempre que se dé este caso te añadiré un link a un recurso con más información o añadiré un [superíndice](http://dle.rae.es/?id=Yk4qfET) con aclaraciones al final de la página.
+Así que **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender el contexto. De todos modos, siempre que se dé este caso te añadiré un enlace a un recurso con más información o añadiré un [superíndice](http://dle.rae.es/?id=Yk4qfET) con aclaraciones al final de la página.
 
 **El objetivo del curso es dotarte de una buena base** que te permita sentirte lo suficientemente seguro<sup>1</sup> para afrontar cualquier proyecto y así seguir aprendiendo. Para ello nos centraremos solamente en los conocimientos y herramientas más importantes de un [desarrollador front-end](https://en.wikipedia.org/wiki/Front_end_development)<sup>2</sup>.
 
 ## Formato
-Este es el material escrito del [Curso de HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/), **si quieres puedes estudiarte este curso por tu cuenta o inscribirte al formato [MOOC](https://es.wikipedia.org/wiki/Mooc) a través de la web** para que te avise en las próximas ediciones que organice.
+Este es el material escrito del [Curso de HTML5, CSS3 y JS desde cero](http://www.cursohtml5desdecero.com/), **si quieres puedes estudiarte este curso por tu cuenta, o inscribirte al formato [MOOC](https://es.wikipedia.org/wiki/Mooc) a través de la web** para que te avise en las próximas ediciones que organice.
 
 Estas ediciones que se celebran periódicamente consisten en ver una serie de vídeo-tutoriales y hacer unos ejercicios que te enviaré semanalmente. La carga de trabajo pretende ser menor a 3 horas semanales e incluyen una sesión online (en grupo) de 1h a la semana para resolver dudas.
 
@@ -45,10 +45,10 @@ Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo e
 
 ¿Por qué otro curso de HTML/HTML5?, pues las razones que me han llevado a lanzarme a esta aventura son:
 
-1. **Compartir los trucos y consejos**: a lo largo de estos años he ido aprendiendo muchos trucos y muchas lecciones sobre cómo ser más productivo y me gustaría compartirlos con vosotros.
+1. **Compartir los trucos y consejos**: a lo largo de estos años he ido aprendiendo muchos trucos y muchas lecciones sobre cómo ser más productivo y me gustaría compartirlos contigo.
 2. **Asentar una buena base**: después de revisar muchos cursos (algunos de ellos muy buenos), tengo la sensación de que ninguno explica todos los conceptos necesarios para crear una buena base que te permita sentirte cómodo a la hora de continuar creciendo por tu cuenta.
 3. **Creo que los tiempos han cambiado**: y creo que hay muchísimas personas con mucho potencial a las que saber HTML, CSS y JavaScript les "daría alas" y les abrirían muchas puertas profesionales.
-4. **Disfruto compartiendo lo que sé y ayudando a los demás**: siempre quise montar una empresa para crear algún producto que cambiase a mejor aunque fuese un poco la vida de miles/millones de personas, pero después de 6 años me he dado cuenta de que también es posible cambiar la vida de muchas personas enseñándoles lo que sé.
+4. **Disfruto compartiendo lo que sé y ayudando a los demás**: siempre quise montar una empresa para crear algún producto que mejorase aunque fuese un poco la vida de miles/millones de personas, pero después de 6 años me he dado cuenta de que también es posible cambiar la vida de muchas personas enseñándoles lo que sé.
  
 Todo esto ha sido más que suficiente para que decida a dedicar **muchas horas** (y cariño) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
 
