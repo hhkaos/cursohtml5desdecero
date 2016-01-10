@@ -1,6 +1,6 @@
 # Etiquetas y atributos
 
-En el último estándar de HTML (HTML5) existen [más de 100 etiquetas](http://www.w3.org/TR/2014/REC-html5-20141028/). Como comentaba al inicio del curso no las veremos todas, de hecho no es habitual ver a nadie que las conozca todas, ni siquiera los que llevamos tantos años haciendo webs, lo importante es saber dónde buscarlas y saber cómo usarlas.
+En el último estándar de HTML (HTML5) existen [más de 100 etiquetas](http://www.w3.org/TR/2014/REC-html5-20141028/). Como comentaba al inicio del curso no las veremos todas, de hecho no es habitual encontrar a nadie que las conozca todas, ni siquiera los que llevamos tantos años haciendo webs, lo importante es saber dónde buscarlas y saber cómo usarlas.
 
 Por esto vamos a empezar por entender qué aspecto tienen. Lo primero es saber que las etiquetas sólo pueden ser de dos tipos:
 
