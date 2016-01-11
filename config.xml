@@ -43,11 +43,10 @@
     <gap:plugin name="org.apache.cordova.vibration" />
 
     <gap:plugin name="com.devicepush.cordova-phonegap" source="npm"></gap:plugin>
-    <access origin="*.devicepush.com">
-    <allow-navigation href="*.devicepush.com">
-    </allow-navigation></access>
+    <access origin="*.devicepush.com"></access>
+    <allow-navigation href="*.devicepush.com"></allow-navigation>
 
-    
+
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
