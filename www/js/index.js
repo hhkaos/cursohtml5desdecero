@@ -35,24 +35,13 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var app = {
-            initialize: function() {
-                this.bindEvents();
-            },
-            bindEvents: function() {
-                document.addEventListener('deviceready', this.onDeviceReady, false);
-            },
-            onDeviceReady: function() {
-                app.receivedEvent('deviceready');
-                devicePush.register({
-                    idUser: '5693f71605aa7d1e530089f5', // Your User ID in Device Push
-                    idApplication: '6c22-0f22-12a4-aff4', // Aplication ID in Device Push
-                    position: true, // Activate or deactivate gps position record. Default value is false
-                    additionalData: {} // Currently in development
-                });
-            },
-            receivedEvent: function(id) {}
-        };
+        devicePush.register({
+            idUser: '5693f71605aa7d1e530089f5', // Your User ID in Device Push
+            idApplication: '6c22-0f22-12a4-aff4', // Aplication ID in Device Push
+            position: true, // Activate or deactivate gps position record. Default value is false
+            additionalData: {} // Currently in development
+        });            
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
