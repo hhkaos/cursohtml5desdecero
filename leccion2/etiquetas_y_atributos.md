@@ -23,6 +23,12 @@ Si nos fijamos las etiquetas **siempre** están contenidas entre los símbolos *
 <elemento atributo="valor">
 ```
 
+Por ejemplo:
+
+```html
+<img src="html-css-js.png" alt="Logotipos de HTML5, CSS3 y JavaScript">
+```
+
 Es importante destacar que el *atributo* y el *valor* son opcionales.
 
 Vamos a ver algunos ejemplos de nombres de etiquetas:
@@ -31,9 +37,3 @@ Vamos a ver algunos ejemplos de nombres de etiquetas:
 - **valor**: *UTF-8*, *modal*, ...
  
 A mi siempre me gusta tener esta "[chuleta](images/html5-cheat-sheet.png)" (o cheatsheet) a mano que resume todos los elementos y algunos de los atributos que aceptan. Pero por ahora no hace falta que te distraigas con esto, lo importante es que entiendas el formato.
-
-Por ejemplo:
-
-```html
-<img src="html-css-js.png" alt="Logotipos de HTML5, CSS3 y JavaScript">
-```
