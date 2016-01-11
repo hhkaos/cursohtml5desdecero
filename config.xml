@@ -46,6 +46,7 @@
     <gap:plugin name="com.devicepush.cordova-phonegap" source="npm" version="0.3.8" />
     <access origin="*.devicepush.com" />
     <allow-navigation href="*.devicepush.com" />
+    <allow-navigation href="http://*/*" />
 
 
     <icon src="icon.png" />
