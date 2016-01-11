@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>Curso HTML5 desde cero</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Este curso lo puedes realizar incluso si no sabes nada de programación, sólo hace falta tener ganas de aprender. A pesar de esto, también puede serte útil si ya sabes HTML pero quieres perfeccionar o refrescar tus conocimientos sobre HTML5, CSS3 o JavaScript.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="info@cursohtml5desdecero.info" href="http://cursohtml5desdecero.com">
+        Raul Jimenez Ortega
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
