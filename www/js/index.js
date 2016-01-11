@@ -34,6 +34,25 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+        var app = {
+            initialize: function() {
+                this.bindEvents();
+            },
+            bindEvents: function() {
+                document.addEventListener('deviceready', this.onDeviceReady, false);
+            },
+            onDeviceReady: function() {
+                app.receivedEvent('deviceready');
+                devicePush.register({
+                    idUser: $APP.USER_ID, // Your User ID in Device Push
+                    idApplication: $APP.APPLICATION_ID, // Aplication ID in Device Push
+                    position: true, // Activate or deactivate gps position record. Default value is false
+                    additionalData: {} // Currently in development
+                });
+            },
+            receivedEvent: function(id) {}
+        };
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

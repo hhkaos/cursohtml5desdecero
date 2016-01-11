@@ -18,3 +18,6 @@ _book
 .idea
 *.iml
 platforms
+plugins
+hooks
+www/js/config.js
