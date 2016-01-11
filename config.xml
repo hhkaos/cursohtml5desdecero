@@ -42,9 +42,9 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 
-    <gap:plugin name="com.devicepush.cordova-phonegap" source="npm"></gap:plugin>
-    <access origin="*.devicepush.com"></access>
-    <allow-navigation href="*.devicepush.com"></allow-navigation>
+    <gap:plugin name="com.devicepush.cordova-phonegap" source="npm" version="0.3.8" />
+    <access origin="*.devicepush.com" />
+    <allow-navigation href="*.devicepush.com" />
 
 
     <icon src="icon.png" />
