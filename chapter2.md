@@ -2,7 +2,7 @@
 
 En esta segunda lección veremos:
 * Una introducción a HTML5
-* Qué son las etiquetas y los atributos
+* Qué son y cómo funcionan las etiquetas
 * Qué es y cómo se hace la anidación de etiquetas
 * La estructura básica de una página
 * Algunas etiquetas básicas
