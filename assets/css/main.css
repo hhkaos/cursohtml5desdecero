@@ -138,7 +138,7 @@ and (orientation: portrait) {
     .logo{
         width: 100%;
         background-size: 75% auto;
-        height: 125px;
+        height: 140px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -159,6 +159,7 @@ and (orientation: portrait) {
     }
     h2,h3,h4{
         line-height: 1.3em;
+        font-size: 125%;
     }
     footer .separator{
         padding: 0 5px;
@@ -167,4 +168,31 @@ and (orientation: portrait) {
         display: none;
     }
 
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .video-container iframe{
+        margin-left: 7.5%;
+    }
+    #mc_embed_signup form{
+        padding: 0;
+    }
+    .row{
+        margin: 0;
+    }
+    #content{
+        width: 100%;
+        padding: 0 1em 1em;
+
+    }
+    .logo{
+        float: none;
+        margin: 40px auto 0;
+        display: block;
+    }
 }
