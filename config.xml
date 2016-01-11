@@ -42,6 +42,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 
+    <gap:plugin name='org.crosswalk.engine' version='1.3.0' source='pgb' />
     <gap:plugin name="com.devicepush.cordova-phonegap" source="npm" version="0.3.8" />
     <access origin="*.devicepush.com" />
     <allow-navigation href="*.devicepush.com" />
