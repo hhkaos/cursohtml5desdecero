@@ -13,29 +13,27 @@ Por ejemplo:
 ```html
 <a href="http://www.google.com">Google</a>
 ```
-En este caso decimos que: "*tenemos un elemento **a** donde el valor del atributo **href** es **http://www.google.com**, y que su contenido es **Google***".
+En este caso decimos que: "*tenemos un elemento **a** donde el valor del atributo **href** es **http://www.google.com**, y que su contenido es **Google***". No hace falta que te preocupes aún por el significado, luego haremos incapié en esto.
 
 Si nos fijamos las etiquetas **siempre** están contenidas entre los símbolos *< >*, y el cierre sólo incluye el nombre del elemento precedido de una barra lateral "*/*" (p.e. </elemento>).
 
-2) Por otro lado están ^^las etiquetas que no se cierran explícitamente**:
+2) Por otro lado están los **elementos auto-contenidos** (los que no se cierran explícitamente):
 
 ```html
-<etiqueta atributo="valor">
+<elemento atributo="valor">
 ```
 
 Es importante destacar que el *atributo* y el *valor* son opcionales.
 
 Vamos a ver algunos ejemplos de nombres de etiquetas:
-- **etiqueta**: *html*, *head*, *meta*, *title*, *body*... 
+- **elemento**: *html*, *head*, *meta*, *title*, *body*... 
 - **atributo**: *charset*, *class*, *id*, ...
 - **valor**: *UTF-8*, *modal*, ...
  
-A mi siempre me gusta tener esta "[chuleta](images/html5-cheat-sheet.png)" (o cheatsheet) a mano que resume todas las etiquetas y algunos de los atributos que aceptan. Pero por ahora no hace falta que te distraigas con esto, lo importante es que entiendas el formato.
+A mi siempre me gusta tener esta "[chuleta](images/html5-cheat-sheet.png)" (o cheatsheet) a mano que resume todos los elementos y algunos de los atributos que aceptan. Pero por ahora no hace falta que te distraigas con esto, lo importante es que entiendas el formato.
 
 Por ejemplo:
 
 ```html
-<meta charset="UTF-8">
+<img src="html-css-js.png" alt="Logotipos de HTML5, CSS3 y JavaScript">
 ```
-
-En este caso diríamos que esto es: *"una etiqueta **meta** con el atributo **charset** con el valor establecido a **UTF-8**"*. No hace falta que te preocupes aún por el significado, luego haremos incapié en esto.
