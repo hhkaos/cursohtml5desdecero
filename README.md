@@ -39,6 +39,8 @@ Mi nombre es [Raúl Jiménez Ortega](http://rauljimenez.info), he creado este cu
 
 Aunque inicialmente me he lanzado sólo a crear este curso, mi objetivo es animar a que otros profesionales aporten su granito de arena para mejorar el contenido y mantener este curso actualizado durante mucho tiempo, **es por eso que he decidido liberar este libro licenciándolo como Creative Commons ([CC-BY-NC-SA 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/))**.
 
+Para organizar el trabajo se han creado un [canal de comunicación en Gitter](https://gitter.im/hhkaos/cursohtml5desdecero) y un [tablón de tareas en Waffle](https://waffle.io/hhkaos/cursohtml5desdecero)
+
 Por supuesto, las personas que contribuyan tendrán su reconocimiento no sólo en [Github](https://github.com/hhkaos/cursohtml5desdecero/graphs/contributors) sino también dentro de los contenidos del libro.
 
 ## Motivación - ¿Por qué?
