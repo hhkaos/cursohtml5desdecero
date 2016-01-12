@@ -19,7 +19,7 @@
    * [Recursos](leccion2/recursos.md)
 * [Chrome DevTools](chapter3.md)
    * [Pestaña network](WIP.md)
-   * [Pestaña elements](WIP.md)
+   * [Pestaña elements](WIP2.md)
    * [Pestaña sources](WIP.md)   
    * [Configuración](WIP.md)
    * [Emulador](WIP.md)
