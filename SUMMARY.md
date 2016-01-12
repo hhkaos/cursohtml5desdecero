@@ -13,7 +13,7 @@
    * [Introducción a HTML5](leccion1/introduccion_a_html5.md)
    * [Etiquetas](leccion2/etiquetas.md)
    * [Anidación de etiquetas](leccion2/anidacion_de_etiquetas.md)
-   * [Estructura básica de una página](leccion2/estructura_basica_de_una_pagina_md.md)
+   * [Estructura básica de una página](leccion2/estructura_basica_de_una_pagina_md)
    * [Etiquetas básicas](leccion2/etiquetas_basicas.md)
    * [Ejercicio](leccion2/ejercicio.md)
    * [Recursos](leccion2/recursos.md)
