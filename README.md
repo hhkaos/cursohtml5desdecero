@@ -1,7 +1,5 @@
 # Presentación
 
-[![Join the chat at https://gitter.im/hhkaos/cursohtml5desdecero](https://badges.gitter.im/hhkaos/cursohtml5desdecero.svg)](https://gitter.im/hhkaos/cursohtml5desdecero?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Este curso es **gratuito** y lo puedes realizar **incluso si no sabes nada de programación**, sólo hace falta tener ganas de aprender. A pesar de esto, también puede serte útil si ya sabes HTML pero quieres perfeccionar o refrescar tus conocimientos sobre HTML5, CSS3 o JavaScript.
 
 A lo largo del mismo te voy a:
