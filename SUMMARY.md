@@ -78,4 +78,4 @@
    * [Acceder al DOM](WIP.md?60)
    * [Peticiones AJAX](WIP.md?61)
    * [Ejercicio](WIP.md?62)
-   * [Recursos](WIP.md?563)
+   * [Recursos](WIP.md?63)
