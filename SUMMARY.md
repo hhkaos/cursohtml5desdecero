@@ -1,7 +1,7 @@
 # Summary
 
 * [Presentación](README.md)
-* [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
+* [¿Qué vamos a necesitar?(leccion1/que_vamos_a_necesitar.md])
 * [Conceptos básicos](chapter1.md)
    * [Alojamiento y servidores HTTP](leccion1/servidores_web_y_http.md)
    * [Navegadores](leccion1/navegadores_web.md)
@@ -17,8 +17,8 @@
    * [Etiquetas básicas](leccion2/etiquetas_basicas.md)
    * [Ejercicio](leccion2/ejercicio.md)
    * [Recursos](leccion2/recursos.md)
-* [Chrome DevTools](chapter3.md)
-   * [Pestaña network](WIP.md)
+* [Chrome DevTools](chapter3.md?32)
+   * [Pestaña network](WIP.md?0)
    * [Pestaña elements](WIP.md?1)
    * [Pestaña sources](WIP.md?2)  
    * [Configuración](WIP.md?3)
@@ -50,3 +50,4 @@
    * [Reset.css](WIP.md?28)
    * [Tipografías](WIP.md?29)
    * [Diseño web adaptable](WIP.md?30)
+
