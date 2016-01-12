@@ -35,6 +35,7 @@
    * [Funcionalidades](WIP?14.md)
    * [Enviar y recibir cambios](WIP?15.md)
    * [Publicar en Github](WIP?16.md)
+   * [Colaborar con un proyecto](WIP?31.md)
    * [Markdown](WIP?17.md)
 * [CSS: Primero pasos](WIP?18.md)
    * [Propiedades](WIP?19.md)
