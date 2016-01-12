@@ -21,3 +21,4 @@ platforms
 plugins
 hooks
 www/js/config.js
+*.keystore
