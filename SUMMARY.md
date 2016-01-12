@@ -20,7 +20,7 @@
 * [Chrome DevTools](chapter3.md?32)
    * [Pestaña network](WIP.md?0)
    * [Pestaña elements](WIP.md?1)
-   * [Pestaña sources de Chrome DevTools](WIP.md?55)
+   * [Pestaña sources](WIP.md?55)
    * [Configuración](WIP.md?3)
    * [Emulador](WIP.md?4)
    * [Ejercicio](WIP.md?33)
