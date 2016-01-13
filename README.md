@@ -14,7 +14,7 @@ Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y 
 **Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré conceptos en muchas ocasiones que no serán 100% precisos pero que sí correctos. 
 
 En muchas ocasiones encontrarás **enlaces a la Wikipedia**, he elegido hacerlo así por varias razones:
-1. Un lenguaje bastante coloquial
+1. Usa un lenguaje bastante coloquial
 2. Incluye enlaces a las palabras más complejas
 3. Son definiciones consensuadas en las [discusiones](https://es.wikipedia.org/wiki/Ayuda:Tutorial_(p%C3%A1ginas_de_discusi%C3%B3n)
  
