@@ -71,7 +71,7 @@
 * [JS: Vitaminando el código](WIP.md?52)
    * [Estructuras de control](WIP.md?54)
    * [Depurando con Chrome DevTools](WIP.md?58)
-   * [Objetos y funciones](objetos_y_funciones.md/Objetos y funciones)
+   * [Objetos y funciones](objetos_y_funciones.md)
    * [Ejercicio](WIP.md?56)
    * [Recursos](WIP.md?57)
 * [JS: Trabajando como un profesional](WIP.md?59)
