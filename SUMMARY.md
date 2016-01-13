@@ -78,7 +78,7 @@
    * [Window & Document](WIP.md?60)
    * [Peticiones AJAX](peticiones_ajax.md)
    * [Expresiones regulares](expresiones_regulares.md)
-   * [Bibliotecas de terceros](WIP.md?64)
+   * [Bibliotecas de terceros](bibliotecas_de_terceros.md)
    * [Ejercicio](WIP.md?62)
    * [Recursos](WIP.md?63)
 
