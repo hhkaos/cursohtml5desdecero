@@ -11,7 +11,14 @@ A lo largo del mismo te voy a:
 Es **importante** saber que en el mundo de la programación hay muchas formas de resolver un mismo problema, y que todas ellas pueden ser igualmente válidas. 
 Dicho esto, quiero aclarar que **el objetivo del curso no es** aprender todas y cada una de las formas de resolver un problema (esto se va aprendiendo con años de práctica), y es por ello que **no entraré en profundidad en todos y cada uno de los elementos y características** de cada lenguaje.
 
-**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré conceptos en muchas ocasiones que no serán 100% precisos pero que sí correctos.
+**Las definiciones estarán simplificadas**, esto está hecho a conciencia ya que como decía antes, no he querido asumir que tengas ningún conocimiento previo sobre desarrollo web. Por eso, para facilitarte la comprensión y evitar distraerte del objetivo del curso, te explicaré conceptos en muchas ocasiones que no serán 100% precisos pero que sí correctos. 
+
+En muchas ocasiones encontrarás **enlaces a la Wikipedia**, he elegido hacerlo así por varias razones:
+1. Un lenguaje bastante coloquial
+2. Incluye enlaces a las palabras más complejas
+3. Son definiciones consensuadas en las [discusiones](https://es.wikipedia.org/wiki/Ayuda:Tutorial_(p%C3%A1ginas_de_discusi%C3%B3n)
+ 
+A pesar de esto incluiré enlaces al W3C con las definiciones formales aunque puede que estas sean más difíciles de entender.
 
 Así que **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender el contexto. De todos modos, siempre que se dé este caso te añadiré un enlace a un recurso con más información o añadiré un [superíndice](http://dle.rae.es/?id=Yk4qfET) con aclaraciones al final de la página.
 
