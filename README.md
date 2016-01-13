@@ -18,7 +18,7 @@ En muchas ocasiones encontrarás **enlaces a la Wikipedia**, he elegido hacerlo 
 2. Incluye enlaces a las palabras más complejas
 3. Son definiciones consensuadas en las [discusiones](https://es.wikipedia.org/wiki/Ayuda:Tutorial_(p%C3%A1ginas_de_discusi%C3%B3n)
  
-A pesar de esto incluiré enlaces al W3C con las definiciones formales aunque puede que estas sean más difíciles de entender.
+A pesar de esto incluiré enlaces al W3C con las definiciones formales, aunque puede que estas sean más difíciles de entender.
 
 Así que **no tomes todas las definiciones al pie de la letra**, tómalas como definiciones lo suficiente buenas como para ayudarte a entender el contexto. De todos modos, siempre que se dé este caso te añadiré un enlace a un recurso con más información o añadiré un [superíndice](http://dle.rae.es/?id=Yk4qfET) con aclaraciones al final de la página.
 
