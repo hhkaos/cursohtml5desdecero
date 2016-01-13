@@ -76,9 +76,8 @@
    * [Recursos](WIP.md?57)
 * [JS: Trabajando como un profesional](WIP.md?59)
    * [Window & Document](WIP.md?60)
-   * [Eventos](WIP.md?60)
-   * [Peticiones AJAX](WIP.md?61)
-   * [CORS](WIP.md?61)
+   * [Peticiones AJAX](peticiones_ajax.md)
    * [Bibliotecas de terceros](WIP.md?64)
    * [Ejercicio](WIP.md?62)
    * [Recursos](WIP.md?63)
+
