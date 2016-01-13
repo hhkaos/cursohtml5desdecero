@@ -77,8 +77,8 @@
 * [JS: Trabajando como un profesional](WIP.md?59)
    * [Window & Document](WIP.md?60)
    * [Peticiones AJAX](peticiones_ajax.md)
+   * [Expresiones regulares](expresiones_regulares.md)
    * [Bibliotecas de terceros](WIP.md?64)
    * [Ejercicio](WIP.md?62)
    * [Recursos](WIP.md?63)
-   * [Expresiones regulares](expresiones_regulares.md)
 
