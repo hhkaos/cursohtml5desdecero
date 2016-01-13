@@ -1,3 +1,0 @@
-# Peticiones AJAX
-
-Google Spreadsheets
