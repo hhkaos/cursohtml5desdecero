@@ -68,7 +68,7 @@
    * [Consola de Chrome DevTools](WIP.md?51)
    * [Ejercicio](WIP.md?49)
    * [Recursos](WIP.md?50)
-* [JS: Vitaminando el código](WIP.md?52)
+* [JS: Controlando el flujo](WIP.md?52)
    * [Estructuras de control](WIP.md?54)
    * [Depurando con Chrome DevTools](WIP.md?58)
    * [Objetos y funciones](objetos_y_funciones.md)
