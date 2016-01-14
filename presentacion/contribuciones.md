@@ -24,7 +24,7 @@ Para "poder editar" una página (aclaración: *en realidad lo que estarás hacie
 ![](../images/contribuciones_paso2.png)
 <hr>
 
-Por último, añadir que los contenidos están escritos en [Markdown](https://es.wikipedia.org/wiki/Markdown), un lenguaje bastante sencillo. Aquí te dejo [un tutorial con ejemplos](https://guides.github.com/features/mastering-markdown/#examples).
+Por último, añadir que los contenidos están escritos en [Markdown](https://es.wikipedia.org/wiki/Markdown), un lenguaje bastante sencillo, aquí te dejo [un tutorial con ejemplos](https://guides.github.com/features/mastering-markdown/#examples).
 
 ![](../images/contribuciones_paso3.png)
 
