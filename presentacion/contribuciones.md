@@ -32,7 +32,7 @@ Aprovecho para dejar [un tutorial con ejemplos](https://guides.github.com/featur
 
 Estado de las tareas: [Waffle](https://waffle.io/hhkaos/cursohtml5desdecero?milestone=FreeCodeCamp) | [Github](https://github.com/hhkaos/cursohtml5desdecero/issues?q=is%3Aopen+is%3Aissue+milestone%3AFreeCodeCamp)
 
-Por definir
+Por definir.
 
 ## Página web
 
