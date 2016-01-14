@@ -19,11 +19,11 @@
    * [Ejercicio](html5_primeros_pasos/ejercicio.md)
    * [Recursos](html5_primeros_pasos/recursos.md)
 * [Chrome DevTools](chrome_devtools.md?32)
-   * [Pestaña network]()
-   * [Pestaña elements]()
-   * [Pestaña sources]()
-   * [Configuración]()
-   * [Emulador]()
+   * [Pestaña network](chrome_devtools/pestana_network.md?0)
+   * Pestaña elements
+   * Pestaña sources
+   * Configuración
+   * Emulador
    * [Ejercicio](chrome_devtools/ejercicio.md?33)
    * [Recursos](chrome_devtools/recursos.md?34)
 * [HTML5: Mi Curriculum Vitae](WIP.md?5)
