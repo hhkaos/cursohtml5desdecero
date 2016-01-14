@@ -24,7 +24,7 @@
    * [Pestaña sources](WIP.md?55)
    * [Configuración](WIP.md?3)
    * [Emulador](WIP.md?4)
-   * [Ejercicio](WIP.md?33)
+   * [Ejercicio]()
    * [Recursos](WIP.md?34)
 * [HTML5: Mi Curriculum Vitae](WIP.md?5)
    * [Programando con Chrome DevTools](WIP.md?6)
