@@ -15,9 +15,6 @@ Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 
 
-## Errores frecuentes
-No poner el utf-8,...
-
 ## Convenciones de estilo
 http://www.w3schools.com/html/html5_syntax.asp
 
