@@ -50,7 +50,7 @@
    * [Estilos externos](WIP.md?21)
    * [Estilos con Chrome DevTools](WIP.md?22)
    * [Ejercicio](WIP.md?39)
-   * [Recursos]()
+   * [Recursos](css_primeros_pasos/recursos.md?40)
 * [CSS: Modelo de caja](WIP.md?23)
    * [Elementos HTML](WIP.md?24)
    * [Posicionar el contenido](WIP.md?25)
