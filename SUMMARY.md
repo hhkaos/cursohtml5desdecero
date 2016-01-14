@@ -34,7 +34,7 @@
    * [Convenciones](html5_mi_cv/convenciones.md?10)
    * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
    * [Ejercicio](WIP.md?35)
-   * [Recursos](WIP.md?36)
+   * [Recursos]()
 * [Github](WIP.md?12)
    * [Configurar nuestra cuenta](WIP.md?13)
    * [Funcionalidades](WIP.md?14)
