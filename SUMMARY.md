@@ -1,7 +1,7 @@
 # Summary
 
 * [Presentación](README.md)
-   * Contribuciones
+   * [Contribuciones](leccion0/contribuciones.md)
    * [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
 * [Conceptos básicos](chapter1.md)
    * [Alojamiento y servidores HTTP](leccion1/servidores_web_y_http.md)
