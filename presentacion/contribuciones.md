@@ -19,10 +19,12 @@ Los pasos son muy sencillos, primero accedemos a la [página con el índice del 
 
 [![](../images/contribuciones_paso1.png)](https://github.com/hhkaos/cursohtml5desdecero/blob/master/SUMMARY.md)
 <hr>
+Para "poder editar" una página (aclaración: *en realidad lo que estarás haciendo es enviarme una propuesta de mejora que tendré que revisar y aceptar*), **hace falta tener una cuenta y estar identificado en Github**.
+
 ![](../images/contribuciones_paso2.png)
 <hr>
 
-Por último añadir que los contenidos están escritos en [Markdown](https://es.wikipedia.org/wiki/Markdown), un lenguaje muy sencillo de entender. 
+Por último, añadir que los contenidos están escritos en [Markdown](https://es.wikipedia.org/wiki/Markdown), un lenguaje muy sencillo de entender. 
 
 Aprovecho para dejar [un tutorial con ejemplos](https://guides.github.com/features/mastering-markdown/#examples) la comprensión.
 
