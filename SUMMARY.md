@@ -30,7 +30,7 @@
    * [Programando con Chrome DevTools](WIP.md?6)
    * [Etiquetas - Parte 2](html5_mi_cv/etiquetas_parte_2.md?7)
    * [Anidación de etiquetas](WIP.md?8)
-   * [Validar nuestro código](WIP.md?9)
+   * [Validación y accesibilidad]()
    * [Convenciones](WIP.md?10)
    * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
    * [Ejercicio](WIP.md?35)
