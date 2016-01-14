@@ -20,7 +20,7 @@
    * [Recursos](html5_primeros_pasos/recursos.md)
 * [Chrome DevTools](chrome_devtools.md?32)
    * [Pestaña network](chrome_devtools/pestana_network.md?0)
-   * Pestaña elements
+   * [Pestaña elements](chrome_devtools/pestana_elements.md?1)
    * Pestaña sources
    * Configuración
    * Emulador
