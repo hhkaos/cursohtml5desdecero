@@ -1,9 +1,9 @@
 # Contribuciones
 
 Cualquier persona puedes contribuir de diferentes formas:
-1. Ayudando a mejorar los [contenidos](#contenidos) del libro o los ejercicios
-2. Colaborando en mejorar la página web
-3. Ayudando con las aplicaciones móviles
+1. Ayudando a mejorar los [contenidos](#contenidos) del libro o los [ejercicios](#ejercicios).
+2. Colaborando en mejorar la [página web](#página-web).
+3. Ayudando con las [aplicaciones móviles](#aplicaciones-móviles).
 
 Para facilitar la comunicación entre todas las personas que quieran contribuir se ha creado un [canal en Gitter](https://gitter.im/hhkaos/cursohtml5desdecero). A continuación explicamos cómo contribuir en cada apartado.
 
@@ -21,6 +21,11 @@ Los pasos son muy sencillos, primero accedemos a la [página con el índice del 
 <hr>
 ![](../images/contribuciones_paso2.png)
 <hr>
+
+Por último añadir que los contenidos están escritos en [Markdown](https://es.wikipedia.org/wiki/Markdown), un lenguaje muy sencillo de entender. 
+
+Aprovecho para dejar [un tutorial con ejemplos](https://guides.github.com/features/mastering-markdown/#examples) la comprensión.
+
 ![](../images/contribuciones_paso3.png)
 
 ### Ejercicios
