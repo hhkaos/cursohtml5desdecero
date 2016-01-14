@@ -1,11 +1,11 @@
 # Contribuciones
 
-Cualquier persona puedes contribuir de diferentes formas:
+Cualquier persona puede contribuir de diferentes formas:
 1. Ayudando a mejorar los [contenidos](#contenidos) del libro o los [ejercicios](#ejercicios).
 2. Colaborando en mejorar la [página web](#página-web).
 3. Ayudando con las [aplicaciones móviles](#aplicaciones-móviles).
 
-Para facilitar la comunicación entre todas las personas que quieran contribuir se ha creado un [canal en Gitter](https://gitter.im/hhkaos/cursohtml5desdecero). A continuación explicamos cómo contribuir en cada apartado.
+Para facilitar la comunicación entre todas las personas que quieran contribuir se ha creado un [canal en Gitter](https://gitter.im/hhkaos/cursohtml5desdecero). A continuación explicamos cómo contribuir en cada uno de los apartados mencionados anteriormente.
 
 ## Libro
 
