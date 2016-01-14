@@ -21,7 +21,7 @@
 * [Chrome DevTools](chrome_devtools.md?32)
    * [Pestaña network](chrome_devtools/pestana_network.md?0)
    * [Pestaña elements](chrome_devtools/pestana_elements.md?1)
-   * Pestaña sources
+   * [Pestaña sources](chrome_devtools/pestana_sources.md?55)
    * Configuración
    * Emulador
    * [Ejercicio](chrome_devtools/ejercicio.md?33)
