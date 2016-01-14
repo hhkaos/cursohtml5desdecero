@@ -7,9 +7,9 @@ Cualquier persona puede contribuir de diferentes formas:
 
 Para facilitar la comunicación entre todas las personas que quieran contribuir se ha creado un [canal en Gitter](https://gitter.im/hhkaos/cursohtml5desdecero). A continuación explicamos cómo contribuir en cada uno de los apartados mencionados anteriormente.
 
-## Libro
+## Contenidos del curso
 
-### Contenidos
+### Libro
 
 Estado de las tareas: [Waffle](https://waffle.io/hhkaos/cursohtml5desdecero?milestone=Contenidos%20del%20curso) | [Github](https://github.com/hhkaos/cursohtml5desdecero/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Contenidos+del+curso%22)
 
