@@ -2,7 +2,7 @@
 
 * [Presentación](README.md)
    * Contribuciones
-* [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
+   * [¿Qué vamos a necesitar?](leccion1/que_vamos_a_necesitar.md)
 * [Conceptos básicos](chapter1.md)
    * [Alojamiento y servidores HTTP](leccion1/servidores_web_y_http.md)
    * [Navegadores](leccion1/navegadores_web.md)
