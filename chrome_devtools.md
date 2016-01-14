@@ -14,16 +14,6 @@ De momento sólo nos vamos a centrar en tres de las pestañas:
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 
-
-## Convenciones de estilo
-http://www.w3schools.com/html/html5_syntax.asp
-
-http://docs.ckan.org/en/latest/contributing/html.html
-
-https://google.github.io/styleguide/htmlcssguide.xml
-
-http://codeguide.co/#html-syntax
-
 ## Qué etiquetas son anidables
 
 
