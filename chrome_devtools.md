@@ -14,12 +14,7 @@ De momento sólo nos vamos a centrar en tres de las pestañas:
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 
-## Qué etiquetas son anidables
-
-
-
-
-
 ## Recursos:
 
-* [Can I Use?](http://caniuse.com/)
+# Recursos
+
