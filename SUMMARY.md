@@ -32,7 +32,7 @@
    * [Anidación de etiquetas](WIP.md?8)
    * [Validar nuestro código](WIP.md?9)
    * [Convenciones](WIP.md?10)
-   * [Errores frecuentes]()
+   * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
    * [Ejercicio](WIP.md?35)
    * [Recursos](WIP.md?36)
 * [Github](WIP.md?12)
