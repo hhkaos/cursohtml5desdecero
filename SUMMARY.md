@@ -31,7 +31,7 @@
    * [Etiquetas - Parte 2](html5_mi_cv/etiquetas_parte_2.md?7)
    * [Anidación de etiquetas](WIP.md?8)
    * [Validación y accesibilidad](html5_mi_cv/validacion_y_accesibilidad.md?9)
-   * [Convenciones](WIP.md?10)
+   * [Convenciones]()
    * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
    * [Ejercicio](WIP.md?35)
    * [Recursos](WIP.md?36)
