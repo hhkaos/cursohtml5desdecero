@@ -29,7 +29,7 @@
 * [HTML5: Mi Curriculum Vitae](WIP.md?5)
    * [Programando con Chrome DevTools](WIP.md?6)
    * [Etiquetas - Parte 2](html5_mi_cv/etiquetas_parte_2.md?7)
-   * [Anidación de etiquetas](WIP.md?8)
+   * [Anidación de etiquetas - Parte 2](WIP.md?8)
    * [Validación y accesibilidad](html5_mi_cv/validacion_y_accesibilidad.md?9)
    * [Convenciones](html5_mi_cv/convenciones.md?10)
    * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
