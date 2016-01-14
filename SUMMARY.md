@@ -10,7 +10,7 @@
    * [Peticiones HTTP](conceptos_basicos/peticiones_http.md)
    * [Ejercicio](conceptos_basicos/ejercicio.md)
    * [Recursos](conceptos_basicos/extra_opcional.md)
-* [HTML5: Primeros pasos](chapter2.md)
+* [HTML5: Primeros pasos](html5_primeros_pasos.md)
    * [Introducción a HTML5](conceptos_basicos/introduccion_a_html5.md)
    * [Etiquetas](html5_primeros_pasos/etiquetas.md)
    * [Anidación de etiquetas](html5_primeros_pasos/anidacion_de_etiquetas.md)
