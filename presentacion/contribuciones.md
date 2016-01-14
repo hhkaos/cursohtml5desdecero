@@ -1,7 +1,7 @@
 # Contribuciones
 
 Cualquier persona puedes contribuir de diferentes formas:
-1. Ayudando a mejorar los contenidos del libro o los ejercicios
+1. Ayudando a mejorar los [contenidos](#contenidos) del libro o los ejercicios
 2. Colaborando en mejorar la página web
 3. Ayudando con las aplicaciones móviles
 
