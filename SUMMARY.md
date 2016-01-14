@@ -25,7 +25,7 @@
    * [Configuración](WIP.md?3)
    * [Emulador](WIP.md?4)
    * [Ejercicio](chrome_devtools/ejercicio.md?33)
-   * [Recursos](WIP.md?34)
+   * [Recursos]()
 * [HTML5: Mi Curriculum Vitae](WIP.md?5)
    * [Programando con Chrome DevTools](WIP.md?6)
    * [Etiquetas - Parte 2](html5_mi_cv/etiquetas_parte_2.md?7)
