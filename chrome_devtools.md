@@ -13,7 +13,7 @@ De momento sólo nos vamos a centrar en tres de las pestañas:
 
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
-Espacios, menor que, etc.
+
 
 ## Errores frecuentes
 No poner el utf-8,...
