@@ -13,7 +13,7 @@
 * [HTML5: Primeros pasos](html5_primeros_pasos.md)
    * [Introducción a HTML5](conceptos_basicos/introduccion_a_html5.md)
    * [Etiquetas](html5_primeros_pasos/etiquetas.md)
-   * [Anidación de etiquetas](html5_primeros_pasos/anidacion_de_etiquetas.md)
+   * [Anidación](html5_primeros_pasos/anidacion_de_etiquetas.md)
    * [Estructura básica de una página](html5_primeros_pasos/estructura_basica_de_una_pagina.md)
    * [Etiquetas básicas](html5_primeros_pasos/etiquetas_basicas.md)
    * [Ejercicio](html5_primeros_pasos/ejercicio.md)
