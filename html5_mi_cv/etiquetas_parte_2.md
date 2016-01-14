@@ -2,4 +2,5 @@
 
 Espacios, menor que, etc.
 
+table, img, ...
 * Mozilla CDN
