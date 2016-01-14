@@ -28,7 +28,7 @@
    * [Recursos](WIP.md?34)
 * [HTML5: Mi Curriculum Vitae](WIP.md?5)
    * [Programando con Chrome DevTools](WIP.md?6)
-   * [Etiquetas - Parte 2](WIP.md?7)
+   * [Etiquetas - Parte 2](html5_primeros_pasos/etiquetas_parte_2.md?7)
    * [Anidación de etiquetas](WIP.md?8)
    * [Validar nuestro código](WIP.md?9)
    * [Convenciones](WIP.md?10)
