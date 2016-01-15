@@ -29,3 +29,5 @@ Más información: https://developers.google.com/web/tools/chrome-devtools/profi
 
 Por último, simplemente, te animo a que 
 
+<small>Aclaraciones:</small><br>
+<small>1. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
