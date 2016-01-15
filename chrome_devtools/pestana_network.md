@@ -30,7 +30,7 @@ Veamos ahora **algunos** de las cosas que podemos hacer en esta pestaña. Tu nav
 * [Los recursos para desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)
 * [Lección 5 del curso: Discover DevTools](https://www.codeschool.com/courses/discover-devtools)
 
-Por último, simplemente quería animarte a que dediques un par de minutos a jugar con esta pestaña antes de pasar a la siguiente. Si tienes cualquier duda no olvides preguntarla en los [issues de Github](https://github.com/hhkaos/cursohtml5desdecero/issues)
+Por último, simplemente quería animarte a que dediques un par de minutos a jugar con esta pestaña antes de pasar a la siguiente. Si tienes cualquier duda no olvides preguntarla en los [issues de Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
 <small>Aclaraciones:</small><br>
 <small>1. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
