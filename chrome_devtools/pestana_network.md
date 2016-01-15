@@ -2,7 +2,7 @@
 
 Como decíamos, esta pestaña nos permite ver los recursos recuperados a través de las peticiones HTTP y los detalles de las mismas: tipo del mensaje (GET/POST), código de respuesta (200, 404, ...), etc.
 
-Si abres las DevTools después de haber cargado la página la pestaña "Network" te saldrá vacía, si es así, refresca la página y verás como te aparece algo parecido a esto<sup>1</sup>:
+Si abres las DevTools después de haber cargado la página la pestaña "Network" te saldrá vacía, si es así, refresca la página y verás como te aparece algo parecido<sup>1</sup> a esto:
 
 ![] (../images/pestana_network.png)
 
