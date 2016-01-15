@@ -18,7 +18,7 @@ Veamos ahora **algunas** de las cosas que podemos hacer en esta pestaña. Si te 
 
 ![](../images/network-panel.png)
 
-* **[Preserve records on navigation](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)**: por defecto aparece el bóton en rojo, esto significa que cada vez que cambiemos de página se eliminarán las peticiones y se añadirán las nuevas. Si lo desactivamos, se mantendrán las peticiones antiguas.
+* **[Preserve records on navigation](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)**: por defecto aparece el bóton en rojo, esto significa que cada vez que cambiemos de página se eliminarán las peticiones y se añadirán las nuevas. En cambio, si lo desactivamos se mantendrán las peticiones antiguas.
 * **Preserve log**: si marcas esta opción, el efecto será justo lo contrario, nunca se borrarán las peticiones HTTP, ni siquiera aunque cambies de dominio.
 * **Clear records**: este botón nos permite vaciar la información de las peticiones.
 * **Hide/show filter buttons**: para ocultar/mostrar los botones para filtar.
