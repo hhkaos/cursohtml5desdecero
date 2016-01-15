@@ -11,8 +11,8 @@ En esta lección vamos a empezar a trabajar con las herramientas de Google Chrom
 La barra de herramientas la podemos abrir en cualquier página que estemos viendo. Para abrir esta barra podemos hacerlo mediante un atajo de teclado o mediante el menú de herramientas del Chrome:
 
 * **[Atajo de teclado](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)** (recomendado):
-   * Windows: F2 o Control + Shift + I
-   * Mac: Cmd + Opt + I
+   * En Windows pulsando: F2 o Control + Shift + I
+   * En Mac pulsando: Cmd + Opt + I
 * **Menú**: pulsando el botón de menú de Chrome, "Más herramientas" y "Herramientas para desarrolladores" como podemos ver en la siguiente imagen.
 
 
