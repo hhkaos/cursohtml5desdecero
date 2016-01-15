@@ -13,7 +13,7 @@ La barra de herramientas la podemos abrir en cualquier página que estemos viend
 * **[Atajo de teclado](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)** (recomendado):
    * En Windows pulsando: F2 o Control + Shift + I
    * En Mac pulsando: Cmd + Opt + I
-* **Menú**: pulsando el botón de menú de Chrome, "Más herramientas" y "Herramientas para desarrolladores" como podemos ver en la siguiente imagen.
+* **Pulsando el botón de menú**: "Botón de menú" -> "Más herramientas" -> "Herramientas para desarrolladores".<br> Como podemos ver en la siguiente imagen.
 
 
 <img src="images/menu_abrir_devtools.png" height="320">
