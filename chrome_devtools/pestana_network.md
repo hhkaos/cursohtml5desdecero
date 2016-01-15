@@ -21,7 +21,7 @@ Veamos ahora **algunas**<sup>2</sup> de las cosas que podemos hacer en esta pest
 * **[Preserve records on navigation](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)**: por defecto aparece el bóton en rojo, esto significa que cada vez que cambiemos de página se eliminarán las peticiones y se añadirán las nuevas. En cambio, si lo desactivamos se mantendrán las peticiones antiguas.
 * **Preserve log**: si marcas esta opción, el efecto será justo el contrario, nunca se borrarán las peticiones HTTP, ni cambiando de página ni de dominio (se irán añadiendo una tras otra).
 * **Clear records**: este botón nos permite limpiar la información de las peticiones.
-* **Filter**: nos permite filtrar las peticiones, se buscarán *URLs* que contengan el texto introducido
+* **Filter**: nos permite filtrar las peticiones, se buscarán *URLs* que contengan el texto introducido.
 * **Hide/show filter buttons**: para ocultar/mostrar los botones para filtar.
 * **Filter buttons**: estos botones nos permite ver sólo las peticiones HTTP que ha recuperado un tipo de recurso. *De momento* no lo usaremos mucho.
 * **Summary view**: podemos ver cuántas peticiones HTTP se han necesitado para cargar la página (requests), cuando ocupa la suma de todos los recursos recuperados (XXX transferred), el tiempo exacto que ha tardado en descargar los recursos (ms = milisegundos), y en la siguiente lección veremos qué es el DOM y qué significa el DOMContentLoaded.
