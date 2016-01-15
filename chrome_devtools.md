@@ -8,7 +8,7 @@ En esta lección vamos a empezar a trabajar con las herramientas de Google Chrom
 
 * **Fuentes** (*Sources*): nos permite navegar por todos los ficheros (HTML, CSS y JavaScript) que utiliza la página que estamos viendo.
 
-Para abrir esta barra de herramientas podemos hacerlo mediante un atajo de teclado o mediante el menú de herramientas:
+La barra de herramientas la podemos abrir en cualquier página que estemos viendo. Para abrir esta barra podemos hacerlo mediante un atajo de teclado o mediante el menú de herramientas del Chrome:
 
 * **[Atajo de teclado](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)** (recomendado):
    * Windows: F2 o Control + Shift + I
