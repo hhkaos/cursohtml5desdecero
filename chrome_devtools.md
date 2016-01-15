@@ -22,6 +22,8 @@ Una vez hecho esto nos aparecerá la barra de herramientas:
 
 [![](images/chrome_devtools.png)](images/chrome_devtools.png)
 
+TODO: **Explicar el DOCSIDE**
+
 Vayamos ahora analizando las pestañas.
 
 <small>Aclaraciones:</small><br>
