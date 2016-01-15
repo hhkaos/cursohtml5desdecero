@@ -26,10 +26,6 @@ Veamos ahora **algunas** de las cosas que podemos hacer en esta pestaña. Si te 
 * **Summary view**: podemos ver cuántas peticiones HTTP se han necesitado para cargar la página (requests), cuando ocupa la suma de todos los recursos recuperados (XXX transferred), el tiempo que ha tardado en cargar, etc.
 * **No throttling** (se ve en la imagen anterior): esto permite simular que tu conexión a Intenet es más lenta. Lo usaremos más adelante cuando queramos ver si nuestra página carga la suficientemente rápido usando un dispositivo conectado por 3G.
 
-*Si es tu primera vez con DevTools **no te lo recomiendo***, pero si quieres, puedes encontrar más información (en inglés) sobre esta pestaña en:
-* [Los recursos para desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)
-* [Lección 5 del curso: Discover DevTools](https://www.codeschool.com/courses/discover-devtools)
-
 Por último, simplemente quería animarte a que dediques un par de minutos a jugar con esta pestaña antes de pasar a la siguiente. Si tienes cualquier duda no olvides preguntarla en los [issues de Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
 <small>Aclaraciones:</small><br>
