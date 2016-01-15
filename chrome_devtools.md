@@ -1,12 +1,13 @@
 # Chrome DevTools
 
+En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools)). De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organizadas por pestañas:
 
+* **Elementos** (*Elements*): que nos permitirá ver y modificar el código HTML<sup>1</sup> que representa lo generado que compone la página
 
-De momento sólo nos vamos a centrar en tres de las pestañas:
+* **Fuentes** (*Sources*):
 
-* Elements
-* Sources
-* Network
+* **Red** (*Network*):
 
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
+
 
