@@ -1,6 +1,6 @@
 # Pestaña network
 
-Es posible que cuando pulses sobre la pestaña "Network" te aparezca vacía, si es así refresca la página para que te salga algo así:
+Si abres las DevTools después de haber cargado la página, la pestaña "Network" te saldrá vacía, si es así, refresca la página y verás como te aparece algo así:
 
 (network)
 
