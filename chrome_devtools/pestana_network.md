@@ -14,20 +14,22 @@ Si haces clic en cualquiera de las peticiones podrás ver los contenidos del rec
 
 Para cerrar el detalle de la petición puedes pulsar en el aspa.
 
-Veamos ahora **algunos** de los apartados de esta pestaña:
+Veamos ahora **algunos** de las cosas que podemos hacer en esta pestaña. Tu navegador tendrá más opciones, no importa que de momento no veremos ninguna de las nuevas, veamos que significan estas:
 
 ![](../images/network-panel.png)
 
-* **Preserve records on navigation*:**
-* **Clear records**:
-* **Hide/show filter buttons**:
-* **Filter buttons**
-* 
+* **[Preserve records on navigation](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)**: por defecto aparece el bóton en rojo, esto significa que cada vez que cambiemos de página se eliminarán las peticiones y se añadirán las nuevas. Si lo desactivamos, se mantendrán las peticiones antiguas.
+* **Preserve log**: si marcas esta opción, el efecto será justo lo contrario, nunca se borrarán las peticiones HTTP, ni siquiera aunque cambies de dominio.
+* **Clear records**: este botón nos permite vaciar la información de las peticiones.
+* **Hide/show filter buttons**: para ocultar/mostrar los botones para filtar.
+* **Filter buttons**: estos botones nos permite ver sólo las peticiones HTTP que ha recuperado un tipo de recurso. *De momento* no lo usaremos mucho.
+* **Summary view**: podemos ver cuántas peticiones HTTP se han necesitado para cargar la página (requests), cuando ocupa la suma de todos los recursos recuperados (XXX transferred), el tiempo que ha tardado en cargar, etc.
 
-Más información: https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/resource-loading#network-panel-overview
+*Si es tu primera vez con DevTools **no te lo recomiendo***, pero si quieres, puedes encontrar más información (en inglés) sobre esta pestaña en:
+* [Los recursos para desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)
+* [Lección 5 del curso: Discover DevTools](https://www.codeschool.com/courses/discover-devtools)
 
-
-Por último, simplemente, te animo a que 
+Por último, simplemente, te animo a que dediques un par de minutos a jugar con las distintas opciones
 
 <small>Aclaraciones:</small><br>
 <small>1. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
