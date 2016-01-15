@@ -4,13 +4,13 @@ Como decíamos, esta pestaña nos permite ver los recursos recuperados a través
 
 Si abres las DevTools después de haber cargado la página la pestaña "Network" te saldrá vacía, si es así, refresca la página y verás como te aparece algo parecido<sup>1</sup> a esto:
 
-![] (../images/pestana_network.png)
+![](../images/pestana_network.png)
 
 Cada fila representa una petición HTTP, y si te fijas, dejando el cursor encima de una petición te mostrará la URL completa del recurso.
 
 Si haces clic en cualquiera de las peticiones podrás ver los contenidos del recurso y algunos detalles que no nos preocuparán en este curso.
 
-![] (../images/cerrar_respuesta_red.png)
+![](../images/cerrar_respuesta_red.png)
 
 Para cerrar el detalle de la petición puedes pulsar en el aspa.
 
