@@ -6,7 +6,7 @@ Si abres las DevTools después de haber cargado la página la pestaña "Network"
 
 ![] (../images/pestana_network.png)
 
-Donde cada fila representa una petición HTTP, y si te fijas, dejando el cursos encima de una petición te mostrará la URL completa del recurso.
+Cada fila representa una petición HTTP, y si te fijas, dejando el cursor encima de una petición te mostrará la URL completa del recurso.
 
 Si haces clic en cualquiera de las peticiones podrás ver los contenidos del recurso y algunos detalles que no nos preocuparán en este curso.
 
