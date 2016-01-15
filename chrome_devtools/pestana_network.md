@@ -14,7 +14,7 @@ Si haces clic en cualquiera de las peticiones podrás ver los contenidos del rec
 
 Para cerrar el detalle de la petición puedes pulsar en el aspa.
 
-Veamos ahora **algunas** de las cosas que podemos hacer en esta pestaña. Si te fijas, las opciones en esta imagen no coinciden exactamente con las de la imagen anterior (y posiblemente tampoco con las tuyas), esto se debe a que este "pantallazo" es de una versión anterior del navegador (no importa), veamos que significan:
+Veamos ahora **algunas**<sup>2</sup> de las cosas que podemos hacer en esta pestaña. Si te fijas, las opciones en esta imagen no coinciden exactamente con las de la imagen anterior (y posiblemente tampoco con las tuyas), esto se debe a que este "pantallazo" es de una versión anterior del navegador (no importa), veamos que significan:
 
 ![](../images/network-panel.png)
 
@@ -30,3 +30,4 @@ Por último, simplemente quería animarte a que dediques un par de minutos a jug
 
 <small>Aclaraciones:</small><br>
 <small>1. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
+<small>2. Si ya tienes experiencia con Chrome DevTools y quieres, encontrarás dónde ampliar conocimientos en la sección recursos de esta lección.</small>
