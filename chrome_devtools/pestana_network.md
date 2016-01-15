@@ -26,7 +26,7 @@ Veamos ahora **algunas**<sup>2</sup> de las cosas que podemos hacer en esta pest
 * **Summary view**: podemos ver cuántas peticiones HTTP se han necesitado para cargar la página (requests), cuando ocupa la suma de todos los recursos recuperados (XXX transferred), el tiempo que ha tardado en cargar, etc.
 * **No throttling** (se ve en la imagen anterior): esto permite simular que tu conexión a Intenet es más lenta. Lo usaremos más adelante cuando queramos ver si nuestra página carga la suficientemente rápido usando un dispositivo conectado por 3G.
 
-Por último, simplemente quería animarte a que dediques un par de minutos a jugar con esta pestaña antes de pasar a la siguiente. Si tienes cualquier duda no olvides preguntarla en los [issues de Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
+Por último y antes de pasar a la siguiente lección, te animo a que dediques un par de minutos a jugar con esta pestaña, y si te surge alguna duda... no olvides preguntarla en los [issues de Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
 <small>Aclaraciones:</small><br>
 <small>1. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
