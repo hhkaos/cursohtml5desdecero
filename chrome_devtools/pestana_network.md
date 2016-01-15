@@ -1,5 +1,7 @@
 # Pestaña network
 
+Como decíamos, esta pestaña nos permite ver las peticiones HTTP que hace nuestro navegador mientras usamos una página, el tipo del mensaje (GET/POST), de la respuesta (200, 404, ...), etc.
+
 Si abres las DevTools después de haber cargado la página, la pestaña "Network" te saldrá vacía, si es así, refresca la página y verás como te aparece algo así:
 
 (network)
