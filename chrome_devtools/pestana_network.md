@@ -30,6 +30,6 @@ Veamos ahora **algunas**<sup>3</sup> de las cosas que podemos hacer en esta pest
 Por último y antes de pasar a la siguiente lección, te animo a que dediques un par de minutos a jugar con esta pestaña, y si te surge alguna duda... no olvides preguntarla en los [issues de Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
 <small>Aclaraciones:</small><br>
-<small>1. Es la página de [desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation) puedes consultar que significa cada columna, aunque no es trivial y *no te lo recomiendo si estás empezando*.</small><br>
+<small>1. Es la página de [desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation) puedes consultar que significa cada columna, aunque no es trivial y *no te recomiendo que lo hagas si estás empezando*.</small><br>
 <small>2. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
 <small>3. Si ya tienes experiencia con Chrome DevTools y quieres, encontrarás dónde ampliar conocimientos en la sección recursos de esta lección.</small>
