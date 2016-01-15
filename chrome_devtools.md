@@ -14,10 +14,16 @@ Para abrir esta barra de herramientas podemos hacerlo mediante un atajo de tecla
 * **[Atajo de teclado](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)** (recomendado):
    * Windows: F2 o Control + Shift + I
    * Mac: Cmd + Opt + I
-* **Menú**: pulsando el botón de menú de Chrome, "Más herramientas" y "Herramientas para desarrolladores".
+* **Menú**: pulsando el botón de menú de Chrome, "Más herramientas" y "Herramientas para desarrolladores" como podemos ver en la siguiente imagen.
 
-Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
+<img src="images/menu_abrir_devtools.png" height="320">
+
+Una vez hecho esto nos aparecerá la barra de herramientas:
+
+![](images/chrome_devtools.png)
+
+Vayamos ahora analizando las pestañas.
 
 <small>Aclaraciones:</small><br>
 <small>1. Y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
