@@ -22,7 +22,7 @@ Una vez hecho esto nos aparecerá la barra de herramientas:
 
 [![](images/chrome_devtools.png)](images/chrome_devtools.png)
 
-TODO: **Explicar el DOCSIDE**
+TODO: **Explicar el DOCSIDE y eliminar cache con botón derecho**
 
 Vayamos ahora analizando las pestañas.
 
