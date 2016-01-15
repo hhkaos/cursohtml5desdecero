@@ -14,7 +14,7 @@ Si haces clic en cualquiera de las peticiones podrás ver los contenidos del rec
 
 Para cerrar el detalle de la petición puedes pulsar en el aspa.
 
-Veamos ahora **algunos** de las cosas que podemos hacer en esta pestaña. Si te fijas, las opciones en esta imagen no coinciden exactamente con las de la imagen anterior (y posiblemente tampoco con las tuyas), esto se debe a que este "pantallazo" es una versión anterior del navegador (no importa), veamos que significan:
+Veamos ahora **algunas** de las cosas que podemos hacer en esta pestaña. Si te fijas, las opciones en esta imagen no coinciden exactamente con las de la imagen anterior (y posiblemente tampoco con las tuyas), esto se debe a que este "pantallazo" es una versión anterior del navegador (no importa), veamos que significan:
 
 ![](../images/network-panel.png)
 
