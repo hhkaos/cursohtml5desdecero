@@ -17,7 +17,7 @@ Para abrir esta barra de herramientas podemos hacerlo mediante un atajo de tecla
 * **Menú**: pulsando el botón de menú de Chrome, "Más herramientas" y "Herramientas para desarrolladores" como podemos ver en la siguiente imagen.
 
 
-<img src="images/menu_abrir_devtools.png" height="320">
+<img src="images/menu_abrir_devtools.png" height="120">
 
 Una vez hecho esto nos aparecerá la barra de herramientas:
 
