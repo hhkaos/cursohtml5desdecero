@@ -16,11 +16,11 @@ La barra de herramientas la podemos abrir en cualquier página que estemos viend
 * **Pulsando el botón de menú**: "Botón de menú" -> "Más herramientas" -> "Herramientas para desarrolladores".<br> Como podemos ver en la siguiente imagen.
 
 
-<img src="images/menu_abrir_devtools.png" height="320">
+[<img src="images/menu_abrir_devtools.png" height="320">](images/menu_abrir_devtools.png)
 
 Una vez hecho esto nos aparecerá la barra de herramientas:
 
-![](images/chrome_devtools.png)
+[![](images/chrome_devtools.png)](images/chrome_devtools.png)
 
 Vayamos ahora analizando las pestañas.
 
