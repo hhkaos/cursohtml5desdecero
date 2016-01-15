@@ -24,6 +24,7 @@ Veamos ahora **algunos** de las cosas que podemos hacer en esta pestaña. Tu nav
 * **Hide/show filter buttons**: para ocultar/mostrar los botones para filtar.
 * **Filter buttons**: estos botones nos permite ver sólo las peticiones HTTP que ha recuperado un tipo de recurso. *De momento* no lo usaremos mucho.
 * **Summary view**: podemos ver cuántas peticiones HTTP se han necesitado para cargar la página (requests), cuando ocupa la suma de todos los recursos recuperados (XXX transferred), el tiempo que ha tardado en cargar, etc.
+* **No throttling**: esto permite simular que tu conexión a Intenet es más lenta. Lo usaremos más adelante cuando queramos vér si nuestra página se vería bien usando un móvil con una conexión 3G.
 
 *Si es tu primera vez con DevTools **no te lo recomiendo***, pero si quieres, puedes encontrar más información (en inglés) sobre esta pestaña en:
 * [Los recursos para desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation)
