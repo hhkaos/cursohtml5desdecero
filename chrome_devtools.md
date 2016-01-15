@@ -11,3 +11,5 @@ En esta lección vamos a empezar a trabajar con las herramientas de Google Chrom
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 
+<small>Aclaraciones:</small><br>
+<small>1. Y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
