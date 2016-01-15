@@ -2,7 +2,7 @@
 
 En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools)). De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organizadas por pestañas:
 
-* **Red** (*Network*): esta pestaña nos permite ver las peticiones HTTP que hace nuestro navegador mientras usamos una página, el tipo del mensaje (GET/POST), de la respuesta (200, 404, ...), etc.
+* **Red** (*Network*): esta pestaña nos permite ver los recursos recuperados a través de las peticiones HTTP que hace nuestro navegador mientras cargamos y usamos la página.
 
 * **Elementos** (*Elements*): nos permite ver y modificar el código HTML<sup>1</sup> que representa la página que estamos viendo.
 
