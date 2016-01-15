@@ -2,6 +2,8 @@
 
 Espacios, menor que, etc.
 
+DOM y DOMContentLoaded
+
 table, img, ...
 * Mozilla CDN
 
