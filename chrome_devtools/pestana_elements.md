@@ -1,6 +1,6 @@
 # Pestaña elements
 
-La pestaña "**Elements**" representa el contenido de la página que estamos viendo, lo que llamaremos el [DOM](https://es.wikipedia.org/wiki/Document_Object_Model) (*Document Object Model*).
+La pestaña "**Elements**" representa lo que llamaremos el "**[DOM](https://es.wikipedia.org/wiki/Document_Object_Model)**" (*Document Object Model*), que no es más que la página que estamos viendo.
 
 El DOM lo construye el navegador a partir del código HTML cuando se carga la página y en el caso de que encuentre errores en el código intenta arreglarlos, por ejemplo: si se nos olvida cerrar una etiqueta o animados etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar (usando JavaScript por ejemplo), el DOM se parece pero no suele exáctamente al código HTML que escribimos.
 
