@@ -18,11 +18,11 @@ Cualquier persona puede ayudar a introducir mejoras, corregir errores tipográfi
 Los pasos son muy sencillos, primero accedemos a la [página con el índice del libro en Github](https://github.com/hhkaos/cursohtml5desdecero/blob/master/SUMMARY.md) y seguimos los siguientes pasos:
 
 [![](../images/contribuciones_paso1.png)](https://github.com/hhkaos/cursohtml5desdecero/blob/master/SUMMARY.md)
-<hr>
+---
 Para "poder editar" una página (aclaración: *en realidad lo que estarás haciendo es enviarme una propuesta de mejora que tendré que revisar y aceptar*), **hace falta tener una cuenta y estar identificado en Github**.
 
 ![](../images/contribuciones_paso2.png)
-<hr>
+---
 
 Por último, añadir que los contenidos están escritos en [Markdown](https://es.wikipedia.org/wiki/Markdown), un lenguaje bastante sencillo, aquí te dejo [un tutorial con ejemplos](https://guides.github.com/features/mastering-markdown/#examples) por si te hiciese falta.
 
