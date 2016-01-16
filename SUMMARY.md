@@ -44,7 +44,7 @@
    * [Markdown](WIP.md?17)
    * [Ejercicio](WIP.md?37)
    * [Recursos](WIP.md?38)
-* [CSS: Primero pasos]()
+* [CSS: Primero pasos](css_primero_pasos.md)
    * [Propiedades](WIP.md?19)
    * [Estilos en línea](WIP.md?20)
    * [Estilos externos](WIP.md?21)
