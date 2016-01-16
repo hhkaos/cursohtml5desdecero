@@ -6,7 +6,12 @@ Si abres las DevTools después de haber cargado la página, la pestaña "Network
 
 [![](../images/pestana_network.png)](../images/pestana_network.png)
 
-Cada fila representa una petición HTTP, y si te fijas, dejando el cursor encima de una petición te mostrará la URL completa del recurso y si pulsamos el botón derecho tendremos varias opciones, entre ellas la de abrir el recurso en una nueva ventana, eliminar los ficheros de la memoria caché, etc.
+Cada fila representa una petición HTTP, y si te fijas, dejando el cursor encima de una petición te mostrará la URL completa del recurso y si pulsamos el botón derecho tendremos varias opciones, entre ellas la de abrir el recurso en una nueva ventana, eliminar los ficheros de la memoria caché, etc. 
+
+```Podemos 
+Nota: 
+Podemos eliminar la caché de dos formas distintas, una es pulsando el icono de refrescar con el botón derecho, y otra es pulsando el botón derecho sobre cualquiera de las peticiones HTTP y pulsar "Clear browser cache"
+```
 
 Si haces clic en cualquiera de las peticiones podrás ver los contenidos del recurso y algunos detalles que no nos preocuparán en este curso.
 
