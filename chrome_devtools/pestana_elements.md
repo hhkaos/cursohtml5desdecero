@@ -10,7 +10,7 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
 
 ![](../images/pestana_elements_2.png)
 
-* **Emulador**: esta opción nos permitirá simular que estamos usando una móvil o tablet, al igual que hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña de red.
+* **Emulador**: esta opción nos permitirá simular que estamos usando un móvil o tablet y hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña de "**Network**".
 * **Inspeccionar elementos**: activando esta opción podrás hacer clic sobre cualquier parte de la página y el inspector señalará el código que representa el elemento seleccionado.
 * **Menú contextual**: pultando el botón derecho sobre el código veremos varias opciones:
     * **Add attribute**: permite añadir un atributo, por ejemplo: charset="UTF-8".
@@ -18,6 +18,9 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
     * **Copy**: nos permite copiar el código (*outerHTML*), el selector (ya veremos lo que significa cuando veamos CSS), el [XPath](https://es.wikipedia.org/wiki/XPath)<sup>2</sup> (es un lenguaje que nos permite buscar y seleccionar elementos teniendo en cuenta la estructura jerárquica del código), cotar y copiar el elemento.
     * **Ocultar elemento**: cambia la visibilidad a "oculto" usando CSS.
     * **Delete element**: permite eliminar el elemento. Atajo de teclado: Suprimir o borrar.
+    * **:active, :hover, :focus, :visited**: nos permite cambiar el estado del elemento (esto lo usaremos en el apartado de CSS)
+    * **Scroll into View...**: en caso de ser necesario se hace scroll hasta que se muestre el elemento.
+    * **Break on...**: nos permite establecer puntos de ruptura indicando que se debe detener la ejecución de cualquier código JavaScript si: se modifica alguno de sus hijos, se modifica algún atributo o si se elimina el código.
 * **Buscar**: Nos permite buscar cualquier palabra dentro del DOM.
 * **Jerarquía**: nos muestra todos los ancestros del elemento y nos permite seleccionarlos.
 
