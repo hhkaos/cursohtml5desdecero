@@ -8,10 +8,10 @@ Si abres las DevTools después de haber cargado la página, la pestaña "Network
 
 Cada fila representa una petición HTTP, y si te fijas, dejando el cursor encima de una petición te mostrará la URL completa del recurso y si pulsamos el botón derecho tendremos varias opciones, entre ellas la de abrir el recurso en una nueva ventana, eliminar los ficheros de la memoria caché, etc. 
 
-```Podemos 
-Nota: 
-Podemos eliminar la caché de dos formas distintas, una es pulsando el icono de refrescar con el botón derecho, y otra es pulsando el botón derecho sobre cualquiera de las peticiones HTTP y pulsar "Clear browser cache"
-```
+
+> **Nota: **
+> Podemos vaciar la memoria caché<sup>3</sup> de dos formas distintas, una es pulsando el icono de refrescar con el botón derecho, y otra es pulsando el botón derecho sobre cualquiera de las peticiones HTTP y pulsar "Clear browser cache"
+
 
 Si haces clic en cualquiera de las peticiones podrás ver los contenidos del recurso y algunos detalles que no nos preocuparán en este curso.
 
@@ -19,7 +19,7 @@ Si haces clic en cualquiera de las peticiones podrás ver los contenidos del rec
 
 Para cerrar el detalle de la petición puedes pulsar en el aspa.
 
-Veamos ahora **algunas**<sup>3</sup> de las cosas que podemos hacer en esta pestaña. Si te fijas, las opciones en esta imagen no coinciden exactamente con las de la imagen anterior (y posiblemente tampoco con las tuyas), esto se debe a que este "pantallazo" es de una versión anterior del navegador (no importa), veamos que significan:
+Veamos ahora **algunas**<sup>4</sup> de las cosas que podemos hacer en esta pestaña. Si te fijas, las opciones en esta imagen no coinciden exactamente con las de la imagen anterior (y posiblemente tampoco con las tuyas), esto se debe a que este "pantallazo" es de una versión anterior del navegador (no importa), veamos que significan:
 
 [![](../images/network-panel.png)](../images/network-panel.png)
 
@@ -37,4 +37,5 @@ Por último y antes de pasar a la siguiente lección, te animo a que dediques un
 <small>Aclaraciones:</small><br>
 <small>1. Es la página de [desarrolladores de Chrome](https://developer.chrome.com/devtools/docs/network#preserving-the-network-log-upon-navigation) puedes consultar que significa cada columna, aunque *no es trivial y no te recomiendo que lo hagas si estás empezando*.</small><br>
 <small>2. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
-<small>3. Si ya tienes experiencia con Chrome DevTools y quieres, encontrarás dónde ampliar conocimientos en la sección recursos de esta lección.</small>
+<small>3. Cuando el navegador accede.</small><br>
+<small>4. Si ya tienes experiencia con Chrome DevTools y quieres, encontrarás dónde ampliar conocimientos en la sección recursos de esta lección.</small>
