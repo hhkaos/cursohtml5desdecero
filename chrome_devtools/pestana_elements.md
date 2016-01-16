@@ -6,6 +6,8 @@ El DOM no siempre es igual que el código que hemos escrito, ya que el DOM se pu
 
 Además de poder ver el DOM podemos hacer búsquedas, editarlos y hasta reordenar etiquetas arrastrándolas con el ratón.
 
+![](../images/pestana_elements_2.png)
+
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
 <small>Aclaraciones:</small><br>
