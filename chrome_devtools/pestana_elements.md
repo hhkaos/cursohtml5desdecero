@@ -4,7 +4,7 @@ La pestaña **Elements** representa el contenido de la página, lo que llamaremo
 
 El DOM no siempre es igual que el código que hemos escrito, ya que el DOM se puede modificar de distintas maneras: Javascript, extensiones del navegador, etc. De hecho el propio navegador a veces encuentra errores en nuestro código e intenta arreglarlos (por ejemplo si se nos olvida cerrar una etiqueta o animados etiquetas que no son anidables).
 
-Además de poder ver, buscar
+Además de poder ver el DOM podemos hacer búsquedas, editarlos y hasta reordenar etiquetas arrastrándolas con el ratón.
 
 Antes de continuar, estilos por defecto del navegador, inspeccionar/editar, etc.
 
