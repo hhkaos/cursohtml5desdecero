@@ -31,7 +31,7 @@ Para mejorar tu productividad te recomiendo que de vez en cuando consultes [los 
 Windows/Linux   | Mac           | Función
 ----------------|---------------|---
 Ctrl + Z        | Cmd+Z         | Deshacer los cambios realizados
-Ctrl + Shift + C| Cmd + Shift  + C | Abrir y activar la herramienta para "**Inspeccionar elementos**"
+Ctrl + Shift + C| Cmd + Shift  + C | Abrir DevTools con la herramienta para "**Inspeccionar elementos**" activada por defecto.
 &larr;, &rarr;, &uarr;, &darr; | &larr;, &rarr;, &uarr;, &darr; | Navegar por los elementos del DOM
 
 El panel que sale a la derecha es el CSS que se le ha aplicado al elemento seleccionado, pero esto ya lo veremos más adelante.
