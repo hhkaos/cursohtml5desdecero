@@ -1,3 +1,3 @@
 # Colaborar con un proyecto
 
-fork
+fork, pull request, issues
