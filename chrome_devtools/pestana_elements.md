@@ -31,9 +31,8 @@ Para mejorar tu productividad te recomiendo que de vez en cuando consultes [los 
 Windows/Linux   | Mac           | Función
 ----------------|---------------|---
 Ctrl + Z        | Cmd+Z         | Deshacer los cambios realizados
-Ctrl + Shift + C| Cmd + Shift  + C | Puedes abrir y activar la herramienta para "**Inspeccionar elementos**"
-&larr;, &rarr;, &uarr;, &darr; | &larr;, &rarr;, &uarr;, &darr; |
-* Podrás navegar por los elementos usando las fechas
+Ctrl + Shift + C| Cmd + Shift  + C | Abrir y activar la herramienta para "**Inspeccionar elementos**"
+&larr;, &rarr;, &uarr;, &darr; | &larr;, &rarr;, &uarr;, &darr; | Navegar por los elementos del DOM
 
 El panel que sale a la derecha es el CSS que se le ha aplicado al elemento seleccionado, pero esto ya lo veremos más adelante.
 
