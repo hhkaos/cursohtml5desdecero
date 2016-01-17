@@ -19,14 +19,14 @@ El panel de contenido nos ofrece un editor de código que dispone de adicionalme
 
 ![](../images/sources_2.png)
 
-En principio me gustaría destacar:
+En principio me gustaría destacar cuatro especialmente útiles:
 
 Windows/Linux   | Mac           | Función
 ----------------|---------------|---
+Ctrl + F        | Cmd + F       | Buscar (y adicionalmente) texto dentro de un fichero
+Ctrl + S        | Cmd + S       | Para guardar un fichero
 Ctrl + P        | Cmd + P       | Buscar ficheros por nombre 
 Ctrl + P + :**num**| Cmd + P + :**num**| Acceder directamente a un número de línea
-Control + F     | Cmd + F       | Buscar (y adicionalmente) texto dentro de un fichero
-* Control + S: para guardar un fichero
 
 La opción "**Prety print**" veremos que es especialmente útil cuando estemos depurando bibliotecas JavaScript minificadas, aunque de momento no te preocupes por esto.
 
