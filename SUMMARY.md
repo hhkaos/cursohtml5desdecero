@@ -41,7 +41,6 @@
    * [Enviar y recibir cambios](WIP.md?15)
    * [Publicar una web en Github](WIP.md?16)
    * [Colaborar con un proyecto](github/colaborar_con_un_proyecto.md?71)
-   * [Markdown](WIP.md?17)
    * [Ejercicio](WIP.md?37)
    * [Recursos](WIP.md?38)
 * [CSS: Primero pasos](css_primero_pasos.md?18)
