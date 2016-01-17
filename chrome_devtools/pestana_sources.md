@@ -15,7 +15,7 @@ Al igual que en la lección anterior, te recomiendo que guardes en un lugar segu
 
 ## Panel de contenido
 
-El panel de contenido nos ofrece un editor de código que dispone de adicionalmente de [otros atajos te teclado](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#within-the-code-editor).
+El panel de contenido nos ofrece un [editor de código](https://es.wikipedia.org/wiki/Editor_de_c%C3%B3digo_fuente) que dispone adicionalmente de [otros atajos te teclado](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#within-the-code-editor).
 
 ![](../images/sources_2.png)
 
