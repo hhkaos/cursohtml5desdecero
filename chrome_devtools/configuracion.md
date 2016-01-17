@@ -21,11 +21,14 @@ Ahora tenemos que vincular el fichero que queremos modificar, para ello:
 
 Y ya estamos listos para empezar a programar usando las Chrome DevTools.
 
-Aunque existen algunas [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) al usar los "**Workspaces**" para programar, no nos preocuparemos por ellas.
+Existen algunas [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) que no nos deben preocupar en este curso al usar los "**Workspaces**" para programar, por ejemplo que los cambios en la pestaña "**Elements**" no serán persistentes ya que lo que estamos cambiando es el *DOM* (que como vimos anteriormente es dinámico, osea que va cambiando).
 
-https://developers.google.com/web/tools/setup/setup-workflow 
-Control P
-
+## Gestión de ficheros
+Una vez hecho todo esto podemos añadir y eliminar ficheros directamente desde DevTools:
+1. Añadir ficheros: pulsando con el botón derecho sobre la carpeta y seleccionando "**New File**".
+2. Eliminar ficheros: pulsando con el botón derecho y seleccionando "**Delete**"
+ 
+Sin embargo no podemos crear y eliminar directorios, esto lo tendremos que hacer directamente desde la carpeta que hemos creado en nuestro disco duro.
 
 
 <small>Aclaraciones:</small><br>
