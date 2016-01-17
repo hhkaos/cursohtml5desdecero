@@ -39,4 +39,4 @@ Por último y antes de pasar a la siguiente lección, te animo a que dediques un
 <small>2. Las peticiones serán distintas en cada página, por lo tanto con casi total seguridad tus peticiones serán distintas a las de la imagen.</small><br>
 <small>3. Todos los navegadores incluyen una memoria caché temporal para optimizar el tiempo de carga de la página, de este modo el navegador puede reducir el número de peticiones HTTP ([más info](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en)).</small><br>
 <small>4. Si ya tienes experiencia con Chrome DevTools y quieres, encontrarás dónde ampliar conocimientos en la sección recursos de esta lección.</small>
-<small>5. Si ya tienes experiencia con Chrome DevTools y quieres, encontrarás dónde ampliar conocimientos en la sección recursos de esta lección.</small>
+<small>5. El throttling no funciona cuando estamos cargando un fichero sin utilizar un servidor web.</small>
