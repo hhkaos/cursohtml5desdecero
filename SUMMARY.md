@@ -40,7 +40,7 @@
    * [Funcionalidades](WIP.md?14)
    * [Enviar y recibir cambios](WIP.md?15)
    * [Publicar una web en Github](WIP.md?16)
-   * [Colaborar con un proyecto](WIP.md?31)
+   * [Colaborar con un proyecto]()
    * [Markdown](WIP.md?17)
    * [Ejercicio](WIP.md?37)
    * [Recursos](WIP.md?38)
