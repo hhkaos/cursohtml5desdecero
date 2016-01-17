@@ -33,4 +33,4 @@ La opción "**Prety print**" veremos que es especialmente útil cuando estemos d
 
 <small>Recursos y aclaraciones:</small><br>
 <small>1. Normalmente mediante peticiones HTTP aunque puede que también mediante las extensiones de Chrome.</small><br>
-<small>2. En este repositorio de Github podrás encontrar una [colección de snippers](https://github.com/bgrins/devtools-snippets).</small><br>
+<small>2. En este repositorio de Github podrás encontrar una [colección de snippets](https://github.com/bgrins/devtools-snippets).</small><br>
