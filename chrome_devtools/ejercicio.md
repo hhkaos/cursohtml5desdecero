@@ -10,7 +10,7 @@ Luego quiero que te familiarices un poco con las pestañas que hemos visto e int
     * Eliminar una etiqueta
     * Reordenar otra
     * Hacer una búsqueda
-    * Ejecutar el emulador y activar la opción de **Apple iPhone 5** (el throttling no funciona cuando estamos cargando un fichero sin utilizar un servidor web).
+    * Ejecutar el emulador y activar la opción de **Apple iPhone 5**.
 
 ```html
 <!DOCTYPE html>
