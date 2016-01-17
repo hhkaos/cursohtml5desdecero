@@ -18,7 +18,7 @@
    * [Etiquetas básicas](html5_primeros_pasos/etiquetas_basicas.md)
    * [Ejercicio](html5_primeros_pasos/ejercicio.md)
    * [Recursos](html5_primeros_pasos/recursos.md)
-* [Chrome DevTools](chrome_devtools.md?64)
+* [Chrome DevTools](chrome_devtools.md)
    * [Pestaña network](chrome_devtools/pestana_network.md?65)
    * [Pestaña elements](chrome_devtools/pestana_elements.md?1)
    * [Pestaña sources](chrome_devtools/pestana_sources.md?55)
