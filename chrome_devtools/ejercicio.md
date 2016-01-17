@@ -1,5 +1,7 @@
 # Ejercicio
 
+http://www.cursohtml5desdecero.com/tests/leccion3.html
+
 Este ejercicio práctico es muy simple, tan sólo consiste en añadir el código que hemos visto en el capítulo "**HTML5: Primeros pasos > Etiquetas básicas**" (lo puedes encontrar al final) al fichero *index.html* que hemos creado.
 
 Luego quiero que te familiarices un poco con las pestañas que hemos visto e intentes:
