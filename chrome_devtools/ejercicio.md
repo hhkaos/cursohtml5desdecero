@@ -1,8 +1,6 @@
 # Ejercicio
 
-Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto previamente:
-
-
+Este primer ejercicio consiste en crear un documento HTML5 con la estructura que hemos visto en el capítulo "**HTML5: Primeros pasos**":
 
 
 Y configurar Google Chrome para poder editar el fichero y subir nuestro ejercicio a Github.
