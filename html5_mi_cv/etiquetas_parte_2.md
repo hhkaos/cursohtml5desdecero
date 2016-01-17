@@ -2,6 +2,8 @@
 
 Espacios, menor que, etc.
 
+HTML entities < > &aacute;...
+
 DOM y DOMContentLoaded
 
 table, img, ...
