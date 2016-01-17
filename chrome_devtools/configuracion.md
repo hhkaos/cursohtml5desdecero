@@ -4,13 +4,22 @@ Ahora vamos a ver cómo podemos configurar Google Chrome para poder modificar fi
 
 Para hacer esto usaremos los "**Workspaces**" que nos permitirán realizar cambios persistentes en nuestro código sin tener que ejecutar otro editor de código.
 
-Lo primero que tenemos que hacer es ir a panel "**Sources**" y:
-1. Crear una carpeta (de prueba) en nuestro disco duro (por ejemplo "*html*").
-2. Después crearemos un fichero vacío dentro de la carpeta llamado. "*index.html*"<sup>1</sup>
+Para ello vamos a seguir los siguientes pasos:
+1. Creamos una carpeta (de prueba) en nuestro disco duro (por ejemplo "*html*").
+2. Creamos un fichero vacío dentro de la carpeta llamado. "*index.html*"<sup>1</sup>
 3. Abrimos el fichero con Google Chrome
-3. Hacer clic en el panel izquierdo
-https://developers.google.com/web/tools/setup/setup-workflow
+4. Abrimos las DevTools y nos vamos a la pestaá "**Sources**",
+5. Hacer clic en el panel izquierdo sobre la ruta del directorio y seleccionamos **Add Folder to Workspace**
+![](../images/workspace.png)
+6. Y por último pulsamos "Allow": ![](../images/allow_workspace.png)
 
+Ahora tenemos que vincular el fichero que queremos modificar, para ello:
+1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html*)
+2. Elegimos la opción "**Map to File System Resource**":
+3. Seleccionamos el fichero dentro del espacio de trabajo (workspace) persistente
+4.  para autorizar a DevTools a realizar cambios persistentes en el disco duro
+
+https://developers.google.com/web/tools/setup/setup-workflow 
 Control P
 
 Las modificaciones del CSS en elements ...
