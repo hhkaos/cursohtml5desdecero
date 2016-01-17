@@ -11,11 +11,14 @@ Empecemos por describir los distintos paneles:
 * **[Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)**: esta pestaña nos permite crear pequeños trozos de código<sup>2</sup> JavaScript que podremos ejecutar o reutilizar en cualquier página.
 * **Depurador**: este panel nos permite utilizar el depurador de código de JavaScript, veremos como usarlo en posteriores lecciones.
  
+Al igual que en la lección anterior, te recomiendo que tengas a mano los [atajos de teclado del panel Sources](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#sources-1)
+
+
 ## Panel de contenido
 
 ![](../images/sources_2.png)
 
-https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#sources-1
+https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#within-the-code-editor
 
 <small>Recursos y aclaraciones:</small><br>
 <small>1. Normalmente mediante peticiones HTTP aunque puede que también mediante las extensiones de Chrome.</small><br>
