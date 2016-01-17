@@ -1,6 +1,12 @@
 # Chrome DevTools
 
-En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools))<sup>1</sup>. De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organizadas por pestañas:
+En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools))<sup>1</sup>. 
+
+Si crees que ya dominas esta materia puedes probar a hacer el [ejercicio tipo test de esta lección](http://www.cursohtml5desdecero.com/tests/leccion3.html). Si sacas un 100% de aciertos puedes pasar a la siguiente, sino te recomiendo que no te la saltes.
+
+## Pestañas
+
+De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organizadas por pestañas:
 
 * **Red** (*Network*): esta pestaña nos permite ver los *recursos* que recupera nuestro navegador usando peticiones HTTP mientras cargamos y usamos la página.
 
