@@ -29,5 +29,5 @@ La barra podemos ajustarla a la derecha, abajo o desacoplarla en una nueva venta
 Vayamos ahora analizando las pestañas.
 
 <small>Aclaraciones:</small><br>
-<small>1. Puedes ampliar toda la información que veremos en este capítulo en la [página de documentación para desarrolladores de Google Chrome](https://developer.chrome.com/home)</small><br>
+<small>1. Puedes ampliar toda la información que veremos en este capítulo en la [página de documentación para desarrolladores de Google Chrome](https://developer.chrome.com/home), en el curso [Discover DevTools](https://www.codeschool.com/courses/discover-devtools) o para los más avanzados en el curso [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)</small><br>
 <small>2. Y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
