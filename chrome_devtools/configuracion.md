@@ -13,3 +13,5 @@ https://developers.google.com/web/tools/setup/setup-workflow
 Control P
 
 Las modificaciones del CSS en elements ...
+
+**El fichero index.html**: por defecto los servidores web cuando reciben la petición de un recurso y no se indica explicitamente el nombre del recurso busca en la carpeta un fichero con nombre "index.html", y lo devuelve en caso de encontrarlo.
