@@ -15,13 +15,14 @@ Para ello vamos a seguir los siguientes pasos:
 
 Ahora tenemos que vincular el fichero que queremos modificar, para ello:
 1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html* que cuelga de "file://")
-2. Elegimos la opción "**Map to File System Resource**":![](../images/workspace_map_to_filesystem.png)
+2. Elegimos la opción "**Map to File System Resource**":
+![](../images/workspace_map_to_filesystem.png)
 3. Seleccionamos el fichero dentro del espacio de trabajo (workspace).
 4. Y refrescamos la página.
 
 Y ya estamos listos para empezar a programar usando las Chrome DevTools.
 
-Existen algunas [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) que no nos deben preocupar en este curso al usar los "**Workspaces**" para programar, por ejemplo que los cambios en la pestaña "**Elements**" no serán persistentes ya que lo que estamos cambiando es el *DOM* (que como vimos anteriormente es dinámico, osea que va cambiando).
+También puedes consultar las [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) de los "**Workspaces**", pero no te preocupes por ellas (no nos afectarán en este curso), por ejemplo que los cambios en la pestaña "**Elements**" no serán persistentes ya que lo que estamos cambiando es el *DOM* (que como vimos anteriormente es dinámico, osea que va cambiando).
 
 ## Gestión de ficheros
 Una vez hecho todo esto podemos añadir y eliminar ficheros directamente desde DevTools:
