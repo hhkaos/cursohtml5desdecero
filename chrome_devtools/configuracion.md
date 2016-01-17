@@ -13,6 +13,8 @@ Para ello vamos a seguir los siguientes pasos:
 ![](../images/workspace.png)
 6. Y por último pulsamos "Allow" para autorizar a DevTools a realizar cambios persistentes en el disco duro: ![](../images/allow_workspace.png)
 
+> **Nota**:
+
 Ahora tenemos que vincular el fichero que queremos modificar, para ello:
 1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html* que cuelga de "file://")
 2. Elegimos la opción "**Map to File System Resource**":
