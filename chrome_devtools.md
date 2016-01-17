@@ -2,7 +2,7 @@
 
 En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools))<sup>1</sup>. 
 
-Si crees que ya dominas esta materia puedes probar a hacer el [ejercicio tipo test de esta lección](http://www.cursohtml5desdecero.com/tests/leccion3.html). Si sacas un 100% de aciertos puedes pasar a la siguiente, sino te recomiendo que no te la saltes.
+Como en las lecciones anteriores, si crees que ya dominas esta materia puedes probar a hacer el [ejercicio tipo test de esta lección](http://www.cursohtml5desdecero.com/tests/leccion3.html). Si sacas un 100% de aciertos puedes pasar a la siguiente, sino te recomiendo que no te la saltes.
 
 ## Pestañas
 
