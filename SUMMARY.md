@@ -47,7 +47,7 @@
    * [Propiedades](WIP.md?19)
    * [Estilos en línea](WIP.md?20)
    * [Estilos externos](WIP.md?21)
-   * [Estilos con Chrome DevTools](WIP.md?22)
+   * [Estilos con Chrome DevTools]()
    * [Ejercicio](WIP.md?39)
    * [Recursos](css_primeros_pasos/recursos.md?40)
 * [CSS: Modelo de caja](WIP.md?23)
