@@ -24,7 +24,7 @@ Para "poder editar" una página (aclaración: *en realidad lo que estarás hacie
 ![](../images/contribuciones_paso2.png)
 ---
 
-Por último, añadir que los contenidos están escritos en Markdown que veremos en la próxima lección.
+Por último, añadir que los contenidos están escritos en el lenguaje de marcas *Markdown* que veremos en la próxima lección.
 
 ![](../images/contribuciones_paso3.png)
 
