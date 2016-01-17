@@ -6,7 +6,7 @@ Empecemos por describir los distintos paneles:
 
 ![](../images/sources.png)
 
-* **Sources**: aquí encontraremos una jerarquía de ficheros por cada dominio desde el cual nuestro navegador haya obtenido recursos<sup>1</sup> HTML, CSS o JavaScript. Haciendo clic en cualquier recurso se abrirá una pestaña en el panel derecho con los contenidos.
+* **Sources**: aquí encontraremos una jerarquía de ficheros por cada dominio desde el cual nuestro navegador haya obtenido recursos<sup>1</sup> HTML, CSS o JavaScript. Haciendo clic en cualquiera de ellos se abrirá el código en una nueva pestaña en el panel derecho.
 * **[Content scripts](https://developer.chrome.com/extensions/content_scripts)**: aquí se encuentran ficheros JavaScript implementados por algunas extensiones de Google Chrome que podamos tener instaladas.
 * **[Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)**: esta pestaña nos permite crear pequeños trozos de código<sup>2</sup> JavaScript que podremos ejecutar o reutilizar en cualquier página.
 * **Depurador**: este panel nos permite utilizar el depurador de código de JavaScript, veremos como usarlo en posteriores lecciones.
