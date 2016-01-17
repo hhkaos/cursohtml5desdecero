@@ -19,11 +19,14 @@ Ahora tenemos que vincular el fichero que queremos modificar, para ello:
 3. Seleccionamos el fichero dentro del espacio de trabajo (workspace).
 4. Y refrescamos la página.
 
-Y ya estamos listos para empezar a programar usando las Chrome DevTools
+Y ya estamos listos para empezar a programar usando las Chrome DevTools.
+
+Aunque existen algunas [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) al usar los "**Workspaces**" para programar, no nos preocuparemos por ellas.
+
 https://developers.google.com/web/tools/setup/setup-workflow 
 Control P
 
-Las modificaciones del CSS en elements ...
+
 
 <small>Aclaraciones:</small><br>
 <small>1. A pesar de que no vamos a usar aún un servidor web, lo llamaremos así para ir acostumbrándonos a este nombre. Por defecto los servidores web cuando reciben la petición de un recurso y no se indica explícitamente el nombre del recurso, busca en la carpeta un fichero con nombre "index.html", y lo devuelve en caso de encontrarlo.</small><br>
