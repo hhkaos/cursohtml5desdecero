@@ -14,9 +14,9 @@ Empecemos por describir los distintos paneles:
 Al igual que en la lección anterior, te recomiendo que guardes en un lugar seguro los [atajos de teclado del panel Sources](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#sources-1) y de vez en cuando los revises para aumentar tu productividad.
 
 ## Panel de contenido
-Es importante saber que a diferencia de la pestaña "**Elements**", para poder ver los cambios reflejados en la página que estamos viendo es necesario **guardar los cambios y refrescar la página**.
-
 El panel de contenido nos ofrece un [editor de código](https://es.wikipedia.org/wiki/Editor_de_c%C3%B3digo_fuente) que dispone adicionalmente de [otros atajos te teclado](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#within-the-code-editor).
+
+Es importante saber que a diferencia de la pestaña "**Elements**", para poder ver los cambios reflejados en la página que estamos viendo es necesario **guardar los cambios y refrescar la página**.
 
 ![](../images/sources_2.png)
 
@@ -26,6 +26,7 @@ Windows/Linux   | Mac           | Función
 ----------------|---------------|---
 Ctrl + F        | Cmd + F       | Buscar (y adicionalmente) texto dentro de un fichero
 Ctrl + S        | Cmd + S       | Para guardar un fichero
+Ctrl + R, F5   | Cmd + R        | Para refrescar la página
 Ctrl + P        | Cmd + P       | Buscar ficheros por nombre 
 Ctrl + P + :**num**| Cmd + P + :**num**| Acceder directamente a un número de línea
 
