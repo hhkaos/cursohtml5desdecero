@@ -1,10 +1,10 @@
 # Chrome DevTools
 
-En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools)). De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organizadas por pestañas:
+En esta lección vamos a empezar a trabajar con las herramientas de Google Chrome para desarrolladores ([Chrome DevTools](https://developer.chrome.com/devtools))<sup>1</sup>. De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organizadas por pestañas:
 
 * **Red** (*Network*): esta pestaña nos permite ver los *recursos* que recupera nuestro navegador usando peticiones HTTP mientras cargamos y usamos la página.
 
-* **Elementos** (*Elements*): nos permite ver y modificar el código HTML<sup>1</sup> que representa la página que estamos viendo.
+* **Elementos** (*Elements*): nos permite ver y modificar el código HTML<sup>2</sup> que representa la página que estamos viendo.
 
 * **Fuentes** (*Sources*): nos permite navegar por todos los ficheros (HTML, CSS y JavaScript) que utiliza la página que estamos viendo.
 
@@ -29,4 +29,5 @@ La barra podemos ajustarla a la derecha, abajo o desacoplarla en una nueva venta
 Vayamos ahora analizando las pestañas.
 
 <small>Aclaraciones:</small><br>
-<small>1. Y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
+<small>1. Puedes ampliar toda la información que veremos en este capítulo en la [página de documentación para desarrolladores de Google Chrome](https://developer.chrome.com/home)</small><br>
+<small>2. Y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
