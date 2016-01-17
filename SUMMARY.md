@@ -24,7 +24,6 @@
    * [Pestaña elements](chrome_devtools/pestana_elements.md?1)
    * [Pestaña sources](chrome_devtools/pestana_sources.md?55)
    * [Configuración](chrome_devtools/configuracion.md?3)
-   * [Emulador](chrome_devtools/emulador.md?4)
    * [Ejercicio](chrome_devtools/ejercicio.md?33)
    * [Recursos](chrome_devtools/recursos.md?34)
 * [HTML5: Mi Curriculum Vitae](WIP.md?5)
