@@ -3,8 +3,14 @@
 Este ejercicio práctico es simple simplemente es añadir el código que hemos visto en el capítulo "**HTML5: Primeros pasos > Etiquetas básicas**" (lo puedes encontrar al final) al fichero *index.html* que hemos creado.
 
 Luego simplemente quiero que juegues un poco con las pestañas que hemos visto e intentes:
-* Buscar la petición HTTP que se envía al cargar la página.
-* 
+* Usar los atajos de teclado en la pestaña "**Sources**".
+* Buscar la petición HTTP que se envía al cargar la página en "**Network**.
+* Editar el código en la pestaña "**Elements**": 
+    * Modificar el contenido y el HTML de la etiqueta **h1**
+    * Eliminar una etiqueta
+    * Reordenar otra
+    * Hacer una búsqueda
+    * Ejecutar el emulador y activar la opción de **Apple iPhone 5** (el throttling no funciona cuando estamos cargando un fichero sin utilizar un servidor web).
 
 ```html
 <!DOCTYPE html>
