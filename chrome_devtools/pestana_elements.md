@@ -27,9 +27,13 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
 Los cambios que hagas sobre esta pestaña no se guardarán ya que estamos modificando el DOM, no el fichero de código (y ya hemos visto la diferencia), por tanto al refrescar la página todos los cambios desaparecerán.
 
 Para mejorar tu productividad te recomiendo que de vez en cuando consultes [los atajos de teclado del panel Elements](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#elements-1), como por ejemplo:
-* Si pulsas Ctrl+Z (o Cmd+Z en Mac) podrás además deshacer los cambios realizados.
-* Puedes abrir y activar la herramienta para "**Inspeccionar elementos** pulsando Ctrl + Shift + C p Cmd + Shift  + C
-* Podrás navegar por los elementos usando las fechas: arriba, abajo, izquierda y derecha.
+
+Windows/Linux   | Mac           | Función
+----------------|---------------|---
+Ctrl + Z        | Cmd+Z         | Deshacer los cambios realizados
+Ctrl + Shift + C| Cmd + Shift  + C | Puedes abrir y activar la herramienta para "**Inspeccionar elementos**"
+&larr;, &rarr;, &uarr;, &darr; | &larr;, &rarr;, &uarr;, &darr; |
+* Podrás navegar por los elementos usando las fechas
 
 El panel que sale a la derecha es el CSS que se le ha aplicado al elemento seleccionado, pero esto ya lo veremos más adelante.
 
