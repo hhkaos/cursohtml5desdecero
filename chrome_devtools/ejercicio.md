@@ -14,4 +14,3 @@ Y configurar Google Chrome para poder editar el fichero y subir nuestro ejercici
 5. Crear un repositorio para este curso
 6. Subir el código que hemos hecho a nuestro repositorio
 
-**El fichero index.html**: por defecto los servidores web cuando reciben la petición de un recurso y no se indica explicitamente el nombre del recurso busca en la carpeta un fichero con nombre "index.html", y lo devuelve en caso de encontrarlo.
