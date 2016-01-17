@@ -11,14 +11,15 @@ Para ello vamos a seguir los siguientes pasos:
 4. Abrimos las DevTools y nos vamos a la pestaá "**Sources**",
 5. Hacer clic en el panel izquierdo sobre la ruta del directorio y seleccionamos **Add Folder to Workspace**
 ![](../images/workspace.png)
-6. Y por último pulsamos "Allow": ![](../images/allow_workspace.png)
+6. Y por último pulsamos "Allow" para autorizar a DevTools a realizar cambios persistentes en el disco duro: ![](../images/allow_workspace.png)
 
 Ahora tenemos que vincular el fichero que queremos modificar, para ello:
-1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html*)
-2. Elegimos la opción "**Map to File System Resource**":
-3. Seleccionamos el fichero dentro del espacio de trabajo (workspace) persistente
-4.  para autorizar a DevTools a realizar cambios persistentes en el disco duro
+1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html* que cuelga de "file://")
+2. Elegimos la opción "**Map to File System Resource**":![](../images/workspace_map_to_filesystem.png)
+3. Seleccionamos el fichero dentro del espacio de trabajo (workspace).
+4. Y refrescamos la página.
 
+Y ya estamos listos para empezar a programar usando las Chrome DevTools
 https://developers.google.com/web/tools/setup/setup-workflow 
 Control P
 
