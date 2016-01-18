@@ -20,11 +20,14 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
     * **Delete element**: permite eliminar el elemento (atajo de teclado: *Suprimir* o *Borrar*).
     * **:active, :hover, :focus, :visited**: nos permite cambiar el estado del elemento (esto lo usaremos en el apartado de CSS)
     * **Scroll into View...**: en caso de ser necesario se hace scroll hasta que se muestre el elemento.
-    * **Break on...**: nos permite establecer puntos de parada indicando que se debe detener la ejecución de cualquier código JavaScript si: se modifica alguno de sus hijos, se modifica algún atributo o si se elimina el código.
-* **Buscar**: Nos permite buscar cualquier palabra dentro del DOM.
+    * **Break on...**: nos permite establecer puntos de parada indicando que se debe detener la ejecución de cualquier código JavaScript si:
+        * Se modifica alguno de sus hijos.
+        * Se modifica algún atributo. 
+        * O si se elimina el código.
+* **Buscar**: Nos permite buscar cualquier palabra dentro del DOM (atajo de teclado: *Ctrl + F* en Windows ó *Cmd + F* en Mac).
 * **Jerarquía**: nos muestra todos los ancestros del elemento y nos permite seleccionarlos.
 
-Los cambios que hagas sobre esta pestaña no se guardarán ya que estamos modificando el DOM, no el fichero de código (y ya hemos visto la diferencia), por tanto al refrescar la página todos los cambios desaparecerán.
+Los cambios que hagas sobre esta pestaña no se guardarán ya que no estamos modificando el fichero de código<sup>4</sup> sino el DOM (y ya hemos visto la diferencia), por tanto al refrescar la página todos los cambios desaparecerán.
 
 Para mejorar tu productividad te recomiendo que de vez en cuando consultes [los atajos de teclado del panel Elements](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#elements-1), como por ejemplo:
 
@@ -40,4 +43,6 @@ El panel que sale a la derecha es el CSS que se le ha aplicado al elemento selec
 <small>1. Puedes encontrar la definición formal del DOM en la [página del W3C](https://www.w3.org/DOM/).</small><br>
 <small>2. Usando JavaScript, o mediante una extensión del navegador por ejemplo</small><br>
 <small>3. Puedes encontrar la definición formal de XPATH en la [página del W3C](https://www.w3.org/TR/xpath/)
+</small><br>
+<small>4. A veces escucharás "[código fuente](https://es.wikipedia.org/wiki/C%C3%B3digo_fuente)" en lugar de código, son sinónimos.
 </small><br>
