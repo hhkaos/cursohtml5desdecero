@@ -1,8 +1,8 @@
 # Pestaña elements
 
-La pestaña "**Elements**" representa lo que llamaremos el "**[DOM](https://es.wikipedia.org/wiki/Document_Object_Model)**" (*Document Object Model*), que no es más que la página que estamos viendo.
+La pestaña "**Elements**" representa lo que llamaremos el "**[DOM](https://es.wikipedia.org/wiki/Document_Object_Model)**"<sup>1</sup> (*Document Object Model*), que no es más que la página que estamos viendo.
 
-El DOM lo construye el navegador a partir del código HTML que recibe tras hacer la petición HTTP inicial. Además, intenta arreglar cualquier error que se encuentre en el código, por ejemplo: si se nos olvida cerrar una etiqueta, si anidamos etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar (usando JavaScript, o mediante una extensión del navegador por ejemplo), el DOM se parece pero no suele ser exactamente igual al código HTML recibido en la petición HTTP.
+El DOM lo construye el navegador a partir del código HTML que recibe tras hacer la petición HTTP inicial. Además, intenta arreglar cualquier error que se encuentre en el código, por ejemplo: si se nos olvida cerrar una etiqueta, si anidamos etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar<sup>2</sup>, el DOM se parece pero no suele ser exactamente igual al código HTML recibido en la petición HTTP.
 
 Además de poder ver el DOM, podemos editarlo, hacer búsquedas de texto y hasta reordenar etiquetas arrastrándolas con el ratón.
 
@@ -10,12 +10,12 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
 
 [![](../images/pestana_elements_2.png)](../images/pestana_elements_2.png)
 
-* **Emulador**: esta opción nos permitirá simular que estamos usando un móvil o tablet y hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña de "**Network**".
+* **Emulador**: esta opción nos permitirá simular que estamos usando un móvil o tablet y hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña "**Network**".
 * **Inspeccionar elementos**: activando esta opción podrás hacer clic sobre cualquier parte de la página y el inspector señalará el código que representa el elemento seleccionado.
 * **Menú contextual**: pultando el botón derecho sobre el código veremos varias opciones:
     * **Add attribute**: permite añadir un atributo, por ejemplo: charset="UTF-8".
     * **Edit as HTML**: no permite añadir, editar o quitar cualquier cosa. Atajo de teclado: F2 (Windows y Mac)
-    * **Copy**: nos permite copiar el código (*outerHTML*), el selector (ya veremos lo que significa cuando veamos CSS), el [XPath](https://es.wikipedia.org/wiki/XPath)<sup>2</sup> (es un lenguaje que nos permite buscar y seleccionar elementos teniendo en cuenta la estructura jerárquica del código), cotar y copiar el elemento.
+    * **Copy**: nos permite copiar el código (*outerHTML*), el selector (ya veremos lo que significa cuando veamos CSS), el [XPath](https://es.wikipedia.org/wiki/XPath)<sup>3</sup> (es un lenguaje que nos permite buscar y seleccionar elementos teniendo en cuenta la estructura jerárquica del código), cotar y copiar el elemento.
     * **Ocultar elemento**: cambia la visibilidad a "oculto" usando CSS.
     * **Delete element**: permite eliminar el elemento. Atajo de teclado: Suprimir o borrar.
     * **:active, :hover, :focus, :visited**: nos permite cambiar el estado del elemento (esto lo usaremos en el apartado de CSS)
@@ -38,5 +38,6 @@ El panel que sale a la derecha es el CSS que se le ha aplicado al elemento selec
 
 <small>Aclaraciones:</small><br>
 <small>1. Puedes encontrar la definición formal del DOM en la [página del W3C](https://www.w3.org/DOM/).</small><br>
-<small>2. Puedes encontrar la definición formal de XPATH en la [página del W3C](https://www.w3.org/TR/xpath/)
+<small>2. Usando JavaScript, o mediante una extensión del navegador por ejemplo</small><br>
+<small>3. Puedes encontrar la definición formal de XPATH en la [página del W3C](https://www.w3.org/TR/xpath/)
 </small><br>
