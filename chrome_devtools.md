@@ -10,7 +10,7 @@ De momento sólo vamos a ver 3 grupos de herramientas que se encuentran organiza
 
 * **Red** (*Network*): esta pestaña nos permite ver los *recursos* que recupera nuestro navegador usando peticiones HTTP mientras cargamos y usamos la página.
 
-* **Elementos** (*Elements*): nos permite ver y modificar el código HTML<sup>2</sup> que representa la página que estamos viendo.
+* **Elementos** (*Elements*): nos permite ver y modificar el código<sup>2</sup> que representa la página que estamos viendo.
 
 * **Fuentes** (*Sources*): nos permite navegar por todos los ficheros (HTML, CSS y JavaScript) que utiliza la página que estamos viendo.
 
@@ -36,4 +36,4 @@ Vayamos ahora analizando las pestañas.
 
 <small>Aclaraciones:</small><br>
 <small>1. Puedes ampliar toda la información que veremos en este capítulo en la [página de documentación para desarrolladores de Google Chrome](https://developer.chrome.com/home), en el curso [Discover DevTools](https://www.codeschool.com/courses/discover-devtools) o para los más avanzados en el curso [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)</small><br>
-<small>2. Y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
+<small>2. El del DOM (que luego veremos que es) y el CSS, aunque de momento no nos entretendremos en esta parte.</small><br>
