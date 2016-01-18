@@ -30,7 +30,7 @@ Ctrl + R, F5   | Cmd + R        | Refrescar la página
 Ctrl + P        | Cmd + P       | Buscar ficheros por nombre 
 Ctrl + P + :**num**| Cmd + P + :**num**| Acceder directamente a un número de línea
 
-La opción "**Prety print**" veremos que es especialmente útil cuando estemos depurando bibliotecas JavaScript minificadas, aunque de momento no te preocupes por esto.
+La opción "**Prety print**" veremos que es especialmente útil cuando estemos depurando bibliotecas JavaScript [minificadas](https://en.wikipedia.org/wiki/Minification_(programming) (*comprimidas*), aunque de momento no te preocupes por esto.
 
 
 <small>Recursos y aclaraciones:</small><br>
