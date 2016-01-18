@@ -7,7 +7,7 @@ Definiciones que hemos visto:
 Recursos sobre Chrome y las DevTools:
 * [Documentación para desarrolladores de Google Chrome](https://developer.chrome.com/home)
 * [Chrome DevTools Overview](https://developer.chrome.com/devtools)
-* [Atajo de teclado de Chrome](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)
+* [Atajo de teclado de Chrome DevTools](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)
 * [Chuleta de atajos de teclado en Chrome](https://github.com/jaredwilli/devtools-cheatsheet)
 * [Funcionamiento del cacheado](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en)
 * [Configuración del Workspace](https://developers.google.com/web/tools/setup/setup-workflow?hl=en)
