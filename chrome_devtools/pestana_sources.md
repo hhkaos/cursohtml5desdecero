@@ -4,7 +4,7 @@ La pestaña "**Sources**" nos muestras las fuentes de contenido que se han utili
 
 Empecemos por describir los distintos paneles:
 
-![](../images/sources.png)
+[![](../images/sources.png)](../images/sources.png)
 
 * **Sources**: aquí encontraremos una jerarquía de ficheros por cada dominio desde el cual nuestro navegador haya obtenido recursos<sup>1</sup> HTML, CSS o JavaScript. Haciendo clic en cualquiera de ellos se abrirá el código en una nueva pestaña en el panel derecho.
 * **[Content scripts](https://developer.chrome.com/extensions/content_scripts)**: aquí se encuentran ficheros JavaScript implementados por algunas extensiones de Google Chrome que podamos tener instaladas.
@@ -18,7 +18,7 @@ El panel de contenido nos ofrece un [editor de código](https://es.wikipedia.org
 
 Es importante saber que a diferencia de la pestaña "**Elements**", para poder ver los cambios reflejados en la página que estamos viendo es necesario **guardar los cambios y refrescar la página**.
 
-![](../images/sources_2.png)
+[![](../images/sources_2.png)](../images/sources_2.png)
 
 En principio me gustaría destacar cuatro especialmente útiles:
 
