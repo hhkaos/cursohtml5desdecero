@@ -11,9 +11,9 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
 [![](../images/pestana_elements_2.png)](../images/pestana_elements_2.png)
 
 * **Emulador**: esta opción nos permitirá simular que estamos usando un móvil o tablet y hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña "**Network**".
-* **Inspeccionar elementos**: activando esta opción podrás hacer clic sobre cualquier parte de la página y el inspector señalará el código que representa el elemento seleccionado.
+* **Inspeccionar elementos**: activando esta opción podrás hacer clic sobre cualquier parte de la página y el inspector señalará en el DOM el código que representa el elemento seleccionado.
 * **Menú contextual**: pultando el botón derecho sobre el código veremos varias opciones:
-    * **Add attribute**: permite añadir un atributo, por ejemplo: charset="UTF-8".
+    * **Add attribute**: permite añadir un atributo, por ejemplo: *charset="UTF-8*".
     * **Edit as HTML**: no permite añadir, editar o quitar cualquier cosa. Atajo de teclado: F2 (Windows y Mac)
     * **Copy**: nos permite copiar el código (*outerHTML*), el selector (ya veremos lo que significa cuando veamos CSS), el [XPath](https://es.wikipedia.org/wiki/XPath)<sup>3</sup> (es un lenguaje que nos permite buscar y seleccionar elementos teniendo en cuenta la estructura jerárquica del código), cotar y copiar el elemento.
     * **Ocultar elemento**: cambia la visibilidad a "oculto" usando CSS.
