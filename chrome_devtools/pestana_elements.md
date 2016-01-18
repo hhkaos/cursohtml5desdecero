@@ -2,7 +2,7 @@
 
 La pestaña "**Elements**" representa lo que llamaremos el "**[DOM](https://es.wikipedia.org/wiki/Document_Object_Model)**" (*Document Object Model*), que no es más que la página que estamos viendo.
 
-El DOM lo construye el navegador a partir del código HTML que recibe tras hacer la petición HTTP inicial. Además, intentar arreglar cualquier error que se encuentre en el código, por ejemplo: si se nos olvida cerrar una etiqueta o anidamos etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar (usando JavaScript, o mediantes una extensión del navegador por ejemplo), el DOM se parece pero no suele ser exactamente igual al código HTML recibido en la petición HTTP.
+El DOM lo construye el navegador a partir del código HTML que recibe tras hacer la petición HTTP inicial. Además, intentar arreglar cualquier error que se encuentre en el código, por ejemplo: si se nos olvida cerrar una etiqueta,si anidamos etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar (usando JavaScript, o mediantes una extensión del navegador por ejemplo), el DOM se parece pero no suele ser exactamente igual al código HTML recibido en la petición HTTP.
 
 Además de poder ver el DOM, podemos editarlo, hacer búsquedas de texto y hasta reordenar etiquetas arrastrándolas con el ratón.
 
