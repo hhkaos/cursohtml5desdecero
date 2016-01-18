@@ -1,10 +1,10 @@
 # Pestaña elements
 
-La pestaña "**Elements**" representa lo que llamaremos el "**[DOM](https://es.wikipedia.org/wiki/Document_Object_Model)**"<sup>1</sup> (*Document Object Model*), que no es más que la página que estamos viendo.
+La pestaña "**Elements**" representa lo que llamaremos el "**[DOM](https://es.wikipedia.org/wiki/Document_Object_Model)**"<sup>1</sup> (*Document Object Model*), que no es más que lo que representa la página que estamos viendo.
 
-El DOM lo construye el navegador a partir del código HTML que recibe tras hacer la petición HTTP inicial. Además, intenta arreglar cualquier error que se encuentre en el código, por ejemplo: si se nos olvida cerrar una etiqueta, si anidamos etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar<sup>2</sup>, el DOM se parece pero no suele ser exactamente igual al código HTML recibido en la petición HTTP.
+El DOM lo construye el navegador a partir del código HTML que recibe tras hacer la petición HTTP inicial. Además, el navegador intenta arreglar cualquier error que se encuentre en el código, por ejemplo: si se nos olvida cerrar una etiqueta, si anidamos etiquetas que no son anidables, etc. Por ese motivo y porque el DOM se puede modificar<sup>2</sup>, este se parece pero no suele ser exactamente igual al código HTML recibido en la petición HTTP.
 
-Además de poder ver el DOM, podemos editarlo, hacer búsquedas de texto y hasta reordenar etiquetas arrastrándolas con el ratón.
+Además de poder ver el DOM, podemos editarlo, buscar texto en él y hasta reordenar las etiquetas arrastrándolas con el ratón.
 
 En la siguiente imagen vemos las diferentes partes de esta pestaña:
 
@@ -12,15 +12,15 @@ En la siguiente imagen vemos las diferentes partes de esta pestaña:
 
 * **Emulador**: esta opción nos permitirá simular que estamos usando un móvil o tablet y hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña "**Network**".
 * **Inspeccionar elementos**: activando esta opción podrás hacer clic sobre cualquier parte de la página y el inspector señalará en el DOM el código que representa el elemento seleccionado.
-* **Menú contextual**: pultando el botón derecho sobre el código veremos varias opciones:
-    * **Add attribute**: permite añadir un atributo, por ejemplo: *charset="UTF-8*".
-    * **Edit as HTML**: no permite añadir, editar o quitar cualquier cosa. Atajo de teclado: F2 (Windows y Mac)
+* **Menú contextual**: pulsando el botón derecho sobre el código veremos varias opciones:
+    * **Add attribute**: permite añadir un atributo, por ejemplo: *charset="UTF-8*" (atajo de teclado: *Enter*).
+    * **Edit as HTML**: nos permite añadir, editar o quitar cualquier cosa (atajo de teclado: F2 tanto en Windows como en Mac)
     * **Copy**: nos permite copiar el código (*outerHTML*), el selector (ya veremos lo que significa cuando veamos CSS), el [XPath](https://es.wikipedia.org/wiki/XPath)<sup>3</sup> (es un lenguaje que nos permite buscar y seleccionar elementos teniendo en cuenta la estructura jerárquica del código), cotar y copiar el elemento.
-    * **Ocultar elemento**: cambia la visibilidad a "oculto" usando CSS.
-    * **Delete element**: permite eliminar el elemento. Atajo de teclado: Suprimir o borrar.
+    * **Ocultar elemento**: cambia la visibilidad a "no visible" usando CSS.
+    * **Delete element**: permite eliminar el elemento (atajo de teclado: *Suprimir* o *Borrar*).
     * **:active, :hover, :focus, :visited**: nos permite cambiar el estado del elemento (esto lo usaremos en el apartado de CSS)
     * **Scroll into View...**: en caso de ser necesario se hace scroll hasta que se muestre el elemento.
-    * **Break on...**: nos permite establecer puntos de ruptura indicando que se debe detener la ejecución de cualquier código JavaScript si: se modifica alguno de sus hijos, se modifica algún atributo o si se elimina el código.
+    * **Break on...**: nos permite establecer puntos de parada indicando que se debe detener la ejecución de cualquier código JavaScript si: se modifica alguno de sus hijos, se modifica algún atributo o si se elimina el código.
 * **Buscar**: Nos permite buscar cualquier palabra dentro del DOM.
 * **Jerarquía**: nos muestra todos los ancestros del elemento y nos permite seleccionarlos.
 
