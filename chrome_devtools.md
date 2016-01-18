@@ -30,7 +30,7 @@ Una vez hecho esto nos aparecerá la barra de herramientas:
 
 La barra podemos ajustarla a la derecha, abajo o desacoplarla en una nueva ventana como vemos a continuación: 
 
-![](images/dock_side.png)
+[![](images/dock_side.png)](images/dock_side.png)
 
 Vayamos ahora analizando las pestañas.
 
