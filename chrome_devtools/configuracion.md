@@ -10,8 +10,8 @@ Para ello vamos a seguir los siguientes pasos:
 3. Abrimos el fichero con Google Chrome
 4. Abrimos las DevTools y nos vamos a la pestaá "**Sources**",
 5. Hacer clic en el panel izquierdo sobre la ruta del directorio y seleccionamos **Add Folder to Workspace**
-![](../images/workspace.png)
-6. Y por último pulsamos "Allow" para autorizar a DevTools a realizar cambios persistentes en el disco duro: ![](../images/allow_workspace.png)
+[![](../images/workspace.png)](../images/workspace.png)
+6. Y por último pulsamos "Allow" para autorizar a DevTools a realizar cambios persistentes en el disco duro: [![](../images/allow_workspace.png)](../images/allow_workspace.png)
 
 > **Nota**:<br>
 > Si nos equivocamos al añadir un directorio al Workspace podremos eliminarlo simplemente pulsando con el botón derecho sobre el directorio y seleccionando la opción "**Remove Folder from Workspace**".
@@ -19,8 +19,8 @@ Para ello vamos a seguir los siguientes pasos:
 Ahora tenemos que vincular el fichero que queremos modificar, para ello:
 1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html* que cuelga de "file://")
 2. Elegimos la opción "**Map to File System Resource**":
-![](../images/workspace_map_to_filesystem.png)
-3. Seleccionamos el fichero dentro del espacio de trabajo (workspace).
+[![](../images/workspace_map_to_filesystem.png)](../images/workspace_map_to_filesystem.png)
+3. Seleccionamos el fichero dentro del espacio de trabajo (Workspace).
 4. Y refrescamos la página.
 
 Y ya estamos listos para empezar a programar usando las Chrome DevTools.
