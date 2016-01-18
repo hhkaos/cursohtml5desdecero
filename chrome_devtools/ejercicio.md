@@ -56,3 +56,5 @@ Luego quiero que te familiarices un poco con las pestañas que hemos visto e int
 </html>
 ```
 
+# Dudas
+Si hay algo que no te haya quedado claro puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
