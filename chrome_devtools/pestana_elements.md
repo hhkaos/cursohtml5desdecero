@@ -8,7 +8,7 @@ Además de poder ver el DOM, podemos editarlo, hacer búsquedas de texto y hasta
 
 En la siguiente imagen vemos las diferentes partes de esta pestaña:
 
-![](../images/pestana_elements_2.png)
+[![](../images/pestana_elements_2.png)](../images/pestana_elements_2.png)
 
 * **Emulador**: esta opción nos permitirá simular que estamos usando un móvil o tablet y hacer *throttling* (simular otro tipo de conexión) al igual que hemos visto en la pestaña de "**Network**".
 * **Inspeccionar elementos**: activando esta opción podrás hacer clic sobre cualquier parte de la página y el inspector señalará el código que representa el elemento seleccionado.
