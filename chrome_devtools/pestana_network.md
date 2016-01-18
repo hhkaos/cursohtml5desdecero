@@ -10,7 +10,7 @@ Cada fila representa una petición HTTP, y si te fijas, dejando el cursor encima
 
 
 > **Nota: **<br>
-> Podemos vaciar la memoria caché<sup>3</sup> de dos formas distintas, una es pulsando el icono de refrescar con el botón derecho, y otra es pulsando el botón derecho sobre cualquiera de las peticiones HTTP y pulsar "Clear browser cache"
+> Podemos vaciar la memoria caché<sup>3</sup> de dos formas distintas, una es pulsando el icono de refrescar con el botón derecho y luego "Empty Cache and Hard Reload", y otra es pulsando el botón derecho sobre cualquiera de las peticiones HTTP y pulsar "Clear browser cache"
 
 
 Si haces clic en cualquiera de las peticiones podrás ver los contenidos del recurso y algunos detalles que no nos preocuparán en este curso.
