@@ -16,7 +16,7 @@ Al igual que en la lección anterior, te recomiendo que guardes en un lugar segu
 ## Panel de contenido
 El panel de contenido nos ofrece un [editor de código](https://es.wikipedia.org/wiki/Editor_de_c%C3%B3digo_fuente) que dispone adicionalmente de [otros atajos de teclado](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts#within-the-code-editor).
 
-Es importante saber que a diferencia de la pestaña "**Elements**", para poder ver los cambios reflejados en la página que estamos viendo es necesario **guardar los cambios y refrescar la página**.
+Es importante saber que: a diferencia de los cambios del DOM en la pestaña "**Elements**", para poder ver los cambios reflejados en la página que estamos viendo es necesario **guardar los cambios y refrescar la página**.
 
 [![](../images/sources_2.png)](../images/sources_2.png)
 
@@ -25,8 +25,8 @@ En principio me gustaría destacar cuatro especialmente útiles:
 Windows/Linux   | Mac           | Función
 ----------------|---------------|---
 Ctrl + F        | Cmd + F       | Buscar (y adicionalmente) texto dentro de un fichero
-Ctrl + S        | Cmd + S       | Para guardar un fichero
-Ctrl + R, F5   | Cmd + R        | Para refrescar la página
+Ctrl + S        | Cmd + S       | Guardar un fichero
+Ctrl + R, F5   | Cmd + R        | Refrescar la página
 Ctrl + P        | Cmd + P       | Buscar ficheros por nombre 
 Ctrl + P + :**num**| Cmd + P + :**num**| Acceder directamente a un número de línea
 
