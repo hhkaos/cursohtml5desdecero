@@ -37,7 +37,7 @@ Ctrl + Z        | Cmd+Z         | Deshacer los cambios realizados
 Ctrl + Shift + C| Cmd + Shift  + C | Abrir DevTools con la herramienta para "**Inspeccionar elementos**" activada por defecto
 &larr;, &rarr;, &uarr;, &darr; | &larr;, &rarr;, &uarr;, &darr; | Navegar por los elementos del DOM
 
-El panel que sale a la derecha es el CSS que se le ha aplicado al elemento seleccionado, pero esto ya lo veremos más adelante.
+El panel que sale a la derecha es el del código CSS que se le ha aplicado al elemento seleccionado, pero esto ya lo veremos más adelante.
 
 <small>Aclaraciones:</small><br>
 <small>1. Puedes encontrar la definición formal del DOM en la [página del W3C](https://www.w3.org/DOM/).</small><br>
