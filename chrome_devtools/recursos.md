@@ -10,7 +10,7 @@ Recursos sobre Chrome y las DevTools:
 * [Atajo de teclado de Chrome DevTools](https://developer.chrome.com/devtools/docs/shortcuts#opening-devtools)
 * [Chuleta de atajos de teclado en Chrome](https://github.com/jaredwilli/devtools-cheatsheet)
 * [Funcionamiento del cacheado](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en)
-* [Configuración del Workspace](https://developers.google.com/web/tools/setup/setup-workflow?hl=en)
+* [Configuración del Workspace en Chrome DevTools](https://developers.google.com/web/tools/setup/setup-workflow?hl=en)
 * [Limitaciones del Workspace de Chrome DevTools](https://developers.google.com/web/tools/setup/setup-workflow#limitations)
 * [Content scripts en Chrome DevTools](https://developer.chrome.com/extensions/content_scripts)
 * [Snippets en Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)
