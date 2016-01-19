@@ -57,7 +57,7 @@
    * [Ejercicio](WIP.md?41)
    * [Recursos](WIP.md?42)
 * [CSS: Refinando el diseño](WIP.md?27)
-   * [Reset.css](WIP.md?28)
+   * [Animaciones](WIP.md?28)
    * [Tipografías](WIP.md?29)
    * [Diseño web adaptable](WIP.md?30)
    * [Ejercicio](WIP.md?43)
