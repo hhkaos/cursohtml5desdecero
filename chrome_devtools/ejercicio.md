@@ -2,7 +2,7 @@
 
 [Ejercicio tipo test de autoevaluación - Lección 3](http://www.cursohtml5desdecero.com/tests/leccion3.html)
 
-Recuerda que puedes repetirlo tantas veces como quieras.
+Una vez más, recuerda que puedes repetirlo tantas veces como quieras.
 
 Este ejercicio práctico es muy simple, tan sólo consiste en añadir el código que hemos visto en el capítulo "**HTML5: Primeros pasos > Etiquetas básicas**" (lo puedes encontrar al final) al fichero *index.html* que hemos creado.
 
