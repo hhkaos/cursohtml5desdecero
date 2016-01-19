@@ -1,2 +1,2 @@
-# CSS: Refinando el diseño?27
+# CSS: Refinando el diseño
 
