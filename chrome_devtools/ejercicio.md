@@ -10,12 +10,12 @@ Luego quiero que te familiarices un poco con las pestañas que hemos visto e int
 * Usar los atajos de teclado en la pestaña "**Sources**".
 * Buscar la petición HTTP que se envía al cargar la página en "**Network**".
 * Editar el código en la pestaña "**Elements**": 
-    * Modificar el contenido y el HTML de la etiqueta **h1**
-    * Eliminar una etiqueta
-    * Reordenar otra
-    * Haz una búsqueda y encuentra: Rovira
-    * Haz click en la jerarquía para acceder al elemento "**ul**".
-    * Ejecutar el emulador y activar la opción de **Apple iPhone 5**.
+    * Modifica el contenido y el HTML de la etiqueta **h1**
+    * Elimina una etiqueta
+    * Reordena otra etiqueta
+    * Haz una búsqueda y encuentra por ejemplo: **Rovira**
+    * Haz clic en la jerarquía para acceder al elemento "**ul**".
+    * Ejecuta el emulador y activa la opción de **Apple iPhone 5**.
 
 ```html
 <!DOCTYPE html>
