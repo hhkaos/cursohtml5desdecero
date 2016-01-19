@@ -17,9 +17,9 @@ Recursos sobre Chrome y las DevTools:
 * [Colección de snippets para Chrome DevTools](https://github.com/bgrins/devtools-snippets)
 
 *Si es tu primera vez con DevTools **no te lo recomiendo***, pero si quieres, puedes encontrar más información sobre cómo sacarle más provecho a Google Chrome en los siguientes cursos:
-* [Discover DevTools](https://www.codeschool.com/courses/discover-devtools)
-* [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
-* [Browser rendering optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860): aprende cómo funciona internamente Google Chrome y cómo optimizar el layout (**conocimientos en CSS requestidos**).
+* [Discover DevTools - CodeSchool.com](https://www.codeschool.com/courses/discover-devtools)
+* [Website Performance Optimization - Udacity.com](https://www.udacity.com/course/website-performance-optimization--ud884)
+* [Browser rendering optimization - Udacity.com](https://www.udacity.com/course/browser-rendering-optimization--ud860): aprende cómo funciona internamente Google Chrome y cómo optimizar el layout (**conocimientos en CSS requestidos**).
 
 
 
