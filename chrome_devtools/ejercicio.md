@@ -13,7 +13,8 @@ Luego quiero que te familiarices un poco con las pestañas que hemos visto e int
     * Modificar el contenido y el HTML de la etiqueta **h1**
     * Eliminar una etiqueta
     * Reordenar otra
-    * Hacer una búsqueda
+    * Haz una búsqueda y encuentra: Rovira
+    * Haz click en la jerarquía para acceder al elemento "**ul**".
     * Ejecutar el emulador y activar la opción de **Apple iPhone 5**.
 
 ```html
