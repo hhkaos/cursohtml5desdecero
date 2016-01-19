@@ -8,15 +8,15 @@ Para ello vamos a seguir los siguientes pasos:
 1. Creamos una carpeta (de prueba) en nuestro disco duro (por ejemplo "*html*").
 2. Creamos un fichero vacío dentro de la carpeta llamado: "*index.html*"<sup>1</sup>
 3. Abrimos el fichero con Google Chrome
-4. Abrimos las DevTools y nos vamos a la pestaá "**Sources**",
-5. Hacer clic en el panel izquierdo sobre la ruta del directorio y seleccionamos **Add Folder to Workspace**
+4. Abrimos las DevTools y nos vamos a la pestaña "**Sources**"
+5. Hacemos clic en el panel izquierdo sobre la ruta del directorio y seleccionamos "**Add Folder to Workspace**":
 [![](../images/workspace.png)](../images/workspace.png)
-6. Y por último pulsamos "Allow" para autorizar a DevTools a realizar cambios persistentes en el disco duro: [![](../images/allow_workspace.png)](../images/allow_workspace.png)
+6. Y por último pulsamos "**Allow**" para autorizar a DevTools a realizar cambios persistentes en el disco duro: [![](../images/allow_workspace.png)](../images/allow_workspace.png)
 
 > **Nota**:<br>
 > Si nos equivocamos al añadir un directorio al Workspace podremos eliminarlo simplemente pulsando con el botón derecho sobre el directorio y seleccionando la opción "**Remove Folder from Workspace**".
 
-Ahora tenemos que vincular el fichero que queremos modificar, para ello:
+Ahora tenemos que "mapear" (vincular) el recurso que ha obtenido el navegador con el fichero del disco duro que queremos modificar (osea, con él mismo), para ello:
 1. Hacemos clic con el botón derecho sobre el nombre del fichero (*index.html* que cuelga de "file://")
 2. Elegimos la opción "**Map to File System Resource**":
 [![](../images/workspace_map_to_filesystem.png)](../images/workspace_map_to_filesystem.png)
@@ -25,7 +25,7 @@ Ahora tenemos que vincular el fichero que queremos modificar, para ello:
 
 Y ya estamos listos para empezar a programar usando las Chrome DevTools.
 
-También puedes consultar las [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) de los "**Workspaces**", pero no te preocupes por ellas (no nos afectarán en este curso), por ejemplo que los cambios en la pestaña "**Elements**" no serán persistentes ya que lo que estamos cambiando es el *DOM* (que como vimos anteriormente es dinámico, osea que va cambiando).
+También puedes consultar las [limitaciones](https://developers.google.com/web/tools/setup/setup-workflow#limitations) de los "**Workspaces**", pero no te preocupes por ellas ya que no nos afectarán en este curso; por ejemplo,  los cambios en la pestaña "**Elements**" no serán persistentes (lógico ya que lo que estamos cambiando es el *DOM*, que como vimos anteriormente es dinámico, osea que va cambiando).
 
 ## Gestión de ficheros
 Una vez hecho todo esto podemos añadir y eliminar ficheros directamente desde DevTools:
