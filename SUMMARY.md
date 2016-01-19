@@ -57,9 +57,9 @@
    * [Modelo de caja con DevTools](WIP.md?26)
    * [Ejercicio](WIP.md?41)
    * [Recursos](WIP.md?42)
-* [CSS: Refinando el diseño?27](css_refinando_el_diseno.md)
+* [CSS: Refinando el diseño](css_refinando_el_diseno.md?27)
    * [Animaciones](WIP.md?28)
-   * Tipografías29
+   * [Tipografías29]()
    * [Diseño web adaptable](WIP.md?30)
    * [Ejercicio](WIP.md?43)
    * [Recursos](WIP.md?44)
