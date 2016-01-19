@@ -24,7 +24,7 @@ En cuanto a los atajos me gustaría destacar cinco que usaremos con **mucha frec
 
 Windows/Linux   | Mac           | Función
 ----------------|---------------|---
-Ctrl + F        | Cmd + F       | Buscar (y adicionalmente) texto dentro de un fichero
+Ctrl + F        | Cmd + F       | Buscar (y adicionalmente reemplazar) texto dentro de un fichero
 Ctrl + S        | Cmd + S       | Guardar un fichero
 Ctrl + R, F5   | Cmd + R        | Refrescar la página
 Ctrl + P        | Cmd + P       | Buscar ficheros por nombre 
