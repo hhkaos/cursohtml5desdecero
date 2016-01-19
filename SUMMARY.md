@@ -53,7 +53,7 @@
 * [CSS: Modelo de caja](WIP.md?23)
    * [Elementos HTML](WIP.md?24)
    * [Posicionar el contenido](WIP.md?25)
-   * [Modelo de caja con Chrome DevTools](WIP.md?26)
+   * [CSS con Chrome DevTools](WIP.md?26)
    * [Ejercicio](WIP.md?41)
    * [Recursos](WIP.md?42)
 * [CSS: Refinando el diseño](WIP.md?27)
