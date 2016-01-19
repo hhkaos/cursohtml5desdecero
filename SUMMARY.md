@@ -59,7 +59,7 @@
    * [Recursos](WIP.md?42)
 * [CSS: Refinando el diseño](css_refinando_el_diseno.md?27)
    * [Animaciones](WIP.md?28)
-   * [Tipografías29]()
+   * [Tipografías29](css_refinando_el_diseno/tipografias.md)
    * [Diseño web adaptable](WIP.md?30)
    * [Ejercicio](WIP.md?43)
    * [Recursos](WIP.md?44)
