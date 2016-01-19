@@ -4,11 +4,11 @@
 
 Una vez más, recuerda que puedes repetirlo tantas veces como quieras.
 
-El ejercicio práctico es muy simple, tan sólo consiste en añadir el código que hemos visto en el capítulo "**HTML5: Primeros pasos > Etiquetas básicas**" (lo puedes encontrar al final) al fichero *index.html* que hemos creado.
+El ejercicio práctico es muy simple, tan sólo consiste en añadir el código que hemos visto en el capítulo "**HTML5: Primeros pasos > Etiquetas básicas**" (lo puedes encontrar al final de esta lección) al fichero *index.html* que hemos creado.
 
 Luego quiero que te familiarices un poco con las pestañas que hemos visto e intentes:
 * Usar los atajos de teclado en la pestaña "**Sources**".
-* Buscar la petición HTTP que se envía al cargar la página en "**Network**.
+* Buscar la petición HTTP que se envía al cargar la página en "**Network**".
 * Editar el código en la pestaña "**Elements**": 
     * Modificar el contenido y el HTML de la etiqueta **h1**
     * Eliminar una etiqueta
