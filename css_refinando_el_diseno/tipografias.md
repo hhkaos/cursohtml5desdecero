@@ -1,4 +1,4 @@
 # Tipografías
 
-tamaño
+tamaños %, em, ...
 
