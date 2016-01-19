@@ -62,7 +62,7 @@
    * [Diseño web adaptable](WIP.md?30)
    * [Ejercicio](WIP.md?43)
    * [Recursos](WIP.md?44)
-* [JS: Primeros pasos](WIP.md?45)
+* [JS: Primeros pasos]()
    * [Variables](WIP.md?46)
    * [Operaciones](WIP.md?47)
    * [Consola de Chrome DevTools](WIP.md?51)
