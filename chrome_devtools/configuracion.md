@@ -2,11 +2,11 @@
 
 Ahora vamos a ver cómo podemos configurar Google Chrome para poder modificar ficheros que se encuentren en nuestro disco duro.
 
-Para hacer esto usaremos los "**Workspaces**" que nos permitirán realizar cambios persistentes en nuestro código sin tener que ejecutar otro editor de código.
+Para hacer esto usaremos los "**Workspaces**", estos nos permitirán realizar cambios [persistentes](https://es.wikipedia.org/wiki/Persistencia_(inform%C3%A1tica) en nuestro código sin tener que ejecutar otro editor de código.
 
 Para ello vamos a seguir los siguientes pasos:
 1. Creamos una carpeta (de prueba) en nuestro disco duro (por ejemplo "*html*").
-2. Creamos un fichero vacío dentro de la carpeta llamado. "*index.html*"<sup>1</sup>
+2. Creamos un fichero vacío dentro de la carpeta llamado: "*index.html*"<sup>1</sup>
 3. Abrimos el fichero con Google Chrome
 4. Abrimos las DevTools y nos vamos a la pestaá "**Sources**",
 5. Hacer clic en el panel izquierdo sobre la ruta del directorio y seleccionamos **Add Folder to Workspace**
