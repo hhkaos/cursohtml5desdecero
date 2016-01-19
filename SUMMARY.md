@@ -52,7 +52,7 @@
    * [Recursos](css_primeros_pasos/recursos.md?40)
 * [CSS: Modelo de caja](WIP.md?23)
    * [Elementos HTML](WIP.md?24)
-   * [Tamaños81](css_modelo_de_caja/tamanos.md)
+   * [Tamaños](css_modelo_de_caja/tamanos.md?81)
    * [Posicionar el contenido](WIP.md?25)
    * [Modelo de caja con DevTools](WIP.md?26)
    * [Ejercicio](WIP.md?41)
