@@ -2,3 +2,5 @@
 
 Iterar sobre objetos
 callbacks
+
+ámbitos
