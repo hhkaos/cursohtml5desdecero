@@ -72,7 +72,7 @@
 * [JS: Controlando el flujo](WIP.md?52)
    * [Estructuras de control](WIP.md?54)
    * [Depurando con Chrome DevTools](WIP.md?58)
-   * [Objetos, funciones y ámbitos](js_controlando_el_flujo/objetos_y_funciones.md?70)
+   * [Objetos, funciones y ámbitos](js_controlando_el_flujo/objetos_funciones_y_ambitos.md?70)
    * [Ejercicio](WIP.md?56)
    * [Recursos](WIP.md?57)
 * [JS: Trabajando como un profesional](WIP.md?59)
