@@ -33,7 +33,7 @@
    * [Validación y accesibilidad](html5_mi_cv/validacion_y_accesibilidad.md?9)
    * [Convenciones](html5_mi_cv/convenciones.md?10)
    * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
-   * Ejercicio
+   * [Ejercicio](html5_mi_cv/ejercicio.md)
    * [Recursos](html5_mi_cv/recursos.md?36)
 * [Git & Github](WIP.md?12)
    * [Configurar nuestra cuenta](WIP.md?13)
