@@ -27,7 +27,6 @@
    * [Ejercicio](chrome_devtools/ejercicio.md)
    * [Recursos](chrome_devtools/recursos.md)
 * [HTML5: Mi Curriculum Vitae](html5_mi_curriculum_vitae.md?1)
-   * [Programando con Chrome DevTools](html5_mi_cv/programandocon_chrome_devtools.md?2)
    * [Etiquetas - Parte 2](html5_mi_cv/etiquetas_parte_2.md?7)
    * [Anidación - Parte 2](html5_mi_cv/anidacion_-_parte_2.md?8)
    * [Validación y accesibilidad](html5_mi_cv/validacion_y_accesibilidad.md?9)
