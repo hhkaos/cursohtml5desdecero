@@ -1,2 +1,0 @@
-# Programando con Chrome DevTools
-
