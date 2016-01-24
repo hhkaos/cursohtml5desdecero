@@ -1,5 +1,7 @@
 # Etiquetas - Parte 2
+Ahora vamos a ver las etiquetas básicas para trabajar con: enlaces o hipervínculos, imágenes, tablas, formularios, separadores y otras consideraciones.
 
+Esta vez tampoco veremos todos los atributos posibles aunque añadiré enlaces a la documentación:
 
 ## Enlaces o hipervínculos
 Una de las características más destacables de HTML es la posibilidad de enlazar unas páginas con otras, para hacer esto utilizamos el elemento "**[a](https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-a-element)**" con el atributo "**href**" (Hypertext Reference). Por ejemplo:
@@ -19,7 +21,15 @@ Donde indicamos que si por ejemplo la URL actual es http://www.cursohtml5desdece
 <a href="../img/imagen1.jpg">enlace a una imagen</a>
 ``` 
 Que hará referencia a la siguiente URL: http://www.cursohtml5desdecero.com/img/imagen1.jpg (eliminamos **leccion1**).
-* **Ancla (o *anchor*)**: a diferencia de los dos anteriores, este enlace se utilizar para indicar un elemento dentro de la misma página que estamos viendo. Para ello tenemos que explicar un nuevo tipo de atributo que tienen todos los elementos en HTML, el **[id](https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#the-id-attribute)** (*unique identifier*), como su nombre indica es un identificador único y por tanto no podemos ponerle a dos elementos HTML el mismo ID
+* **Ancla (o *anchor*)**: a diferencia de los dos anteriores, este enlace se utilizar para indicar un elemento dentro de la misma página que estamos viendo. Para ello tenemos que explicar un nuevo tipo de atributo que tienen todos los elementos en HTML, el **[id](https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#the-id-attribute)** (*unique identifier*), como su nombre indica es un identificador único y por tanto no podemos ponerle a dos elementos HTML el mismo **id**. Luego para añadir un hipervínculo a este elemento sólo tenemos que establecer el atributo **href** del enlace al **id** del elemento precedido de una almohadilla (#), por ejemplo:
+```html
+<a href="#leccion1">Lección 3</a>
+...
+<!-- aquí vendría todo el contenido -->
+<h2 id="leccion1">Lección 3</h2>
+```
+Esto estamos acostumbrado a verlo en la Wikipedia, por ejemplo: <br>
+https://en.wikipedia.org/wiki/Hyperlink#Hyperlinks_in_HTML
 
 ## Imágenes
 img
