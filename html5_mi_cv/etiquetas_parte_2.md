@@ -9,7 +9,7 @@ Una de las características más destacables de HTML es la posibilidad de enlaza
 ```
 
 Hay 3 tipos de enlaces:
-* Absolutos: 
+* Absolutos: in
 * Relativos
 * Ancla (**anchor**)
 
