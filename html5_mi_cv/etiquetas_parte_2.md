@@ -6,7 +6,7 @@ HTML entities < > &aacute;...
 
 DOM y DOMContentLoaded
 
-table, img, ...
+
 * Mozilla CDN
 
 
