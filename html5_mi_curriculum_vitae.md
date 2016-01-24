@@ -8,4 +8,4 @@ Por tanto al terminar este apartado tendremos que haber creado una página HTML 
 
 ---
 
-Así que vamos a empezar por ver los elementos HTML que nos faltan por aprender para poder llegar a hacerlo.
+Así que vamos a empezar por ver los elementos HTML que nos faltan por aprender para poder llegar a hacerla.
