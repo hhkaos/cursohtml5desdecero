@@ -32,7 +32,7 @@ Esto estamos acostumbrado a verlo en la Wikipedia, por ejemplo: <br>
 https://en.wikipedia.org/wiki/Hyperlink#Hyperlinks_in_HTML
 
 ## Imágenes
-img
+img.
 
 ## Tablas
 table
