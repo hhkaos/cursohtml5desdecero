@@ -1,18 +1,29 @@
 # Etiquetas - Parte 2
 
+
+
+
+## Enlaces o hipervínculos
+a
+
+## Imágenes
+img
+
+## Tablas
+table
+
+## Formularios
+form, button
+
+## Separadores
+hr
+
+## Otras consideraciones
+HTML entities < > &aacute;...
 Espacios, menor que, etc.
 
-HTML entities < > &aacute;...
 
 DOM y DOMContentLoaded
 
-
 * Mozilla CDN
 
-
-form
-table
-img
-a
-button
-hr
