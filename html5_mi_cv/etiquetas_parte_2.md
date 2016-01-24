@@ -1,8 +1,6 @@
 # Etiquetas - Parte 2
 
 
-
-
 ## Enlaces o hipervínculos
 a
 
