@@ -2,7 +2,7 @@
 
 
 ## Enlaces o hipervínculos
-a
+Una de las características más destacables de HTML es la posibilidad de enlazar unas páginas con otras, para hacer esto 
 
 ## Imágenes
 img
