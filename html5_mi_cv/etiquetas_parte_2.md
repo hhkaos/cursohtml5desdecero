@@ -41,7 +41,32 @@ Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de 
 Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen<sup>1</sup>.
 
 ## Tablas
-table
+Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element)**. Para ello como mínimo tendremos que indicar las filas y las columnas usando los elementos **tr** y **td** respectivamente, así por ejemplo:
+
+```html
+<table>
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
+    <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+```
+Que daría un resultado como el siguiente:
+
+<table>
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
+    <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
 
 ## Formularios
 form, button
