@@ -38,7 +38,7 @@ Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de 
 ```html
 <img src="http://www.cursohtml5desdecero.com/assets/images/html-css-js.png" alt="Logo de HTML5">
 ```
-Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen.
+Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen<sup>1</sup>.
 
 ## Tablas
 table
@@ -57,4 +57,7 @@ Espacios, menor que, etc.
 DOM y DOMContentLoaded
 
 * Mozilla CDN
+* 
+<small>Aclaraciones:</small><br>
+<small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
 
