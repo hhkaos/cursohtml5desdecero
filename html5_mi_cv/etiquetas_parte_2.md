@@ -41,17 +41,17 @@ Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de 
 Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen<sup>1</sup>.
 
 ## Tablas
-Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element)**. Para ello como mínimo tendremos que indicar las filas y las columnas usando los elementos **tr** y **td** respectivamente, así por ejemplo:
+Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element)**. Para ello como mínimo tendremos que indicar las filas y las columnas usando los elementos **tr** (*table row*) y **td** (*table data*) respectivamente, así por ejemplo:
 
 ```html
 <table>
     <tr>
-        <td>Celda 1</td>
-        <td>Celda 2</td>
+        <td>Fila 1, celda 1</td>
+        <td>Fila 1, celda 2</td>
     </tr>
     <tr>
-        <td>Celda 3</td>
-        <td>Celda 4</td>
+        <td>Fila 2, celda 3</td>
+        <td>Fila 2, celda 4</td>
     </tr>
 </table>
 ```
@@ -59,14 +59,36 @@ Que daría un resultado como el siguiente:
 
 <table>
     <tr>
-        <td>Celda 1</td>
-        <td>Celda 2</td>
+        <td>Fila 1, celda 1</td>
+        <td>Fila 1, celda 2</td>
     </tr>
     <tr>
-        <td>Celda 3</td>
-        <td>Celda 4</td>
+        <td>Fila 2, celda 3</td>
+        <td>Fila 2, celda 4</td>
     </tr>
 </table>
+
+Como podemos comprobar las columnas (**td**) siempre van contenidas dentro de las filas (**tr**). En caso de querer:
+* Agrupar dos celdas de una misma fila usaremos el atributo **colspan** (*column span* = abarcar columnas)
+* Agrupar dos celdas de una misma columna usaremos el atributo **rowspan** (*row span*)
+
+```html
+<table>
+    <tr>
+        <td>Fila 1, celda 1</td>
+        <td colspan="2">Fila 1, celda 2, y spanning Row 2, cell 3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+    </tr>
+</table>
+```
 
 ## Formularios
 form, button
