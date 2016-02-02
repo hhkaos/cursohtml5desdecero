@@ -56,8 +56,8 @@ Espacios, menor que, etc.
 
 DOM y DOMContentLoaded
 
-* Mozilla CDN
-* 
+
+
 <small>Aclaraciones:</small><br>
 <small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
 
