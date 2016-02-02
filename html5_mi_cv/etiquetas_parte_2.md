@@ -72,23 +72,26 @@ Como podemos comprobar las columnas (**td**) siempre van contenidas dentro de la
 * Agrupar dos celdas de una misma fila usaremos el atributo **colspan** (*column span* = abarcar columnas)
 * Agrupar dos celdas de una misma columna usaremos el atributo **rowspan** (*row span*)
 
+Por ejemplo:
+
 ```html
 <table>
     <tr>
         <td>Fila 1, celda 1</td>
-        <td colspan="2">Fila 1, celda 2, y spanning Row 2, cell 3</td>
+        <td colspan="2">Fila 1, celda 2, y fila 1, celda 3</td>
     </tr>
     <tr>
-        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
-        <td>Row 3, cell 2</td>
-        <td>Row 3, cell 3</td>
+        <td rowspan="2">Fila 2, celda 1, y fila 3, celda 1</td>
+        <td>Fila 2, celda 2</td>
+        <td>Fila 2, celda 3</td>
     </tr>
     <tr>
-        <td>Row 4, cell 2</td>
-        <td>Row 4, cell 3</td>
+        <td>Fila 3, celda 2</td>
+        <td>Fila 3, celda 3</td>
     </tr>
 </table>
 ```
+Como podemos ver el atributo afecta a las celdas de las columnas/filas siguientes y el valor indica cuántas celdas debe abarcar.
 
 ## Formularios
 form, button
