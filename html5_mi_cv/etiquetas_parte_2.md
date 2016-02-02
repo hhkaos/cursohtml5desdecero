@@ -110,5 +110,5 @@ DOM y DOMContentLoaded
 
 <small>Aclaraciones:</small><br>
 <small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
-<small>2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquet.</small><br>
+<small>2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquetar.</small><br>
 
