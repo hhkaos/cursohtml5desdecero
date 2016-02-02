@@ -32,7 +32,7 @@ Esto estamos acostumbrado a verlo en la Wikipedia, por ejemplo: <br>
 https://en.wikipedia.org/wiki/Hyperlink#Hyperlinks_in_HTML
 
 ## Imágenes
-Para mostrar una imagen en una página tenemos dos formas de hacerlo, una es usando el elemento **img** y otras es mediante CSS (que veremos en el capítulo correspondiente).
+Para mostrar una imagen en una página tenemos dos formas de hacerlo, una es usando el elemento **[img](https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-img-element)** y otras es mediante CSS (que veremos en el capítulo correspondiente).
 
 Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de *source*) y el otro es **alt** (de *alternative*), por ejemplo:
 ```html
