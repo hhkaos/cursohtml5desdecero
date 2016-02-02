@@ -32,7 +32,13 @@ Esto estamos acostumbrado a verlo en la Wikipedia, por ejemplo: <br>
 https://en.wikipedia.org/wiki/Hyperlink#Hyperlinks_in_HTML
 
 ## Imágenes
-img
+Para mostrar una imagen en una página tenemos dos formas de hacerlo, una es usando el elemento **img** y otras es mediante CSS (que veremos en el capítulo correspondiente).
+
+Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de *source*) y el otro es **alt** (de *alternative*), por ejemplo:
+```html
+<img src="http://www.cursohtml5desdecero.com/assets/images/html-css-js.png" alt="Logo de HTML5">
+```
+Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen.
 
 ## Tablas
 table
