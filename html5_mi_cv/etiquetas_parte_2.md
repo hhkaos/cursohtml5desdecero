@@ -41,7 +41,7 @@ Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de 
 Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen<sup>1</sup>.
 
 ## Tablas
-Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element)**. Para ello como mínimo tendremos que indicar las filas y las columnas usando los elementos **tr** (*table row*) y **td** (*table data*) respectivamente, así por ejemplo:
+Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element)**<sup>2</sup>. Para ello como mínimo tendremos que indicar las filas y las columnas usando los elementos **tr** (*table row*) y **td** (*table data*) respectivamente, así por ejemplo:
 
 ```html
 <table>
@@ -110,4 +110,5 @@ DOM y DOMContentLoaded
 
 <small>Aclaraciones:</small><br>
 <small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
+<small>2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquet.</small><br>
 
