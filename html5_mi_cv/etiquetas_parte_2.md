@@ -46,12 +46,12 @@ Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/
 ```html
 <table>
     <tr>
-        <td>Fila 1, celda 1</td>
-        <td>Fila 1, celda 2</td>
+        <td>Fila 1, columna 1</td>
+        <td>Fila 1, columna 2</td>
     </tr>
     <tr>
-        <td>Fila 2, celda 3</td>
-        <td>Fila 2, celda 4</td>
+        <td>Fila 2, columna 1</td>
+        <td>Fila 2, columna 2</td>
     </tr>
 </table>
 ```
@@ -59,38 +59,43 @@ Que daría un resultado como el siguiente:
 
 <table>
     <tr>
-        <td>Fila 1, celda 1</td>
-        <td>Fila 1, celda 2</td>
+        <td>Fila 1, columna 1</td>
+        <td>Fila 1, columna 2</td>
     </tr>
     <tr>
-        <td>Fila 2, celda 3</td>
-        <td>Fila 2, celda 4</td>
+        <td>Fila 2, columna 1</td>
+        <td>Fila 2, columna 2</td>
     </tr>
 </table>
 
-Como podemos comprobar las columnas (**td**) siempre van contenidas dentro de las filas (**tr**). En caso de querer:
-* Agrupar dos celdas de una misma fila usaremos el atributo **colspan** (*column span* = abarcar columnas)
-* Agrupar dos celdas de una misma columna usaremos el atributo **rowspan** (*row span*)
+Como podemos comprobar las columnas (**td**) siempre van contenidas dentro de las filas (**tr**). En caso de querer agrupar celdas de una misma fila o columna lo haremos así:
+* Misma fila: la usaremos el atributo **colspan** (*column span* = número celdas a abarcar)
+* Agrupar dos celdas de una misma columna usaremos el atributo **rowspan** (*row span* = número de celdas a abarcar)
 
 Por ejemplo:
 
 ```html
 <table>
     <tr>
-        <td>Fila 1, celda 1</td>
-        <td colspan="2">Fila 1, celda 2, y fila 1, celda 3</td>
+        <td>Fila 1, columna 1</td>
+        <td colspan="3"> Fila 1, columnas 2, 3 y 4</td>
     </tr>
     <tr>
-        <td rowspan="2">Fila 2, celda 1, y fila 3, celda 1</td>
-        <td>Fila 2, celda 2</td>
-        <td>Fila 2, celda 3</td>
+        <td rowspan="2">Fila 2, columna 1 + Fila 3, columna 1</td>
+        <td>Fila 2 columna 2</td>
+        <td>Fila 2 columna 3</td>
+        <td>Fila 2 columna 4</td>
     </tr>
     <tr>
-        <td>Fila 3, celda 2</td>
-        <td>Fila 3, celda 3</td>
+        <td>Fila 3 columna 2</td>
+        <td>Fila 3 columna 3</td>
+        <td>Fila 3 columna 4</td>
     </tr>
 </table>
 ```
+Quedando:
+[![](../images/tableColRowSpan.png)](../images/tableColRowSpan.png)
+
 Como podemos ver el atributo afecta a las celdas de las columnas/filas siguientes y el valor indica cuántas celdas debe abarcar.
 
 ## Formularios
