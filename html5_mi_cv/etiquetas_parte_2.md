@@ -96,10 +96,49 @@ Por ejemplo:
 Quedando:
 [![](../images/tableColRowSpan.png)](../images/tableColRowSpan.png)
 
-Como podemos ver el atributo afecta a las celdas de las columnas/filas siguientes y el valor indica cuántas celdas debe abarcar.
+Como podemos ver el atributo afecta a las celdas de las siguientes columnas/filas y el valor indica cuántas celdas debe abarcar.
 
 ## Formularios
-form, button
+Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de sus propiedades:
+* **form**: contendrá todos los campos de nuestro formulario, incluído el botón de enviar.
+    * **action**: indica la URL a la que se enviará la petición HTTP con toda la información del formulario
+    * **method**: indica si la petición HTTP será *GET* o *POST*
+* **input**: permite introducir diferentes campos de formulario en base al valor del atributo **type**:
+    * **type**: este valor puede tener muchos valores: *text*, *email*, *checkbox*, *color*, *date*, *file*, *hidden*
+    * **id**:
+* **select**:
+* **option**:
+* **textarea**:
+* **label**: se usa para especificar la etiqueta (o nombre) del campo del formulario.
+    * **for**: tiene que tener el mismo valor que el atributo **id** del campo (input, select o textarea) al que hace referencia la etiqueta.
+* **button**:
+
+Opcionalmente podemos añadir el atributo **required** a un elemento para que el navegador se encargue de validar que este campo está completo.
+
+Aquí tenemos un ejemplo:
+
+```html
+<form action="miScript.php" method="GET">
+    <label for="to">Para:</label>
+    <input id="to" type="email" required>
+
+    <label for="topic">Temática: </label>
+    <select id="topic">
+      <option>-- Elige un tema --</option>>
+      <option value="proposal">Propuesta</option>
+      <option value="report">Reporte</option>
+      <option value="other">Otro</option>
+    </select>
+
+    <label for="subject">Asunto: </label>
+    <input id="subject" type="text" required>
+
+    <label for="body">Cuerpo:</label>
+    <textarea id="body" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+```
 
 ## Separadores
 hr
