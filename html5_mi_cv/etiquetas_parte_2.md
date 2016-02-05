@@ -100,44 +100,70 @@ Como podemos ver el atributo afecta a las celdas de las siguientes columnas/fila
 
 ## Formularios
 Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de sus propiedades:
-* **form**: contendrá todos los campos de nuestro formulario, incluído el botón de enviar.
+* **[form](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-form-element)**: contendrá todos los campos de nuestro formulario, incluído el botón de enviar.
     * **action**: indica la URL a la que se enviará la petición HTTP con toda la información del formulario
     * **method**: indica si la petición HTTP será *GET* o *POST*
-* **input**: permite introducir diferentes campos de formulario en base al valor del atributo **type**:
-    * **type**: este valor puede tener muchos valores: *text*, *email*, *checkbox*, *color*, *date*, *file*, *hidden*
+* **[input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-input-element)**: permite introducir diferentes *tipos* de campo de formulario en base al valor del atributo **type**. En función del valor indicado en **type** dispondremos de unos atributos u otros (en total hay 30, pero no todos aplican a todos los casos):
+    * **type**: este valor puede tener [muchos valores](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#states-of-the-type-attribute): *text*, *email*, *checkbox*, *color*, *date*, *file*, *hidden*, etc. en función del tipo de campo que queramos, los nombres son bastante auto-explicativos.
+    * **id**: este junto con **type** son los únicos campos obligatorios, y deberá contener un identificador único<sup>3</sup> en la página.
+* **[select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element)**:
     * **id**:
-* **select**:
-* **option**:
-* **textarea**:
-* **label**: se usa para especificar la etiqueta (o nombre) del campo del formulario.
+* **[option](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-option-element)**:
+    * **value**:
+* **[textarea](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element)**:
+    * **id**:
+* **[label](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-label-element)**: se usa para especificar la etiqueta (o nombre) del campo del formulario.
     * **for**: tiene que tener el mismo valor que el atributo **id** del campo (input, select o textarea) al que hace referencia la etiqueta.
-* **button**:
+* **[button](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-button-element)**:
+    * **type**:
 
-Opcionalmente podemos añadir el atributo **required** a un elemento para que el navegador se encargue de validar que este campo está completo.
+Existen muchos otros atributos muy comunes que no veremos dado que no les daremos uso en este curso ya que para sacarle el máximo provecho sería necesario tener conocimientos en programación.
 
-Aquí tenemos un ejemplo:
+Aquí tenemos un ejemplo de formulario:
 
 ```html
 <form action="miScript.php" method="GET">
     <label for="to">Para:</label>
-    <input id="to" type="email" required>
+    <input id="to" type="email">
 
     <label for="topic">Temática: </label>
     <select id="topic">
-      <option>-- Elige un tema --</option>>
+      <option>-- Elige un tema --</option>
       <option value="proposal">Propuesta</option>
       <option value="report">Reporte</option>
       <option value="other">Otro</option>
     </select>
 
     <label for="subject">Asunto: </label>
-    <input id="subject" type="text" required>
+    <input id="subject" type="text">
 
     <label for="body">Cuerpo:</label>
-    <textarea id="body" required></textarea>
+    <textarea id="body"></textarea>
 
     <button type="submit">Enviar</button>
 </form>
+```
+Que nos dará como resultado algo así:
+[![](../images/formulario.png)](../images/formulario.png)
+
+Como ves los estilos por defecto serán muy poco atractivos, pero no te preocupes, ya aprenderemos a solucionar esto usando CSS.
+
+Por último comentar que en muchos de los campos podemos añadir (opcionalmente) otros atributos como:
+* **required** a un elemento<sup>4</sup> para que el navegador se encargue de validar que este campo está relleno
+* **readonly** si queremos que sea de sólo lectura
+* **placeholder** si queremos que aparezca un texto de ayuda para rellenar el campo
+* **value** para introducir un valor por defecto en el campo
+
+Por ejemplo
+
+```html
+...
+<label for="to">Para:</label>
+<input id="to" type="email" placeholder="tu@correo.com" required>
+
+<label for="subject">Asunto: </label>
+<input id="subject" type="text" value="Formulario de contacto" readonly>
+...
 ```
 
 ## Separadores
@@ -155,4 +181,5 @@ DOM y DOMContentLoaded
 <small>Aclaraciones:</small><br>
 <small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
 <small>2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquetar.</small><br>
+<small>3. Con esto nos referimos a un nombre (o cadena de texto) que no contenga ningún otro elemento, por ejemplo no puede haber dos elementos con **id="email"**.</small><br>
 

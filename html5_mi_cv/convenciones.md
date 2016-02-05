@@ -9,3 +9,9 @@ https://google.github.io/styleguide/htmlcssguide.xml
 http://codeguide.co/#html-syntax
 
 Nombres de directorios
+
+buenas prácticas comillas dobles
+minúsculas
+espacios
+nombres con sentido
+camelCase
