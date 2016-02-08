@@ -31,12 +31,17 @@ Antes de terminar me gustaría explicarte algunas de las principales convencione
 * Evita el uso de entidades HTML siempre que sea posible (salvo por ejemplo para ```<``` y ```&```)
 ```html
 <!-- MAL -->
-<h1>P&áacute;gina sobre &lt; HTML5</h1>
+<h1>P&áacute;gina sobre &lt; HTML5 &amp; CSS3</h1>
 <!-- BIEN -->
-<h1>Página sobre &lt; HTML5</h1>
+<h1>Página sobre &lt; HTML5 &amp; CSS3</h1>
 ```
-* No introduzcas espacios antes o después 
-
+* No introduzcas espacios antes o después del signo "igual":
+```html
+<!-- MAL -->
+<img src = "html5.gif" alt = "Logo HTML5">
+<!-- BIEN -->
+<img src="html5.gif" alt="Logo HTML5">
+```
 
 http://www.w3schools.com/html/html5_syntax.asp
 
