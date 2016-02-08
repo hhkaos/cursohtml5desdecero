@@ -22,8 +22,9 @@ Cualquiera puede aplicar algunas prácticas de accesibilidad con poco esfuerzo, 
 
 Si hablas inglés te recomiendo ver [esta charla de Leonie Watson](https://www.youtube.com/watch?v=qdB8SRhqvFc), una mujer ciega explicando la importancia de la accesibilidad.
 
-Por último, si estos argumento no son suficientes, me gustaría añadir que haciendo una página accesible hacemos que esta esté mejor posicionada por los buscadores, dado que a las arañas<sup>2</sup> de los motores de búsqueda a fin de cuentas tienen una forma de navegar por nuestra página igual que las personas con problemas de accesibilidad.
+Por último, si estos argumento no son suficientes, me gustaría añadir que haciendo una página accesible hacemos que esta esté mejor posicionada por los buscadores, dado que a las arañas<sup>2</sup> de los motores de búsqueda a fin de cuentas tienen una forma de navegar<sup>3</sup> por nuestra página igual que las personas con problemas de accesibilidad.
 
 <small>Aclaraciones:</small><br>
 <small>1. Pequeño vídeo explicativo en inglés sobre [cómo usar los landmarks](https://www.youtube.com/watch?v=o4xHfi4t9S0).</small><br>
-<small>2. Las ["arañas" (spiders) o bots](https://es.wikipedia.org/wiki/Ara%C3%B1a_web), son es el nombre convencional que le damos a los programas que se dedican a "rastrear" por Internet y que usan entre otros los grandes buscadores para buscar nuevo contenido y cualificarlo para después devolverlo en sus resultados de búsqueda.</small><br>
+<small>2. Las ["arañas" (spiders), bots o web crawlers](https://es.wikipedia.org/wiki/Ara%C3%B1a_web), son es el nombre convencional que le damos a los programas que se dedican a "rastrear" por Internet y que usan entre otros los grandes buscadores para buscar nuevo contenido y cualificarlo para después devolverlo en sus resultados de búsqueda.</small><br>
+<small>3. Sitio web explicando [cómo funciona Googlebot](https://www.google.com/insidesearch/howsearchworks/crawling-indexing.html) (la araña de Google).</small><br>
