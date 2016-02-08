@@ -42,8 +42,12 @@ Antes de terminar me gustaría explicarte algunas de las principales convencione
 <!-- BIEN -->
 <img src="html5.gif" alt="Logo HTML5">
 ```
+* Establece los nombres de los ficheros en minúsculas, Windows no hace distinción entre mayúsculas y minúsculas pero otros sistemas sí, y esto puede provocar que una ruta funcione en un sistema operativo pero no en otro. Por ejemplo si tenemos un fichero llamado **Logo_HTML5.jpg** y una página que hace referencia a él con ```<img src="logo_html5.jpg" alt="Logo HTML5">```. Esto funcionará en Windows pero en un sistema basado en Unix (Linux o Mac) no funcionará.
+* Los ficheros HTML debe tener la extensión "**.html**".
+* Especifica el atributo **lang** en el elemento **html**.
 
-http://www.w3schools.com/html/html5_syntax.asp
+Esta recopilación ha sido extraída de algunas guías de estilo.
+* [HTML(5) Style Guide and Coding Conventions](http://www.w3schools.com/html/html5_syntax.asp)
 
 http://docs.ckan.org/en/latest/contributing/html.html
 
