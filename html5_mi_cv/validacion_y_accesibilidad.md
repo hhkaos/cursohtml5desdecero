@@ -20,5 +20,7 @@ Existe una iniciativa que tiene como objetivo hacer la web más accesible, espec
 
 Cualquiera puede aplicar algunas prácticas de accesibilidad con poco esfuerzo, como por ejemplo usar los [landmarks](https://www.w3.org/TR/wai-aria-1.1/#landmark_roles), que no son más que atributos que añadimos a las etiquetas para indicar las pártes más relevantes de nuestra página como: el menú de navegación, el área de contenido principal o contenido complementario<sup>1</sup>. 
 
+Si hablas inglés te recomiendo ver [esta charla de Leonie Watson](https://www.youtube.com/watch?v=qdB8SRhqvFc), una mujer ciega explicando la importancia de la accesibilidad.
+
 <small>Aclaraciones:</small><br>
 <small>1. Pequeño vídeo explicativo en inglés sobre [cómo usar los landmarks](https://www.youtube.com/watch?v=o4xHfi4t9S0).</small><br>
