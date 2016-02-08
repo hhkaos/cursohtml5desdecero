@@ -3,9 +3,9 @@
 En el primer capítulo de HTML vimos que las etiquetas se pueden anidar, pero comentamos que no todas las etiquetas son anidables entre sí, por ejemplo **esto sería incorrecto**:
 
 ```html
-<title>
+<body>
     <head></head>
-</title>
+</body>
 ```
 
-Ya que una etiqueta **title** no puede contener a otra **head**, pero... ¿cómo podemos saber qué etiquetas son anidables?. 
+Ya que una etiqueta **body** no puede contener a otra **head**, pero... ¿cómo podemos saber qué etiquetas son anidables?. 
