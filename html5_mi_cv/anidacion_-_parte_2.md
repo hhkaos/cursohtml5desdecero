@@ -1,3 +1,3 @@
 # Anidación - Parte 2
 
-Qué etiquetas son anidabless
+En el primer capítulo de HTML vimos que las etiquetas se pueden anidar, Qué etiquetas son anidables
