@@ -104,20 +104,26 @@ Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de 
     * **action**: indica la URL a la que se enviará la petición HTTP con toda la información del formulario
     * **method**: indica si la petición HTTP será *GET* o *POST*
 * **[input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-input-element)**: permite introducir diferentes *tipos* de campo de formulario en base al valor del atributo **type**. En función del valor indicado en **type** dispondremos de unos atributos u otros (en total hay 30, pero no todos aplican a todos los casos):
-    * **type**: este valor puede tener [muchos valores](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#states-of-the-type-attribute): *text*, *email*, *checkbox*, *color*, *date*, *file*, *hidden*, etc. en función del tipo de campo que queramos, los nombres son bastante auto-explicativos.
-    * **id**: este junto con **type** son los únicos campos obligatorios, y deberá contener un identificador único<sup>3</sup> en la página.
-* **[select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element)**:
-    * **id**:
-* **[option](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-option-element)**:
-    * **value**:
-* **[textarea](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element)**:
-    * **id**:
+    * **type** (obligatorio): este valor puede tener [muchos valores](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#states-of-the-type-attribute): *text*, *email*, *checkbox*, *color*, *date*, *file*, *hidden*, etc. en función del tipo de campo que queramos, los nombres son bastante auto-explicativos.
+    * **id**: este atributo es obligatorio si en el elemento **label** tiene un atributo **for**, en tal caso deberá contener un identificador único<sup>3</sup> en la página.
+    * **name**: este atributo es opcional y representa el nombre asignado al campo cuando se envié la petición HTTP.
+    * **value**: este valor es opcional pero representa el valor que se asignará al campo cuando se envié la petición HTTP.
+* **[select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element)**: nos permite crear una lista desplegable de opciones, cada opción estará contenida como hija dentro de un elemento **option**.
+    * **id**: igual que el elemento **input**
+    * **name**: igual que el campo **input**
+* **[option](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-option-element)**: nos sirve para "encapsular" cada opción de la lista.
+    * **value**: igual que el atributo **value** del campo **input**.
+* **[textarea](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element)**: representa un campo que nos permite introducir textos con saltos de línea incluidos, normalmente se usa cuando hay que introducir: descripciones, biografías, etc.
+    * **id**: igual que el elemento **input** y **select**.
+    * **name**: igual que el campo **input** y **select**.
 * **[label](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-label-element)**: se usa para especificar la etiqueta (o nombre) del campo del formulario.
     * **for**: tiene que tener el mismo valor que el atributo **id** del campo (input, select o textarea) al que hace referencia la etiqueta.
-* **[button](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-button-element)**:
-    * **type**:
+* **[button](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-button-element)**: representa un botón y el texto del botón está representado por su contenido.
+    * **type**: define el comportamiento del botón cuando está activado y puede contener [tres valores](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#attr-button-type): *submit*, *reset*, *button*
 
-Existen muchos otros atributos muy comunes que no veremos dado que no les daremos uso en este curso ya que para sacarle el máximo provecho sería necesario tener conocimientos en programación.
+Existen muchos otros atributos que no veremos dado que no les daremos uso en este curso ya que para sacarle el máximo provecho sería necesario tener conocimientos en programación.
+
+Por último añadir que el elemento **input** no requiere una etiqueta de cierre (o lo que es lo mismo, que está autocontenido).
 
 Aquí tenemos un ejemplo de formulario:
 
@@ -127,7 +133,7 @@ Aquí tenemos un ejemplo de formulario:
     <input id="to" type="email">
 
     <label for="topic">Temática: </label>
-    <select id="topic">
+    <select id="topic" name="topic">
       <option>-- Elige un tema --</option>
       <option value="proposal">Propuesta</option>
       <option value="report">Reporte</option>
@@ -135,10 +141,10 @@ Aquí tenemos un ejemplo de formulario:
     </select>
 
     <label for="subject">Asunto: </label>
-    <input id="subject" type="text">
+    <input id="subject" name="subject" type="text">
 
     <label for="body">Cuerpo:</label>
-    <textarea id="body"></textarea>
+    <textarea id="body" name="body"></textarea>
 
     <button type="submit">Enviar</button>
 </form>
@@ -148,13 +154,13 @@ Que nos dará como resultado algo así:
 
 Como ves los estilos por defecto serán muy poco atractivos, pero no te preocupes, ya aprenderemos a solucionar esto usando CSS.
 
-Por último comentar que en muchos de los campos podemos añadir (opcionalmente) otros atributos como:
-* **required** a un elemento<sup>4</sup> para que el navegador se encargue de validar que este campo está relleno
+Por último comentar que *en muchos de los elementos*<sup>4</sup> podemos añadir (opcionalmente) otros atributos como:
+* **required** a un elemento para que el navegador se encargue de validar que este campo está relleno
 * **readonly** si queremos que sea de sólo lectura
 * **placeholder** si queremos que aparezca un texto de ayuda para rellenar el campo
 * **value** para introducir un valor por defecto en el campo
 
-Por ejemplo
+Por ejemplo:
 
 ```html
 ...
@@ -167,19 +173,17 @@ Por ejemplo
 ```
 
 ## Separadores
-hr
+Existe un elemento que nos permite añadir un separador (una línea horizontal), este elemento es **hr**.
 
 ## Otras consideraciones
+Para terminar este capítulo hay una última cosa que me gustaría comentar
 HTML entities < > &aacute;...
 Espacios, menor que, etc.
-
-
-DOM y DOMContentLoaded
-
 
 
 <small>Aclaraciones:</small><br>
 <small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
 <small>2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquetar.</small><br>
 <small>3. Con esto nos referimos a un nombre (o cadena de texto) que no contenga ningún otro elemento, por ejemplo no puede haber dos elementos con **id="email"**.</small><br>
+<small>4. En la documentación del W3C podemos ver qué atributos admite cada elemento: [input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#input-type-attr-summary), [textarea](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element), [select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element), etc.</small><br>
 
