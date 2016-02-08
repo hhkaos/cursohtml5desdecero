@@ -26,4 +26,4 @@ Y por último, si no encuentras el error... pide ayuda :D.
 
 [![](../images/buscar_error.gif)](../images/buscar_error.gif)
 
-En esta imagen animada por ejemplo se sigue el proceso recomendado salvo que se ha seleccionado una respuesta que tiene una sola valoración. recomendación.
+En esta imagen animada por ejemplo se sigue el proceso recomendado salvo que se ha seleccionado una respuesta que tiene una sola valoración.
