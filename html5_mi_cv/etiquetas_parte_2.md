@@ -93,7 +93,8 @@ Por ejemplo:
     </tr>
 </table>
 ```
-Quedando:
+Quedando algo como esto:
+
 [![](../images/tableColRowSpan.png)](../images/tableColRowSpan.png)
 
 Como podemos ver el atributo afecta a las celdas de las siguientes columnas/filas y el valor indica cuántas celdas debe abarcar.
@@ -150,6 +151,7 @@ Aquí tenemos un ejemplo de formulario:
 </form>
 ```
 Que nos dará como resultado algo así:
+
 [![](../images/formulario.png)](../images/formulario.png)
 
 Como ves los estilos por defecto serán muy poco atractivos, pero no te preocupes, ya aprenderemos a solucionar esto usando CSS.
@@ -163,22 +165,42 @@ Por último comentar que *en muchos de los elementos*<sup>4</sup> podemos añadi
 Por ejemplo:
 
 ```html
-...
 <label for="to">Para:</label>
 <input id="to" type="email" placeholder="tu@correo.com" required>
 
 <label for="subject">Asunto: </label>
 <input id="subject" type="text" value="Formulario de contacto" readonly>
-...
 ```
 
 ## Separadores
 Existe un elemento que nos permite añadir un separador (una línea horizontal), este elemento es **hr**.
 
 ## Otras consideraciones
-Para terminar este capítulo hay una última cosa que me gustaría comentar
-HTML entities < > &aacute;...
-Espacios, menor que, etc.
+Para terminar este capítulo hay una última cosa que me gustaría comentar:
+* En HTML se ignoran todos los espacios a partir del primero, por lo tanto nunca podremos (*ni se debe*) alinear usando espacios. 
+* Las entidades HTML (*HTML entities*) se usan para pintar palabras, caracteres o símbolos reservados o que puede que no tengas en tu teclado como por ejemplo: <, >, &copy;, &amp;, &euro;, etc. <br>Existen [1446 entidades](https://dev.w3.org/html5/html-author/charref) reservadas que puedes consultar en la página del W3C.
+
+Para representar la entidades HTML se usa el siguiente formato:
+```html
+&código_de_la_entidad;
+```
+
+Veamos un ejemplo para entender mejor por qué existen las entidades HTML y cómo se usan. 
+
+Imaginemos que estamos haciendo una página sobre matemáticas y queremos expresar la siguiente frase:
+```
+¿Qué valor tiene la variable X si sabemos que X < 2 y X > 0?
+```
+
+En este caso cuando el navegador esté intepretando el código HTML encontrará "**< 2 y X >**" e intentaría interpretarlo como un elemento HTML pero no podría ya que ese elemento no existe.
+
+Para evitar este problema usaríamos el siguiente cógido HTML:
+```html
+¿Qué valor tiene la variable X si sabemos que X &lt; 2 y X &gt; 0?
+```
+En este caso hemos modificado el símbolo "menor que" (**L**ower **T**han) por la entidad HTML **lt** y "mayor que" (**G**reater **T**han) por **gt**, así el navegador podrá representarlo sin ningún problema.
+
+En alguna ocasión puede que navegues por una página con una codificación (encoding) que no soporte los acentos agudos (á, é, í, ó, ú), en ese caso usarán las entidades HTML (```&aacute;, &eacute;, &iacute;, &oacute;, &Uacute;```) para representarlos. Por cierto: "acute" en inglés significa "agudo".
 
 
 <small>Aclaraciones:</small><br>
