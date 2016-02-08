@@ -26,7 +26,7 @@ A continuación explicamos la función que cumple cada etiqueta:
 * ```<title> ... </title>```: indica el título de nuetra página. Este se muestra en: la pestaña del navegador, el enlace que indexan los buscadores, etc.
 * ```<body> ... </body>```: contiene todo el contenido visible por el usuario *dentro* de nuestra página.
  
-Observa que la etiqueta *html* contiene dos hijas: *head* y *body*, esto **obligatoriamente es así en todas las páginas**.
+Observa que la etiqueta *html* contiene dos hijas: *head* y *body*, esto ya no es obligatorio en HTML5 ya que se puede omitir las etiquetas **html**, **body** y **head**, pero por convención es recomendable usarlas.
 
 <small>Aclaraciones:</small><br>
 <small>1. Cuando digo **dentro** me refiero al contenido de la página, lo que no incluye la pestaña del navegador ni la barra de direcciones.</small><br>
