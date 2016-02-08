@@ -22,6 +22,8 @@ Cuando encuentres alguna página donde parezca haber una respuesta, fíjate en:
 * Busca en la documentación oficial
 * Si estás en Stackoverflow revisa el número de valoraciones positivas de la respuesta
 
-Si no encuentras el error pide ayuda.
+Y por último, si no encuentras el error... pide ayuda :D.
 
 [![](../images/buscar_error.gif)](../images/buscar_error.gif)
+
+En esta imagen animada por ejemplo se sigue el proceso recomendado salvo que se ha seleccionado una respuesta que tiene una sola valoración. recomendación.
