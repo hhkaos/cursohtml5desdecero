@@ -35,7 +35,7 @@
    * [Ejercicio](html5_mi_cv/ejercicio.md?4)
    * [Recursos](html5_mi_cv/recursos.md?36)
 * [Git & Github](git_&_github.md)
-   * Configurar nuestra cuenta
+   * [Configurar nuestra cuenta](git_&_github/configurar_nuestra_cuenta.md)
    * Funcionalidades
    * Enviar y recibir cambios
    * Publicar una web en Github
