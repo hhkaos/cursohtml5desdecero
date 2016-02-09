@@ -32,6 +32,6 @@ Aquí se sigue el proceso recomendado salvo que se ha seleccionado una respuesta
 Lo más normal es que cualquier error que te ocurra cuando estés empezando ya lo haya preguntado otra persona, insiste en la búsqueda y si después de un buen rato (~30min) no encuentras el error pregunta en cualquier foro y comenta lo que te ocurre (en inglés), pero unos consejos:
 * Especifica que ya has buscado antes el error
 * Explica cómo lo has buscado (*por si te pueden dar algún consejo para mejorar tu forma de buscar*)
-* Y finalmente haz la pregunta dando el máximo número de detalles. 
+* Y finalmente haz la pregunta dando el máximo número de detalles
 
 Es importante que cuando preguntes algo el resto vea que te has molestado en investigar previamente y también que te esfuerzas en explicar lo que te pasa, sino es probable que alguien te de una mala respuesta porque piense que no te has molestado en solucionar el problema por ti mismo.
