@@ -6,4 +6,6 @@ Para que te hagas una idea rápida, [Git](https://es.wikipedia.org/wiki/Git) es 
 
 Por tanto con Git se acabó el tener múltiples copias de una carpeta "por seguridad", es una forma mucho más cómoda de evolucionar el código.
 
-[Github](https://github.com/) es una compañía americana que ha creado una web donde podremos mantener una copia del código que estemos gestionando con Git y que además nos ayuda a hacer más sencillo colaborar y compartir código.
+[Github](https://github.com/) es una compañía americana que ha creado una web donde podremos mantener una copia del código que estemos gestionando con Git y que además nos ayuda a hacer más sencillo colaborar y compartir este código.
+
+Vamos a empezar a crear una cuenta y te iré explicando los conceptos que te van a hacer falta entender para este curso sobre la marcha.
