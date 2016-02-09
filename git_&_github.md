@@ -1,4 +1,4 @@
-# Git & Github
+# Github
 
 En esta lección vamos a aprender a usar Git. Git es una de esas herramientas que no conoces hasta que alguien te habla maravillas de ella, y **cuando la entiendes se convierte en una herramienta sin la que no puedes vivir**.
 
