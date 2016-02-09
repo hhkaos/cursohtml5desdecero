@@ -3,9 +3,9 @@
 Vamos a empezar por crear una cuenta en Github.
 
 Primero vamos a la [sección "Signup"](https://github.com/join?source=header-home) y completamos nuestros datos:
-
-
 [![](../images/github_2.png)](../images/github_2.png)
+
+>  **Nota**: El username definirá la URL de nuestra cuenta: [http://github.com/**username**](http://github.com/**username**)
 
 [![](../images/github_3.png)](../images/github_3.png)
 
