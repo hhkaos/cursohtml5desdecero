@@ -1,8 +1,9 @@
 # Configurar nuestra cuenta
 
-Vamos
+Vamos a empezar por crear una cuenta en Github.
 
-[![](../images/github_1.png)](../images/github_1.png)
+Primero vamos a la [sección "Signup"](https://github.com/join?source=header-home) y completamos nuestros datos:
+
 
 [![](../images/github_2.png)](../images/github_2.png)
 
