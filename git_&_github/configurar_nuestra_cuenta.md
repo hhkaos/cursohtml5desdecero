@@ -9,18 +9,17 @@ Primero vamos a la [sección "Signup"](https://github.com/join?source=header-hom
 
 [![](../images/github_3.png)](../images/github_3.png)
 
+A continuación elegimos el plan gratuito:
+
 [![](../images/github_4.png)](../images/github_4.png)
+
+Ahora vamos a crear un nuevo repositorio. Crearemos **un repositorio para cada proyecto** que vayamos a crear, para que nos hagamos una idea tendremos un repositorio por cada carpeta raíz que tengamos en nuestros disco duro. 
+
+A este repositorio le daremos un nombre que Github tratará de manera especial, el nombre debe ser: **username**.github.io, en mi caso raulEsri.github.io.
+
+Luego puedes ponerle una descripción del contenido del proyecto, por ejemplo: *Mi página personal en Github*. Y seleccionamos que será un proyecto público (el código será accesible por cualquier persona).
 
 [![](../images/github_5.png)](../images/github_5.png)
 
-Enhorabuena! ya tienes una cuenta en Github, será: http://www.github.com/**Username** en mi caso http://www.github.com/raulEsri ()
+Y ya está, ¡enhorabuena!, ya tienes una cuenta en Github. Cualquier persona podrá ver todos tus repositorios públicos en: [http://github.com/**Username**](http://github.com/**Username**), en mi caso mi repositorio sería: [http://github.com/raulEsri](http://www.github.com/raulEsri), aunque mi repositorio real es [http://github.com/hhkaos](http://www.github.com/hhkaos) (el otro lo he creado simplemente para hacer este tutorial).
 
-Crear un nuevo repositorio desde la línea de comandos:
-```bash
-echo "# raulEsri.github.io" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/raulEsri/raulEsri.github.io.git
-git push -u origin master
-```
