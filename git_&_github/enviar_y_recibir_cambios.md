@@ -1,10 +1,16 @@
 # Enviar y recibir cambios
 
-Vamos a empezar por configurar 
+Vamos a empezar por descargar, instalar y configurar [Github Desktop](https://desktop.github.com).
+ 
+Una vez descargado e instalado lo abrimos y nos identificamos con nuestra cuenta.
 
 [![](../images/github_desktop_1.png)](../images/github_desktop_1.png)
 
+Una vez hecho volvemos a la opción de clonar y seleccionamos el repositorio que acabamos de crear.
+
 [![](../images/github_desktop_2.png)](../images/github_desktop_2.png)
+
+Esto nos pedirá que seleccionamos una carpeta en nuestro disco duro donde se va a clonar el repositorio (se creará una carpeta nueva en nuestro disco duro lista para controlar los cambios).
 
 Crear un nuevo repositorio desde la línea de comandos:
 ```bash
