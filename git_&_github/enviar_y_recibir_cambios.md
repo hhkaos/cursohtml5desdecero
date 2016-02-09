@@ -14,12 +14,7 @@ Esto nos pedirá que seleccionamos una carpeta en nuestro disco duro donde se va
 
 Una vez clonada el repositorio vamos a ver una forma básica de usarlo.
 
-Crear un nuevo repositorio desde la línea de comandos:
-```bash
-echo "# raulEsri.github.io" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/raulEsri/raulEsri.github.io.git
-git push -u origin master
-```
+
+
+<small>Aclaraciones:</small><br>
+<small>1. Mi recomendación una vez te acostumbres a usar Git es que hagas el curso gratuito [Try Git de CodeSchool](https://www.codeschool.com/courses/try-git) para aprender a usar Git desde la línea de comandos, **yo nunca uso ninguna herramienta gráfica**.</small><br>
