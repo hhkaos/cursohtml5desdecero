@@ -38,7 +38,7 @@
    * [Configurar nuestra cuenta](git_&_github/configurar_nuestra_cuenta.md)
    * [Funcionalidades](git_&_github/funcionalidades.md)
    * [Enviar y recibir cambios](git_&_github/enviar_y_recibir_cambios.md)
-   * Publicar una web en Github
+   * [Publicar una web en Github](git_&_github/publicar_una_web_en_github.md)
    * [Colaborar con un proyecto](github/colaborar_con_un_proyecto.md?71)
    * [Ejercicio](WIP.md?37)
    * [Recursos](WIP.md?38)
