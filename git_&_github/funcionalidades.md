@@ -1,2 +1,3 @@
 # Funcionalidades
 
+Issues, readme, etc.
