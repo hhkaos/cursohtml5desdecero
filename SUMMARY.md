@@ -34,11 +34,11 @@
    * [Errores frecuentes](html5_mi_cv/errores_frecuentes.md?11)
    * [Ejercicio](html5_mi_cv/ejercicio.md?4)
    * [Recursos](html5_mi_cv/recursos.md?36)
-* [Git & Github]()
-   * [Configurar nuestra cuenta]()
-   * [Funcionalidades]()
-   * [Enviar y recibir cambios]()
-   * [Publicar una web en Github]()
+* [Git & Github](git_&_github.md)
+   * Configurar nuestra cuenta
+   * Funcionalidades
+   * Enviar y recibir cambios
+   * Publicar una web en Github
    * [Colaborar con un proyecto](github/colaborar_con_un_proyecto.md?71)
    * [Ejercicio](WIP.md?37)
    * [Recursos](WIP.md?38)
