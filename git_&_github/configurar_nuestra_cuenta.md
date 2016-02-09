@@ -12,6 +12,7 @@ Vamos
 
 [![](../images/github_5.png)](../images/github_5.png)
 
+Enhorabuena! ya tienes una cuenta en Github, será: http://www.github.com/**Username** en mi caso http://www.github.com/raulEsri ()
 
 Crear un nuevo repositorio desde la línea de comandos:
 ```bash
