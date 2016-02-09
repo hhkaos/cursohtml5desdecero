@@ -36,7 +36,7 @@
    * [Recursos](html5_mi_cv/recursos.md?36)
 * [Git & Github](git_&_github.md)
    * [Configurar nuestra cuenta](git_&_github/configurar_nuestra_cuenta.md)
-   * Funcionalidades
+   * [Funcionalidades](git_&_github/funcionalidades.md)
    * Enviar y recibir cambios
    * Publicar una web en Github
    * [Colaborar con un proyecto](github/colaborar_con_un_proyecto.md?71)
