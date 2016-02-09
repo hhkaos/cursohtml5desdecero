@@ -17,6 +17,7 @@ Una vez clonada el repositorio vamos a ver una forma básica de usarlo.
 
 ## Enviar y recibir cambios
 
+
 ## Ver el histórico de cambios
 
 <small>Aclaraciones:</small><br>
