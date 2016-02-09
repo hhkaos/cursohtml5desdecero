@@ -15,7 +15,7 @@ A continuación elegimos el plan gratuito:
 
 Ahora vamos a crear un nuevo repositorio. Crearemos **un repositorio para cada proyecto** que vayamos a crear, para que nos hagamos una idea tendremos un repositorio por cada carpeta raíz que tengamos en nuestros disco duro. 
 
-A este repositorio le daremos un nombre que Github tratará de manera especial, el nombre debe ser: **username**.github.io, en mi caso raulEsri.github.io.
+A este repositorio le daremos un nombre que Github tratará de manera especial<sup>1</sup>, el nombre debe ser: **username**.github.io, en mi caso raulEsri.github.io.
 
 Luego puedes ponerle una descripción del contenido del proyecto, por ejemplo: *Mi página personal en Github*. Y seleccionamos que será un proyecto público (el código será accesible por cualquier persona).
 
