@@ -8,7 +8,7 @@
 
 Qué son y cómo funcionan:
 
-* Los servidores web y HTTP
+* Alojamiento y servidores HTTP
 * Los navegadores
 * Las URLs
 * Peticiones HTTP

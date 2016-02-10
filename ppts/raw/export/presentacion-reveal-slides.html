@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="generator" content="pandoc" />
-  <meta name="description" content="Conceptos básicos" />
-  <meta name="author" content="Lección 1" />
-  <title>Conceptos básicos</title>
+  <meta name="description" content="HTML5, CSS3 y JavaScript" />
+  <meta name="author" content="Presentación" />
+  <title>HTML5, CSS3 y JavaScript</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -101,79 +101,48 @@
 
 <section id="only-print-parent">
     <div id="only-print-child">
-      <h1 class="title">Conceptos básicos</h1>
-      <h2 class="author">Lección 1</h2>
+      <h1 class="title">HTML5, CSS3 y JavaScript</h1>
+      <h2 class="author">Presentación</h2>
       <h3 class="date">www.cursohtml5desdecero.com</h3>
     </div>
 </section>
 
-<section><section id="introducción" class="titleslide slide level1"><h1>Introducción</h1></section><section id="contenidos" class="slide level2">
-<h1>Contenidos</h1>
-<p>Qué son y cómo funcionan:</p>
+<section><section id="quién-soy" class="titleslide slide level1"><h1>Quién soy</h1></section><section id="experiencia" class="slide level2">
+<h1>Experiencia</h1>
+<iframe src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Ajgk_dG_CbQBdE50czVrbVVnSmJkXzgwQkh3ekJrTUE&amp;font=Bevan-PotanoSans&amp;maptype=toner&amp;lang=en&amp;height=650" style="width: 100%;height: 500px;">
+</iframe>
+<p><a href="rauljimenez.info" class="uri">rauljimenez.info</a></p>
+</section></section>
+<section><section id="qué-haremos-estos-días" class="titleslide slide level1"><h1>Qué haremos estos días</h1></section><section id="objetivos" class="slide level2">
+<h1>Objetivos</h1>
+<p>Prepararos para cuando tengáis que hacer aplicaciones web:</p>
 <ul>
-<li>Alojamiento y servidores HTTP</li>
-<li>Los navegadores</li>
-<li>Las URLs</li>
-<li>Peticiones HTTP</li>
+<li>Asentando una buena base de conocimientos: HTML, CSS y JavaScript (!= API JS ArcGIS)</li>
+<li>Aprendiendo herramientas profesionales (Github, Chrome DevTools, etc)</li>
+<li>Adquiriendo habilidades para resolver dudas (cómo, dónde, ...)</li>
+<li>Conoceciendo recursos donde ampliar conocimientos</li>
+</ul>
+</section><section id="planificación-propuesta" class="slide level2">
+<h1>Planificación propuesta</h1>
+<ul>
+<li>Miércoles 10: Conceptos básicos, HTML y Chrome DevTools</li>
+<li>Jueves 11: Github, CSS3</li>
+<li>Martes 16: JavaScript (variables y operaciones)</li>
+<li>Miércoles 17: JavaScript (control de flujo)</li>
+<li>Jueves 18: JavaScript (DOM &amp; AJAX)</li>
+</ul>
+</section><section id="filosofía" class="slide level2">
+<h1>Filosofía</h1>
+<ul>
+<li>Práctico &gt;&gt; teórico</li>
+<li>Compresible &gt;&gt; preciso</li>
+<li>Participativo &gt;&gt; pasivo</li>
 </ul>
 </section></section>
-<section><section id="alojamiento-y-servidores-http" class="titleslide slide level1"><h1>Alojamiento y servidores HTTP</h1></section><section id="definiciones" class="slide level2">
-<h1>Definiciones</h1>
-<ul>
-<li><p><strong><a href="https://es.wikipedia.org/wiki/Servidor_web">Servidor web HTTP</a></strong> (o simplemente: <em>servidor web</em> o <em>servidor HTTP</em>): es programa que se encarga principalmente de las comunicaciones con el navegador.</p></li>
-<li><p>Un <strong><a href="https://es.wikipedia.org/wiki/Alojamiento_web">alojamiento web</a></strong> (<em>web hosting</em> o <em>hosting</em>): es un ordenador conectado a Internet. Comúnmente también se le llama: <strong>servidor</strong>.</p></li>
-</ul>
-</section><section id="servidores-web-y-empresas-de-hosting" class="slide level2">
-<h1>Servidores web y empresas de hosting</h1>
-<ul>
-<li><p>Empresas de hosting: 1and1, AWS, Linode, etc. (<a href="http://hostarting.es/hostings/">ver más</a>)</p></li>
-<li><p>Servidores web: <a href="http://www.apache.org/">Apache</a>, <a href="http://nginx.org/">Nginx</a> y <a href="https://www.iis.net/">IIS</a>, etc. (<a href="(https://es.wikipedia.org/wiki/Servidor_web#Software)">ver más</a></p></li>
-</ul>
-</section><section id="ranking-de-servidores" class="slide level2">
-<h1>Ranking de servidores</h1>
-<p><img src="https://hhkaos.gitbooks.io/introduccion-a-html5/content/images/ranking_servers.png" alt="" /><br> Fuente: <a href="http://w3techs.com/technologies/overview/web_server/all">w3techs - 6 de Enero de 2016</a></p>
-</section></section>
-<section><section id="navegadores" class="titleslide slide level1"><h1>Navegadores</h1></section><section id="definición" class="slide level2">
-<h1>Definición</h1>
-<p>Un navegador es un programa <strong>complejo</strong> que entiende y transforma el código que recibe desde un servidor en algo entendible para un humano (una página web, imágenes, etc).</p>
-</section><section id="responsabilidades" class="slide level2">
-<h1>Responsabilidades</h1>
-<ul>
-<li><p><strong>Integridad</strong></p></li>
-<li><p><strong>Seguridad</strong></p></li>
-<li><p><strong>Optimización</strong></p></li>
-</ul>
-</section><section id="ranking-de-navegadores" class="slide level2">
-<h1>Ranking de navegadores</h1>
-<p><img src="https://hhkaos.gitbooks.io/introduccion-a-html5/content/images/quota_navegadores.png" alt="" /><br> Fuente: <a href="http://gs.statcounter.com/#browser-ww-monthly-201411-201601-bar">StatCounter</a></p>
-</section></section>
-<section><section id="urls" class="titleslide slide level1"><h1>URLs</h1></section><section id="formato" class="slide level2">
-<h1>Formato</h1>
-<pre><code>scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]</code></pre>
-<p>Ejemplos:</p>
-<pre><code>https://hhkaos.gitbooks.io/introduccion-a-html5/chapter1.html#introduccion</code></pre>
-<pre><code>http://www.google.es/webhp?q=pandoc+reveal.js</code></pre>
-<pre><code>https://hhkaos:mipass@rauljimenez.info/privado:8080</code></pre>
-<pre><code>file:///Users/hhkaos/index.html</code></pre>
-</section></section>
-<section><section id="peticiones-http" class="titleslide slide level1"><h1>Peticiones HTTP</h1></section><section id="tipos-de-peticiones" class="slide level2">
-<h1>Tipos de peticiones</h1>
-<ul>
-<li><p><strong>GET</strong>: para solicitar información.</p></li>
-<li><p><strong>POST</strong>: para enviar información.</p></li>
-</ul>
-</section><section id="mensajes-de-respuesta" class="slide level2">
-<h1>Mensajes de respuesta</h1>
-<ul>
-<li><p><strong>200</strong>: se ha encontrado correctamente el fichero/recurso.</p></li>
-<li><p><strong>403</strong>: no tenemos permiso para acceder al fichero/recurso.</p></li>
-<li><p><strong>404</strong>: el fichero/recurso que le hemos solicitado no se ha podido encontrar.</p></li>
-</ul>
-</section><section id="esquema-simplificado" class="slide level2">
-<h1>Esquema simplificado</h1>
-<figure>
-<img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D" alt="Arquitectura" /><figcaption>Arquitectura</figcaption>
-</figure>
+<section><section id="consejo" class="titleslide slide level1"><h1>Consejo</h1></section><section id="únete-a-la-comunidad-de-geodevelopers" class="slide level2">
+<h1>Únete a la comunidad de geodevelopers</h1>
+<iframe src="http://geodevelopers.org/members/" style="width: 100%;height: 500px;">
+</iframe>
 </section></section>
     </div>
   </div>

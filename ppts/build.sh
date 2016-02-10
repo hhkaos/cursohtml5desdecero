@@ -165,7 +165,7 @@ function buildDeckSlides() {
 
   echo -e "Exporting...                   ../export/$1-deck-slides$2.html"
 
-  pandoc -w dzslides --template $ORIGIN/templates/deck-slides-template$2.html --number-sections --email-obfuscation=none -o ../export/$1-deck-slides$2.html ../export/$1-to-slides.md
+  pandoc -w dzslides --template $ORIGIN/templates/deck-slides-template$2.html --email-obfuscation=none -o ../export/$1-deck-slides$2.html ../export/$1-to-slides.md
 
   sed -i s/h1\>/h2\>/g ../export/$1-deck-slides$2.html
   sed -i s/\>\<h2/\>\<h1/g ../export/$1-deck-slides$2.html
@@ -179,7 +179,7 @@ function buildRevealSlides() {
 
   echo -e "Exporting...                   ../export/$1-reveal-slides$2.html"
 
-  pandoc -w revealjs --template $ORIGIN/templates/reveal-slides-template$2.html --number-sections --email-obfuscation=none --highlight-style=haddock -o ../export/$1-reveal-slides$2.html ../export/$1-to-slides.md
+  pandoc -w revealjs --template $ORIGIN/templates/reveal-slides-template$2.html --email-obfuscation=none --highlight-style=haddock -o ../export/$1-reveal-slides$2.html ../export/$1-to-slides.md
 
   sed -i s/h1\>/h2\>/g ../export/$1-reveal-slides$2.html
   sed -i s/\>\<h2/\>\<h1/g ../export/$1-reveal-slides$2.html
@@ -198,35 +198,35 @@ function buildBeamer() {
 
   echo -e "Exporting...                   ../export/$1-beamer.pdf"
 
-  sed '/.gif/d' ../export/$1-to-slides.md | pandoc -w beamer --number-sections --table-of-contents --chapters -V fontsize=9pt -V theme=Warsaw -o ../export/$1-beamer.pdf
+  sed '/.gif/d' ../export/$1-to-slides.md | pandoc -w beamer --table-of-contents --chapters -V fontsize=9pt -V theme=Warsaw -o ../export/$1-beamer.pdf
 }
 
 function buildHtml() {
 
   echo -e "Exporting...                   ../export/$1.html"
 
-  pandoc -w html5 --template $ORIGIN/templates/html-template.html --number-sections --email-obfuscation=none --toc --highlight-style=monokai -o ../export/$1.html ../export/$1-to-book.md
+  pandoc -w html5 --template $ORIGIN/templates/html-template.html --email-obfuscation=none --toc --highlight-style=monokai -o ../export/$1.html ../export/$1-to-book.md
 }
 
 function buildDocx() {
 
   echo -e "Exporting...                   ../export/$1.docx"
 
-  pandoc -w docx --number-sections --table-of-contents --chapters -o ../export/$1.docx ../export/$1-to-book.md
+  pandoc -w docx --table-of-contents --chapters -o ../export/$1.docx ../export/$1-to-book.md
 }
 
 function buildOdt() {
 
   echo -e "Exporting...                   ../export/$1.odt"
 
-  pandoc -w odt --number-sections --table-of-contents --chapters -o ../export/$1.odt ../export/$1-to-book.md
+  pandoc -w odt --table-of-contents --chapters -o ../export/$1.odt ../export/$1-to-book.md
 }
 
 function buildPdf() {
 
   echo -e "Exporting...                   ../export/$1.pdf"
 
-  sed '/.gif/d' ../export/$1-to-book.md | pandoc --number-sections --table-of-contents --chapters -o ../export/$1.pdf
+  sed '/.gif/d' ../export/$1-to-book.md | pandoc --table-of-contents --chapters -o ../export/$1.pdf
 }
 
 function exportMdToSlides() {
