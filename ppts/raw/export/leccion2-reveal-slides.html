@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="generator" content="pandoc" />
-  <meta name="description" content="Conceptos básicos" />
-  <meta name="author" content="Lección 1" />
-  <title>Conceptos básicos</title>
+  <meta name="description" content="HTML5: Primeros pasos" />
+  <meta name="author" content="Lección 2" />
+  <title>HTML5: Primeros pasos</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -133,32 +133,114 @@ code > span.in { color: #008000; } /* Information */
 
 <section id="only-print-parent">
     <div id="only-print-child">
-      <h1 class="title">Conceptos básicos</h1>
-      <h2 class="author">Lección 1</h2>
+      <h1 class="title">HTML5: Primeros pasos</h1>
+      <h2 class="author">Lección 2</h2>
       <h3 class="date">www.cursohtml5desdecero.com</h3>
     </div>
 </section>
 
-<section><section id="introducción" class="titleslide slide level1"><h1>Introducción</h1></section><section id="iframe" class="slide level2">
-<h1>Iframe</h1>
-<iframe webkitallowfullscreen mozallowfullscreen allowfullscreen sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="http://jsbin.com/yuteti/edit?output" src="http://jsbin.com/yuteti/edit?output" style="width: 960px;height: 500px;">
-</iframe>
-</section><section id="image" class="slide level2">
-<h1>image</h1>
-<p><img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D"></p>
-</section><section id="section" class="slide level2">
-<h1></h1>
-<figure>
-<img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/Alexa_top-servers.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D" alt="Fuente: monitis.com" /><figcaption>Fuente: monitis.com</figcaption>
-</figure>
-</section><section id="arquitectura" class="slide level2">
-<h1>Arquitectura</h1>
-<figure>
-<img src="https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D" alt="" />
-</figure>
-</section><section id="código" class="slide level2">
-<h1>Código</h1>
-<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span>!Hola <span class="kw">&lt;strong&gt;</span>amig@<span class="kw">&lt;/strong&gt;</span>!<span class="kw">&lt;/p&gt;</span></code></pre></div>
+<section><section id="contenidos" class="titleslide slide level1"><h1>Contenidos</h1></section><section id="veremos" class="slide level2">
+<h1>Veremos</h1>
+<ul>
+<li>Una introducción a HTML5</li>
+<li>Qué son y cómo funcionan las etiquetas</li>
+<li>Qué es y cómo se hace la anidación de etiquetas</li>
+<li>La estructura básica de una página</li>
+<li>Algunas etiquetas básicas</li>
+</ul>
+</section></section>
+<section><section id="introducción" class="titleslide slide level1"><h1>Introducción</h1></section><section id="qué-es" class="slide level2">
+<h1>¿Qué es?</h1>
+<p>Un lenguaje de marcado creado por la <a href="">W3C</a> (+400 empresas)</p>
+</section><section id="cuántos-elementos-existen" class="slide level2">
+<h1>¿Cuántos elementos existen?</h1>
+<p>En HTML5: <a href="http://www.w3.org/TR/2014/REC-html5-20141028/">más de 100 elementos</a></p>
+</section><section id="tipos" class="slide level2">
+<h1>Tipos</h1>
+<p><strong>Los que tienen una apertura y un cierre</strong> como en el siguiente caso:</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;elemento</span><span class="ot"> atributo=</span><span class="st">&quot;valor&quot;</span><span class="kw">&gt;</span>Contenido<span class="kw">&lt;/elemento&gt;</span></code></pre></div>
+<p>Por ejemplo:</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;http://www.google.com&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></code></pre></div>
+</section><section id="tipos-2" class="slide level2">
+<h1>Tipos (2)</h1>
+<p>Los <strong>elementos auto-contenidos</strong> (los que no se cierran explícitamente):</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;elemento</span><span class="ot"> atributo=</span><span class="st">&quot;valor&quot;</span><span class="kw">&gt;</span></code></pre></div>
+<p>Por ejemplo:</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;img</span><span class="ot"> src=</span><span class="st">&quot;html-css-js.png&quot;</span><span class="ot"> alt=</span><span class="st">&quot;Logotipos de HTML5, CSS3 y JavaScript&quot;</span><span class="kw">&gt;</span></code></pre></div>
+</section></section>
+<section><section id="anidación" class="titleslide slide level1"><h1>Anidación</h1></section><section id="ejemplo" class="slide level2">
+<h1>Ejemplo</h1>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;title&gt;</span>Título de la página<span class="kw">&lt;/title&gt;</span>
+    <span class="kw">&lt;meta</span><span class="ot"> name=</span><span class="st">&quot;author&quot;</span><span class="ot"> content=</span><span class="st">&quot;Raúl Jiménez Ortega - @hhkaos&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;/head&gt;</span></code></pre></div>
+</section><section id="orden-de-apertura-y-cierre" class="slide level2">
+<h1>Orden de apertura y cierre</h1>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span>El orden es <span class="kw">&lt;strong&gt;</span>muy importante<span class="kw">&lt;/p&gt;&lt;/strong&gt;</span></code></pre></div>
+<p>La forma <strong>correcta</strong> de hacerlo sería:</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span>El orden es <span class="kw">&lt;strong&gt;</span>muy importante<span class="kw">&lt;/strong&gt;&lt;/p&gt;</span></code></pre></div>
+</section></section>
+<section><section id="estructura-del-html" class="titleslide slide level1"><h1>Estructura del HTML</h1></section><section id="estructura-básica-de-una-página" class="slide level2">
+<h1>Estructura básica de una página</h1>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
+<span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;es&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;title&gt;</span>Título de la página<span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+<span class="kw">&lt;body&gt;&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></code></pre></div>
+</section></section>
+<section><section id="etiquetas-básicas" class="titleslide slide level1"><h1>Etiquetas básicas</h1></section><section id="encabezados-párrafos-etc" class="slide level2">
+<h1>Encabezados, párrafos, etc</h1>
+<ul>
+<li>h1 = <strong>h</strong>eading<strong>1</strong>; h2 = <strong>h</strong>eading <strong>2</strong>; ...</li>
+<li>p = <strong>p</strong>aragraph</li>
+<li>br = <strong>b</strong>reak <strong>l</strong>ine</li>
+<li>ul = <strong>u</strong>nordered <strong>l</strong>ist</li>
+<li>ol = <strong>o</strong>rdered <strong>l</strong>ist</li>
+<li>li = <strong>l</strong>ist <strong>i</strong>tem</li>
+<li>em = <strong>em</strong>phasis</li>
+</ul>
+</section><section id="ejemplo-1" class="slide level2">
+<h1>Ejemplo:</h1>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
+<span class="co">&lt;!-- TODO: añadir la etiqueta lang --&gt;</span>
+<span class="kw">&lt;html&gt;</span>
+<span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;title&gt;</span>Ejemplo con etiquetas básicas<span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+<span class="kw">&lt;body&gt;</span>
+    <span class="kw">&lt;h1&gt;</span>Etiquetas HTML<span class="kw">&lt;/h1&gt;</span>
+    <span class="kw">&lt;p&gt;</span>
+        Este ejemplo muestra cómo combinar algunas de las etiquetas más básicas de HTML5. <span class="kw">&lt;br&gt;</span>
+        Recuerda que <span class="kw">&lt;strong&gt;</span>es importante entender la diferencias entre ellas<span class="kw">&lt;/strong&gt;</span>.
+    <span class="kw">&lt;/p&gt;</span>
+    
+    <span class="kw">&lt;h2&gt;</span>Etiqueta ul+li<span class="kw">&lt;/h2&gt;</span>
+    <span class="kw">&lt;p&gt;</span>
+        Si listamos personas nominadas a los Oscars, dado que el orden no altera el significado, debemos usar <span class="kw">&lt;em&gt;</span>ul<span class="kw">&lt;/em&gt;</span>. 
+    <span class="kw">&lt;/p&gt;</span>
+    <span class="kw">&lt;ul&gt;</span>
+        <span class="kw">&lt;li&gt;</span>David Verdaguer<span class="kw">&lt;/li&gt;</span>
+        <span class="kw">&lt;li&gt;</span>Jesús Castro<span class="kw">&lt;/li&gt;</span>
+        <span class="kw">&lt;li&gt;</span>Israel Elejalde<span class="kw">&lt;/li&gt;</span>
+        <span class="kw">&lt;li&gt;</span>Dani Rovira<span class="kw">&lt;/li&gt;</span>
+    <span class="kw">&lt;/ul&gt;</span>
+    
+    <span class="kw">&lt;h2&gt;</span>Etiqueta ol+li<span class="kw">&lt;/h2&gt;</span>
+    <span class="kw">&lt;p&gt;</span>
+        En el caso de que estemos listando elementos donde el orden es importante, como por ejemplo la clasificación de un mundial de fútbol, debemos usar <span class="kw">&lt;em&gt;</span>ol<span class="kw">&lt;/em&gt;</span>.
+    <span class="kw">&lt;/p&gt;</span>
+    <span class="kw">&lt;ol&gt;</span>     
+        <span class="kw">&lt;li&gt;</span>España<span class="kw">&lt;/li&gt;</span>
+        <span class="kw">&lt;li&gt;</span>Países Bajos<span class="kw">&lt;/li&gt;</span>
+        <span class="kw">&lt;li&gt;</span>Alemania<span class="kw">&lt;/li&gt;</span>
+        <span class="kw">&lt;li&gt;</span>Uruguay<span class="kw">&lt;/li&gt;</span>
+    <span class="kw">&lt;/ol&gt;</span>
+<span class="kw">&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></code></pre></div>
 </section></section>
     </div>
   </div>

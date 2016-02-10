@@ -25,7 +25,7 @@ Qué son y cómo funcionan:
 
 * Empresas de hosting: 1and1, AWS, Linode, etc. ([ver más](http://hostarting.es/hostings/))
 
-* Servidores web: [Apache](http://www.apache.org/), [Nginx](http://nginx.org/) y [IIS](https://www.iis.net/), etc. ([ver más]((https://es.wikipedia.org/wiki/Servidor_web#Software))
+* Servidores web: [Apache](http://www.apache.org/), [Nginx](http://nginx.org/) y [IIS](https://www.iis.net/), etc. ([ver más](https://es.wikipedia.org/wiki/Servidor_web#Software))
 
 ## Ranking de servidores
 ![](https://hhkaos.gitbooks.io/introduccion-a-html5/content/images/ranking_servers.png)<br>
@@ -93,4 +93,4 @@ file:///Users/hhkaos/index.html
 
 ## Esquema simplificado
 
-![Arquitectura](https://git.gitbook.com/raw/hhkaos/introduccion-a-html5/master/images/client-server.png?token=aGhrYW9zOmNjZWEzYzUwLTdlNWItNGVjOC05MzA0LTkxZDdhMWUxOGZhOA%3D%3D)
+![Arquitectura](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/images/client-server.png)
