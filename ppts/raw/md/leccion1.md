@@ -69,7 +69,7 @@ http://www.google.es/webhp?q=pandoc+reveal.js
 ```
 
 ```
-https://hhkaos:mipass@rauljimenez.info/privado:8080
+https://hhkaos:mipass@rauljimenez.info:8080/privado
 ```
 
 ```

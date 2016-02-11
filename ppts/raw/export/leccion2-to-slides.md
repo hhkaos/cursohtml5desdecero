@@ -99,7 +99,7 @@ La forma **correcta** de hacerlo sería:
 * li = **l**ist **i**tem
 * em = **em**phasis
 
-## Ejemplo:
+## Ejemplo
 
 ~~~~html
 <!DOCTYPE html>

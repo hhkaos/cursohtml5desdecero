@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="generator" content="pandoc" />
+  <meta name="description" content="CSS: Primeros pasos" />
+  <meta name="author" content="Lección 6" />
+  <title>CSS: Primeros pasos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.css">
+  <link rel="stylesheet" href="../lib/reveal.js-menu-master/menu.css">
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #0000ff; } /* Keyword */
+code > span.ch { color: #008080; } /* Char */
+code > span.st { color: #008080; } /* String */
+code > span.co { color: #008000; } /* Comment */
+code > span.ot { color: #ff4000; } /* Other */
+code > span.al { color: #ff0000; } /* Alert */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #008000; font-weight: bold; } /* Warning */
+code > span.cn { } /* Constant */
+code > span.sc { color: #008080; } /* SpecialChar */
+code > span.vs { color: #008080; } /* VerbatimString */
+code > span.ss { color: #008080; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { color: #0000ff; } /* ControlFlow */
+code > span.op { } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #ff4000; } /* Preprocessor */
+code > span.do { color: #008000; } /* Documentation */
+code > span.an { color: #008000; } /* Annotation */
+code > span.cv { color: #008000; } /* CommentVar */
+code > span.at { } /* Attribute */
+code > span.in { color: #008000; } /* Information */
+  </style>
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
+  <!--
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" id="theme">
+  -->
+
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<link rel="stylesheet" href="../lib/reveal.js-master/css/print/pdf.css" type="text/css" media="print">
+
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
+  <!--
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" type="text/css" media="print">
+  -->
+
+  <!-- Overwrite images -->
+  <style type="text/css">
+    .reveal pre code {
+      background: rgba(255, 255, 255, 1);
+      color: rgba(0, 0, 0, 0.7);
+      padding: 1em;
+    }
+    .reveal section img {
+      margin: 15px 0px;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.9);
+      max-height: 450px;
+    }
+    strong {
+      color: #777
+    }
+    a:hover {
+      text-decoration: underline !important;
+    }
+    h1.title {
+      font-size: 250% !important;
+    }
+    h1 {
+      font-size: 150% !important;
+    }
+    h2 {
+      font-size: 125% !important;
+    }
+    h3 {
+      font-size: 100% !important;
+    }
+    @media print { 
+      #only-print-parent { display: table !important; } 
+      #only-print-child { display: table-cell !important; vertical-align: middle;}
+      h1.title { font-size: 400% !important;}
+      h1 { font-size: 300% !important; }
+      h2 { font-size: 200% !important; }
+      h3 { font-size: 150% !important; }
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="only-print-parent">
+    <div id="only-print-child">
+      <h1 class="title">CSS: Primeros pasos</h1>
+      <h2 class="author">Lección 6</h2>
+      <h3 class="date">www.cursohtml5desdecero.com</h3>
+    </div>
+</section>
+
+<section><section id="contenidos" class="titleslide slide level1"><h1>Contenidos</h1></section><section id="veremos" class="slide level2">
+<h1>Veremos</h1>
+<ul>
+<li>Introducción a CSS3</li>
+<li>Como cambiar los estilos del:
+<ul>
+<li>Texto</li>
+<li>Colores</li>
+<li>Fuentes</li>
+<li>Fondos</li>
+<li>Listas</li>
+</ul></li>
+</ul>
+</section></section>
+<section><section id="introducción-a-css3" class="titleslide slide level1"><h1>Introducción a CSS3</h1></section><section id="cascading-stylesheets" class="slide level2">
+<h1>Cascading StyleSheets</h1>
+<p>CSS o las hojas de estilo en cascada es un lenguaje de marcado que nos permite modificar el aspecto gráfico de los elementos introducidos con HTML.</p>
+</section><section id="herencia" class="slide level2">
+<h1>Herencia</h1>
+<p>Una propiedad <strong>muy importante</strong> de las hojas de estilo es que los estilos aplicados a un elemento padre son heredados por su hijo.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;ul</span><span class="ot"> style=</span><span class="st">&quot;color: red&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;li&gt;</span>Inicio<span class="kw">&lt;/li&gt;</span>
+    <span class="kw">&lt;li</span><span class="ot"> style=</span><span class="st">&quot;color: blue&quot;</span><span class="kw">&gt;</span>Experiencia<span class="kw">&lt;/li&gt;</span>
+<span class="kw">&lt;/ul&gt;</span></code></pre></div>
+<p>En este caso el color de la fuente &quot;Inicio&quot; aparecerá en rojo y la de &quot;Experiencia&quot; en azul.</p>
+<blockquote>
+<p>Nota: <strong>no está recomendado</strong> aplicar los estilos usando atributos. A esta forma se le llama usar &quot;estilos en línea&quot;.</p>
+</blockquote>
+</section><section id="aplicar-estilos-a-los-elementos" class="slide level2">
+<h1>Aplicar estilos a los elementos</h1>
+<ul>
+<li><strong>id</strong>: identificador <strong>único</strong> de un elemento</li>
+<li><strong>class</strong>: identificador que puede ser compartido por varios elementos</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="co">&lt;!-- index.html --&gt;</span>
+<span class="kw">&lt;h1</span><span class="ot"> id=</span><span class="st">&quot;experiencia&quot;</span><span class="kw">&gt;</span>Experiencia <span class="kw">&lt;strong</span><span class="ot"> class=</span><span class="st">&quot;destacado&quot;</span><span class="kw">&gt;</span>profesional<span class="kw">&lt;strong&gt;&lt;/h1&gt;</span>
+
+<span class="kw">&lt;p</span><span class="ot"> class=</span><span class="st">&quot;destacado&quot;</span><span class="kw">&gt;</span>
+    A lo largo de los últimos 16 años blah blah blah...
+<span class="kw">&lt;/p&gt;</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="co">/* main.css*/</span>
+<span class="fl">#experiencia</span><span class="kw">{</span>
+    <span class="kw">font-size:</span> <span class="dt">large</span><span class="kw">;</span>
+<span class="kw">}</span>
+<span class="fl">.destacado</span><span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">blue</span><span class="kw">;</span>
+<span class="kw">}</span>
+strong<span class="kw">{</span>
+    <span class="kw">font-weight:</span> <span class="dt">normal</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section><section id="vincular-una-hoja-de-estilos" class="slide level2">
+<h1>Vincular una hoja de estilos</h1>
+<p>Para indicarle a una página dónde se encuentras los estilos tendremos que añadir un elemento auto-contenido <strong><link></strong>:</p>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">&lt;link rel=<span class="st">&quot;stylesheet&quot;</span> href=<span class="st">&quot;resources/css/main.css&quot;</span>&gt;</code></pre></div>
+<p>Una página puede incluir varias hojas de estilos, y siempre prevalecen los estilos de la última hoja añadida.</p>
+</section></section>
+<section><section id="modificar-el-color" class="titleslide slide level1"><h1>Modificar el color</h1></section><section id="color" class="slide level2">
+<h1>Color</h1>
+<p>Propiedades:</p>
+<ul>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color">color</a></strong>: establece el color de la fuente</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/opacity">opacity</a></strong>: establece la transparencia de un elemento</li>
+</ul>
+</section><section id="formas-de-especificar-el-color" class="slide level2">
+<h1>Formas de especificar el color</h1>
+<ul>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color/RGB">Valor hexadecimal</a></strong>: #faf o #ffaaff</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color/RGB">Valor RGB (Red, Green, Blue)</a></strong>: rgb(255, 160, 255) o rgb(100%, 62.5%, 100%)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color/RGBA">Valor RGBA (RGB + Alpha)</a></strong>: rgba(255, 160, 255, 1) or rgba(100%, 62.5%, 100%, 1)</li>
+</ul>
+<p><a href="https://www.w3.org/wiki/CSS/Properties/color#Values">Ver todos</a></p>
+</section><section id="ejemplos" class="slide level2">
+<h1>Ejemplos:</h1>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.error</span><span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">rgb(100%</span>,<span class="dt">0</span>,<span class="dt">0)</span><span class="kw">;</span>
+    <span class="kw">opacity:</span> <span class="dt">0.5</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.error</span><span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">#F00</span><span class="kw">;</span>
+    <span class="kw">opacity:</span> <span class="dt">0.5</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.error</span><span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">rgba(100%</span>, <span class="dt">0</span>, <span class="dt">0</span>, <span class="dt">.5)</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section></section>
+<section><section id="modificar-la-fuente" class="titleslide slide level1"><h1>Modificar la fuente</h1></section><section id="fuente-font" class="slide level2">
+<h1>Fuente (Font)</h1>
+<ul>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-style">font-style</a></strong>: nos permite darle estilo a la fuente (p.e.: normal o italic)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-family">font-family</a></strong>: establece una lista de fuentes (Gill, Helvetica, sans-serif;)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-size">font-size</a></strong>: nos permite especificar el tamaño de la fuente</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-weight">font-weight</a></strong>: nos permite especificar el ancho de la fuente (bold, 400, 600, ...)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font">font</a></strong>: atajo para establecer varias propiedades</li>
+</ul>
+<p><a href="https://www.w3.org/wiki/CSS/Properties#Font">Ver todos</a></p>
+</section><section id="formas-de-especificar-el-tamaño" class="slide level2">
+<h1>Formas de especificar el tamaño</h1>
+<p>Hay varias formas, pero vamos a ver cómo especificar el tamaño usando unidades de longitud, algunos tipos para las fuentes son:</p>
+<ul>
+<li><strong>px</strong>: representan un tamaño absoluto.</li>
+<li><strong>em</strong>: representan un valor relativo respecto al padre.</li>
+<li><strong>rem</strong> (root em): representan un valor relativo respecto al <em>body</em></li>
+</ul>
+<p><a href="https://www.w3.org/Style/Examples/007/units.en.html">Ver todos</a></p>
+</section><section id="fuentes-personalizadas" class="slide level2">
+<h1>Fuentes personalizadas</h1>
+<p>En CSS3 ya se permite el uso de fuente personalizadas. <a href="https://www.google.com/fonts">Google Fonts</a> dispone de un amplio número de fuentes de uso libre.</p>
+<p>Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir las fuentes en los elementos que queramos en nuestro CSS.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="co">&lt;!-- index.html --&gt;</span>
+<span class="kw">&lt;link</span><span class="ot"> href=</span><span class="st">&#39;https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700&#39;</span><span class="ot"> rel=</span><span class="st">&#39;stylesheet&#39;</span><span class="ot"> type=</span><span class="st">&#39;text/css&#39;</span><span class="kw">&gt;</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="co">/* main.css */</span>
+body<span class="kw">{</span>
+    <span class="kw">font-family:</span> <span class="st">&#39;Open Sans&#39;</span>, <span class="dt">sans-serif</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section><section id="ejemplo" class="slide level2">
+<h1>Ejemplo</h1>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
+    <span class="kw">font:</span> <span class="dt">italic</span> <span class="dt">600</span> <span class="dt">24px</span> / <span class="dt">1.5em</span> Helvetica<span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
+    <span class="kw">font-size:</span> <span class="dt">2em</span><span class="kw">;</span>
+    <span class="kw">font-family:</span> <span class="st">&#39;Open Sans&#39;</span>, <span class="dt">sans-serif</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
+    <span class="kw">font-size:</span> <span class="dt">2rem</span><span class="kw">;</span>
+    <span class="kw">font-weight:</span> <span class="dt">bold</span><span class="kw">;</span>
+    <span class="kw">font-style:</span> <span class="dt">italic</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section></section>
+<section><section id="modificar-el-texto" class="titleslide slide level1"><h1>Modificar el texto</h1></section><section id="texto-text" class="slide level2">
+<h1>Texto (Text)</h1>
+<ul>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/text-align">text-align</a></strong>: para alinear el texto (left, right, center, justify)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/text-decoration">text-decoration</a></strong>: permite añadir un subrayado, tachar una palabra, etc (underline, line-throught, ...)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/text-transform">text-transform</a></strong>: permite transformar en mayúsculas, minúculas, etc (uppercase, lowercase, capitalize, ...)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/line-height">line-height</a></strong>: permite ajustar el interlineado usando unidades como vimos antes (px, em, rem, ...).</li>
+</ul>
+<p><a href="https://www.w3.org/wiki/CSS/Properties#Text">Ver todos</a></p>
+</section><section id="ejemplos-1" class="slide level2">
+<h1>Ejemplos:</h1>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
+    <span class="kw">text-align:</span> <span class="dt">center</span><span class="kw">;</span>
+    <span class="kw">text-decoration:</span> <span class="dt">underline</span><span class="kw">;</span>
+    <span class="kw">text-transform:</span> <span class="dt">uppercase</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.p</span><span class="kw">{</span>
+    <span class="kw">line-height:</span> <span class="dt">1.5em</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section></section>
+<section><section id="modificar-el-fondo-de-un-elemento" class="titleslide slide level1"><h1>Modificar el fondo de un elemento</h1></section><section id="fondo-background" class="slide level2">
+<h1>Fondo (Background)</h1>
+<ul>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-color">background-color</a></strong>: nos permite especificar el color (igual que vimos antes) de fondo de un elemento.</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-image">background-image</a></strong>: permite especificar una URL de una imagen que queremos que aparezca de fondo (por ej: url('imagen.jpg'))</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-repeat">background-repeat</a></strong>: por defecto si establecemos una imagen de fondo se repite indefinidamente, pero esto podemos cambiarlo (repeat-x, repeat-y, no-repeat, ...)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-position">background-position</a></strong>: nos permite cambiar la posición de la imagen de fondo (left, right, center, ...)</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background">background</a></strong>: es un atajo igual que la propiedad <strong>font</strong>.</li>
+</ul>
+<p><a href="https://www.w3.org/wiki/CSS/Properties#Background">Ver todos</a></p>
+</section><section id="ejemplos-2" class="slide level2">
+<h1>Ejemplos</h1>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">body<span class="kw">{</span>
+    <span class="kw">background-color:</span> <span class="dt">#efefef</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
+    <span class="kw">background:</span> <span class="dt">url(</span><span class="st">&quot;fondo-encabezado.jpg&quot;</span><span class="dt">)</span> <span class="dt">no-repeat</span> <span class="dt">center</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section></section>
+<section><section id="modificar-una-lista" class="titleslide slide level1"><h1>Modificar una lista</h1></section><section id="lista-list" class="slide level2">
+<h1>Lista (List)</h1>
+<ul>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/list-style-image">list-style-image</a></strong>: permite especificar una imagen para cada que preceda a cada elemento de la lista.</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/list-style-type">list-style-type</a></strong>: si no es establece la propiedad <em>list-style-image</em> especficar el formato que precede a un elemento de la lista</li>
+<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/list-style">list-style</a></strong>: es un atajo igual que <em>font</em> o <em>background</em></li>
+</ul>
+<p><a href="https://www.w3.org/wiki/CSS/Properties#List">Ver todos</a></p>
+</section><section id="ejemplos-3" class="slide level2">
+<h1>Ejemplos</h1>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
+    <span class="kw">list-style:</span> <span class="dt">none</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
+    <span class="kw">list-style:</span> <span class="dt">square</span> outsite<span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
+    <span class="kw">list-style-image:</span> <span class="dt">url(</span><span class="st">&quot;punto.jpg&quot;</span><span class="dt">)</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
+    <span class="kw">list-style-type:</span> <span class="dt">upper-roman</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+</section></section>
+    </div>
+  </div>
+
+  <script src="../lib/reveal.js-master/lib/js/head.min.js"></script>
+  <script src="../lib/reveal.js-master/js/reveal.js"></script>
+  <script src="../lib/reveal.js-menu-master/menu.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+      });
+    </script>
+  </body>
+</html>
