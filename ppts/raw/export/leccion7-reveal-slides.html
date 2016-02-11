@@ -139,190 +139,71 @@ code > span.in { color: #008000; } /* Information */
     </div>
 </section>
 
-<section><section id="contenidos" class="titleslide slide level1"><h1>Contenidos</h1></section><section id="veremos" class="slide level2">
-<h1>Veremos</h1>
+<section id="elementos-html" class="slide level1">
+<h1>Elementos HTML</h1>
+<h2 id="div-y-span">DIV y SPAN</h2>
+<p>Existen dos elementos que utilizaremos para envolver el contenido pero que no tienen ningún <em>valor semántico</em>.</p>
+</section>
+<section id="formato-visual" class="slide level1">
+<h1>Formato visual</h1>
+<h2 id="modelo-de-caja">Modelo de caja</h2>
+<figure>
+<img src="http://www.planetoftunes.com/website-design/css/media/boxmodel.gif" alt="Modelo de caja" /><figcaption>Modelo de caja</figcaption>
+</figure>
+<h2 id="propiedad-display">Propiedad Display</h2>
+<p>La propiedad display puede tener varios valores:</p>
 <ul>
-<li>Introducción a CSS3</li>
-<li>Como cambiar el testo</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements">inline</a>: elementos en línea (a, img, span, input, label, ...)</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements">block</a>: elementos en bloque (h1-h6, p, div, ul, ol, li, hr, ...)</li>
+<li>inline-block</li>
 </ul>
-</section></section>
-<section><section id="introducción-a-css3" class="titleslide slide level1"><h1>Introducción a CSS3</h1></section><section id="cascading-stylesheets" class="slide level2">
-<h1>Cascading StyleSheets</h1>
-<p>CSS o las hojas de estilo en cascada es un lenguaje de marcado que nos permite modificar el aspecto gráfico de los elementos introducidos con HTML.</p>
-</section><section id="herencia" class="slide level2">
-<h1>Herencia</h1>
-<p>Una propiedad <strong>muy importante</strong> de las hojas de estilo es que los estilos aplicados a un elemento padre son heredados por su hijo.</p>
-<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;ul</span><span class="ot"> style=</span><span class="st">&quot;color: red&quot;</span><span class="kw">&gt;</span>
-    <span class="kw">&lt;li&gt;</span>Inicio<span class="kw">&lt;/li&gt;</span>
-    <span class="kw">&lt;li</span><span class="ot"> style=</span><span class="st">&quot;color: blue&quot;</span><span class="kw">&gt;</span>Experiencia<span class="kw">&lt;/li&gt;</span>
-<span class="kw">&lt;/ul&gt;</span></code></pre></div>
-<p>En este caso el color de la fuente &quot;Inicio&quot; aparecerá en rojo y la de &quot;Experiencia&quot; en azul.</p>
-<blockquote>
-<p>Nota: <strong>no está recomendado</strong> aplicar los estilos usando atributos. A esta forma se le llama usar &quot;estilos en línea&quot;.</p>
-</blockquote>
-</section><section id="aplicar-estilos-a-los-elementos" class="slide level2">
-<h1>Aplicar estilos a los elementos</h1>
+<h2 id="diferencias-entre-inline-y-block">Diferencias entre inline y block</h2>
 <ul>
-<li><strong>id</strong>: identificador <strong>único</strong> de un elemento</li>
-<li><strong>class</strong>: identificador que puede ser compartido por varios elementos</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="co">&lt;!-- index.html --&gt;</span>
-<span class="kw">&lt;h1</span><span class="ot"> id=</span><span class="st">&quot;experiencia&quot;</span><span class="kw">&gt;</span>Experiencia <span class="kw">&lt;strong</span><span class="ot"> class=</span><span class="st">&quot;destacado&quot;</span><span class="kw">&gt;</span>profesional<span class="kw">&lt;strong&gt;&lt;/h1&gt;</span>
-
-<span class="kw">&lt;p</span><span class="ot"> class=</span><span class="st">&quot;destacado&quot;</span><span class="kw">&gt;</span>
-    A lo largo de los últimos 16 años blah blah blah...
-<span class="kw">&lt;/p&gt;</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="co">/* main.css*/</span>
-<span class="fl">#experiencia</span><span class="kw">{</span>
-    <span class="kw">font-size:</span> <span class="dt">large</span><span class="kw">;</span>
-<span class="kw">}</span>
-<span class="fl">.destacado</span><span class="kw">{</span>
-    <span class="kw">color:</span> <span class="dt">blue</span><span class="kw">;</span>
-<span class="kw">}</span>
-strong<span class="kw">{</span>
-    <span class="kw">font-weight:</span> <span class="dt">normal</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-</section><section id="vincular-una-hoja-de-estilos" class="slide level2">
-<h1>Vincular una hoja de estilos</h1>
-<p>Para indicarle a una página dónde se encuentras los estilos tendremos que añadir un elemento auto-contenido <strong><link></strong>:</p>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">&lt;link rel=<span class="st">&quot;stylesheet&quot;</span> href=<span class="st">&quot;resources/css/main.css&quot;</span>&gt;</code></pre></div>
-<p>Una página puede incluir varias hojas de estilos, y siempre prevalecen los estilos de la última hoja añadida.</p>
-</section></section>
-<section><section id="modificar-el-color" class="titleslide slide level1"><h1>Modificar el color</h1></section><section id="color" class="slide level2">
-<h1>Color</h1>
-<p>Propiedades:</p>
+<li><strong>Formato</strong>: por defecto, los *elementos en bloque** empiezan en una nueva línea, pero los en <em>elemento en línea</em> pueden empezar en cualquier sitio dentro de una línea.</li>
+<li><strong>Modelo de contenido</strong>:
 <ul>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color">color</a></strong>: establece el color de la fuente</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/opacity">opacity</a></strong>: establece la transparencia de un elemento</li>
+<li>Normalmente los elementos en bloque pueden contener elementos de ambos tipos.</li>
+<li>Los elementos en línea sólo pueden contener otros elementos en línea.</li>
+</ul></li>
 </ul>
-</section><section id="formas-de-especificar-el-color" class="slide level2">
-<h1>Formas de especificar el color</h1>
+<h2 id="propiedad-position">Propiedad position</h2>
 <ul>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color/RGB">Valor hexadecimal</a></strong>: #faf o #ffaaff</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color/RGB">Valor RGB (Red, Green, Blue)</a></strong>: rgb(255, 160, 255) o rgb(100%, 62.5%, 100%)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/color/RGBA">Valor RGBA (RGB + Alpha)</a></strong>: rgba(255, 160, 255, 1) or rgba(100%, 62.5%, 100%, 1)</li>
+<li>static</li>
+<li>relative</li>
+<li>absolute</li>
+<li>fixed</li>
 </ul>
-<p><a href="https://www.w3.org/wiki/CSS/Properties/color#Values">Ver todos</a></p>
-</section><section id="ejemplos" class="slide level2">
-<h1>Ejemplos:</h1>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.error</span><span class="kw">{</span>
-    <span class="kw">color:</span> <span class="dt">rgb(100%</span>,<span class="dt">0</span>,<span class="dt">0)</span><span class="kw">;</span>
-    <span class="kw">opacity:</span> <span class="dt">0.5</span><span class="kw">;</span>
+<h2 id="propiedad-z-index">Propiedad z-index</h2>
+<p>Esta propiedad establece el orden en el que aparecen las cajas en el eje Z (profundidad) y se establece como un número entero.</p>
+<p>Ejemplo:</p>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">div<span class="kw">{</span>
+    <span class="kw">z-index:</span> <span class="dt">999</span><span class="kw">;</span>
 <span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.error</span><span class="kw">{</span>
-    <span class="kw">color:</span> <span class="dt">#F00</span><span class="kw">;</span>
-    <span class="kw">opacity:</span> <span class="dt">0.5</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.error</span><span class="kw">{</span>
-    <span class="kw">color:</span> <span class="dt">rgba(100%</span>, <span class="dt">0</span>, <span class="dt">0</span>, <span class="dt">.5)</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-</section></section>
-<section><section id="modificar-la-fuente" class="titleslide slide level1"><h1>Modificar la fuente</h1></section><section id="fuente-font" class="slide level2">
-<h1>Fuente (Font)</h1>
+<h2 id="borde-border">Borde (Border)</h2>
 <ul>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-style">font-style</a></strong>: nos permite darle estilo a la fuente (p.e.: normal o italic)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-family">font-family</a></strong>: establece una lista de fuentes (Gill, Helvetica, sans-serif;)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-size">font-size</a></strong>: nos permite especificar el tamaño de la fuente</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font-weight">font-weight</a></strong>: nos permite especificar el ancho de la fuente (bold, 400, 600, ...)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/font">font</a></strong>: atajo para establecer varias propiedades</li>
+<li>border-width:</li>
+<li>border-style:</li>
+<li>border-color:</li>
+<li>border:</li>
 </ul>
-<p><a href="https://www.w3.org/wiki/CSS/Properties#Font">Ver todos</a></p>
-</section><section id="formas-de-especificar-el-tamaño" class="slide level2">
-<h1>Formas de especificar el tamaño</h1>
-<p>Hay varias formas, pero vamos a ver cómo especificar el tamaño usando unidades de longitud, algunos tipos para las fuentes son:</p>
-<ul>
-<li><strong>px</strong>: representan un tamaño absoluto.</li>
-<li><strong>em</strong>: representan un valor relativo respecto al padre.</li>
-<li><strong>rem</strong> (root em): representan un valor relativo respecto al <em>body</em></li>
-</ul>
-<p><a href="https://www.w3.org/Style/Examples/007/units.en.html">Ver todos</a></p>
-</section><section id="fuentes-personalizadas" class="slide level2">
-<h1>Fuentes personalizadas</h1>
-<p>En CSS3 ya se permite el uso de fuente personalizadas. <a href="https://www.google.com/fonts">Google Fonts</a> dispone de un amplio número de fuentes de uso libre.</p>
-<p>Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir las fuentes en los elementos que queramos en nuestro CSS.</p>
-<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="co">&lt;!-- index.html --&gt;</span>
-<span class="kw">&lt;link</span><span class="ot"> href=</span><span class="st">&#39;https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700&#39;</span><span class="ot"> rel=</span><span class="st">&#39;stylesheet&#39;</span><span class="ot"> type=</span><span class="st">&#39;text/css&#39;</span><span class="kw">&gt;</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="co">/* main.css */</span>
-body<span class="kw">{</span>
-    <span class="kw">font-family:</span> <span class="st">&#39;Open Sans&#39;</span>, <span class="dt">sans-serif</span><span class="kw">;</span>
+<p><a href="https://www.w3.org/wiki/CSS/Properties#Border">Ver todos</a></p>
+<h2 id="margen-y-relleno-margin-padding">Margen y relleno (Margin &amp; Padding)</h2>
+<p><a href="https://www.w3.org/wiki/CSS/Properties#Margin_.26_Padding">Ver todos</a></p>
+</section>
+<section id="selectores" class="slide level1">
+<h1>Selectores</h1>
+<p><a href="">Ver todos</a></p>
+<h2 id="herencia">Herencia</h2>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1 span<span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">red</span><span class="kw">;</span>
 <span class="kw">}</span></code></pre></div>
-</section><section id="ejemplo" class="slide level2">
-<h1>Ejemplo</h1>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
-    <span class="kw">font:</span> <span class="dt">italic</span> <span class="dt">600</span> <span class="dt">24px</span> / <span class="dt">1.5em</span> Helvetica<span class="kw">;</span>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1 &gt; span<span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">red</span><span class="kw">;</span>
 <span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
-    <span class="kw">font-size:</span> <span class="dt">2em</span><span class="kw">;</span>
-    <span class="kw">font-family:</span> <span class="st">&#39;Open Sans&#39;</span>, <span class="dt">sans-serif</span><span class="kw">;</span>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1, h2<span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">red</span><span class="kw">;</span>
 <span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
-    <span class="kw">font-size:</span> <span class="dt">2rem</span><span class="kw">;</span>
-    <span class="kw">font-weight:</span> <span class="dt">bold</span><span class="kw">;</span>
-    <span class="kw">font-style:</span> <span class="dt">italic</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-</section></section>
-<section><section id="modificar-el-texto" class="titleslide slide level1"><h1>Modificar el texto</h1></section><section id="texto-text" class="slide level2">
-<h1>Texto (Text)</h1>
-<ul>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/text-align">text-align</a></strong>: para alinear el texto (left, right, center, justify)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/text-decoration">text-decoration</a></strong>: permite añadir un subrayado, tachar una palabra, etc (underline, line-throught, ...)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/text-transform">text-transform</a></strong>: permite transformar en mayúsculas, minúculas, etc (uppercase, lowercase, capitalize, ...)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/line-height">line-height</a></strong>: permite ajustar el interlineado usando unidades como vimos antes (px, em, rem, ...).</li>
-</ul>
-<p><a href="https://www.w3.org/wiki/CSS/Properties#Text">Ver todos</a></p>
-</section><section id="ejemplos-1" class="slide level2">
-<h1>Ejemplos:</h1>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
-    <span class="kw">text-align:</span> <span class="dt">center</span><span class="kw">;</span>
-    <span class="kw">text-decoration:</span> <span class="dt">underline</span><span class="kw">;</span>
-    <span class="kw">text-transform:</span> <span class="dt">uppercase</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.p</span><span class="kw">{</span>
-    <span class="kw">line-height:</span> <span class="dt">1.5em</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-</section></section>
-<section><section id="modificar-el-fondo-de-un-elemento" class="titleslide slide level1"><h1>Modificar el fondo de un elemento</h1></section><section id="fondo-background" class="slide level2">
-<h1>Fondo (Background)</h1>
-<ul>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-color">background-color</a></strong>: nos permite especificar el color (igual que vimos antes) de fondo de un elemento.</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-image">background-image</a></strong>: permite especificar una URL de una imagen que queremos que aparezca de fondo (por ej: url('imagen.jpg'))</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-repeat">background-repeat</a></strong>: por defecto si establecemos una imagen de fondo se repite indefinidamente, pero esto podemos cambiarlo (repeat-x, repeat-y, no-repeat, ...)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background-position">background-position</a></strong>: nos permite cambiar la posición de la imagen de fondo (left, right, center, ...)</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/background">background</a></strong>: es un atajo igual que la propiedad <strong>font</strong>.</li>
-</ul>
-<p><a href="https://www.w3.org/wiki/CSS/Properties#Background">Ver todos</a></p>
-</section><section id="ejemplos-2" class="slide level2">
-<h1>Ejemplos</h1>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">body<span class="kw">{</span>
-    <span class="kw">background-color:</span> <span class="dt">#efefef</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1<span class="kw">{</span>
-    <span class="kw">background:</span> <span class="dt">url(</span><span class="st">&quot;fondo-encabezado.jpg&quot;</span><span class="dt">)</span> <span class="dt">no-repeat</span> <span class="dt">center</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-</section></section>
-<section><section id="modificar-una-lista" class="titleslide slide level1"><h1>Modificar una lista</h1></section><section id="lista-list" class="slide level2">
-<h1>Lista (List)</h1>
-<ul>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/list-style-image">list-style-image</a></strong>: permite especificar una imagen para cada que preceda a cada elemento de la lista.</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/list-style-type">list-style-type</a></strong>: si no es establece la propiedad <em>list-style-image</em> especficar el formato que precede a un elemento de la lista</li>
-<li><strong><a href="https://www.w3.org/wiki/CSS/Properties/list-style">list-style</a></strong>: es un atajo igual que <em>font</em> o <em>background</em></li>
-</ul>
-<p><a href="https://www.w3.org/wiki/CSS/Properties#List">Ver todos</a></p>
-</section><section id="ejemplos-3" class="slide level2">
-<h1>Ejemplos</h1>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
-    <span class="kw">list-style:</span> <span class="dt">none</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
-    <span class="kw">list-style:</span> <span class="dt">square</span> outsite<span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
-    <span class="kw">list-style-image:</span> <span class="dt">url(</span><span class="st">&quot;punto.jpg&quot;</span><span class="dt">)</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">li<span class="kw">{</span>
-    <span class="kw">list-style-type:</span> <span class="dt">upper-roman</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre></div>
-</section></section>
+</section>
     </div>
   </div>
 

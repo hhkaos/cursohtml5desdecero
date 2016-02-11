@@ -7,8 +7,8 @@
 ## Veremos
 
 * Introducción a CSS3
-* Como cambiar los estilos del:
-    * Texto
+* Como cambiar los estilos de:
+    * Textos
     * Colores
     * Fuentes
     * Fondos
