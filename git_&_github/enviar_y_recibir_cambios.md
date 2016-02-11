@@ -16,7 +16,7 @@ Esto nos pedirá que seleccionamos una carpeta en nuestro disco duro donde se va
 Una vez clonada el repositorio vamos a ver una forma básica de usarlo.
 
 ## Enviar y recibir cambios
-
+Pendiente
 
 ## Ver el histórico de cambios
 
