@@ -1,7 +1,7 @@
 # Enviar y recibir cambios
 
 ##Instalar y configurar Github Desktop
-Vamos a empezar por descargar, instalar y configurar [Github Desktop](https://desktop.github.com) que es una herramienta que nos va a ayudar a gestionar las versiones de manera gráfica<sup>1</sup>.
+Vamos a empezar por descargar, instalar y configurar [Github Desktop](https://desktop.github.com) que es una herramienta gráfica<sup>1</sup> que nos va a ayudar a gestionar las versiones.
  
 Una vez descargado e instalado lo abrimos y nos identificamos con nuestra cuenta.
 
