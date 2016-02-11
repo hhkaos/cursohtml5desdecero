@@ -19,6 +19,7 @@ Una vez clonada el repositorio vamos a ver una forma básica de usarlo.
 Pendiente
 
 ## Ver el histórico de cambios
+Pendiente
 
 <small>Aclaraciones:</small><br>
 <small>1. Mi recomendación es que hagas el curso gratuito [Try Git de CodeSchool](https://www.codeschool.com/courses/try-git) para aprender a usar Git desde la línea de comandos cuando te hayas acostumbrado a usar Git (  **yo nunca uso ninguna herramienta gráfica**).</small><br>
