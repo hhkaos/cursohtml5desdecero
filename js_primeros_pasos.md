@@ -21,7 +21,7 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>El primer script</title>
+  <title>Mi primer script</title>
 
   <script>
     alert("Hola Mundo!");
@@ -29,7 +29,7 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 </head>
  
 <body>
-  <p>Esta página contiene el primer script</p>
+  <p>Mi primer script</p>
 </body>
 </html>
 ```
