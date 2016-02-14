@@ -1,7 +1,8 @@
 # JS: Primeros pasos
 
-¿Qué es un lenguajes de programación?, no es más que un lenguaje con su propio vocubaliraio, sintaxtis, semántica, expresiones, errores, 
-JavaScript es lo que permite que la web cobre vida, que la páginas web hagan algo más allá de mostrar información de manera estática.
+JavaScript es un lenguaje de programación, un lenguaje con su propio vocabulario, sintaxis, semántica, expresiones, errores, etc.
+
+JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva, y por tanto mostrar algo más que información de manera estática.
 
 Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
