@@ -23,7 +23,6 @@ Luego puedes ponerle una descripción del contenido del proyecto, por ejemplo: *
 
 Y ya está, ¡enhorabuena!, ya tienes una cuenta en Github. Cualquier persona podrá ver todos tus repositorios públicos en: [http://github.com/**Username**](http://github.com/**Username**), en mi caso mi repositorio sería: [~~http://github.com/raulEsri~~](http://www.github.com/raulEsri), mi repositorio real es [http://github.com/hhkaos](http://www.github.com/hhkaos) (el otro lo he creado simplemente para hacer este tutorial).
 
-Por último vamos a [https://desktop.github.com](https://desktop.github.com) y descargamos e instalamos "Github Desktop".
 
 <small>Aclaraciones:</small><br>
 <small>1. El código que tengamos en este repositorio nos los servirá usando un servidor HTTP a través del dominio [http://**username**.github.io](http://username.github.io), por ejemplo en mi caso el repositorio de web cuenta personal es [http://hhkaos.github.io](http://hhkaos.github.io) y el código está en [https://github.com/hhkaos/hhkaos.github.io](https://github.com/hhkaos/hhkaos.github.io).</small><br>
