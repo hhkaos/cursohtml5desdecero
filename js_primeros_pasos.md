@@ -34,7 +34,7 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 </html>
 ```
 
-El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario. Aquí puedes ver el ejemplo.
+El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
 
 ## Palabras reservadas
 
