@@ -1,7 +1,17 @@
 # JS: Primeros pasos
 
-¿Qué es un lenguajes de programación?, no es más que un lenguaje con su propio vocubaliraio, sintaxtis, semántica, expresiones, errores, 
-JavaScript es lo que permite que la web cobre vida, que la páginas web hagan algo más allá de mostrar información de manera estática.
+JavaScript es un lenguaje de programación, un lenguaje con su propio vocabulario, sintaxis, semántica, expresiones, errores, etc.
+
+JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva, y por tanto mostrar algo más que información de manera estática.
+
+¿Qué se puede hacer con JavaScript?:
+* Operaciones matemáticas, lógicas, etc.
+* Controlar el flujo del programa
+* Validar formularios
+* Cargar contenidos mediante peticiones HTTP
+* Modificar el DOM
+* Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.
+* Etc.
 
 Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
@@ -10,21 +20,21 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>El primer script</title>
+  <meta charset="UTF-8">
+  <title>Mi primer script</title>
 
- 	<script>
-	  alert("Hola Mundo!");
-	</script>
+  <script>
+    alert("Hola Mundo!");
+  </script>
 </head>
  
 <body>
-	<p>Esta página contiene el primer script</p>
-	</body>
+  <p>Mi primer script</p>
+</body>
 </html>
 ```
 
-La instrucción alert() es una de las utilidades que incluye JavaScript y permite mostrar un mensaje en la pantalla del usuario. Si se visualiza la página web de este primer script en cualquier navegador, automáticamente se mostrará una ventana con el mensaje "Hola Mundo!".
+El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario. Aquí puedes ver el ejemplo.
 
 ## Palabras reservadas
 
