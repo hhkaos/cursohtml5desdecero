@@ -76,3 +76,15 @@ var prime = true;
 ```
 
 Los booleanos se utilizan para almacenar valores lógicos: ```true``` o ```false```.
+
+```js
+// Objetos
+// -----------------------------
+var obj = {
+    name: 'Raul',
+    last_name: 'Jimenez Ortega'
+};
+
+// obj.name = 'Raul'
+// obj.last_name = 'Jimenez Ortega'
+```
