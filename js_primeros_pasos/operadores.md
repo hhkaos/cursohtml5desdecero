@@ -57,8 +57,6 @@ var visible = true;
 !visible;  // Muestra "false" y no "true"
 ```
 
-0 == "" == false
-
 x|!x
 ---|---
 true|false
@@ -66,7 +64,7 @@ false|true
 
 **Operación AND (&&)**
 
-La operación lógica AND obtiene su resultado combinando dos valores booleanos. El operador se indica mediante el símbolo && y su resultado solamente es true si los dos operandos son true:
+La operación lógica AND obtiene su resultado combinando dos valores booleanos. El operador se indica mediante el símbolo && y su resultado solamente es ```true``` si los dos operandos son ```true```:
 
 x|y|x && y
 ---|---|---
@@ -87,7 +85,7 @@ result = x && y; // result = true
 
 **Operación OR (||)**
 
-La operación lógica OR también combina dos valores booleanos. El operador se indica mediante el símbolo || y su resultado es true si alguno de los dos operandos es true:
+La operación lógica OR también combina dos valores booleanos. El operador se indica mediante el símbolo || y su resultado es ```true``` si alguno de los dos operandos es ```true```:
 
 
 x|y|x &#124; &#124; y
@@ -121,6 +119,7 @@ Aunque también existe el operador ```===``` que quiere decir **exáctamente igu
 ```javascript
 0 == false  // true
 0 === false // false
+0 == ""     // true
 2 == '2'    // true
 2 === '2'   // false
 ```
