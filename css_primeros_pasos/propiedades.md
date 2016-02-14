@@ -1,21 +1,19 @@
-# Modificar el color
+#Propiedades
 
-##  Color
+## Modificar el color
 
 Propiedades:
 
 * **[color](https://www.w3.org/wiki/CSS/Properties/color)**: establece el color de la fuente
 * **[opacity](https://www.w3.org/wiki/CSS/Properties/opacity)**: establece la transparencia de un elemento
 
-## Formas de especificar el color
+**Formas de [especificar el color](https://www.w3.org/wiki/CSS/Properties/color#Values)**:
 
 * **[Valor hexadecimal](https://www.w3.org/wiki/CSS/Properties/color/RGB)**: #faf o #ffaaff
 * **[Valor RGB (Red, Green, Blue)](https://www.w3.org/wiki/CSS/Properties/color/RGB)**: rgb(255, 160, 255) o rgb(100%, 62.5%, 100%)
 * **[Valor RGBA (RGB + Alpha)](https://www.w3.org/wiki/CSS/Properties/color/RGBA)**: rgba(255, 160, 255, 1) or rgba(100%, 62.5%, 100%, 1)
 
-[Ver todos](https://www.w3.org/wiki/CSS/Properties/color#Values)
-
-## Ejemplos:
+Ejemplos:
 
 ```css
 .error{
@@ -37,9 +35,9 @@ Propiedades:
 }
 ```
 
-#  Modificar la fuente
+##  Modificar la fuente
 
-## Fuente (Font)
+Propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font):
 
 * **[font-style](https://www.w3.org/wiki/CSS/Properties/font-style)**: nos permite darle estilo a la fuente (p.e.: normal o italic)
 * **[font-family](https://www.w3.org/wiki/CSS/Properties/font-family)**: establece una lista de fuentes (Gill, Helvetica, sans-serif;)
@@ -47,19 +45,13 @@ Propiedades:
 * **[font-weight](https://www.w3.org/wiki/CSS/Properties/font-weight)**: nos permite especificar el ancho de la fuente (bold, 400, 600, ...)
 * **[font](https://www.w3.org/wiki/CSS/Properties/font)**: atajo para establecer varias propiedades
 
-[Ver todos](https://www.w3.org/wiki/CSS/Properties#Font)
-
-## Formas de especificar el tamaño
-
-Hay varias formas, pero vamos a ver cómo especificar el tamaño usando unidades de longitud, algunos tipos para las fuentes son: 
+Hay [varias formas de especificar el tamaño](https://www.w3.org/Style/Examples/007/units.en.html), pero vamos a ver cómo especificar el tamaño usando unidades de longitud, algunos tipos para las fuentes son: 
 
 * **px**: representan un tamaño absoluto.
 * **em**: representan un valor relativo respecto al padre.
 * **rem** (root em): representan un valor relativo respecto al *body*
 
-[Ver todos](https://www.w3.org/Style/Examples/007/units.en.html)
-
-## Fuentes personalizadas
+### Fuentes personalizadas
 
 En CSS3 ya se permite el uso de fuente personalizadas. [Google Fonts](https://www.google.com/fonts) dispone de un amplio número de fuentes de uso libre.
 
@@ -77,7 +69,7 @@ body{
 }
 ```
 
-## Ejemplo
+Ejemplo:
 
 ```css
 h1{
@@ -100,18 +92,16 @@ h1{
 }
 ```
 
-# Modificar el texto
+## Modificar el texto
 
-## Texto (Text)
+Propuedades para modificar el [texto](https://www.w3.org/wiki/CSS/Properties#Text) (text):
 
 * **[text-align](https://www.w3.org/wiki/CSS/Properties/text-align)**: para alinear el texto (left, right, center, justify)
 * **[text-decoration](https://www.w3.org/wiki/CSS/Properties/text-decoration)**: permite añadir un subrayado, tachar una palabra, etc (underline, line-throught, ...)
 * **[text-transform](https://www.w3.org/wiki/CSS/Properties/text-transform)**: permite transformar en mayúsculas, minúculas, etc (uppercase, lowercase, capitalize, ...)
 * **[line-height](https://www.w3.org/wiki/CSS/Properties/line-height)**: permite ajustar el interlineado usando unidades como vimos antes (px, em, rem, ...).
 
-[Ver todos](https://www.w3.org/wiki/CSS/Properties#Text)
-
-## Ejemplos:
+Ejemplos:
 
 ```css
 h1{
