@@ -11,21 +11,21 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>El primer script</title>
+  <meta charset="UTF-8">
+  <title>El primer script</title>
 
- 	<script>
-	  alert("Hola Mundo!");
-	</script>
+  <script>
+    alert("Hola Mundo!");
+  </script>
 </head>
  
 <body>
-	<p>Esta página contiene el primer script</p>
-	</body>
+  <p>Esta página contiene el primer script</p>
+</body>
 </html>
 ```
 
-La instrucción alert() es una de las utilidades que incluye JavaScript y permite mostrar un mensaje en la pantalla del usuario. Si se visualiza la página web de este primer script en cualquier navegador, automáticamente se mostrará una ventana con el mensaje "Hola Mundo!".
+La instrucción ```alert()``` es una de las utilidades que incluye JavaScript y permite mostrar un mensaje en la pantalla del usuario. Si se visualiza la página web de este primer script en cualquier navegador, automáticamente se mostrará una ventana con el mensaje "Hola Mundo!".
 
 ## Palabras reservadas
 
