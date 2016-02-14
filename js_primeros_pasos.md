@@ -34,7 +34,7 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 </html>
 ```
 
-La instrucción ```alert()``` es una de las utilidades que incluye JavaScript y permite mostrar un mensaje en la pantalla del usuario. Si se visualiza la página web de este primer script en cualquier navegador, automáticamente se mostrará una ventana con el mensaje "Hola Mundo!".
+El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario. Aquí puedes ver el ejemplo.
 
 ## Palabras reservadas
 
