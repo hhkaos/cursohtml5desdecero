@@ -1,6 +1,8 @@
 # Operadores
+Los operadores nos vas a servir para modificar y comprobar el valor de las variables
 
 ## Operaciones matemáticas
+Vamos a ver  algunas
 
 ```js
 // Asignación (=)
