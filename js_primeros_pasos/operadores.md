@@ -118,6 +118,7 @@ Los operadores relacionales definidos por JavaScript son los mismos que los mate
 Aunque también existe el operador ```===``` que quiere decir **exáctamente igual**, teniendo en cuenta no sólo el valor de la variable sino también el tipo, por ejemplo:
 ```javascript
 0 == ""         // true
+0 === ""        // false
 0 == false      // true
 0 === false     // false
 2 == '2'        // true
