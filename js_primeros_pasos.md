@@ -38,16 +38,19 @@ El método ```alert()``` es una función que abre una ventaja con un mensaje el 
 
 ## Sintaxis
 
-1. Se distinguen las mayúsculas y minúsculas: 
-2. No se define el tipo de las variables
-3. No es necesario terminar cada sentencia con el carácter de punto y coma (;)
-4. Se pueden incluir comentarios en una línea usando ```js // ``` y multilínea usando ```/* */``` ejemplo:
+Algunas de las características de JavaScript son:
 
-si la ejecución de un script dura demasiado tiempo (por ejemplo por un error de programación) el navegador informa al usuario de que un script está consumiendo demasiados recursos y le da la posibilidad de detener su ejecución.
+1. Es sensible a mayúsculas y minúsculas (o lo que es lo mismo, es *case-sensitive*), por tanto: ```var variable;``` no es equivalente a ```var Variable;``` 
+2. No es obligatorio (pero sí recomendado) declarar las variables
+3. No se define el *tipo* de las variables
+3. No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)
+4. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```, por ejemplo:
+
+Existen más características, como que si la ejecución de un script dura demasiado tiempo (por un error, por ejemplo de programación) el navegador puede informarle al usuario de que hay un script que está consumiendo demasiados recursos y darle la posibilidad de detener su ejecución.
 
 ## Palabras reservadas
 
-break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with.
+Existen algunas palabras que no podremos usar como variables, por ejemplo: ```break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with```.
 
 Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
