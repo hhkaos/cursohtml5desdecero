@@ -4,7 +4,7 @@ Los operadores nos vas a servir para modificar y comprobar el valor de las varia
 * Lógicos
 * Relacionales
 
-## Matemáticas
+## Matemáticos
 Los operadores matemáticos nos van a permitir realizar operaciones matemáticas sobre las variables, veamos algunos ejemplos:
 
 ```js
