@@ -56,11 +56,12 @@ false|true
 
 La operación lógica AND obtiene su resultado combinando dos valores booleanos. El operador se indica mediante el símbolo && y su resultado solamente es true si los dos operandos son true:
 
-variable1	variable2	variable1 && variable2
-true	true	true
-true	false	false
-false	true	false
-false	false	false
+variable1|variable2|variable1 && variable2
+---|---|---
+true|true|true
+true|false|false
+false|true|false
+false|false|false
 
 ```js
 var verdadero = true;
@@ -77,11 +78,12 @@ resultado = x && y; // resultado = true
 La operación lógica OR también combina dos valores booleanos. El operador se indica mediante el símbolo || y su resultado es true si alguno de los dos operandos es true:
 
 
-variable1	variable2	variable1 || variable2
-true	true	true
-true	false	true
-false	true	true
-false	false	false
+variable1|variable2|variable1 &#124; &#124; variable2
+---|---|---
+true|true|true
+true|false|true
+false|true|true
+false|false|false
 
 ```js
 var verdadero = true;
@@ -99,6 +101,7 @@ Los operadores relacionales definidos por JavaScript son idénticos a los que de
 
 Los operadores que relacionan variables son imprescindibles para realizar cualquier aplicación compleja, como se verá en el siguiente capítulo de programación avanzada. El resultado de todos estos operadores siempre es un valor booleano:
 
+```javascript
 var numero1 = 3;
 var numero2 = 5;
 resultado = numero1 > numero2; // resultado = false
@@ -110,8 +113,11 @@ resultado = numero1 >= numero2; // resultado = true
 resultado = numero1 <= numero2; // resultado = true
 resultado = numero1 == numero2; // resultado = true
 resultado = numero1 != numero2; // resultado = false
+```
+
 Se debe tener especial cuidado con el operador de igualdad (==), ya que es el origen de la mayoría de errores de programación, incluso para los usuarios que ya tienen cierta experiencia desarrollando scripts. El operador == se utiliza para comparar el valor de dos variables, por lo que es muy diferente del operador =, que se utiliza para asignar un valor a una variable:
 
+```javascript
 // El operador "=" asigna valores
 var numero1 = 5;
 resultado = numero1 = 3;  // numero1 = 3 y resultado = 3
@@ -128,4 +134,6 @@ var texto3 = "adios";
 resultado = texto1 == texto3; // resultado = false
 resultado = texto1 != texto2; // resultado = false
 resultado = texto3 >= texto2; // resultado = false
+```
+
 Cuando se utilizan cadenas de texto, los operadores "mayor que" (>) y "menor que" (<) siguen un razonamiento no intuitivo: se compara letra a letra comenzando desde la izquierda hasta que se encuentre una diferencia entre las dos cadenas de texto. Para determinar si una letra es mayor o menor que otra, las mayúsculas se consideran menores que las minúsculas y las primeras letras del alfabeto son menores que las últimas (a es menor que b, b es menor que c, A es menor que a, etc.)
