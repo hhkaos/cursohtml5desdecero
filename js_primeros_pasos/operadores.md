@@ -1,28 +1,38 @@
 # Operadores
-Los operadores nos vas a servir para modificar y comprobar el valor de las variables
+Los operadores nos vas a servir para modificar y comprobar el valor de las variables, vamos a ver diferentes tipos de operadores:
+* Matemáticos
+* Lógicos
+* Relacionales
 
-## Operaciones matemáticas
-Vamos a ver  algunas
+## Matemáticas
+Los operadores matemáticos nos van a permitir realizar operaciones matemáticas sobre las variables, veamos algunos ejemplos:
 
 ```js
 // Asignación (=)
 var pi = 3.1416;
-
+```
+Nos permite darle un valor a una variable.
+```js
 // Incremento (++) y decremento (--)
 var x = 1, y = 4;
 x++; // x = 2
 y--; // y = 3
-
+```
+Nos permite incrementar o decrementar en una unidad el valor de una variable.
+```js
 // Suma (+) y resta (-)
 var x = 2, y = 3, z;
 z = x + y // z = 5;
 z = x - y // z = -1;
+```
 
+```js
 // División (/) y multiplicación (*)
 var x = 4, y = 2, z;
 z = x / y // z = 2;
 z = x * y // z = 8;
-
+```
+```js
 // Abreviaciones
 var numero1 = 5;
 numero1 += 3;  // numero1 = numero1 + 3 = 8
