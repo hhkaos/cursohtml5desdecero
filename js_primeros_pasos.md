@@ -4,10 +4,15 @@ JavaScript es un lenguaje de programación, un lenguaje con su propio vocabulari
 
 JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva, y por tanto mostrar algo más que información de manera estática.
 
+¿Qué se puede hacer con JavaScript?:
+* Operaciones matemáticas, lógicas, etc.
+* Controlar el flujo del programa
+
 ¿Para qué se suele usar JavaScript entonces?:
 * Para validar formularios
-* Para cargar contenidos dinámicamente
-* Para realizar búsquedas
+* Para cargar contenidos mediante peticiones HTTP
+* Para modificar el DOM
+* Para comprobar la versión
 
 Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
