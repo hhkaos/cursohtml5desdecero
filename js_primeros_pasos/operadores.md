@@ -4,7 +4,7 @@ Los operadores nos vas a servir para modificar y comprobar el valor de las varia
 * Lógicos
 * Relacionales
 
-## Matemáticos
+## Operadores matemáticos
 Los operadores matemáticos nos van a permitir realizar operaciones matemáticas sobre las variables, veamos algunos ejemplos:
 
 ```js
@@ -107,7 +107,7 @@ y = false;
 resultado = x || y; // resultado = false
 ```
 
-## Operaciones relacionales
+## Operadores relacionales
 
 Los operadores relacionales definidos por JavaScript son idénticos a los que definen las matemáticas: mayor que (>), menor que (<), mayor o igual (>=), menor o igual (<=), igual que (==) y distinto de (!=).
 
