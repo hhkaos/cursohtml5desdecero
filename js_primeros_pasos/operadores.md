@@ -119,8 +119,10 @@ Aunque también existe el operador ```===``` que quiere decir **exáctamente igu
 ```javascript
 0 == ""         // true
 0 === ""        // false
+
 0 == false      // true
 0 === false     // false
+
 2 == '2'        // true
 2 === '2'       // false
 ```
