@@ -13,7 +13,7 @@ JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva
 * Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.
 * Etc.
 
-Esta este es el script más simple que podemos hacer:
+Este es el script más simple que podemos hacer:
 
 ```html
 <!DOCTYPE html>
@@ -35,9 +35,6 @@ Esta este es el script más simple que podemos hacer:
 
 El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
 
-## Palabras reservadas
-
-break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with.
 
 ## Sintaxis
 
@@ -47,3 +44,10 @@ break, case, catch, continue, default, delete, do, else, finally, for, function,
 4. Se pueden incluir comentarios en una línea usando ```js // ``` y multilínea usando ```/* */``` ejemplo:
 
 si la ejecución de un script dura demasiado tiempo (por ejemplo por un error de programación) el navegador informa al usuario de que un script está consumiendo demasiados recursos y le da la posibilidad de detener su ejecución.
+
+## Palabras reservadas
+
+break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with.
+
+Orden en el que se ejecuta JavaScript
+efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
