@@ -7,10 +7,10 @@ JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva
 ¿Qué se puede hacer con JavaScript?:
 * Operaciones matemáticas, lógicas, etc.
 * Controlar el flujo del programa
+* Validar formularios
+* Cargar contenidos mediante peticiones HTTP
+* Modificar el DOM
 * Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.
-* Para validar formularios
-* Para cargar contenidos mediante peticiones HTTP
-* Para modificar el DOM
 * Etc.
 
 Orden en el que se ejecuta JavaScript
