@@ -13,8 +13,7 @@ JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva
 * Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.
 * Etc.
 
-Orden en el que se ejecuta JavaScript
-efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
+Esta este es el script más simple que podemos hacer:
 
 ```html
 <!DOCTYPE html>
