@@ -51,7 +51,7 @@ var txt = 'Una frase con \'comillas simples\' dentro';
 Que nos permiten trabajar con cadenas de texto. Para ello tenemos con encerrar la cadena entre comillas simples o dobles, pero normalmente se recomienda hacerlo con comillas simples. En caso de querer introducir una comilla simple dentro de una cadena podemos hacerlo incluyendo el carácter contra-barra (\\) justo delante, para evitar que se cierre la cadena.
 
 ```js
-// Arrays
+// Colecciones (arrays)
 // -----------------------------
 // Definiendo los días de la semana en cadenas de texto
 var day1 = 'Lunes', day2 = 'Martes', ... , 'Domingo';
@@ -69,7 +69,7 @@ Los ```Arrays```o colecciones nos permiten añadir varios valores dentro de un e
 
 
 ```js
-// Booleanos
+// Booleanos (boolean)
 // -----------------------------
 var valid = false;
 var prime = true;
@@ -78,13 +78,16 @@ var prime = true;
 Los booleanos se utilizan para almacenar valores lógicos: ```true``` o ```false```.
 
 ```js
-// Objetos
+// Objetos (objects)
 // -----------------------------
 var obj = {
     name: 'Raul',
-    last_name: 'Jimenez Ortega'
+    last_name: 'Jimenez Ortega',
+    age: 31
 };
 
 // obj.name = 'Raul'
 // obj.last_name = 'Jimenez Ortega'
+// obj.age = 31
 ```
+Los objetos nos permiten definir estructuras de datos con distintos tipos de valores, ya verás que esto te será muy útil en el futuro.
