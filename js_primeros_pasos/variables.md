@@ -114,4 +114,12 @@ var n = fruits.length; // n = 3
 fruits.push('apple', 'peach'); // fruits = ['banana', 'melon, 'orange', 'apple', 'peach']
 ```
 
-```contact```, ```join```, ```pop```, ```shift```, Y otras como: ```unshift```, ```reverse```
+```contact```, ```join```, ```pop```, ```shift```, Y otras como: ```unshift```, ```reverse```.
+
+
+Para los números hay una función muy útil:
+
+```js
+var numero1 = 4564.34567;
+numero1.toFixed(2); // 4564.35
+```
