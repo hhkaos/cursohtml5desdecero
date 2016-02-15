@@ -81,3 +81,24 @@ var prime = true;
 
 Los booleanos se utilizan para almacenar valores lógicos: ```true``` o ```false```.
 
+## Funciones
+
+Existen múltiples funciones para
+
+```js
+var hello = 'Hola ';
+var world = 'Mundo!';
+
+// Para contar el número de caracteres
+console.log(hello.length); // 5
+
+// Para concatenar cadenas
+console.log(hello + ' ' + world); // Hola Mundo!
+console.log(hello.concat(' ' + world));  // Hola Mundo!
+
+// Para busacar subcadenas en una cadena
+var pos = hello.indexOf('a'); // pos = 3
+var pos = hello.indexOf('b'); // pos = -1
+
+
+```
