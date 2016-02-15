@@ -43,6 +43,9 @@ Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
  
 > **Nota:** Todos los métodos y objetos incluidos en el objeto window podemos llamarlos sin necesidad de escribir ```window.```
 
+Para evitar errores que pueden pasar desapercibidos en JavaScript (por si flexibilidad) te recomiendo que introduzcas siempre la expresión ```'use strict';```al principio de tus scripts. El modo estricto significa:
+* Que hay que declarar todas las variables
+* No se pueden borrar variables usando ```delete```
 
 ## Sintaxis
 
