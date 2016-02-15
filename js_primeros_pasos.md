@@ -61,10 +61,6 @@ Existen más características, como que si la ejecución de un script dura demas
 Existen algunas palabras que no podremos usar como variables, por ejemplo: ```abstract, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, function, goto, if, implements, import, in, instanceof, int, interface, long, native, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient, true, try, typeof, var, volatile, void, while, with```.
 
 
-
-Orden en el que se ejecuta JavaScript
-efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
-
 <small>Aclaraciones:</small><br>
 <small>1. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
 <small>1. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
