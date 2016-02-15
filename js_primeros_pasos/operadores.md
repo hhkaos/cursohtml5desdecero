@@ -155,8 +155,11 @@ y = x = 3;  // y = 3 y x = 3
 // El operador "==" compara variables
 var x = 5;
 y = x == 3; // x = 5 y y = false
-Los operadores relacionales también se pueden utilizar con variables de tipo cadena de texto:
 
+/* 
+   Los operadores relacionales también se pueden
+   utilizar con variables de tipo cadena de texto:
+*/
 var txt1 = "hola";
 var txt2 = "hola";
 var txt3 = "adios";
