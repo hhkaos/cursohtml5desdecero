@@ -21,14 +21,12 @@ Este es el script más simple que podemos hacer:
 <head>
   <meta charset="UTF-8">
   <title>Mi primer script</title>
-
-  <script>
-    alert("Hola Mundo!");
-  </script>
 </head>
  
 <body>
-  <p>Mi primer script</p>
+  <script>
+    document.writeln("Hola Mundo!");
+  </script>
 </body>
 </html>
 ```
