@@ -21,12 +21,12 @@ if(age >= 18) {
   console.log("Eres mayor de edad");
 }
 else {
-  console.log("Todavía no eres menor de edad");
+  console.log("Eres menor de edad");
 }
 
 
 if(age < 12) {
-  console.log("Todavía eres muy pequeño");
+  console.log("Vaya chavalín");
 }
 else if(age < 19) {
   console.log("Eres un adolescente");
@@ -49,13 +49,13 @@ if(printMsg = false) {
 var printMsg = false;
  
 if(!printMsg) {
-  console.log("Es la primera vez que se muestra el mensaje");
+  console.log("Primer mensaje");
 }
 
-var usuarioPermiteMensajes = true;
+var isFirstMsg = true;
  
-if(!printMsg && usuarioPermiteMensajes) {
-  console.log("Es la primera vez que se muestra el mensaje");
+if(!printMsg && isFirstMsg) {
+  console.log("Mi primer mensaje");
 }
 ```
 
