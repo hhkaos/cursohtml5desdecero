@@ -26,11 +26,13 @@ Este es el script más simple que podemos hacer:
  
 <body>
   <script>
-    document.writeln("Hola Mundo!");
+    window.document.writeln("Hola Mundo!");
   </script>
 </body>
 </html>
 ```
+
+
 
 El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
 
