@@ -13,6 +13,7 @@ JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva
 * Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.
 * Etc.
 
+## Mi primer script
 Este es el script más simple que podemos hacer:
 
 ```html
@@ -48,7 +49,9 @@ Existen más características, como que si la ejecución de un script dura demas
 
 ## Palabras reservadas
 
-Existen algunas palabras que no podremos usar como variables, por ejemplo: ```break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with```.
+Existen algunas palabras que no podremos usar como variables, por ejemplo: ```abstract, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, function, goto, if, implements, import, in, instanceof, int, interface, long, native, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient, true, try, typeof, var, volatile, void, while, with```.
+
+
 
 Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
