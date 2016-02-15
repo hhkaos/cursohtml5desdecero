@@ -63,10 +63,10 @@ var day1 = 'Lunes', day2 = 'Martes', ... , 'Domingo';
 // Definición equivalente en un Array
 var days = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
 
-// dias[0] = 'Lunes'
-// dias[1] = 'Martes'
+// days[0] = 'Lunes'
+// days[1] = 'Martes'
 // ...
-// dias[6] = 'Domingo'
+// days[6] = 'Domingo'
 ```
 
 Los ```Arrays```o colecciones nos permiten añadir varios valores dentro de un elemento. 
