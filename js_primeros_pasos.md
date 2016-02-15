@@ -32,9 +32,16 @@ Este es el script más simple que podemos hacer:
 </html>
 ```
 
+Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
+1. Llamar al **método ```writeln```** que escribe en el DOM lo que recibe como parámetro, en este caso ```Hola Mundo!```
+2. Este método está definido en el **```document```**<sup>1</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
+3. Y el documento está definido como parte del objeto **```window```**<sup>2</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información.
 
-
-El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
+Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
+* ```alert()``` que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
+* ```console``` que implementa funciones para imprimir mensajes en la consola de error (```console.error()```), etc
+ 
+> **Nota:** Todos los métodos y objetos incluidos en el objeto window podemos llamarlos sin necesidad de escribir ```window.```
 
 
 ## Sintaxis
@@ -57,3 +64,5 @@ Existen algunas palabras que no podremos usar como variables, por ejemplo: ```ab
 
 Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
+
+https://developer.mozilla.org/en/docs/Web/API/Document
