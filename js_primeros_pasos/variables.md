@@ -28,6 +28,10 @@ var $_a__$4;
 ```
 A pesar de ello, **es importante que elijamos nombres de variables que sean representativos del valor que almacenan**, para facilitar la comprensión del código.
 
+## Palabras reservadas
+
+Antes de continuar me gustaría comentarte que existen palabras reservadas que tienen un significado en el lenguaje y que no podremos usar como nombres de variables: ```abstract, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, function, goto, if, implements, import, in, instanceof, int, interface, long, native, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient, true, try, typeof, var, volatile, void, while, with```.
+
 ## Tipos de variables
 En todos los lenguajes de programación existen distintos tipos de variables, en JavaScript tendremos:
 
