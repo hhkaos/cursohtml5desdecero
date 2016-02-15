@@ -25,14 +25,14 @@ else {
 }
 
 
-if(age < 12) {
-  console.log("Vaya chavalín");
+if(age < 18) {
+  console.log("Eres menor de edad");
 }
-else if(age < 19) {
-  console.log("Eres un adolescente");
+else if(age < 30) {
+  console.log("Aún eres joven");
 }
 else {
-  console.log("Piensa en cuidarte un poco más");
+  console.log("La sabiduría la da la experiencia");
 }
 ```
 
@@ -49,7 +49,7 @@ if(printMsg = false) {
 var printMsg = false;
  
 if(!printMsg) {
-  console.log("Primer mensaje");
+  console.log("Me imprimo");
 }
 
 var isFirstMsg = true;
@@ -68,9 +68,10 @@ for(initialization; condition; increment) {
 ```
 
 ```js
+var i;
 var days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
  
-for(var i=0; i<7; i++) {
+for(i=0; i<7; i++) {
   alert(days[i]);
 }
 ```
