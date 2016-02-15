@@ -67,5 +67,5 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 
 <small>Aclaraciones:</small><br>
 <small>1. Más información sobre el [objeto document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
-<small>1. Más información sobre el [objeto window]https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
+<small>1. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
 
