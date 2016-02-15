@@ -83,7 +83,7 @@ Los booleanos se utilizan para almacenar valores lógicos: ```true``` o ```false
 
 ## Funciones
 
-Existen múltiples funciones para
+Existen múltiples funciones para trabajar con cadenas de texto, por ejemplo:
 
 ```js
 var hello = 'Hola ';
@@ -99,6 +99,19 @@ console.log(hello.concat(' ' + world));  // Hola Mundo!
 // Para busacar subcadenas en una cadena
 var pos = hello.indexOf('a'); // pos = 3
 var pos = hello.indexOf('b'); // pos = -1
-
-
 ```
+
+Y otros métodos: ```lastIndexOf```, ```substring```, ```split```, etc.
+
+Al igual para trabajar con Arrays:
+```js
+var fruits = ['banana', 'melon, 'orange'];
+
+// Para contar
+var n = fruits.length; // n = 3
+
+//Para añadir elementos
+fruits.push('apple', 'peach'); // fruits = ['banana', 'melon, 'orange', 'apple', 'peach']
+```
+
+```contact```, ```join```, ```pop```, ```shift```, Y otras como: ```unshift```, ```reverse```
