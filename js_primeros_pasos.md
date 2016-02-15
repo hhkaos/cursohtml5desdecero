@@ -66,6 +66,6 @@ Orden en el que se ejecuta JavaScript
 efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
 
 <small>Aclaraciones:</small><br>
-<small>1. Más información sobre el [objeto document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
+<small>1. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
 <small>1. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
 
