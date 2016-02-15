@@ -120,6 +120,6 @@ fruits.push('apple', 'peach'); // fruits = ['banana', 'melon, 'orange', 'apple',
 Para los números hay una función muy útil:
 
 ```js
-var numero1 = 4564.34567;
-numero1.toFixed(2); // 4564.35
+var n = 231.8273;
+n.toFixed(2); // 231.82
 ```
