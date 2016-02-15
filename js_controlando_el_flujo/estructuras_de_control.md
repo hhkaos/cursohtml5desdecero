@@ -71,7 +71,7 @@ for(initialization; condition; increment) {
 var i;
 var days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
  
-for(i=0; i<7; i++) {
+for(i = 0; i < days.length; i++) {
   alert(days[i]);
 }
 ```
