@@ -12,12 +12,12 @@ body{
 
 /* Aplica a todos los elementos <ul> */
 ul{
-    list-style-type: disc;
+  list-style-type: disc;
 }
 
 /* Igual  con <ol> */
 ol{
-    list-style-type: decimal;
+  list-style-type: decimal;
 }
 
 /* Aplica a los elementos <ul> y los <ol> */
@@ -26,55 +26,55 @@ ol{padding-left: 20px;}
 
 /* Aplica al elemento con id="menu" */
 #menu{
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /* Aplica a todos los elementos con class="bold" */
 .bold{
-    font-weight: bold;
+  font-weight: bold;
 }
 .primary{
-    color: blue;
+  color: blue;
 }
 
 /* Que tenga las dos clases */
 .bold.primary{
-    color: green;
+  color: green;
 }
 
 /* Aplica a los elementos <h1> que además tienen class="bold" */
 h1.bold{
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 1rem 0 .5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 1rem 0 .5rem;
 }
 
 /* Aplica a los elementos <a> descendientes de #menu */    
 #menu a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Aplica a los elementos strong que son descendientes directos de elementos <li> */    
 li > strong{
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Aplica a los elemento <a> con el atributo target="_blank" */
 a[target="_blank"]{
-    color: red;
+  color: red;
 }
 
 /* Aplica a los elementos <a> cuando el estado es :hover (ratón encima) */
 a:hover{
-    color: green;
+  color: green;
 }
 
 /* Aplica a los h2 adyacentes a h1 */
 h1 + p{
-    margin-top: 0;
+  margin-top: 0;
 }
 
 /* A los elementos <a> con el atributo target="_blank" añadirle después el texto (externo) */
 a[target="_blank"]:after{
-    content: " (externo)";
+  content: " (externo)";
 }
