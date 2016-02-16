@@ -27,11 +27,6 @@ Este es el script más simple que podemos hacer:
 <body>
   <script>
     document.writeln("Hola Mundo!");
-    
-    /*
-        o lo que es lo mismo:
-        window.document.writeln("Hola Mundo!");
-    */
   </script>
 </body>
 </html>
@@ -40,13 +35,11 @@ Este es el script más simple que podemos hacer:
 Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
 1. Llamar al **método ```writeln```**<sup>1</sup> que escribe en el DOM lo que recibe como parámetro seguido de un salto de línea, en este caso ```Hola Mundo!``` seguido de un salto de línea (```\n```).
 2. Este método está definido en el **```document```**<sup>2</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
-3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información.
+3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información. Añadir la palabra ```window```es opcional, pero 
 
 Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
 * ```alert()``` que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
 * ```console``` que implementa funciones para imprimir mensajes en la consola de error (```console.error()```), etc
- 
-> **Nota:** Todos los métodos y objetos incluidos en el objeto window podemos llamarlos sin necesidad de escribir ```window.```
 
 Para evitar errores que pueden pasar desapercibidos en JavaScript (por si flexibilidad) te recomiendo que introduzcas siempre la expresión ```'use strict';```al principio de tus scripts. El modo estricto significa:
 * Que hay que declarar todas las variables (ni objetos)
