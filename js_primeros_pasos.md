@@ -26,7 +26,7 @@ Este es el script más simple que podemos hacer:
  
 <body>
   <script>
-    document.writeln("Hola Mundo!");
+    document.writeln('Hola Mundo!');
   </script>
 </body>
 </html>
@@ -51,7 +51,7 @@ Así quedaría:
 <body>
   <script>
     'use strict';
-    document.writeln("Hola Mundo!");
+    document.writeln('Hola Mundo!');
   </script>
 </body>
 </html>
