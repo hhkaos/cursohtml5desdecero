@@ -8,7 +8,7 @@ Para declarar/definir una variable utilizaremos la palabra clave ```var``` segui
 var counter;
 ```
 
-En este caso no se le ha asignado ninguna variable.
+En este caso hemos declarado una variable con el nombre ```counter```pero no se le ha asignado ningún valor.
 
 > **Consejos**:
 * Aunque no es obligatorio, acaba siempre las sentencias con punto y coma (por convención).
