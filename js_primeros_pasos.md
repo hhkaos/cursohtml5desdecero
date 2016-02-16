@@ -28,14 +28,17 @@ Este es el script más simple que podemos hacer:
   <script>
     window.document.writeln("Hola Mundo!");
     
-    // o document.writeln("Hola Mundo!");
+    /*
+        o lo que es lo mismo:
+        document.writeln("Hola Mundo!");
+    */
   </script>
 </body>
 </html>
 ```
 
 Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
-1. Llamar al **método ```writeln```**<sup>1</sup> que escribe en el DOM lo que recibe como parámetro seguido de un salto de línea, en este caso ```Hola Mundo!```
+1. Llamar al **método ```writeln```**<sup>1</sup> que escribe en el DOM lo que recibe como parámetro seguido de un salto de línea, en este caso ```Hola Mundo!``` seguido de un salto de línea (```\n```).
 2. Este método está definido en el **```document```**<sup>2</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
 3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información.
 
