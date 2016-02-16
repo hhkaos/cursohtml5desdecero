@@ -13,7 +13,7 @@ var pi = 3.1416;
 ```
 Nos permite darle un valor a una variable.
 
-> **Consejos**: Añade siempre un espacio antes y otro después de cualquier operador (```=```, ```<```, ..).
+> **Consejo**: Añade siempre un espacio antes y otro después de cualquier operador (```=```, ```<```, ..).
 
 ```js
 // Incremento (++) y decremento (--)
