@@ -27,6 +27,8 @@ Este es el script más simple que podemos hacer:
 <body>
   <script>
     window.document.writeln("Hola Mundo!");
+    
+    // o document.writeln("Hola Mundo!");
   </script>
 </body>
 </html>
