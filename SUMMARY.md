@@ -80,6 +80,6 @@
    * [Expresiones regulares](js_trabajando_como_un_profesional/expresiones_regulares.md?65)
    * [Aplicaciones web offline](js_trabajando_como_un_profesional/aplicaciones_web_offline.md?66)
    * [Bibliotecas de terceros](js_trabajando_como_un_profesional/bibliotecas_de_terceros.md?67)
-   * [Ejercicio]()
+   * [Ejercicio](js_trabajando_como_un_profesional/ejercicio.md)
    * [Recursos](WIP.md?63)
 
