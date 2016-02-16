@@ -67,7 +67,7 @@
    * [Operadores](js_primeros_pasos/operadores.md)
    * [Consola de Chrome DevTools](WIP.md?51)
    * [Ejercicio](js_primeros_pasos/ejercicio.md)
-   * [Recursos]()
+   * [Recursos](js_primeros_pasos/recursos.md)
 * [JS: Controlando el flujo](WIP.md?52)
    * [Estructuras de control](js_controlando_el_flujo/estructuras_de_control.md)
    * [Depurando con Chrome DevTools](WIP.md?58)
