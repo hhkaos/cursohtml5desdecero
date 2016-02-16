@@ -35,9 +35,9 @@ Este es el script más simple que podemos hacer:
 ```
 
 Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
-1. Llamar al **método ```writeln```** que escribe en el DOM lo que recibe como parámetro, en este caso ```Hola Mundo!```
-2. Este método está definido en el **```document```**<sup>1</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
-3. Y el documento está definido como parte del objeto **```window```**<sup>2</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información.
+1. Llamar al **método ```writeln```**<sup>1</sup> que escribe en el DOM lo que recibe como parámetro, en este caso ```Hola Mundo!```
+2. Este método está definido en el **```document```**<sup>2</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
+3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información.
 
 Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
 * ```alert()``` que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
@@ -64,6 +64,7 @@ Existen más características, como que si la ejecución de un script dura demas
 
 
 <small>Aclaraciones:</small><br>
-<small>1. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
-<small>1. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
+<small>1. Más información sobre el [método writeln](https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln)</small>
+<small>2. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
+<small>3. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
 
