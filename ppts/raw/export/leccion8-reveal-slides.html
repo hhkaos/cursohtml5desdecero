@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="generator" content="pandoc" />
+  <meta name="description" content="JS: Primeros pasos" />
+  <meta name="author" content="Lección 8" />
+  <title>JS: Primeros pasos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.css">
+  <link rel="stylesheet" href="../lib/reveal.js-menu-master/menu.css">
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #0000ff; } /* Keyword */
+code > span.ch { color: #008080; } /* Char */
+code > span.st { color: #008080; } /* String */
+code > span.co { color: #008000; } /* Comment */
+code > span.ot { color: #ff4000; } /* Other */
+code > span.al { color: #ff0000; } /* Alert */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #008000; font-weight: bold; } /* Warning */
+code > span.cn { } /* Constant */
+code > span.sc { color: #008080; } /* SpecialChar */
+code > span.vs { color: #008080; } /* VerbatimString */
+code > span.ss { color: #008080; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { color: #0000ff; } /* ControlFlow */
+code > span.op { } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #ff4000; } /* Preprocessor */
+code > span.do { color: #008000; } /* Documentation */
+code > span.an { color: #008000; } /* Annotation */
+code > span.cv { color: #008000; } /* CommentVar */
+code > span.at { } /* Attribute */
+code > span.in { color: #008000; } /* Information */
+  </style>
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
+  <!--
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" id="theme">
+  -->
+
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<link rel="stylesheet" href="../lib/reveal.js-master/css/print/pdf.css" type="text/css" media="print">
+
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
+  <!--
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" type="text/css" media="print">
+  -->
+
+  <!-- Overwrite images -->
+  <style type="text/css">
+    .reveal pre code {
+      background: rgba(255, 255, 255, 1);
+      color: rgba(0, 0, 0, 0.7);
+      padding: 1em;
+    }
+    .reveal section img {
+      margin: 15px 0px;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.9);
+      max-height: 450px;
+    }
+    strong {
+      color: #777
+    }
+    a:hover {
+      text-decoration: underline !important;
+    }
+    h1.title {
+      font-size: 250% !important;
+    }
+    h1 {
+      font-size: 150% !important;
+    }
+    h2 {
+      font-size: 125% !important;
+    }
+    h3 {
+      font-size: 100% !important;
+    }
+    @media print { 
+      #only-print-parent { display: table !important; } 
+      #only-print-child { display: table-cell !important; vertical-align: middle;}
+      h1.title { font-size: 400% !important;}
+      h1 { font-size: 300% !important; }
+      h2 { font-size: 200% !important; }
+      h3 { font-size: 150% !important; }
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="only-print-parent">
+    <div id="only-print-child">
+      <h1 class="title">JS: Primeros pasos</h1>
+      <h2 class="author">Lección 8</h2>
+      <h3 class="date">www.cursohtml5desdecero.com</h3>
+    </div>
+</section>
+
+<section><section id="conceptos-básicos" class="titleslide slide level1"><h1>Conceptos básicos</h1></section><section id="qué-podemos-hacer-con-javascript" class="slide level2">
+<h1>Qué podemos hacer con JavaScript</h1>
+<ul>
+<li>Operaciones matemáticas, lógicas, etc.</li>
+<li>Controlar el flujo del programa</li>
+<li>Validar formularios</li>
+<li>Cargar contenidos mediante peticiones HTTP</li>
+<li>Modificar el DOM</li>
+<li>Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.</li>
+<li>Etc.</li>
+</ul>
+</section><section id="mi-primer-script" class="slide level2">
+<h1>Mi primer script</h1>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
+<span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;es&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;head&gt;</span>
+  <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;title&gt;</span>Mi primer script<span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+ 
+<span class="kw">&lt;body&gt;</span>
+  <span class="kw">&lt;script&gt;</span>
+    <span class="va">document</span>.<span class="at">writeln</span>(<span class="st">&#39;Hola Mundo!&#39;</span>)<span class="op">;</span>
+  <span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;/body</span><span class="op">&gt;</span>
+<span class="op">&lt;</span><span class="ss">/html&gt;</span></code></pre></div>
+</section><section id="recomendación" class="slide level2">
+<h1>Recomendación</h1>
+<p>Usa 'use strict';</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
+<span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;es&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;head&gt;</span>
+  <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;title&gt;</span>Mi primer script<span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+ 
+<span class="kw">&lt;body&gt;</span>
+  <span class="kw">&lt;script&gt;</span>
+    <span class="st">&#39;use strict&#39;</span><span class="op">;</span>
+    <span class="va">document</span>.<span class="at">writeln</span>(<span class="st">&#39;Hola Mundo!&#39;</span>)<span class="op">;</span>
+  <span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;/body</span><span class="op">&gt;</span>
+<span class="op">&lt;</span><span class="ss">/html&gt;</span></code></pre></div>
+</section><section id="sintaxis" class="slide level2">
+<h1>Sintaxis</h1>
+<p>Algunas características:</p>
+<ul>
+<li>Es sensible a mayúsculas y minúsculas (o lo que es lo mismo, es case-sensitive), por tanto: &quot;var variable;&quot; no es equivalente a &quot;var Variable;&quot;</li>
+<li>No es obligatorio (pero sí recomendado) declarar las variables</li>
+<li>No se define el tipo de las variables</li>
+<li>No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)</li>
+<li>Se pueden incluir comentarios en una línea usando // y en múltiples líneas usando /* */.</li>
+</ul>
+</section></section>
+<section><section id="variables" class="titleslide slide level1"><h1>Variables</h1></section><section id="cómo-declarar-una-variable" class="slide level2">
+<h1>Cómo declarar una variable</h1>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
+<span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;es&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;head&gt;</span>
+  <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;title&gt;</span>Mi primer script<span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+ 
+<span class="kw">&lt;body&gt;</span>
+  <span class="kw">&lt;script&gt;</span>
+    <span class="kw">var</span> counter<span class="op">;</span>
+  <span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;/body</span><span class="op">&gt;</span>
+<span class="op">&lt;</span><span class="ss">/html&gt;</span></code></pre></div>
+</section><section id="nombres-de-variables-reglas" class="slide level2">
+<h1>Nombres de variables: Reglas</h1>
+<ul>
+<li>El primer carácter <strong>no</strong> puede ser un número.</li>
+<li>Sólo puede estar formado por letras, números y los símbolos: dólar (<code>$</code>) y guión bajo (<code>_</code>).</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> $num1<span class="op">;</span>
+<span class="kw">var</span> _$name<span class="op">;</span>
+<span class="kw">var</span> $$$otherNumber<span class="op">;</span>
+<span class="kw">var</span> $_a__$4<span class="op">;</span></code></pre></div>
+<blockquote>
+<p><strong>Consejo</strong>: elige nombres de variables que sean representativos del valor que almacenan para facilitar la comprensión del código.</p>
+</blockquote>
+</section><section id="palabras-reservadas" class="slide level2">
+<h1>Palabras reservadas</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">abstract<span class="op">,</span> boolean<span class="op">,</span> <span class="cf">break</span><span class="op">,</span> byte<span class="op">,</span> <span class="cf">case</span><span class="op">,</span> <span class="cf">catch</span><span class="op">,</span> char<span class="op">,</span> <span class="kw">class</span><span class="op">,</span> <span class="kw">const</span><span class="op">,</span> <span class="cf">continue</span><span class="op">,</span> <span class="cf">debugger</span><span class="op">,</span> <span class="im">default</span><span class="op">,</span> <span class="kw">delete</span><span class="op">,</span> <span class="cf">do</span><span class="op">,</span> double<span class="op">,</span> <span class="cf">else</span><span class="op">,</span> <span class="kw">enum</span><span class="op">,</span> <span class="im">export</span><span class="op">,</span> <span class="kw">extends</span><span class="op">,</span> <span class="kw">false</span><span class="op">,</span> final<span class="op">,</span> <span class="cf">finally</span><span class="op">,</span> float<span class="op">,</span> <span class="cf">for</span><span class="op">,</span> <span class="kw">function</span><span class="op">,</span> goto<span class="op">,</span> <span class="cf">if</span><span class="op">,</span> <span class="kw">implements</span><span class="op">,</span> <span class="im">import</span><span class="op">,</span> <span class="kw">in</span><span class="op">,</span> <span class="kw">instanceof</span><span class="op">,</span> int<span class="op">,</span> <span class="kw">interface</span><span class="op">,</span> long<span class="op">,</span> native<span class="op">,</span> <span class="kw">new</span><span class="op">,</span> <span class="kw">null</span><span class="op">,</span> <span class="im">package</span><span class="op">,</span> <span class="kw">private</span><span class="op">,</span> <span class="kw">protected</span><span class="op">,</span> <span class="kw">public</span><span class="op">,</span> <span class="cf">return</span><span class="op">,</span> short<span class="op">,</span> <span class="kw">static</span><span class="op">,</span> <span class="kw">super</span><span class="op">,</span> <span class="cf">switch</span><span class="op">,</span> synchronized<span class="op">,</span> <span class="kw">this</span><span class="op">,</span> <span class="cf">throw</span><span class="op">,</span> throws<span class="op">,</span> transient<span class="op">,</span> <span class="kw">true</span><span class="op">,</span> <span class="cf">try</span><span class="op">,</span> <span class="kw">typeof</span><span class="op">,</span> <span class="kw">var</span><span class="op">,</span> volatile<span class="op">,</span> <span class="kw">void</span><span class="op">,</span> <span class="cf">while</span><span class="op">,</span> <span class="cf">with</span></code></pre></div>
+</section><section id="tipos-de-variables-14" class="slide level2">
+<h1>Tipos de variables (1/4)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Númericas (integer &amp; floats)</span>
+<span class="co">// -----------------------------</span>
+<span class="kw">var</span> counter <span class="op">=</span> <span class="dv">16</span><span class="op">;</span>   <span class="co">// variable tipo entero</span>
+<span class="kw">var</span> price <span class="op">=</span> <span class="fl">19.99</span><span class="op">;</span>  <span class="co">// variable tipo decimal</span></code></pre></div>
+</section><section id="tipos-de-variables-24" class="slide level2">
+<h1>Tipos de variables (2/4)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Cadenas de texto (strings)</span>
+<span class="co">// -----------------------------</span>
+<span class="kw">var</span> msg <span class="op">=</span> <span class="st">&#39;Bienvenido a nuestro sitio web&#39;</span><span class="op">;</span>
+<span class="kw">var</span> txt <span class="op">=</span> <span class="st">&#39;Una frase con &quot;comillas dobles&quot; dentro&#39;</span><span class="op">;</span>
+<span class="kw">var</span> txt <span class="op">=</span> <span class="st">&#39;Una frase con </span><span class="sc">\&#39;</span><span class="st">comillas simples</span><span class="sc">\&#39;</span><span class="st"> dentro&#39;</span><span class="op">;</span></code></pre></div>
+</section><section id="tipos-de-variables-34" class="slide level2">
+<h1>Tipos de variables (3/4)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Colecciones (arrays)</span>
+<span class="co">// -----------------------------</span>
+<span class="co">// Definiendo los días de la semana en cadenas de texto</span>
+<span class="kw">var</span> day1 <span class="op">=</span> <span class="st">&#39;Lunes&#39;</span><span class="op">,</span> day2 <span class="op">=</span> <span class="st">&#39;Martes&#39;</span><span class="op">,</span> ... <span class="op">,</span> <span class="st">&#39;Domingo&#39;</span><span class="op">;</span>
+
+<span class="co">// Definición equivalente en un Array</span>
+<span class="kw">var</span> days <span class="op">=</span> [<span class="st">&#39;Lunes&#39;</span><span class="op">,</span> <span class="st">&#39;Martes&#39;</span><span class="op">,</span> <span class="st">&#39;Miércoles&#39;</span><span class="op">,</span> <span class="st">&#39;Jueves&#39;</span><span class="op">,</span> <span class="st">&#39;Viernes&#39;</span><span class="op">,</span> <span class="st">&#39;Sábado&#39;</span><span class="op">,</span> <span class="st">&#39;Domingo&#39;</span>]<span class="op">;</span>
+
+<span class="co">// days[0] = &#39;Lunes&#39;</span>
+<span class="co">// days[1] = &#39;Martes&#39;</span>
+<span class="co">// ...</span>
+<span class="co">// days[6] = &#39;Domingo&#39;</span></code></pre></div>
+</section><section id="tipos-de-variables-44" class="slide level2">
+<h1>Tipos de variables (4/4)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Booleanos (boolean)</span>
+<span class="co">// -----------------------------</span>
+<span class="kw">var</span> valid <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
+<span class="kw">var</span> prime <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></code></pre></div>
+</section></section>
+<section><section id="métodos" class="titleslide slide level1"><h1>Métodos</h1></section><section id="para-trabajar-con-numbers" class="slide level2">
+<h1>Para trabajar con Number(s)</h1>
+<pre class="js"><code>var n = 231.8273;
+n.toFixed(2); // 231.82</code></pre>
+</section><section id="para-trabajar-con-strings" class="slide level2">
+<h1>Para trabajar con String(s)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> hello <span class="op">=</span> <span class="st">&#39;Hola &#39;</span><span class="op">;</span>
+<span class="kw">var</span> world <span class="op">=</span> <span class="st">&#39;Mundo!&#39;</span><span class="op">;</span>
+
+<span class="co">// Para contar el número de caracteres</span>
+<span class="va">console</span>.<span class="at">log</span>(<span class="va">hello</span>.<span class="at">length</span>)<span class="op">;</span> <span class="co">// 5</span>
+
+<span class="co">// Para concatenar cadenas</span>
+<span class="va">console</span>.<span class="at">log</span>(hello <span class="op">+</span> <span class="st">&#39; &#39;</span> <span class="op">+</span> world)<span class="op">;</span> <span class="co">// Hola Mundo!</span>
+<span class="va">console</span>.<span class="at">log</span>(<span class="va">hello</span>.<span class="at">concat</span>(<span class="st">&#39; &#39;</span> <span class="op">+</span> world))<span class="op">;</span>  <span class="co">// Hola Mundo!</span>
+
+<span class="co">// Para busacar subcadenas en una cadena</span>
+<span class="kw">var</span> pos <span class="op">=</span> <span class="va">hello</span>.<span class="at">indexOf</span>(<span class="st">&#39;a&#39;</span>)<span class="op">;</span> <span class="co">// pos = 3</span>
+<span class="kw">var</span> pos <span class="op">=</span> <span class="va">hello</span>.<span class="at">indexOf</span>(<span class="st">&#39;b&#39;</span>)<span class="op">;</span> <span class="co">// pos = -1</span></code></pre></div>
+<p>Y otros métodos: <code>lastIndexOf</code>, <code>substring</code>, <code>split</code>, etc.</p>
+</section><section id="para-trabajar-con-arrays" class="slide level2">
+<h1>Para trabajar con Array(s)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> fruits <span class="op">=</span> [<span class="st">&#39;banana&#39;</span><span class="op">,</span> <span class="st">&#39;melon, &#39;</span>orange<span class="st">&#39;];</span>
+
+<span class="co">// Para contar</span>
+<span class="kw">var</span> n <span class="op">=</span> <span class="va">fruits</span>.<span class="at">length</span><span class="op">;</span> <span class="co">// n = 3</span>
+
+<span class="co">//Para añadir elementos</span>
+<span class="va">fruits</span>.<span class="at">push</span>(<span class="st">&#39;apple&#39;</span><span class="op">,</span> <span class="st">&#39;peach&#39;</span>)<span class="op">;</span> <span class="co">// fruits = [&#39;banana&#39;, &#39;melon, &#39;orange&#39;, &#39;apple&#39;, &#39;peach&#39;]</span></code></pre></div>
+<p><code>contact</code>, <code>join</code>, <code>pop</code>, <code>shift</code>, Y otras como: <code>unshift</code>, <code>reverse</code>.</p>
+</section></section>
+<section><section id="operadores" class="titleslide slide level1"><h1>Operadores</h1></section><section id="operadores-matemáticos" class="slide level2">
+<h1>Operadores matemáticos</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Asignación (=)</span>
+<span class="kw">var</span> pi <span class="op">=</span> <span class="fl">3.1416</span><span class="op">;</span>
+
+<span class="co">// Incremento (++) y decremento (--)</span>
+<span class="kw">var</span> x <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> y <span class="op">=</span> <span class="dv">4</span><span class="op">;</span>
+x<span class="op">++;</span>  <span class="co">// x = 2</span>
+y<span class="op">--;</span>  <span class="co">// y = 3</span>
+
+<span class="co">// Suma (+) y resta (-)</span>
+<span class="kw">var</span> x <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> y <span class="op">=</span> <span class="dv">3</span><span class="op">,</span> z<span class="op">;</span>
+z <span class="op">=</span> x <span class="op">+</span> y<span class="op">;</span>  <span class="co">// z = 5;</span>
+z <span class="op">=</span> x <span class="op">-</span> y<span class="op">;</span>  <span class="co">// z = -1;</span>
+
+<span class="co">// División (/) y multiplicación (*)</span>
+<span class="kw">var</span> x <span class="op">=</span> <span class="dv">4</span><span class="op">,</span> y <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> z<span class="op">;</span>
+z <span class="op">=</span> x / y<span class="op">;</span>  <span class="co">// z = 2;</span>
+z <span class="op">=</span> x <span class="op">*</span> y<span class="op">;</span>  <span class="co">// z = 8;</span>
+
+<span class="co">// Abreviaciones</span>
+<span class="kw">var</span> x <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>
+x <span class="op">+=</span> <span class="dv">3</span><span class="op">;</span>  <span class="co">// x = x + 3 =&gt; 8</span>
+x <span class="op">-=</span> <span class="dv">1</span><span class="op">;</span>  <span class="co">// x = x - 1 =&gt; 4</span>
+x <span class="op">*=</span> <span class="dv">2</span><span class="op">;</span>  <span class="co">// x = x * 2 =&gt; 10</span>
+x /<span class="op">=</span> <span class="dv">5</span><span class="op">;</span>  <span class="co">// x = x / 5 =&gt; 1</span></code></pre></div>
+</section><section id="operadores-lógicos-13" class="slide level2">
+<h1>Operadores lógicos (1/3)</h1>
+<p>Operador negación (!):</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> visible <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+<span class="op">!</span>visible<span class="op">;</span>  <span class="co">// Devuelve &quot;false&quot; y no &quot;true&quot;</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">x</th>
+<th style="text-align: left;">!x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">false</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">true</td>
+</tr>
+</tbody>
+</table>
+</section><section id="operadores-lógicos-23" class="slide level2">
+<h1>Operadores lógicos (2/3)</h1>
+<p>Operador AND (&amp;&amp;):</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">x</th>
+<th style="text-align: left;">y</th>
+<th style="text-align: left;">x &amp;&amp; y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">true</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">false</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">false</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">false</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> x <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+<span class="kw">var</span> y <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
+result <span class="op">=</span> x <span class="op">&amp;&amp;</span> y<span class="op">;</span> <span class="co">// result = false</span>
+ 
+x <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+y <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+result <span class="op">=</span> x <span class="op">&amp;&amp;</span> y<span class="op">;</span> <span class="co">// result = true</span></code></pre></div>
+</section><section id="operadores-lógicos-33" class="slide level2">
+<h1>Operadores lógicos (3/3)</h1>
+<p>Operador OR (||):</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">x</th>
+<th style="text-align: left;">y</th>
+<th style="text-align: left;">x | | y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">true</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">true</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;">true</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">false</td>
+<td style="text-align: left;">false</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> x <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+<span class="kw">var</span> y <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
+result <span class="op">=</span> x <span class="op">||</span> y<span class="op">;</span> <span class="co">// result = true</span>
+ 
+x <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
+y <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
+result <span class="op">=</span> x <span class="op">||</span> y<span class="op">;</span> <span class="co">// result = false</span></code></pre></div>
+</section><section id="operadores-relacionales-13" class="slide level2">
+<h1>Operadores relacionales (1/3)</h1>
+<p>Los operadores relacionales definidos por JavaScript son los mismos que los matemáticos:</p>
+<ul>
+<li>Mayor que: <code>&gt;</code></li>
+<li>Menor que: <code>&lt;</code></li>
+<li>Mayor o igual: <code>&gt;=</code></li>
+<li>Menor o igual: <code>&lt;=</code></li>
+<li>Igual que: <code>==</code></li>
+<li>Distinto de: <code>!=</code></li>
+</ul>
+</section><section id="operadores-relacionales-23" class="slide level2">
+<h1>Operadores relacionales (2/3)</h1>
+<p>El resultado de todos estos operadores siempre es un valor booleano.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> even <span class="op">=</span> <span class="dv">2</span><span class="op">;</span>
+<span class="kw">var</span> odd <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>
+result <span class="op">=</span> even <span class="op">&gt;</span> odd<span class="op">;</span> <span class="co">// result = false</span>
+result <span class="op">=</span> even <span class="op">&lt;</span> odd<span class="op">;</span> <span class="co">// result = true</span>
+ 
+a <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>
+b <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>
+result <span class="op">=</span> a <span class="op">&gt;=</span> b<span class="op">;</span> <span class="co">// result = true</span>
+result <span class="op">=</span> a <span class="op">&lt;=</span> b<span class="op">;</span> <span class="co">// result = true</span>
+result <span class="op">=</span> a <span class="op">==</span> b<span class="op">;</span> <span class="co">// result = true</span>
+result <span class="op">=</span> a <span class="op">!=</span> b<span class="op">;</span> <span class="co">// result = false</span></code></pre></div>
+</section><section id="operadores-relacionales-33" class="slide level2">
+<h1>Operadores relacionales (3/3)</h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// El operador &quot;=&quot; asigna valores</span>
+<span class="kw">var</span> x <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>
+y <span class="op">=</span> x <span class="op">=</span> <span class="dv">3</span><span class="op">;</span>  <span class="co">// y = 3 y x = 3</span>
+ 
+<span class="co">// El operador &quot;==&quot; compara variables</span>
+<span class="kw">var</span> x <span class="op">=</span> <span class="dv">5</span><span class="op">;</span>
+y <span class="op">=</span> x <span class="op">==</span> <span class="dv">3</span><span class="op">;</span> <span class="co">// x = 5 y y = false</span>
+
+<span class="co">/* </span>
+<span class="co">   Los operadores relacionales también se pueden</span>
+<span class="co">   utilizar con variables de tipo cadena de texto:</span>
+<span class="co">*/</span>
+<span class="kw">var</span> txt1 <span class="op">=</span> <span class="st">&quot;hola&quot;</span><span class="op">;</span>
+<span class="kw">var</span> txt2 <span class="op">=</span> <span class="st">&quot;hola&quot;</span><span class="op">;</span>
+<span class="kw">var</span> txt3 <span class="op">=</span> <span class="st">&quot;adios&quot;</span><span class="op">;</span>
+ 
+result <span class="op">=</span> txt1 <span class="op">==</span> txt3<span class="op">;</span> <span class="co">// result = false</span>
+result <span class="op">=</span> txt1 <span class="op">!=</span> txt2<span class="op">;</span> <span class="co">// result = false</span>
+result <span class="op">=</span> txt3 <span class="op">&gt;=</span> txt3<span class="op">;</span> <span class="co">// result = false</span></code></pre></div>
+</section></section>
+    </div>
+  </div>
+
+  <script src="../lib/reveal.js-master/lib/js/head.min.js"></script>
+  <script src="../lib/reveal.js-master/js/reveal.js"></script>
+  <script src="../lib/reveal.js-menu-master/menu.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+      });
+    </script>
+  </body>
+</html>

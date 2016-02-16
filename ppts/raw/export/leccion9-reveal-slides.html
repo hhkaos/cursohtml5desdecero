@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="generator" content="pandoc" />
+  <meta name="description" content="JS: Controlando el flujo" />
+  <meta name="author" content="Lección 9" />
+  <title>JS: Controlando el flujo</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.css">
+  <link rel="stylesheet" href="../lib/reveal.js-menu-master/menu.css">
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #0000ff; } /* Keyword */
+code > span.ch { color: #008080; } /* Char */
+code > span.st { color: #008080; } /* String */
+code > span.co { color: #008000; } /* Comment */
+code > span.ot { color: #ff4000; } /* Other */
+code > span.al { color: #ff0000; } /* Alert */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #008000; font-weight: bold; } /* Warning */
+code > span.cn { } /* Constant */
+code > span.sc { color: #008080; } /* SpecialChar */
+code > span.vs { color: #008080; } /* VerbatimString */
+code > span.ss { color: #008080; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { color: #0000ff; } /* ControlFlow */
+code > span.op { } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #ff4000; } /* Preprocessor */
+code > span.do { color: #008000; } /* Documentation */
+code > span.an { color: #008000; } /* Annotation */
+code > span.cv { color: #008000; } /* CommentVar */
+code > span.at { } /* Attribute */
+code > span.in { color: #008000; } /* Information */
+  </style>
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
+  <!--
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" id="theme">
+  -->
+
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<link rel="stylesheet" href="../lib/reveal.js-master/css/print/pdf.css" type="text/css" media="print">
+
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
+  <!--
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" type="text/css" media="print">
+  -->
+
+  <!-- Overwrite images -->
+  <style type="text/css">
+    .reveal pre code {
+      background: rgba(255, 255, 255, 1);
+      color: rgba(0, 0, 0, 0.7);
+      padding: 1em;
+    }
+    .reveal section img {
+      margin: 15px 0px;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.9);
+      max-height: 450px;
+    }
+    strong {
+      color: #777
+    }
+    a:hover {
+      text-decoration: underline !important;
+    }
+    h1.title {
+      font-size: 250% !important;
+    }
+    h1 {
+      font-size: 150% !important;
+    }
+    h2 {
+      font-size: 125% !important;
+    }
+    h3 {
+      font-size: 100% !important;
+    }
+    @media print { 
+      #only-print-parent { display: table !important; } 
+      #only-print-child { display: table-cell !important; vertical-align: middle;}
+      h1.title { font-size: 400% !important;}
+      h1 { font-size: 300% !important; }
+      h2 { font-size: 200% !important; }
+      h3 { font-size: 150% !important; }
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="only-print-parent">
+    <div id="only-print-child">
+      <h1 class="title">JS: Controlando el flujo</h1>
+      <h2 class="author">Lección 9</h2>
+      <h3 class="date">www.cursohtml5desdecero.com</h3>
+    </div>
+</section>
+
+<section><section id="conceptos-básicos" class="titleslide slide level1"><h1>Conceptos básicos</h1></section><section id="qué-podemos-hacer-con-javascript" class="slide level2">
+<h1>Qué podemos hacer con JavaScript</h1>
+</section></section>
+<section><section id="estructuras-de-control" class="titleslide slide level1"><h1>Estructuras de control</h1></section><section id="estructura-if" class="slide level2">
+<h1>Estructura <code>if</code></h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> printMsg <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+ 
+<span class="cf">if</span>(printMsg) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Hola Mundo&#39;</span>)<span class="op">;</span>
+<span class="op">}</span>
+
+<span class="cf">if</span>(printMsg <span class="op">==</span> <span class="kw">true</span>) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Hola Mundo&#39;</span>)<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+<p>Un ejemplo usando un comparador lógico:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> printMsg <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
+ 
+<span class="cf">if</span>(<span class="op">!</span>printMsg) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Me imprimo&#39;</span>)<span class="op">;</span>
+<span class="op">}</span>
+
+<span class="kw">var</span> isFirstMsg <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+ 
+<span class="cf">if</span>(<span class="op">!</span>printMsg <span class="op">&amp;&amp;</span> isFirstMsg) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Mi primer mensaje&#39;</span>)<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+<p>Un <strong>error típico</strong> es introducir una asignación (<code>=</code>) en lugar de una comparación (<code>==</code>) <sub><sub><del>javascript // Error - Se asigna el valor 'false' a la variable if(printMsg = false) { ... }</del></sub></sub>## Estructura <code>if</code> ... <code>else</code></p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> age <span class="op">=</span> <span class="dv">18</span><span class="op">;</span>
+ 
+<span class="cf">if</span>(age <span class="op">&gt;=</span> <span class="dv">18</span>) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Eres mayor de edad&#39;</span>)<span class="op">;</span>
+<span class="op">}</span>
+<span class="cf">else</span> <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Eres menor de edad&#39;</span>)<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+</section><section id="estructura-if-...-else-if-...-else" class="slide level2">
+<h1>Estructura <code>if</code> ... <code>else if</code> ... <code>else</code></h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="cf">if</span>(age <span class="op">&lt;</span> <span class="dv">18</span>) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Eres menor de edad&#39;</span>)<span class="op">;</span>
+<span class="op">}</span>
+<span class="cf">else</span> <span class="cf">if</span>(age <span class="op">&lt;</span> <span class="dv">30</span>) <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Aún eres joven&#39;</span>)<span class="op">;</span>
+<span class="op">}</span>
+<span class="cf">else</span> <span class="op">{</span>
+  <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;La sabiduría la da la experiencia&#39;</span>)<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+</section><section id="estructura-for" class="slide level2">
+<h1>Estructura <code>for</code></h1>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="cf">for</span>(initialization<span class="op">;</span> condition<span class="op">;</span> increment) <span class="op">{</span>
+  ...
+<span class="op">}</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> i<span class="op">;</span>
+<span class="kw">var</span> days <span class="op">=</span> [<span class="st">&#39;Lunes&#39;</span><span class="op">,</span> <span class="st">&#39;Martes&#39;</span><span class="op">,</span> <span class="st">&#39;Miércoles&#39;</span><span class="op">,</span> <span class="st">&#39;Jueves&#39;</span><span class="op">,</span> <span class="st">&#39;Viernes&#39;</span><span class="op">,</span> <span class="st">&#39;Sábado&#39;</span><span class="op">,</span> <span class="st">&#39;Domingo&#39;</span>]<span class="op">;</span>
+ 
+<span class="cf">for</span>(i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">days</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+  <span class="at">alert</span>(days[i])<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+</section></section>
+    </div>
+  </div>
+
+  <script src="../lib/reveal.js-master/lib/js/head.min.js"></script>
+  <script src="../lib/reveal.js-master/js/reveal.js"></script>
+  <script src="../lib/reveal.js-menu-master/menu.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+      });
+    </script>
+  </body>
+</html>
