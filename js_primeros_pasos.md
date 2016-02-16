@@ -38,7 +38,7 @@ Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
 
 Para evitar errores que pueden pasar desapercibidos en JavaScript (por si flexibilidad) te recomiendo que introduzcas siempre la expresión ```'use strict';```al principio de tus scripts. El modo estricto significa:
 * Que hay que declarar todas las variables y objetos.
-* No se pueden borrar variables (ni funciones) usando ```delete```
+* No se pueden borrar variables ni funciones usando ```delete```
 * Y [otras tantas restricciones](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode) más.
 
 Así quedaría:
