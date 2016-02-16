@@ -74,9 +74,6 @@ var Variable;
 4. No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)
 5. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```, por ejemplo:
 
-Existen más características, como que si la ejecución de un script dura demasiado tiempo (por un error, por ejemplo de programación) el navegador puede informarle al usuario de que hay un script que está consumiendo demasiados recursos y darle la posibilidad de detener su ejecución.
-
-
 <small>Aclaraciones:</small><br>
 <small>1. Más información sobre el [método writeln](https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln)</small><br>
 <small>2. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
