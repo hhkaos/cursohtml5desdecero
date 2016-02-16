@@ -11,3 +11,6 @@ Otras funciones comunes definidas en el objeto ```window``` son:
 
 ## Otras características de JS
 Existen más características, como que si la ejecución de un script dura demasiado tiempo (por un error, por ejemplo de programación) el navegador puede informarle al usuario de que hay un script que está consumiendo demasiados recursos y darle la posibilidad de detener su ejecución.
+
+## Orden de definición de las variables
+Definirlas en la parte superior del script
