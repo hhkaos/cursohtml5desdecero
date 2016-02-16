@@ -10,7 +10,7 @@ Instalar [Sublime Text](https://www.sublimetext.com/) y en ```preferences->setti
 }
 ```
 
-## 2) Operaciones simple
+## 2) Operaciones simples
 
 Realiza un script que realice lo siguiente:
 * Almacenar en una variable el resultado de sumar 1 y 2
