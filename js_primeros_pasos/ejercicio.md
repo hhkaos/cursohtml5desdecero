@@ -10,7 +10,17 @@ Instalar [Sublime Text](https://www.sublimetext.com/) y en ```preferences->setti
 }
 ```
 
-## 2) 
+## 2) Operaciones simple
+
+Escribe las siguientes operaciones:
+* Define dos 
+
+E imprime los valores usando ```console.log(nombre_de_la_variable)```, por ejemplo:
+```js
+var result = 1 + 2;
+
+console.log(result);
+```
 
 
 ## Opcional: Instalar W3CValidators
