@@ -19,4 +19,4 @@ Recuerda que en las lecciones de HTML utilizábamos el [validador online del W3C
 # Dudas
 Si hay algo que no te haya quedado claro puedes preguntar cualquier duda en los [issues del proyecto en Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
-Si tienes problemas o dudas con tu código súbelo a Github, abre un issue en un proyecto con la duda/problema y envíame un correo a [info@cursohtml5desdecero.com](mailto:info@cursohtml5desdecero.com )
+Si tienes problemas o dudas con tu código súbelo a Github, abre un issue en un proyecto con la duda/problema y envíame un correo a [info@cursohtml5desdecero.com](mailto:info@cursohtml5desdecero.com).
