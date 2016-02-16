@@ -12,22 +12,25 @@ Instalar [Sublime Text](https://www.sublimetext.com/) y en ```preferences->setti
 
 ## 2) Operaciones simple
 
-Escribe las siguientes operaciones:
-* Almacena en una variable el resultado de sumar 1 y 2
-* Almacena en una variable el resultado de dividir 6 entre 2
-* Almacena en una variable el precio de un artículo de 20€ aplicándole el 21% de IVA .
-* Define una variable con el valor 4 y utiliza el operador (```++```) para incrementar en uno su valor.
-* Define una variable que almacene la concatenación de dos cadenas de texto.
-* Define una variable ```price``` con el valor ```19.99```y aplica la abreviación ```/=``` para dividirlo entre ```1.21``` para obtener el precio sin IVA.
-* Asigna a dos variables valores booleanos y haz al menos una operación combinando un operador lógico: **AND** (```&&```) o **OR** (```||```)
-* Realiza 4 expresiones que utilicen operadores relacionales (```<```, ```==```, ```!=``` y ```===```) y almacenen los valores en tres variables distintas.
+Realiza un script que realice lo siguiente:
+* Almacenar en una variable el resultado de sumar 1 y 2
+* Almacenar en una variable el resultado de dividir 6 entre 2
+* Almacenar en una variable el precio de un artículo de 20€ aplicándole el 21% de IVA .
+* Definir una variable con el valor 4 y utilizar el operador (```++```) para incrementar en uno su valor.
+* Definir una variable que almacene la concatenación de dos cadenas de texto.
+* Definir una variable ```price``` con el valor ```19.99```y aplicar la abreviación ```/=``` para dividirlo entre ```1.21``` para obtener el precio sin IVA.
+* Asignar a dos variables valores booleanos y hacer al menos una operación combinando un operador lógico: **AND** (```&&```) o **OR** (```||```)
+* Realizar 4 expresiones que utilicen operadores relacionales (```<```, ```==```, ```!=``` y ```===```) y almacenen los valores en tres variables distintas.
 
-Finalmente imprime todos valores en la consola del navegador usando ```console.log(nombre_de_la_variable)```, por ejemplo:
+Finalmente imprime **todos valores** en la consola del navegador usando ```console.log(nombre_de_la_variable)```, por ejemplo:
 ```js
 var result = 1 + 2;
 console.log(result);
 ```
 > **Nota**: Como la mayoría de los lenguajes, JavaScript se ejecuta secuencialmente (de arriba a abajo), por lo que el orden de las instrucciones importa.
+
+## 3) Puntos de parada
+
 
 ## Opcional: Instalar W3CValidators
 Recuerda que en las lecciones de HTML utilizábamos el [validador online del W3C](https://validator.w3.org/) para comprobar que nuestro código era correcto. Si lo prefieres también puedes usar la extensión [W3CValidators](https://packagecontrol.io/packages/W3CValidators) de Sublime Text para hacerlo desde el propio editor.
