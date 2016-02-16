@@ -34,12 +34,7 @@ Este es el script más simple que podemos hacer:
 
 Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
 1. Llamar al **método ```writeln```**<sup>1</sup> que escribe en el DOM lo que recibe como parámetro seguido de un salto de línea, en este caso ```Hola Mundo!``` seguido de un salto de línea (```\n```).
-2. Este método está definido en el **```document```**<sup>2</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
-3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información. Añadir la palabra ```window```es opcional, pero 
-
-Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
-* ```alert()``` que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
-* ```console``` que implementa funciones para imprimir mensajes en la consola de error (```console.error()```), etc
+2. Este método está definido en el **```document```**<sup>2</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.<sup>3</sup>
 
 Para evitar errores que pueden pasar desapercibidos en JavaScript (por si flexibilidad) te recomiendo que introduzcas siempre la expresión ```'use strict';```al principio de tus scripts. El modo estricto significa:
 * Que hay que declarar todas las variables (ni objetos)
@@ -62,5 +57,5 @@ Existen más características, como que si la ejecución de un script dura demas
 <small>Aclaraciones:</small><br>
 <small>1. Más información sobre el [método writeln](https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln)</small><br>
 <small>2. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
-<small>3. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
+<small>3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información. Añadir la palabra ```window```es opcional, pero  Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
 
