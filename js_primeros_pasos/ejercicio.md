@@ -1,7 +1,7 @@
 # Ejercicios
 
-## 1) Instalar [Sublime Text](https://www.sublimetext.com/)
-Instalar sublime text y en ```preferences->settings-user```comprobar que están estas tres líneas:
+## 1) Instalar Sublime Text
+Instalar [Sublime Text](https://www.sublimetext.com/) y en ```preferences->settings-user```comprobar que están estas tres líneas:
 ```
 {
 	"indent": 2,
