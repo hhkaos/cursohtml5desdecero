@@ -61,11 +61,18 @@ Así quedaría:
 
 Algunas de las características de JavaScript son:
 
-1. Es sensible a mayúsculas y minúsculas (o lo que es lo mismo, es *case-sensitive*), por tanto: ```var variable;``` no es equivalente a ```var Variable;``` 
+1. Es sensible a mayúsculas y minúsculas (o lo que es lo mismo, es *case-sensitive*), por tanto: 
+```js
+var variable;
+``` 
+no es equivalente a 
+```js
+var Variable;
+``` 
 2. No es obligatorio (pero sí recomendado) declarar las variables
 3. No se define el *tipo* de las variables
-3. No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)
-4. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```, por ejemplo:
+4. No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)
+5. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```, por ejemplo:
 
 Existen más características, como que si la ejecución de un script dura demasiado tiempo (por un error, por ejemplo de programación) el navegador puede informarle al usuario de que hay un script que está consumiendo demasiados recursos y darle la posibilidad de detener su ejecución.
 
