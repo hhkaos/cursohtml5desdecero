@@ -15,10 +15,10 @@ En este caso hemos declarado una variable con el nombre ```counter```pero no se 
 * Escribe siempre el código en inglés (se considera más profesional).
 
 El nombre de una variable debe cumplir las siguientes normas:
-* El primer carácter no puede ser un número.
+* El primer carácter **no** puede ser un número.
 * Sólo puede estar formado por letras, números y los símbolos: dólar (```$```) y guión bajo (```_```).
 
-Por tanto, las siguientes variables estarían correctamente definidas:
+Por tanto, las siguientes variables estarían bien definidas:
 ```javascript
 var $num1;
 var _$name;
