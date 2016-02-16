@@ -13,12 +13,12 @@ Instalar [Sublime Text](https://www.sublimetext.com/) y en ```preferences->setti
 ## 2) Operaciones simple
 
 Escribe las siguientes operaciones:
-* Define dos 
+* Almacena en una variable el resultado de sumar 1 y 2
+* 
 
-E imprime los valores usando ```console.log(nombre_de_la_variable)```, por ejemplo:
+E imprime los valores en la consola del navegador usando ```console.log(nombre_de_la_variable)```, por ejemplo:
 ```js
 var result = 1 + 2;
-
 console.log(result);
 ```
 
