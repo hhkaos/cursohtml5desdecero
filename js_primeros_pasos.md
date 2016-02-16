@@ -26,11 +26,11 @@ Este es el script más simple que podemos hacer:
  
 <body>
   <script>
-    window.document.writeln("Hola Mundo!");
+    document.writeln("Hola Mundo!");
     
     /*
         o lo que es lo mismo:
-        document.writeln("Hola Mundo!");
+        window.document.writeln("Hola Mundo!");
     */
   </script>
 </body>
