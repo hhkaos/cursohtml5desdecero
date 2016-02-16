@@ -22,7 +22,7 @@ Escribe las siguientes operaciones:
 * Asigna a dos variables valores booleanos y haz al menos una operación combinando un operador lógico: **AND** (```&&```) o **OR** (```||```)
 * Realiza 4 expresiones que utilicen operadores relacionales (```<```, ```==```, ```!=``` y ```===```) y almacenen los valores en tres variables distintas.
 
-E imprime los valores en la consola del navegador usando ```console.log(nombre_de_la_variable)```, por ejemplo:
+Finalmente imprime todos valores en la consola del navegador usando ```console.log(nombre_de_la_variable)```, por ejemplo:
 ```js
 var result = 1 + 2;
 console.log(result);
