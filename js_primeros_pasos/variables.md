@@ -25,7 +25,7 @@ var _$name;
 var $$$otherNumber;
 var $_a__$4;
 ```
-A pesar de estar bien definidas, **es importante que elijamos nombres de variables que sean representativos del valor que almacenan** para facilitar la comprensión del código.
+> **Consejo**: elige nombres de variables que sean representativos del valor que almacenan para facilitar la comprensión del código.
 
 Por ejemplo:
 ```js
@@ -92,7 +92,15 @@ Los booleanos se utilizan para almacenar valores lógicos: ```true``` o ```false
 
 ## Funciones
 
-Existen múltiples funciones para trabajar con cadenas de texto, por ejemplo:
+Existen múltiples funciones para trabajar con números:
+Para los números hay una función muy útil:
+
+```js
+var n = 231.8273;
+n.toFixed(2); // 231.82
+```
+
+cadenas de texto, por ejemplo:
 
 ```js
 var hello = 'Hola ';
@@ -126,9 +134,3 @@ fruits.push('apple', 'peach'); // fruits = ['banana', 'melon, 'orange', 'apple',
 ```contact```, ```join```, ```pop```, ```shift```, Y otras como: ```unshift```, ```reverse```.
 
 
-Para los números hay una función muy útil:
-
-```js
-var n = 231.8273;
-n.toFixed(2); // 231.82
-```
