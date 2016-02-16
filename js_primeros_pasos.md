@@ -72,7 +72,7 @@ var Variable;
 2. No es obligatorio (pero sí recomendado) declarar las variables
 3. No se define el *tipo* de las variables
 4. No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)
-5. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```, por ejemplo:
+5. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```.
 
 <small>Aclaraciones:</small><br>
 <small>1. Más información sobre el [método writeln](https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln)</small><br>
