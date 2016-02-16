@@ -1,6 +1,6 @@
 # Variables
 
-Las variables en los lenguajes de programación se asemejan a las variables utilizadas en matemáticas. Las variables se utilizan para almacenar y hacer referencia a valores, gracias a ellas podemos darle vida a la web.
+Las variables en los lenguajes de programación se asemejan a las variables utilizadas en matemáticas. Se utilizan para almacenar y hacer referencia a valores, gracias a ellas podemos darle vida a la web.
 
 Para declarar/definir una variable utilizaremos la palabra clave ```var``` seguida del nombre de la variable, por ejemplo:
 
