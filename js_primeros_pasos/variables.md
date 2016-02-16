@@ -19,13 +19,23 @@ El nombre de una variable debe cumplir las siguientes normas:
 * Sólo puede estar formado por letras, números y los símbolos: dólar (```$```) y guión bajo (```_```).
 
 Por tanto, las siguientes variables estarían bien definidas:
-```javascript
+```js
 var $num1;
 var _$name;
 var $$$otherNumber;
 var $_a__$4;
 ```
-A pesar de ello, **es importante que elijamos nombres de variables que sean representativos del valor que almacenan**, para facilitar la comprensión del código.
+A pesar de estar bien definidas, **es importante que elijamos nombres de variables que sean representativos del valor que almacenan** para facilitar la comprensión del código.
+
+Por ejemplo:
+```js
+var counter = 0; 
+var name = "Raul";
+
+// En lugar de:
+var aux = 0;
+var tmp = "Raul";
+```
 
 ## Palabras reservadas
 
