@@ -73,10 +73,9 @@ Existen más características, como que si la ejecución de un script dura demas
 <small>Aclaraciones:</small><br>
 <small>1. Más información sobre el [método writeln](https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln)</small><br>
 <small>2. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
-<small>3. Y el documento está definido como parte del objeto **```window```**<sup>3</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información. Añadir la palabra ```window```es opcional, pero  Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).
+<small>3. Y el documento está definido como parte del objeto **```window```** que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información. Añadir la palabra ```window```es opcional. <br><br>
 
-Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
-* ```alert()``` que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
-* ```console``` que implementa funciones para imprimir mensajes en la consola de error (```console.error()```), etc
 </small><br>
+
+* Y [otras tantas restricciones](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode) más.
 
