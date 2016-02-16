@@ -27,7 +27,7 @@ Finalmente imprime todos valores en la consola del navegador usando ```console.l
 var result = 1 + 2;
 console.log(result);
 ```
-
+> **Nota**: Como la mayoría de los lenguajes, JavaScript se ejecuta secuencialmente (de arriba a abajo), por lo que el orden de las instrucciones importa
 
 ## Opcional: Instalar W3CValidators
 Recuerda que en las lecciones de HTML utilizábamos el [validador online del W3C](https://validator.w3.org/) para comprobar que nuestro código era correcto. Si lo prefieres también puedes usar la extensión [W3CValidators](https://packagecontrol.io/packages/W3CValidators) de Sublime Text para hacerlo desde el propio editor.
