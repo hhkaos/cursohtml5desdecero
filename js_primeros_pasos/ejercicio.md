@@ -17,8 +17,10 @@ Escribe las siguientes operaciones:
 * Almacena en una variable el resultado de dividir 6 entre 2
 * Almacena en una variable el precio de un artículo de 20€ aplicándole el 21% de IVA .
 * Define una variable con el valor 4 y utiliza el operador (```++```) para incrementar en uno su valor.
+* Define una variable que almacene la concatenación de dos cadenas de texto.
 * Define una variable ```price``` con el valor ```19.99```y aplica la abreviación ```/=``` para dividirlo entre ```1.21``` para obtener el precio sin IVA.
-* Asigna a dos variables valores booleanos y haz al menos dos operaciones combinando operadores AND (```&&```) y OR (```||```)
+* Asigna a dos variables valores booleanos y haz al menos una operación combinando un operador lógico: **AND** (```&&```) o **OR** (```||```)
+* Realiza 4 expresiones que utilicen operadores relacionales (```<```, ```==```, ```!=``` y ```===```) y almacenen los valores en tres variables distintas.
 
 E imprime los valores en la consola del navegador usando ```console.log(nombre_de_la_variable)```, por ejemplo:
 ```js
