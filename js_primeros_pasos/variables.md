@@ -2,7 +2,7 @@
 
 Las variables en los lenguajes de programación se asemejan a las variables utilizadas en matemáticas, se utilizan para almacenar y hacer referencia a valores, gracias a ellas podemos darle vida a la web.
 
-Para declarar/definir una variable utilizaremos la palabra clave ```var``` seguida del nombre de la variable, por ejemplo:
+Para declarar/definir una variable utilizaremos la palabra clave ```var``` seguida del nombre de la variable y un punto y coma (```;```), por ejemplo:
 
 ```js
 var counter;
