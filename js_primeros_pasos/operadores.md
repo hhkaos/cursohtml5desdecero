@@ -57,7 +57,7 @@ El resultado de cualquier operación que utilice operadores lógicos siempre es 
 
 ```js
 var visible = true;
-!visible;  // Muestra "false" y no "true"
+!visible;  // Devuelve "false" y no "true"
 ```
 
 x|!x
