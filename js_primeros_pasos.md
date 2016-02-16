@@ -13,8 +13,8 @@ JavaScript nos permite darle vida a la web, hacerla más dinámica e interactiva
 * Acceder a información como la versión del navegador, tamaño de la ventana, sistema operativo, localización, etc.
 * Etc.
 
-Orden en el que se ejecuta JavaScript
-efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
+## Mi primer script
+Este es el script más simple que podemos hacer:
 
 ```html
 <!DOCTYPE html>
@@ -22,29 +22,46 @@ efectos como texto que aparece y desaparece, animaciones, acciones que se activa
 <head>
   <meta charset="UTF-8">
   <title>Mi primer script</title>
-
-  <script>
-    alert("Hola Mundo!");
-  </script>
 </head>
  
 <body>
-  <p>Mi primer script</p>
+  <script>
+    window.document.writeln("Hola Mundo!");
+  </script>
 </body>
 </html>
 ```
 
-El método ```alert()``` es una función que abre una ventaja con un mensaje el navegador del usuario. Aquí puedes ver el ejemplo.
+Vamos a ver cómo interpretar este script. Lo que estamos haciendo es:
+1. Llamar al **método ```writeln```** que escribe en el DOM lo que recibe como parámetro, en este caso ```Hola Mundo!```
+2. Este método está definido en el **```document```**<sup>1</sup> y que representa al DOM y que tiene otras funciones para acceder a elementos del DOM, etc.
+3. Y el documento está definido como parte del objeto **```window```**<sup>2</sup> que representa a la ventana del navegador donde está cargado el DOM y donde se almacena mucha más información.
 
-## Palabras reservadas
+Por ejemplo, otras funciones comunes definidas en el objeto ```window``` son:
+* ```alert()``` que abre una ventaja con un mensaje el navegador del usuario, [aquí puedes verlo en funcionamiento](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/js_primeros_pasos/alert.html).
+* ```console``` que implementa funciones para imprimir mensajes en la consola de error (```console.error()```), etc
+ 
+> **Nota:** Todos los métodos y objetos incluidos en el objeto window podemos llamarlos sin necesidad de escribir ```window.```
 
-break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with.
+Para evitar errores que pueden pasar desapercibidos en JavaScript (por si flexibilidad) te recomiendo que introduzcas siempre la expresión ```'use strict';```al principio de tus scripts. El modo estricto significa:
+* Que hay que declarar todas las variables (ni objetos)
+* No se pueden borrar variables (ni funciones) usando ```delete```
+* Y [otras tantas restricciones](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode) más.
 
 ## Sintaxis
 
-1. Se distinguen las mayúsculas y minúsculas: 
-2. No se define el tipo de las variables
-3. No es necesario terminar cada sentencia con el carácter de punto y coma (;)
-4. Se pueden incluir comentarios en una línea usando ```js // ``` y multilínea usando ```/* */``` ejemplo:
+Algunas de las características de JavaScript son:
 
-si la ejecución de un script dura demasiado tiempo (por ejemplo por un error de programación) el navegador informa al usuario de que un script está consumiendo demasiados recursos y le da la posibilidad de detener su ejecución.
+1. Es sensible a mayúsculas y minúsculas (o lo que es lo mismo, es *case-sensitive*), por tanto: ```var variable;``` no es equivalente a ```var Variable;``` 
+2. No es obligatorio (pero sí recomendado) declarar las variables
+3. No se define el *tipo* de las variables
+3. No es necesario (pero sí recomendado) terminar cada expresión con el carácter de punto y coma (;)
+4. Se pueden incluir comentarios en una línea usando ``` // ``` y en múltiples líneas usando ```/* */```, por ejemplo:
+
+Existen más características, como que si la ejecución de un script dura demasiado tiempo (por un error, por ejemplo de programación) el navegador puede informarle al usuario de que hay un script que está consumiendo demasiados recursos y darle la posibilidad de detener su ejecución.
+
+
+<small>Aclaraciones:</small><br>
+<small>1. Más información sobre la [interfaz document](https://developer.mozilla.org/en/docs/Web/API/Document).</small><br>
+<small>1. Más información sobre el [objeto window](https://developer.mozilla.org/en-US/docs/Web/API/Window).</small><br>
+
