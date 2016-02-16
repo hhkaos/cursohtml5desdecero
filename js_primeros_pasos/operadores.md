@@ -12,6 +12,9 @@ Los operadores matemáticos nos van a permitir realizar operaciones matemáticas
 var pi = 3.1416;
 ```
 Nos permite darle un valor a una variable.
+
+> **Consejos**: Añade siempre un espacio antes y otro después del signo igual (```=```) cuando asignes un valor.
+
 ```js
 // Incremento (++) y decremento (--)
 var x = 1, y = 4;
