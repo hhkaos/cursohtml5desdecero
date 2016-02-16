@@ -31,6 +31,13 @@ console.log(result);
 
 ## 3) Puntos de parada
 
+Utiliza la pestaña sources y haz clic en alguna línea donde haya una expresión para establecer un punto de parada (se debe marcar en azul) y recarga la página:
+
+![Punto de parada](https://developer.chrome.com/devtools/docs/javascript-debugging/multiple-breakpoints-region.jpg)
+
+Juega con el inspector.
+
+
 
 ## Opcional: Instalar W3CValidators
 Recuerda que en las lecciones de HTML utilizábamos el [validador online del W3C](https://validator.w3.org/) para comprobar que nuestro código era correcto. Si lo prefieres también puedes usar la extensión [W3CValidators](https://packagecontrol.io/packages/W3CValidators) de Sublime Text para hacerlo desde el propio editor.
