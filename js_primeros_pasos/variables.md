@@ -12,7 +12,7 @@ En este caso hemos declarado una variable con el nombre ```counter```pero no se 
 
 > **Consejos**:
 * Aunque no es obligatorio, acaba siempre las sentencias con punto y coma (por convención).
-* Escribe **siempre** el código en inglés.
+* Escribe siempre el código en inglés.
 * Añade siempre un espacio antes y otro después del signo igual (=)
 
 El nombre de una variable debe cumplir las siguientes normas:
