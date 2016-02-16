@@ -140,12 +140,12 @@ var odd = 5;
 result = even > odd; // result = false
 result = even < odd; // result = true
  
-even = 5;
-odd = 5;
-result = even >= odd; // result = true
-result = even <= odd; // result = true
-result = even == odd; // result = true
-result = even != odd; // result = false
+a = 5;
+b = 5;
+result = a >= b; // result = true
+result = a <= b; // result = true
+result = a == b; // result = true
+result = a != b; // result = false
 ```
 
 Se debe tener especial cuidado con el operador de igualdad (==), ya que es el origen de la mayoría de errores de programación, incluso para los usuarios que ya tienen cierta experiencia desarrollando scripts. El operador == se utiliza para comparar el valor de dos variables, por lo que es muy diferente del operador =, que se utiliza para asignar un valor a una variable:
