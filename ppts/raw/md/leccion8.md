@@ -77,7 +77,11 @@ Algunas características:
  
 <body>
   <script>
+    // Declaramos una variable
     var counter;
+
+    // Declaramos dos variables: map y widget
+    var map, widget;
   </script>
 </body>
 </html>

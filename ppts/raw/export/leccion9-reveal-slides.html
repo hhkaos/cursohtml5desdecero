@@ -139,9 +139,6 @@ code > span.in { color: #008000; } /* Information */
     </div>
 </section>
 
-<section><section id="conceptos-básicos" class="titleslide slide level1"><h1>Conceptos básicos</h1></section><section id="qué-podemos-hacer-con-javascript" class="slide level2">
-<h1>Qué podemos hacer con JavaScript</h1>
-</section></section>
 <section><section id="estructuras-de-control" class="titleslide slide level1"><h1>Estructuras de control</h1></section><section id="estructura-if" class="slide level2">
 <h1>Estructura <code>if</code></h1>
 <div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> printMsg <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
@@ -153,7 +150,8 @@ code > span.in { color: #008000; } /* Information */
 <span class="cf">if</span>(printMsg <span class="op">==</span> <span class="kw">true</span>) <span class="op">{</span>
   <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Hola Mundo&#39;</span>)<span class="op">;</span>
 <span class="op">}</span></code></pre></div>
-<p>Un ejemplo usando un comparador lógico:</p>
+</section><section id="if-usando-un-comparador-lógico" class="slide level2">
+<h1><code>if</code> usando un comparador lógico:</h1>
 <div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> printMsg <span class="op">=</span> <span class="kw">false</span><span class="op">;</span>
  
 <span class="cf">if</span>(<span class="op">!</span>printMsg) <span class="op">{</span>
@@ -165,7 +163,15 @@ code > span.in { color: #008000; } /* Information */
 <span class="cf">if</span>(<span class="op">!</span>printMsg <span class="op">&amp;&amp;</span> isFirstMsg) <span class="op">{</span>
   <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;Mi primer mensaje&#39;</span>)<span class="op">;</span>
 <span class="op">}</span></code></pre></div>
-<p>Un <strong>error típico</strong> es introducir una asignación (<code>=</code>) en lugar de una comparación (<code>==</code>) <sub><sub><del>javascript // Error - Se asigna el valor 'false' a la variable if(printMsg = false) { ... }</del></sub></sub>## Estructura <code>if</code> ... <code>else</code></p>
+</section><section id="cuidado-con..." class="slide level2">
+<h1>Cuidado con...</h1>
+<p>Un <strong>error típico</strong> es introducir una asignación (<code>=</code>) en lugar de una comparación (<code>==</code>)</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Error - Se asigna el valor &#39;false&#39; a la variable</span>
+<span class="cf">if</span>(printMsg <span class="op">=</span> <span class="kw">false</span>) <span class="op">{</span>
+  ...
+<span class="op">}</span></code></pre></div>
+</section><section id="estructura-if-...-else" class="slide level2">
+<h1>Estructura <code>if</code> ... <code>else</code></h1>
 <div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> age <span class="op">=</span> <span class="dv">18</span><span class="op">;</span>
  
 <span class="cf">if</span>(age <span class="op">&gt;=</span> <span class="dv">18</span>) <span class="op">{</span>
@@ -187,9 +193,12 @@ code > span.in { color: #008000; } /* Information */
 <span class="op">}</span></code></pre></div>
 </section><section id="estructura-for" class="slide level2">
 <h1>Estructura <code>for</code></h1>
+<p>También llamado &quot;bucle&quot; o &quot;bucle for&quot;:</p>
 <div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="cf">for</span>(initialization<span class="op">;</span> condition<span class="op">;</span> increment) <span class="op">{</span>
   ...
 <span class="op">}</span></code></pre></div>
+</section><section id="combinando-for-y-arrays" class="slide level2">
+<h1>Combinando <code>for</code> y <code>Arrays</code></h1>
 <div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> i<span class="op">;</span>
 <span class="kw">var</span> days <span class="op">=</span> [<span class="st">&#39;Lunes&#39;</span><span class="op">,</span> <span class="st">&#39;Martes&#39;</span><span class="op">,</span> <span class="st">&#39;Miércoles&#39;</span><span class="op">,</span> <span class="st">&#39;Jueves&#39;</span><span class="op">,</span> <span class="st">&#39;Viernes&#39;</span><span class="op">,</span> <span class="st">&#39;Sábado&#39;</span><span class="op">,</span> <span class="st">&#39;Domingo&#39;</span>]<span class="op">;</span>
  

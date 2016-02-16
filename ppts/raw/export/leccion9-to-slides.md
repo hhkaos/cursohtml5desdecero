@@ -2,10 +2,6 @@
 % Lección 9
 % www.cursohtml5desdecero.com
 
-# Conceptos básicos
-
-## Qué podemos hacer con JavaScript
-
 # Estructuras de control
 
 ## Estructura ```if```
@@ -22,7 +18,7 @@ if(printMsg == true) {
 }
 ~~~~
 
-Un ejemplo usando un comparador lógico:
+## ```if``` usando un comparador lógico:
 
 ~~~~javascript
 var printMsg = false;
@@ -38,14 +34,18 @@ if(!printMsg && isFirstMsg) {
 }
 ~~~~
 
+## Cuidado con...
+
 Un **error típico** es introducir una asignación (```=```) en lugar de una comparación (```==```)
+
 ~~~~javascript
 // Error - Se asigna el valor 'false' a la variable
 if(printMsg = false) {
   ...
 }
-~~~~## Estructura ```if``` ... ```else```
+~~~~
 
+## Estructura ```if``` ... ```else```
 
 ~~~~javascript
 var age = 18;
@@ -74,11 +74,15 @@ else {
 
 ## Estructura ```for```
 
+También llamado "bucle" o "bucle for":
+
 ~~~~javascript
 for(initialization; condition; increment) {
   ...
 }
 ~~~~
+
+## Combinando ```for``` y ```Arrays```
 
 ~~~~javascript
 var i;

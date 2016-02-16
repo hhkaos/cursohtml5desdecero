@@ -3,6 +3,7 @@
 // Almacenar en una variable el resultado de sumar 1 y 2
 var a = 1 + 2;
 console.log(a);
+// alert(a); // Esto muestra una ventana emergente
 
 // Almacenar en una variable el resultado de dividir 6 entre 2
 
