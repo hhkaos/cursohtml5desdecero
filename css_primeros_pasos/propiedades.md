@@ -144,7 +144,7 @@ h1{
 ```
 
 # Chuleta CSS
-Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS](../images/css3-cheat-sheet.pdf) con sus propiedades
+Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS3](https://github.com/hhkaos/cursohtml5desdecero/blob/master/images/css3-cheat-sheet.pdf) con sus propiedades, y no te asustes, no creo que haya nadie que se las conozca todas, a lo largo de este curso te explicaré sólo aquellas que necesitarás habitualmente pero te intentaré dar todas las claves para que luego pueda seguir ampliando por tu cuenta.
 
 <hr>
 
