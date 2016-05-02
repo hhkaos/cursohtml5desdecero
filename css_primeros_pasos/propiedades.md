@@ -41,9 +41,9 @@ Cuando lleguemos al apartado de "**Estilos con DevTools**" veremos una manera se
 
 Para modifica las propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font) tenemos:
 
+* **[font-size](https://www.w3.org/wiki/CSS/Properties/font-size)**: nos permite especificar el tamaño de la fuente
 * **[font-style](https://www.w3.org/wiki/CSS/Properties/font-style)**: nos permite darle estilo a la fuente (p.e.: normal o italic)
 * **[font-family](https://www.w3.org/wiki/CSS/Properties/font-family)**: establece una lista de fuentes (Gill, Helvetica, sans-serif;)
-* **[font-size](https://www.w3.org/wiki/CSS/Properties/font-size)**: nos permite especificar el tamaño de la fuente
 * **[font-weight](https://www.w3.org/wiki/CSS/Properties/font-weight)**: nos permite especificar el ancho de la fuente (bold, 400, 600, ...)
 * **[font](https://www.w3.org/wiki/CSS/Properties/font)**: atajo para establecer varias propiedades
 
@@ -56,7 +56,7 @@ En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Sty
 
 Al igual que con los colores, veremos cómo jugar con estos valores usando Chrome DevTools.
 
-### Fuentes personalizadas
+### font-family
 
 ```html
 <!-- index.html -->
