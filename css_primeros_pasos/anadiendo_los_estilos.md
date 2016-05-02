@@ -38,3 +38,13 @@ Para indicarle a una página dónde se encuentras los estilos tendremos que aña
 ```
 
 Una página puede incluir varias hojas de estilos, y siempre prevalecen los estilos de la última hoja añadida.
+
+## Fuentes personalizadas
+
+En CSS3 ya se permite el uso de fuente personalizadas. [Google Fonts](https://www.google.com/fonts) dispone de un amplio número de fuentes de uso libre.
+
+Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir las fuentes en los elementos que queramos en nuestro CSS.
+
+```html
+<!-- index.html -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700' rel='stylesheet' type='text/css'>
