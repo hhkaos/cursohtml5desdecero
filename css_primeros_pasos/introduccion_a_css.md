@@ -42,4 +42,6 @@ Hay múltiples formas de añadir CSS a nuestra página, una forma es utilizando 
 
 De este modo estamos indicando que todos los elementos **h1** tengan el texto de color rojo, para ello usamos la propiedad "**color**" y establecemos su valor a "**red**".
 
+Los estilos aplicados a un elemento en CSS siempre tienen que estar encerrados entre llaves ("**{}**")
+
 Siempre que se use el elemento "**style**" debe estar anidado dentro del elemento "**head**", aunque si lo ponemos dentro del "**body**" lo más probable es que funcione bien, pero no sería válido según el W3C y por tanto no pasaría [el validador](https://validator.w3.org/nu/#textarea).
