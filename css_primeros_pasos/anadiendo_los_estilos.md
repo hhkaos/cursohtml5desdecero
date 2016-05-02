@@ -48,3 +48,34 @@ Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir 
 ```html
 <!-- index.html -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700' rel='stylesheet' type='text/css'>
+```
+
+```css
+/* main.css */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+```
+
+Ejemplo:
+
+```css
+h1{
+    font: italic 600 24px / 1.5em Helvetica;
+}
+```
+
+```css
+h1{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+```
+
+```css
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+```
