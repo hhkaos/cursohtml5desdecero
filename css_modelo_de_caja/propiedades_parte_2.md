@@ -1,5 +1,8 @@
 # Propiedades - Parte 2
 
+##
+
+* **[opacity](https://www.w3.org/wiki/CSS/Properties/opacity)**: establece la transparencia de un elemento
 
 ## Borde (Border)
 
