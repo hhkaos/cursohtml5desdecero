@@ -144,7 +144,9 @@ h1{
 ```
 
 # Chuleta CSS
+Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS](../images/css3-cheat-sheet.pdf) con sus propiedades
 
+<hr>
 
 <small>Aclaraciones:</small><br>
 <small>1. En este artículo se puede leer que [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)</small><br>
