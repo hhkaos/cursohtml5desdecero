@@ -11,11 +11,6 @@ Es importante que sepas que cada navegador incluye por defecto una serie de esti
 
 Esto es algo común en todos los navegadores, el problema es que no todos definen los estilos de igual manera y esto puede ser fuente de errores en el futuro. Por eso veremos que es una práctica común que nuestros proyectos CSS empiecen cargando una hoja de estilos llamada [Reset.css](http://meyerweb.com/eric/tools/css/reset/) que elimina los estilos que pueden provocar errores en el futuro.
 
-No todas las etiquetas valen (can i use)[CanIUse.com](http://caniuse.com/)
+Vamos a empezar viendo centrándonos en las propiedades de CSS3 que vienen heredadas de la versión 2.1. Dado que CSS3 al igual que HTML5 son estándares que se crean desde el W3C, la implementación en los navegadores no es inmediata, y por tanto no todos los elementos HTML5 ni todas las propiedades CSS3 están actualmente implementadas en todos los navegadores, por eso quiero dejarte este recurso con el que podrán consultar qué navegadores soportan cada característica: [CanIUse.com](http://caniuse.com/).
 
-## Cascading StyleSheets
-
-CSS o las hojas de estilo en cascada es un lenguaje de marcado que nos permite modificar el aspecto visual de los elementos introducidos con HTML.
-
-
-
+Como ejemplo podrás comprobar que el elemento HTML5 ```<video>``` no está soportado por [Internet Explorer 8 ni por Opera mini](http://caniuse.com/#search=video) o que la propiedad CSS3 ```background-attachment``` no está soportada por el [buscador de Android ni por Opera mini](http://caniuse.com/#feat=background-attachment).
