@@ -101,7 +101,7 @@ Como podemos ver el atributo afecta a las celdas de las siguientes columnas/fila
 
 ## Formularios
 Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de sus propiedades:
-* **[form](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-form-element)**: contendrá todos los campos de nuestro formulario, incluído el botón de enviar.
+* **[form](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-form-element)**: será el elemento padre que anide todos los elementos HTML que representarán los campos de nuestro formulario, incluído el botón de enviar.
     * **action**: indica la URL a la que se enviará la petición HTTP con toda la información del formulario
     * **method**: indica si la petición HTTP será *GET* o *POST*
 * **[input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-input-element)**: permite introducir diferentes *tipos* de campo de formulario en base al valor del atributo **type**. En función del valor indicado en **type** dispondremos de unos atributos u otros (en total hay 30, pero no todos aplican a todos los casos):
