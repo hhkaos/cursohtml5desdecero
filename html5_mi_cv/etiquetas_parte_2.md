@@ -16,7 +16,7 @@ Hay 3 tipos de enlaces:
 ```html
 <a href="img/imagen1.jpg">enlace a una imagen</a>
 ``` 
-Donde indicamos que si por ejemplo la URL actual es http://www.cursohtml5desdecero.com/leccion1, la imagen se encuentra en http://www.cursohtml5desdecero.com/leccion1/img/imagen1.jpg, y si queremos hacer referencia a un recurso que se encuentra en un "**path**" anterior lo hacemos usando "**../**", por ejemplo:
+Donde indicamos que si por ejemplo la URL actual es http://www.cursohtml5desdecero.com/leccion1, la imagen se encuentra en http://www.cursohtml5desdecero.com/leccion1/img/imagen1.jpg, y si queremos hacer referencia a un recurso que se encuentra en un nivel superior del "**path**" lo hacemos usando "**../**", por ejemplo:
 ```html
 <a href="../img/imagen1.jpg">enlace a una imagen</a>
 ``` 
