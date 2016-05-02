@@ -1,7 +1,5 @@
 #Propiedades
-Por simplicidad vamos a empezar por ver cómo  añadir estilos directamente sobre el HTML.
-
-
+Vamos empezar viendo algunas de las propiedades más usadas en CSS.
 
 ## Modificar el color
 
