@@ -10,12 +10,3 @@ CSS o las hojas de estilo en cascada es un lenguaje de marcado que nos permite m
 
 
 
-## Vincular una hoja de estilos
-
-Para indicarle a una página dónde se encuentras los estilos tendremos que añadir un elemento auto-contenido **<link>**:
-
-```css
-<link rel="stylesheet" href="resources/css/main.css">
-```
-
-Una página puede incluir varias hojas de estilos, y siempre prevalecen los estilos de la última hoja añadida.
