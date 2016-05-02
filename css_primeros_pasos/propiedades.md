@@ -13,7 +13,7 @@ Existen múltiples **formas de [especificar el color](https://www.w3.org/wiki/CS
 
 El valor Alpha tiene que estar comprendido entre [0-1] y hace referencia a la transparencia del elemento, siendo 1 = opaco y 0 = transparente.
 
-Ahora vamos a ver tres formas de representar un mismo estilo:
+Ahora vamos a ver tres formas de representar el mismo color:
 
 ```css
 h1{
@@ -52,9 +52,10 @@ En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Sty
 * **em**: representan un valor relativo respecto al padre.
 * **rem** (root em): representan un valor relativo respecto al *body*
 
-Un ejemplo:
+Un elemento puede tener múltiples estilos como vemos a continuación:
 ```css
 h1{
+    color: #F00;
     font-size: 16px;
 }
 ```
@@ -62,50 +63,33 @@ h1{
 Al igual que con los colores, veremos cómo jugar con estos valores usando Chrome DevTools.
 
 ### font-style
+Los valores que puede contener son: ```	normal | italic | oblique | inherit```, "**inherit**" significa que tome el valor del elemento padre, y "**oblique**" e "**italic**" indican que la fuente se muestre el cursiva:
 
 ```css
 h1{
-    font-size: 2em;
-    font-family: Verdana, sans-serif;
+    color: #F00;
+    font-size: 16px;
+    font-style: italic;
 }
 ```
 
 ### font-family
+La fuente tiene un peso muy importante en el diseño de cualquier página, 
 
-```html
-<!-- index.html -->
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700' rel='stylesheet' type='text/css'>
-```
+Esta propiedad indica la fuente que queremos usar, por defecto sólo se pueden especificar fuentes que tenga el usuario instaladas en su sistema operativo, ¿pero cómo sabemos cuales son?. Bueno existe algunas fuentes<sup>2</sup> que se considera seguras y que por tanto podemos contar con que estarán disponibles en casi cualquier sistema operativo.
+
+Aunque al especificar la fuente podemos introducir una lista de fuentes separadas por comas para que en caso de que no se encuentre la primera fuente indicada vaya intentándolo con las posteriores como podemos ver en este ejemplo:
 
 ```css
-/* main.css */
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 ```
 
-Ejemplo:
+Si nos fijamos también veremos que aquellas fuentes que en su nombre incluyen espacios deben ir encerradas entre comillas dobles.
 
-```css
-h1{
-    font: italic 600 24px / 1.5em Helvetica;
-}
-```
+En el siguiente apartado veremos cómo con CSS3 podemos utilizar fuentes que no estén instaladas en el sistema operativo.
 
-```css
-h1{
-    font-size: 2em;
-    font-family: Verdana, sans-serif;
-}
-```
-
-```css
-h1{
-    font-size: 2rem;
-    font-weight: bold;
-    font-style: italic;
-}
-```
 
 ## Modificar el texto
 
@@ -136,3 +120,4 @@ h1{
 
 <small>Aclaraciones:</small><br>
 <small>1. En este artículo se puede leer que [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)</small><br>
+<small>2. En esta [página de W3Schools](http://www.w3schools.com/cssref/css_websafe_fonts.asp) se pueden consultar algunas de las fuentes que se consideran seguras.</small><br>
