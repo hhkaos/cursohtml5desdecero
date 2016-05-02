@@ -143,6 +143,8 @@ h1{
 }
 ```
 
+# Chuleta CSS
+
 
 <small>Aclaraciones:</small><br>
 <small>1. En este artículo se puede leer que [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)</small><br>
