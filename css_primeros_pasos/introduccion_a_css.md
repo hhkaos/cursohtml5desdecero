@@ -8,31 +8,7 @@ No todas las etiquetas valen (can i use)[CanIUse.com](http://caniuse.com/)
 
 CSS o las hojas de estilo en cascada es un lenguaje de marcado que nos permite modificar el aspecto gráfico de los elementos introducidos con HTML.
 
-## Aplicar estilos a los elementos
 
-* **id**: identificador **único** de un elemento
-* **class**: identificador que puede ser compartido por varios elementos
-
-```html
-<!-- index.html -->
-<h1 id="experiencia">Experiencia <strong class="destacado">profesional<strong></h1>
-
-<p class="destacado">
-    A lo largo de los últimos 16 años blah blah blah...
-</p>
-
-<style>
-	#experiencia{
-	    font-size: large;
-	}
-	.destacado{
-	    color: blue;
-	}
-	strong{
-	    font-weight: normal;
-	}
-</style>
-```
 
 ## Vincular una hoja de estilos
 
