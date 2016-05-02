@@ -107,8 +107,8 @@ Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de 
 * **[input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-input-element)**: permite introducir diferentes *tipos* de campo de formulario en base al valor del atributo **type**. En función del valor indicado en **type** dispondremos de unos atributos u otros (en total hay 30, pero no todos aplican a todos los casos):
     * **type** (obligatorio): este valor puede tener [muchos valores](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#states-of-the-type-attribute): *text*, *email*, *checkbox*, *color*, *date*, *file*, *hidden*, etc. en función del tipo de campo que queramos, los nombres son bastante auto-explicativos.
     * **id**: este atributo es obligatorio si en el elemento **label** tiene un atributo **for**, en tal caso deberá contener un identificador único<sup>3</sup> en la página.
-    * **name**: este atributo es opcional y representa el nombre asignado al campo cuando se envié la petición HTTP.
-    * **value**: este valor es opcional pero representa el valor que se asignará al campo cuando se envié la petición HTTP.
+    * **name**: este atributo es opcional y representa el nombre asignado al campo cuando se envíe la petición HTTP.
+    * **value**: este valor es opcional pero representa el valor que se asignará al campo cuando se envíe la petición HTTP.
 * **[select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element)**: nos permite crear una lista desplegable de opciones, cada opción estará contenida como hija dentro de un elemento **option**.
     * **id**: igual que el elemento **input**
     * **name**: igual que el campo **input**
