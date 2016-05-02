@@ -18,20 +18,18 @@ Ahora vamos a ver tres formas de representar un mismo estilo:
 ```css
 h1{
     color: rgb(100%,0,0);
-    opacity: 0.5;
 }
 ```
 
 ```css
 h1{
     color: #F00;
-    opacity: 0.5;
 }
 ```
 
 ```css
 h1{
-    color: rgba(100%, 0, 0, .5);
+    color: rgba(100%, 0, 0, 1);
 }
 ```
 
@@ -54,15 +52,23 @@ En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Sty
 * **em**: representan un valor relativo respecto al padre.
 * **rem** (root em): representan un valor relativo respecto al *body*
 
+Un ejemplo:
+```css
+h1{
+    font-size: 16px;
+}
+```
+
 Al igual que con los colores, veremos cómo jugar con estos valores usando Chrome DevTools.
+
+### font-style
 
 ```css
 h1{
     font-size: 2em;
+    font-family: Verdana, sans-serif;
 }
 ```
-
-### font-size
 
 ### font-family
 
