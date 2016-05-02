@@ -1,6 +1,6 @@
 # Introducción a CSS
 
-Estilos por defecto en el navegador
+Para empezar me gustaría que supieses Estilos por defecto en el navegador
 
 No todas las etiquetas valen (can i use)[CanIUse.com](http://caniuse.com/)
 
