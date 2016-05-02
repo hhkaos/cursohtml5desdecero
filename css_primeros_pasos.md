@@ -4,5 +4,6 @@ CSS es el acrónimo de Cascading Style Sheet; este también un [lenguaje de marc
 
 En este capítulo vamos a aprender:
 * Qué es CSS y cómo lo podemos usar para aplicar estilos
-* Cómo se comportan los estilos
+* Cómo combinar HTML y CSS
+* * Cómo se comportan los estilos
 
