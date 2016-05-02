@@ -74,11 +74,12 @@ h1{
 ```
 
 ### font-family
-La fuente tiene un peso muy importante en el diseño de cualquier página, 
 
-Esta propiedad indica la fuente que queremos usar, por defecto sólo se pueden especificar fuentes que tenga el usuario instaladas en su sistema operativo, ¿pero cómo sabemos cuales son?. Bueno existe algunas fuentes<sup>2</sup> que se considera seguras y que por tanto podemos contar con que estarán disponibles en casi cualquier sistema operativo.
+Esta propiedad indica la fuente que queremos usar, por defecto<sup>2</sup> sólo se pueden especificar fuentes que tenga el usuario instaladas en su sistema operativo, ¿pero cómo sabemos cuales son?. Bueno, existen [algunas fuentes que se considera seguras](http://www.w3schools.com/cssref/css_websafe_fonts.asp) y que por tanto podemos contar con que estarán disponibles en casi cualquier sistema operativo.
 
-Aunque al especificar la fuente podemos introducir una lista de fuentes separadas por comas para que en caso de que no se encuentre la primera fuente indicada vaya intentándolo con las posteriores como podemos ver en este ejemplo:
+Además de esto podemos introducir una lista de fuentes separadas por comas, de este modo en caso de que no se encuentre la primera fuente especificada se intentará con las posteriores. 
+
+Aquí podemos ver un ejemplo:
 
 ```css
 body{
@@ -86,21 +87,47 @@ body{
 }
 ```
 
-Si nos fijamos también veremos que aquellas fuentes que en su nombre incluyen espacios deben ir encerradas entre comillas dobles.
+Si nos fijamos también veremos que aquellas fuentes que tengan nombres compuestos (con espacios) deben ir encerradas entre comillas dobles.
 
-En el siguiente apartado veremos cómo con CSS3 podemos utilizar fuentes que no estén instaladas en el sistema operativo.
+En la siguiente lección veremos una forma sencilla de utilizar fuentes que no estén instaladas en el sistema operativo usando CSS3.
 
+### font-weight
+Esta propiedad hace referencia al grosor de la fuente y puede tomar múltiples valores: ```normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | inherit````
 
+De aquí merece la pena mencionar: 
+* Que "**normal**" es sinónimo de "**400**" y "**bold**" de "**700**", este último representaría una negrita
+* No todos los valores están disponibles para todas las fuentes, de hecho salvo que se usen fuentes personalizadas es difícil encontrar fuentes con anchos distintos a 400 o 700.
+
+Un ejemplo:
+```css
+body{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+}
+```
+
+### font
+Como comentábamos esta es una forma de agrupar múltiples valores en una sola propiedad, no es trivial de recordar y por tanto no te recomiendo que la uses mientras estás empezando porque puede darte problemas.
+
+Para que te suene si te lo encuentras en el código de alguien tiene este aspecto:
+```css
+h1{
+   font: bold 1.2em Helvetica, Arial, sans-serif;
+}
+``` 
+ 
 ## Modificar el texto
 
-Propuedades para modificar el [texto](https://www.w3.org/wiki/CSS/Properties#Text) (text):
+Para modificar el [texto](https://www.w3.org/wiki/CSS/Properties#Text) (text) tenemos otras propiedades:
 
 * **[text-align](https://www.w3.org/wiki/CSS/Properties/text-align)**: para alinear el texto (left, right, center, justify)
 * **[text-decoration](https://www.w3.org/wiki/CSS/Properties/text-decoration)**: permite añadir un subrayado, tachar una palabra, etc (underline, line-throught, ...)
 * **[text-transform](https://www.w3.org/wiki/CSS/Properties/text-transform)**: permite transformar en mayúsculas, minúculas, etc (uppercase, lowercase, capitalize, ...)
 * **[line-height](https://www.w3.org/wiki/CSS/Properties/line-height)**: permite ajustar el interlineado usando unidades como vimos antes (px, em, rem, ...).
 
-Ejemplos:
+Puedes ver el detalle de cada una de las propiedades haciendo clic sobre el enlace en cada una.
+
+Por simplificar aquí te mostramos algunos ejemplos:
 
 ```css
 h1{
@@ -116,8 +143,7 @@ h1{
 }
 ```
 
-* **[opacity](https://www.w3.org/wiki/CSS/Properties/opacity)**: establece la transparencia de un elemento
 
 <small>Aclaraciones:</small><br>
 <small>1. En este artículo se puede leer que [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)</small><br>
-<small>2. En esta [página de W3Schools](http://www.w3schools.com/cssref/css_websafe_fonts.asp) se pueden consultar algunas de las fuentes que se consideran seguras.</small><br>
+<small>2. En CSS 2.1 no se podían usar fuentes personalizadas, esta es una nueva características incorporada en CSS3.</small><br>
