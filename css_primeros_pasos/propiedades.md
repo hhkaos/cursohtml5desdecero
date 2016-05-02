@@ -3,38 +3,39 @@ Vamos empezar viendo algunas de las propiedades más usadas en CSS.
 
 ## Modificar el color
 
-Propiedades:
+La propiedad **[color](https://www.w3.org/wiki/CSS/Properties/color)** se puede usar en cualquier elemento, aunque principalmente se usa para representar el color del textno no es su única función<sup>1</sup>.
 
-* **[color](https://www.w3.org/wiki/CSS/Properties/color)**: establece el color de la fuente
-* **[opacity](https://www.w3.org/wiki/CSS/Properties/opacity)**: establece la transparencia de un elemento
-
-**Formas de [especificar el color](https://www.w3.org/wiki/CSS/Properties/color#Values)**:
+Existen múltiples **formas de [especificar el color](https://www.w3.org/wiki/CSS/Properties/color#Values)**, aquí veremos tres, mediante su:
 
 * **[Valor hexadecimal](https://www.w3.org/wiki/CSS/Properties/color/RGB)**: #faf o #ffaaff
 * **[Valor RGB (Red, Green, Blue)](https://www.w3.org/wiki/CSS/Properties/color/RGB)**: rgb(255, 160, 255) o rgb(100%, 62.5%, 100%)
 * **[Valor RGBA (RGB + Alpha)](https://www.w3.org/wiki/CSS/Properties/color/RGBA)**: rgba(255, 160, 255, 1) or rgba(100%, 62.5%, 100%, 1)
 
-Ejemplos:
+El valor Alpha tiene que estar comprendido entre [0-1] y hace referencia a la transparencia del elemento, siendo 1 = opaco y 0 = transparente.
+
+Ahora vamos a ver tres formas de representar un mismo estilo:
 
 ```css
-.error{
+h1{
     color: rgb(100%,0,0);
     opacity: 0.5;
 }
 ```
 
 ```css
-.error{
+h1{
     color: #F00;
     opacity: 0.5;
 }
 ```
 
 ```css
-.error{
+h1{
     color: rgba(100%, 0, 0, .5);
 }
 ```
+
+Cuando lleguemos al apartado de "**Estilos con DevTools**" veremos una manera sencilla de usar un [círculo cromático](https://es.wikipedia.org/wiki/C%C3%ADrculo_crom%C3%A1tico) para conocer el color de un elemento.
 
 ##  Modificar la fuente
 
@@ -118,3 +119,6 @@ h1{
 }
 ```
 
+* **[opacity](https://www.w3.org/wiki/CSS/Properties/opacity)**: establece la transparencia de un elemento
+
+http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text
