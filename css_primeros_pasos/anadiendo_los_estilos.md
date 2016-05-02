@@ -1,7 +1,7 @@
 # Estilos externos
 
 inline y externos
-Reset.css
+
 
 ## Aplicar estilos a los elementos
 
