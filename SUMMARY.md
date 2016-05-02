@@ -43,7 +43,7 @@
    * [Ejercicio](WIP.md?37)
    * [Recursos](WIP.md?38)
 * [CSS: Primero pasos](css_primeros_pasos.md)
-   * [Introducción a CSS](css_primeros_pasos/introducciona_css.md)
+   * [Introducción a CSS](css_primeros_pasos/introduccion_a_css.md)
    * [Propiedades](css_primeros_pasos/propiedades.md)
    * [Añadiendo los estilos](css_primeros_pasos/anadiendo_los_estilos.md?80)
    * [Herencia](css_primeros_pasos/herencia.md)
