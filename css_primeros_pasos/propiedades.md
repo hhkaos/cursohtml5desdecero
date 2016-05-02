@@ -56,6 +56,14 @@ En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Sty
 
 Al igual que con los colores, veremos cómo jugar con estos valores usando Chrome DevTools.
 
+```css
+h1{
+    font-size: 2em;
+}
+```
+
+### font-size
+
 ### font-family
 
 ```html
@@ -81,7 +89,7 @@ h1{
 ```css
 h1{
     font-size: 2em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Verdana, sans-serif;
 }
 ```
 
