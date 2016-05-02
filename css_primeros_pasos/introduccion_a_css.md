@@ -1,8 +1,8 @@
 # Introducción a CSS
 
-Para empezar me gustaría que supieses que aunque tú no hayas escrito aún ninguna línea de CSS la página que has creado ya contenía algunos estilos, los estilos por defecto que incluye el navegador.
+Para empezar me gustaría que supieses que aunque tú no hayas escrito aún ninguna línea de CSS, la página que has creado ya contenía algunos estilos, los estilos por defecto que incluye el navegador.
 
-Es importante que sepas que cada navegador incluye por defecto una serie de estilos por defecto a cada elemento HTML, por ejemplo:
+Es importante que sepas que cada navegador incluye siempre una serie de estilos por defecto a cada elemento HTML, por ejemplo:
 * Los elementos ```<p>``` tienen estilos para que se produzca un salto entre el párrafo y los elementos anterior y posterior
 * El elemento ```<strong>``` para que se muestre en negrita
 * Los elementos ```<li>``` para que aparezca un punto a la izquierda
