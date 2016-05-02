@@ -7,7 +7,7 @@ Esta vez tampoco veremos todos los atributos posibles aunque añadiré enlaces a
 Una de las características más destacables de HTML es la posibilidad de enlazar unas páginas con otras, para hacer esto utilizamos el elemento "**[a](https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-a-element)**" con el atributo "**href**" (Hypertext Reference). Por ejemplo:
 
 ```html
-<a href="http://www.cursohtml5desdecero">Curso de HTML5 desde cero</a>
+<a href="http://www.cursohtml5desdecero.com">Curso de HTML5 desde cero</a>
 ```
 
 Hay 3 tipos de enlaces:
