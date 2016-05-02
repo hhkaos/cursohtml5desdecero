@@ -52,7 +52,7 @@
    * [Recursos](css_primeros_pasos/recursos.md?40)
 * [CSS: Modelo de caja](css_modelo_de_caja.md)
    * [Elementos HTML](css_modelo_de_caja/elementos_html.md)
-   * [Propiedades - Parte 2](css_modelo_de_caja/propiedades_parte_2.md?81)
+   * [Propiedades - Parte 2](css_modelo_de_caja/propiedades_parte_2.md)
    * [Posicionar el contenido](css_modelo_de_caja/posicionar_el_contenido.md)
    * [Modelo de caja con DevTools](WIP.md?26)
    * [Ejercicio](WIP.md?41)
