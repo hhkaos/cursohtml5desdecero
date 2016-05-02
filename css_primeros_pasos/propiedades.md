@@ -1,4 +1,7 @@
 #Propiedades
+Por simplicidad vamos a empezar por ver cómo  añadir estilos directamente sobre el HTML.
+
+
 
 ## Modificar el color
 
