@@ -39,7 +39,7 @@ Cuando lleguemos al apartado de "**Estilos con DevTools**" veremos una manera se
 
 ##  Modificar la fuente
 
-Propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font):
+Para modifica las propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font) tenemos:
 
 * **[font-style](https://www.w3.org/wiki/CSS/Properties/font-style)**: nos permite darle estilo a la fuente (p.e.: normal o italic)
 * **[font-family](https://www.w3.org/wiki/CSS/Properties/font-family)**: establece una lista de fuentes (Gill, Helvetica, sans-serif;)
@@ -47,17 +47,16 @@ Propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font):
 * **[font-weight](https://www.w3.org/wiki/CSS/Properties/font-weight)**: nos permite especificar el ancho de la fuente (bold, 400, 600, ...)
 * **[font](https://www.w3.org/wiki/CSS/Properties/font)**: atajo para establecer varias propiedades
 
-Hay [varias formas de especificar el tamaño](https://www.w3.org/Style/Examples/007/units.en.html), pero vamos a ver cómo especificar el tamaño usando unidades de longitud, algunos tipos para las fuentes son: 
+### font-size
+En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Style/Examples/007/units.en.html), pero vamos a ver cómo especificar el tamaño usando unidades de longitud, por ejemplo: 
 
 * **px**: representan un tamaño absoluto.
 * **em**: representan un valor relativo respecto al padre.
 * **rem** (root em): representan un valor relativo respecto al *body*
 
+Al igual que con los colores, veremos cómo jugar con estos valores usando Chrome DevTools.
+
 ### Fuentes personalizadas
-
-En CSS3 ya se permite el uso de fuente personalizadas. [Google Fonts](https://www.google.com/fonts) dispone de un amplio número de fuentes de uso libre.
-
-Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir las fuentes en los elementos que queramos en nuestro CSS.
 
 ```html
 <!-- index.html -->
@@ -121,4 +120,5 @@ h1{
 
 * **[opacity](https://www.w3.org/wiki/CSS/Properties/opacity)**: establece la transparencia de un elemento
 
-http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text
+<small>Aclaraciones:</small><br>
+<small>1. En este artículo se puede leer que [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)</small><br>
