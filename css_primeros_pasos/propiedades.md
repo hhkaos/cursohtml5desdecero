@@ -163,6 +163,8 @@ li{ list-style-image: url("punto.jpg"); }
 li{ list-style-type: upper-roman; }
 ```
 
+Luego veremos cómo puedes probarlas con DevTools y ver qué es lo que hacen.
+
 > **Nota**: en ocasiones cuando a elemento sólo se le define una propiedad te encontrarás que algunas personas lo escriben en una sola línea.
 
 # Chuleta CSS
