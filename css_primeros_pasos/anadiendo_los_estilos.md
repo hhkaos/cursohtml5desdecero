@@ -31,7 +31,7 @@ Ahora que hemos visto todas las formas de cargar estilos CSS en nuestras página
 Hasta ahora hemos visto que indicando el nombre de una etiqueta y a continuación añadiendo una llaves que envuelvan las propiedades le aplicamos el mismo estilo a todas las apariciones de dicha etiqueta en nuestro HTML, pero existen otras dos formas de seleccionar/especificar a qué elemento queremos aplicar los estilos:
 
 * Asignando un identificador (**único**) al elemento: para ello añadiremos la propiedad **id="valor"** a la etiqueta.
-* Asignando una o varias clases al elemento: en este caso usaremos la propiedad **class="valor1 valor2 etc"**.
+* Asignando una o varias clases al elemento: en este caso usaremos la propiedad **class="valor1 valor2 ..."**.
 
 Veamos un ejemplo:
 
