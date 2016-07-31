@@ -1,9 +1,13 @@
 #Propiedades
-Vamos empezar viendo algunas de las propiedades más usadas en CSS.
+Hay múltiples formas de aplicar estilos, vamos a empezar viendo cómo se aplican estilos a etiquetal HTML estándar, para ello el formato a seguir es:
+
+
+
+Esto signica que todos los encabezados de nivel 1 tendrán la fuente en color rojo. Ahora vamos a ver en detalle algunas de las propiedades más usadas en CSS.
 
 ## Modificar el color
 
-La propiedad **[color](https://www.w3.org/wiki/CSS/Properties/color)** se puede usar en cualquier elemento, aunque principalmente se usa para representar el color del textno no es su única función<sup>1</sup>.
+La propiedad **[color](https://www.w3.org/wiki/CSS/Properties/color)** se puede usar en cualquier elemento, aunque principalmente se usa para modificar el color del texto, esta no es su única función<sup>1</sup>.
 
 Existen múltiples **formas de [especificar el color](https://www.w3.org/wiki/CSS/Properties/color#Values)**, aquí veremos tres, mediante su:
 
@@ -13,11 +17,11 @@ Existen múltiples **formas de [especificar el color](https://www.w3.org/wiki/CS
 
 El valor Alpha tiene que estar comprendido entre [0-1] y hace referencia a la transparencia del elemento, siendo 1 = opaco y 0 = transparente.
 
-Ahora vamos a ver tres formas de representar el mismo color:
+Ahora vamos a ver tres formas equivalentes de representar el color rojo:
 
 ```css
 h1{
-    color: rgb(100%,0,0);
+    color: rgb(100%, 0, 0);
 }
 ```
 
@@ -33,24 +37,28 @@ h1{
 }
 ```
 
-Cuando lleguemos al apartado de "**Estilos con DevTools**" veremos una manera sencilla de usar un [círculo cromático](https://es.wikipedia.org/wiki/C%C3%ADrculo_crom%C3%A1tico) para conocer el color de un elemento.
+En RGB si indica en cada uno de los valores la cantidad de Rojo(Red), Verde(Green) y Azul(Blue). Este valor puede ser un porcentaje o un valor comprendido entre 0 y 255, siendo 255 equivalente a 100%. 
+
+En cuanto al valor hexadecimal FF equivale a 255, existen múltiples [conversores de decimal a hexadecimal](http://www.binaryhexconverter.com/hex-to-decimal-converter) y viceversa, la principal ventaja de usar este formato es que ocupa menos caracteres y por tanto menos espacio en disco. Por último, cuando un valor hexadecimal contiene 3 caracteres significa que cada uno de ellos se repite dos veces, ej: #faf es igual que #ffaaff.
+
+Cuando lleguemos al apartado de "**Estilos con DevTools**" veremos una manera sencilla de usar un [círculo cromático](https://es.wikipedia.org/wiki/C%C3%ADrculo_crom%C3%A1tico) para conocer/elegir el color de un elemento.
 
 ##  Modificar la fuente
 
-Para modifica las propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font) tenemos:
+Para modificar las propiedades de la [fuente](https://www.w3.org/wiki/CSS/Properties#Font) (font) tenemos distintas propiedades:
 
 * **[font-size](https://www.w3.org/wiki/CSS/Properties/font-size)**: nos permite especificar el tamaño de la fuente
-* **[font-style](https://www.w3.org/wiki/CSS/Properties/font-style)**: nos permite darle estilo a la fuente (p.e.: normal o italic)
-* **[font-family](https://www.w3.org/wiki/CSS/Properties/font-family)**: establece una lista de fuentes (Gill, Helvetica, sans-serif;)
-* **[font-weight](https://www.w3.org/wiki/CSS/Properties/font-weight)**: nos permite especificar el ancho de la fuente (bold, 400, 600, ...)
+* **[font-style](https://www.w3.org/wiki/CSS/Properties/font-style)**: nos permite darle estilo a la fuente (p.e.: `normal` o `italic`)
+* **[font-family](https://www.w3.org/wiki/CSS/Properties/font-family)**: establece una lista de fuentes (`Arial`, `Helvetica`, `sans-serif`;)
+* **[font-weight](https://www.w3.org/wiki/CSS/Properties/font-weight)**: nos permite especificar el ancho de la fuente (`bold`, `400`, `600`, ...)
 * **[font](https://www.w3.org/wiki/CSS/Properties/font)**: atajo para establecer varias propiedades
 
 ### font-size
 En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Style/Examples/007/units.en.html), pero vamos a ver cómo especificar el tamaño usando unidades de longitud, por ejemplo: 
 
 * **px**: representan un tamaño absoluto.
-* **em**: representan un valor relativo respecto al padre.
-* **rem** (root em): representan un valor relativo respecto al *body*
+* **em**: representan un valor relativo respecto al elemento DOM padre.
+* **rem** (root em): representan un valor relativo respecto al elemento `body`.
 
 Un elemento puede tener múltiples estilos como vemos a continuación:
 ```css
