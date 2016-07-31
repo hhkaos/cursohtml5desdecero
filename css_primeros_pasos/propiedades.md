@@ -148,6 +148,7 @@ Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste reco
 
 <hr>
 
-<small>Aclaraciones:</small><br>
-<small>1. En este artículo se puede leer que [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)</small><br>
-<small>2. En CSS 2.1 no se podían usar fuentes personalizadas, esta es una nueva características incorporada en CSS3.</small><br>
+**Aclaraciones:**<br>
+
+1. En este artículo se puede leer cómo [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)
+2. En CSS 2.1 no se podían usar fuentes personalizadas, esta es una nueva características incorporada en CSS3.<br>
