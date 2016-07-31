@@ -76,6 +76,64 @@ La frase "**Mi fruta favorita es el mango**" aparecerá en color verde, dado que
 
 ## Combinar selectores
 
+Hasta el momento hemos visto cómo utilizar un selector para especificar un elemento, pero podemos combinar **cualquiera** estos selectores siguiendo las siguientes reglas:
+
+* Si escribimos los selectores separados por un espacio estamos haciendo referencia al etiquetas anidadas dentro de otras.
+* Si añadimos los selectores sin separar por un espacio estamos haciendo referencia a un mismo elemento de una manera más específica.
+* Para entender cómo se aplican los selectores debes leerlos de derecha a izquierda
+* El último selector antes del caracter "**{**" será al que se le aplique el estilo.
+
+De este modo podemos seleccionar todos los elemento HTML que contienen una clase predefinida, etc. En este ejemplo vamos a ver cómo combinar nombres de etiquetas HTML con clases:
+
+```html
+<head>
+    <style>
+        h1 span{
+            color: red;
+        }
+        p.big{
+            font-size: 2rem;
+        }
+        p.big span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi <span>Curriculum Vitae</span></h1>
+    <p class="big"><span>Nombre</span>: Raúl Jiménez Ortega</p>
+    <p class="big"><span>Lugar de nacimiento</span>: Málaga</p>
+    <p>Fecha de nacimiento: 11/03/1984</p>
+</body>
+```
+
+Aquí estamos indicando:
+
+* Que el color del texto de las etiquetas **span** que sean descendientes \(no necesariamente hijos directos\) de las etiquetas **h1** aparezcan en rojo.
+* Que los párrafos con que contengan la clase "**big**" tengan un tamaño de fuente de "**2rem**".
+* Que el ancho de la fuente de las etiquetas **span** que sean descendientes de las etiquetas **p** con la clase **big** sea negrita.
+
+Esto al principio puede parecer un poco lioso, pero al final verás que aprenderás a usarlo por sentido común.
+
+> **Notas**: 
+
+> 1. Del mismo modo podríamos hacemos combinaciones usando identificadores, aunque dado que un identificador es único para un elemento y es el más específico no debería ser necesario usarlo nunca.
+
+> 2. Al combinar los selectores la especifidad cambia como podemos leer en el tutorial antes mencionado.
+
+### Múltiples clases
+
+Es habitual utilizar varias clases en un mismo elemento<sup>1</sup>, por ejemplo:
+
+```html
+<a class="btn btn-primary">Entrar</a>
+```
+A este elemento se le aplicarán los estilos de la clase "**.btn**" y la clase ".btn-primary"
+
+### Otros selectores
+
+
+
 ```css
 h1 span{
     color: red;
@@ -94,3 +152,7 @@ h1, h2{
 }
 ```
 
+---
+**Aclaraciones**:
+
+1. Esto lo veremos frecuentemente si usamos herramientas como "[Bootstrap](https://es.wikipedia.org/wiki/Twitter_Bootstrap)" u otros [frameworks CSS](https://es.wikipedia.org/wiki/Framework_de_CSS).
