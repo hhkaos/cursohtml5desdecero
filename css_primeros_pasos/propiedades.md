@@ -147,6 +147,21 @@ h1{
 }
 ```
 
+## Otras etiquetas habituales
+No es el objetivo de este curso ver todas las propiedades CSS ya que son muchas y la mejor forma de aprenderlas es con la práctica, pero antes de terminar esta lección me gustaría nombrarte dos más:
+* **background-color**: que como su nombre indica nos permite cambiar el color de fondo de un elemento ([ver más](https://www.w3.org/wiki/CSS/Properties#Background)).
+* **list-style**: nos permite modificar la imagen que precede a los elementos de una lista, etc ([ver más](https://www.w3.org/wiki/CSS/Properties#List)).
+
+Ejemplos:
+```css
+li{ list-style: none; }
+li{ list-style: square outsite; }
+li{ list-style-image: url("punto.jpg"); }
+li{ list-style-type: upper-roman; }
+```
+
+> **Nota**: en ocasiones cuando a elemento sólo se le define una propiedad te encontrarás que algunas personas lo escriben en una sola línea.
+
 # Chuleta CSS
 Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS3](https://github.com/hhkaos/cursohtml5desdecero/blob/master/images/css3-cheat-sheet.pdf) con sus propiedades, y no te asustes, no creo que haya nadie que se las conozca todas, a lo largo de este curso te explicaré sólo aquellas que necesitarás más amenudo y te enseñaré como seguir luego ampliando por tu cuenta.
 
