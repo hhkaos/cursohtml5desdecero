@@ -66,8 +66,8 @@ Una novedad de CSS3 frente a las versiones anteriores es que se permite el uso d
 
 Para para poder usarlas tendremos que:
 
-1. Añadir la hoja de estilos en nuestro HTML 
-2. Añadir las fuentes en los elementos que queramos en nuestro CSS
+1. Añadir la hoja de estilos en nuestro HTML usando la etiqueta "**&lt;link&gt;**".
+2. Añadir la propiedad **font-family** en los elementos que queramos aplicar la fuente en nuestro CSS.
 
 Por ejemplo:
 ```html
@@ -82,4 +82,4 @@ body{
 }
 ```
 
-Si añadimos múltiples nombres de fuente separados por coma lo que estamos indicándole al navegador es que si tuviese problemas para cargar la primera fuente lo intente con la segunda, y si tuviese problemas con la segunda lo intentase con la tercera, y así tantas veces como queramos.
+> **Nota**: al añadir múltiples nombres de fuente separados por coma lo que estamos indicándole al navegador es que si tuviese problemas para cargar la primera fuente lo intente con la segunda, y si tuviese problemas con la segunda lo intentase con la tercera, y así tantas veces como queramos.
