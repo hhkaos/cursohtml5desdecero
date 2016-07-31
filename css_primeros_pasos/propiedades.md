@@ -1,5 +1,5 @@
 #Propiedades
-Hemos visto una forma de aplicar estilos a nuestro HTML, en el siguiente capítulo veremos otras formas, pero de momento vamos a empezar viendo en detalle algunas de las propiedades más usadas en CSS.
+Hemos visto una forma de aplicar estilos a nuestro HTML, en el siguiente capítulo veremos otras formas, pero de momento nos vamos a quedar aquí y vamos a ver en detalle algunas de las propiedades más usadas en CSS.
 
 ## Modificar el color
 
