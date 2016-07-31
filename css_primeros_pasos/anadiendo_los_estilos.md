@@ -1,3 +1,14 @@
+# Estilos en línea
+Voy a explicarte esta forma de aplicar estilos, aunque debe evitarla siempre que sea posible ya que es una mala práctica estilar tu página de esta manera.
+
+A cualquier etiqueta HTML puedes añadirle la propiedad `style` y dentro de ella añadir tantos estilos como desees separados por punto y coma, por ejemplo:
+
+```html
+<h1 style="color:red;font-size:2em">Título de la página</h1>
+```
+
+Esta práctica está totalmente des-recomendada ya que a la larga complica el mantenmiento de los estilos de tu página incitándote a escribir más código del necesario como veremos a continuación.
+
 # Estilos externos
 
 inline y externos
