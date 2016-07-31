@@ -1,4 +1,6 @@
-# Estilos en línea
+# Formas de añadir CSS
+Ahora vamos a repasar las tres formas que existen de añadir estilos a nuestro HTML.
+## Estilos en línea
 Voy a explicarte esta forma de aplicar estilos, aunque debe evitarla siempre que sea posible ya que es una mala práctica estilar tu página de esta manera.
 
 A cualquier etiqueta HTML puedes añadirle la propiedad `style` y dentro de ella añadir tantos estilos como desees separados por punto y coma, por ejemplo:
@@ -9,12 +11,20 @@ A cualquier etiqueta HTML puedes añadirle la propiedad `style` y dentro de ella
 
 Esta práctica está totalmente des-recomendada ya que a la larga complica el mantenmiento de los estilos de tu página incitándote a escribir más código del necesario como veremos a continuación.
 
-# Estilos externos
+## Estilos internos
+Este es el ejemplo que hemos visto hasta ahora, añadiendo la etiqueta `<style>` dentro de nuestra página HTML.
 
-inline y externos
+## Estilos externos
 
+Y estas La forma recomendada (**siempre**) de aplicar estilos es creando un fichero con extensión "**.css**" e indicarle al navegador que la cargue, para ello usaremos un elemento auto-contenido llamado **&lt;link&gt;**:
 
-## Aplicar estilos a los elementos
+```html
+<link rel="stylesheet" href="resources/css/main.css">
+```
+
+Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: *múltiples hojas de estilos*, pero en caso de tener un estilo duplicado siempre prevalecerá el último estilo definido. Cuando veamos la herencia veremos qué significa esto.
+
+# Aplicar estilos a los elementos
 
 * **id**: identificador **único** de un elemento
 * **class**: identificador que puede ser compartido por varios elementos
@@ -40,15 +50,6 @@ inline y externos
 </style>
 ```
 
-## Vincular una hoja de estilos
-
-Para indicarle a una página dónde se encuentras los estilos tendremos que añadir un elemento auto-contenido **<link>**:
-
-```css
-<link rel="stylesheet" href="resources/css/main.css">
-```
-
-Una página puede incluir varias hojas de estilos, y siempre prevalecen los estilos de la última hoja añadida.
 
 ## Fuentes personalizadas
 
