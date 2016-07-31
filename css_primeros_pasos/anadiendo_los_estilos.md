@@ -16,18 +16,24 @@ Este es el ejemplo que hemos visto hasta ahora, añadiendo la etiqueta `<style>`
 
 ## Estilos externos
 
-Y estas La forma recomendada (**siempre**) de aplicar estilos es creando un fichero con extensión "**.css**" e indicarle al navegador que la cargue, para ello usaremos un elemento auto-contenido llamado **&lt;link&gt;**:
+Y la forma recomendada (**siempre**) de aplicar estilos es creando un fichero con extensión "**.css**" e indicarle al navegador que la cargue, para ello usaremos un elemento auto-contenido llamado **&lt;link&gt;**:
 
 ```html
 <link rel="stylesheet" href="resources/css/main.css">
 ```
 
-Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: *múltiples hojas de estilos*, pero en caso de tener un estilo duplicado siempre prevalecerá el último estilo definido. Cuando veamos la herencia veremos qué significa esto.
+> **Nota**: Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: *múltiples hojas de estilos*, pero en caso de tener un estilo duplicado siempre prevalecerá el último estilo definido. Cuando veamos la herencia veremos qué significa esto.
 
 # Aplicar estilos a los elementos
 
-* **id**: identificador **único** de un elemento
-* **class**: identificador que puede ser compartido por varios elementos
+Ahora que hemos visto todas las formas de aplicar estilos CSS a nuestras páginas vamos a ver otras formas de aplicar estilos a nuestras etiquetas HTML.
+
+Hasta ahora hemos visto que indicando el nombre de una etiqueta y a continuación añadiendo una llaves que envuelvan las propiedades le aplicamos el mismo estilo a todas las apariciones de dicha etiqueta en nuestro HTML, pero existen otras dos formas:
+
+* Asignando un identificador único al elemento: para ello añadiremos la propiedad **id="valor"** a la etiqueta.
+* Asignando una o varias clases al elemento: en este caso usaremos la propiedad **class="valor1 valor2 etc"**
+
+Veamos un ejemplo:
 
 ```html
 <!-- index.html -->
@@ -50,13 +56,18 @@ Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: *múl
 </style>
 ```
 
+En este caso a la frase "**Experiencia profesional**" se le aplicará un tamaño mayor (`large`), la palabra profesional aparecerá con un ancho de fuente "`normal`" y todo salvo la palabra "**Experiencia**" aparecerá en color azul.
 
 ## Fuentes personalizadas
 
-En CSS3 ya se permite el uso de fuente personalizadas. [Google Fonts](https://www.google.com/fonts) dispone de un amplio número de fuentes de uso libre.
+Una novedad de CSS3 frente a las versiones anteriores es que se permite el uso de fuente personalizadas. El repositorio de fuentes más popular es [Google Fonts](https://www.google.com/fonts) que ofrece un amplio número de fuentes de uso libre.
 
-Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir las fuentes en los elementos que queramos en nuestro CSS.
+Para para poder usarlas tendremos que:
 
+1. Añadir la hoja de estilos en nuestro HTML 
+2. Añadir las fuentes en los elementos que queramos en nuestro CSS
+
+Por ejemplo:
 ```html
 <!-- index.html -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700' rel='stylesheet' type='text/css'>
@@ -65,29 +76,8 @@ Para usarlas tendremos que añadir la hoja de estilos en nuestro HTML y añadir 
 ```css
 /* main.css */
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, arial;
 }
 ```
 
-Ejemplo:
-
-```css
-h1{
-    font: italic 600 24px / 1.5em Helvetica;
-}
-```
-
-```css
-h1{
-    font-size: 2em;
-    font-family: 'Open Sans', sans-serif;
-}
-```
-
-```css
-h1{
-    font-size: 2rem;
-    font-weight: bold;
-    font-style: italic;
-}
-```
+Si añadimos múltiples nombres de fuente separados por coma lo que estamos indicándole al navegador es que si tuviese problemas para cargar la primera fuente lo intente con la segunda, y si tuviese problemas con la segunda lo intentase con la tercera, y así tantas veces como queramos.
