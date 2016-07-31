@@ -24,14 +24,14 @@ Y la forma recomendada (**siempre**) de aplicar estilos es creando un fichero co
 
 > **Nota**: Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: *múltiples hojas de estilos*, pero en caso de tener un estilo duplicado siempre prevalecerá el último estilo definido. Cuando veamos la herencia veremos qué significa esto.
 
-# Aplicar estilos a los elementos
+# Selectores de etiquetas
 
-Ahora que hemos visto todas las formas de aplicar estilos CSS a nuestras páginas vamos a ver otras formas de aplicar estilos a nuestras etiquetas HTML.
+Ahora que hemos visto todas las formas de cargar estilos CSS en nuestras páginas y cómo aplicar estilos a etiquetas HTML usando el nombre de la etiqueta, vamos a ver las demás formas de seleccionar etiquetas HTML para aplicarles estilos.
 
-Hasta ahora hemos visto que indicando el nombre de una etiqueta y a continuación añadiendo una llaves que envuelvan las propiedades le aplicamos el mismo estilo a todas las apariciones de dicha etiqueta en nuestro HTML, pero existen otras dos formas:
+Hasta ahora hemos visto que indicando el nombre de una etiqueta y a continuación añadiendo una llaves que envuelvan las propiedades le aplicamos el mismo estilo a todas las apariciones de dicha etiqueta en nuestro HTML, pero existen otras dos formas de seleccionar/especificar a qué elemento queremos aplicar los estilos:
 
-* Asignando un identificador único al elemento: para ello añadiremos la propiedad **id="valor"** a la etiqueta.
-* Asignando una o varias clases al elemento: en este caso usaremos la propiedad **class="valor1 valor2 etc"**
+* Asignando un identificador (**único**) al elemento: para ello añadiremos la propiedad **id="valor"** a la etiqueta.
+* Asignando una o varias clases al elemento: en este caso usaremos la propiedad **class="valor1 valor2 etc"**.
 
 Veamos un ejemplo:
 
@@ -57,6 +57,8 @@ Veamos un ejemplo:
 ```
 
 En este caso a la frase "**Experiencia profesional**" se le aplicará un tamaño mayor (`large`), la palabra profesional aparecerá con un ancho de fuente "`normal`" y todo salvo la palabra "**Experiencia**" aparecerá en color azul.
+
+> **Nota importante**: los identificadores son únicos por cada página HTML. Por tanto dentro de un mismo fichero "**.html**" no podemos asignar el mismo valor a dos "**id**" o nos encontraremos con problemas e inconsistencias.
 
 ## Fuentes personalizadas
 
