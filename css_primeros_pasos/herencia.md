@@ -132,25 +132,18 @@ A este elemento se le aplicarán los estilos de la clase "**.btn**" y la clase "
 
 ### Otros selectores
 
-
-
-```css
-h1 span{
-    color: red;
-}
-```
+Por último añadir que se puede aplicar el mismo estilo a varios selectores o conjunto de selectores separándolos por una coma, por ejemplo
 
 ```css
-h1 > span{
-    color: red;
+.bold,
+strong,
+p.title{
+    font-weight: bold;
 }
 ```
+Esto significa que se tanto a las etiquetas con la clase "**bold**" como las "**&lt;strong&gt;**" como las "**&lt;p&gt;**" que contengan la clase "**title**" se les aplicará el estilo "**font-weight: bold;**".
 
-```css
-h1, h2{
-    color: red;
-}
-```
+También se puede usar el caracter "**&gt;**" para especificar un hijo directo de un elemento, y otros [pseudo-elementos](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements), pero no entraremos en estos detalles en este curso.
 
 ---
 **Aclaraciones**:
