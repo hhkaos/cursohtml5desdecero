@@ -18,7 +18,7 @@ Como ejemplo podrás comprobar que el elemento HTML5 `<video>` no está soportad
 
 ## Mi primer CSS
 
-Hay múltiples formas de añadir CSS a nuestra página, una forma (*la más sencilla*) es utilizando el elemento `<style>` dentro de nuesto HTML, por ejemplo:
+Hay múltiples formas de añadir CSS a nuestra página, una forma es utilizando el elemento `<style>` dentro de nuesto HTML, por ejemplo:
 
 ```html
 <!DOCTYPE html>
