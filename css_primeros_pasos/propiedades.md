@@ -150,7 +150,7 @@ h1{
 ## Otras etiquetas habituales
 No es el objetivo de este curso ver todas las propiedades CSS ya que son muchas y la mejor forma de aprenderlas es con la práctica, pero antes de terminar esta lección me gustaría nombrarte dos más:
 * **background-color**: que como su nombre indica nos permite cambiar el color de fondo de un elemento ([ver más](https://www.w3.org/wiki/CSS/Properties#Background)).
-* **list-style**: nos permite modificar la imagen que precede a los elementos de una lista, etc ([ver más](https://www.w3.org/wiki/CSS/Properties#List)).
+* **list-style-***: nos permite modificar la imagen que precede a los elementos de una lista, etc ([ver más](https://www.w3.org/wiki/CSS/Properties#List)).
 
 Ejemplos:
 ```css
