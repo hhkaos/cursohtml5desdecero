@@ -1,5 +1,8 @@
 ## Herencia
 
+La palabra CSS viene de *Cascading StyleSheets*, esto quiere decir: Hojas de Estilo en Cascada.
+
+
 Una propiedad **muy importante** de las hojas de estilo es que los estilos aplicados a un elemento padre son heredados por su hijo.
 
 ```html
