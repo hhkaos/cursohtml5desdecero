@@ -1,9 +1,5 @@
 #Propiedades
-Hay múltiples formas de aplicar estilos, vamos a empezar viendo cómo se aplican estilos a etiquetal HTML estándar, para ello el formato a seguir es:
-
-
-
-Esto signica que todos los encabezados de nivel 1 tendrán la fuente en color rojo. Ahora vamos a ver en detalle algunas de las propiedades más usadas en CSS.
+Hemos visto una forma de aplicar estilos a nuestro HTML, en el siguiente capítulo veremos otras formas, pero de momento vamos a empezar viendo en detalle algunas de las propiedades más usadas en CSS.
 
 ## Modificar el color
 

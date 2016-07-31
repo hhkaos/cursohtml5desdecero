@@ -47,10 +47,12 @@ Los estilos aplicados a un elemento en CSS siempre tienen que estar encerrados e
 Por tanto los estilos se definen de la siguiente manera:
 ```css
 nombre-de-la-etiqueta-html {
- propiedad-css: valor-de-la-propiedad;
- propiedad-css-2: valor-de-la-propiedad-2;
+    propiedad-css: valor-de-la-propiedad;
+    propiedad-css-2: valor-de-la-propiedad-2;
 }
 ```
+
+Una buena práctica es tabular las propiedades de un elemento (igual que se hace con el código HTML).
 
 Siempre que se use el elemento "**style**" debe estar anidado dentro del elemento "**head**", aunque si lo ponemos dentro del "**body**" lo más probable es que funcione bien, pero no sería válido según el W3C y por tanto no pasaría [el validador](https://validator.w3.org/nu/#textarea).
 
