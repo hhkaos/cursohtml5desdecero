@@ -33,9 +33,9 @@ h1{
 }
 ```
 
-En RGB si indica en cada uno de los valores la cantidad de Rojo(Red), Verde(Green) y Azul(Blue). Este valor puede ser un porcentaje o un valor comprendido entre 0 y 255, siendo 255 equivalente a 100%. 
+En RGB si indica en cada uno de los valores la cantidad de Rojo (**R**ed), Verde (**G**reen) y Azul (**B**lue) que tiene que combinar. Este valor puede ser un porcentaje o un valor comprendido entre 0 y 255, siendo 255 equivalente a 100%. 
 
-En cuanto al valor hexadecimal FF equivale a 255, existen múltiples [conversores de decimal a hexadecimal](http://www.binaryhexconverter.com/hex-to-decimal-converter) y viceversa, la principal ventaja de usar este formato es que ocupa menos caracteres y por tanto menos espacio en disco. Por último, cuando un valor hexadecimal contiene 3 caracteres significa que cada uno de ellos se repite dos veces, ej: #faf es igual que #ffaaff.
+Por otro lado comentar que el valor [hexadecimal](https://es.wikipedia.org/wiki/Sistema_hexadecimal) "**FF**" equivale a "**255**". Existen múltiples [conversores de decimal a hexadecimal](http://www.binaryhexconverter.com/hex-to-decimal-converter) y viceversa, la principal ventaja de usar este formato es que ocupa menos caracteres y por tanto menos espacio en disco (lo cual es óptimo para mejorar los tiempos de carga de un fichero<sup>2</sup>). Por último, cuando un valor hexadecimal contiene 3 caracteres significa que cada uno de ellos se repite dos veces, ej: #faf es igual que #ffaaff.
 
 Cuando lleguemos al apartado de "**Estilos con DevTools**" veremos una manera sencilla de usar un [círculo cromático](https://es.wikipedia.org/wiki/C%C3%ADrculo_crom%C3%A1tico) para conocer/elegir el color de un elemento.
 
@@ -79,7 +79,7 @@ h1{
 
 ### font-family
 
-Esta propiedad indica la fuente que queremos usar, por defecto<sup>2</sup> sólo se pueden especificar fuentes que tenga el usuario instaladas en su sistema operativo, ¿pero cómo sabemos cuales son?. Bueno, existen [algunas fuentes que se considera seguras](http://www.w3schools.com/cssref/css_websafe_fonts.asp) y que por tanto podemos contar con que estarán disponibles en casi cualquier sistema operativo.
+Esta propiedad indica la fuente que queremos usar, por defecto<sup>3</sup> sólo se pueden especificar fuentes que tenga el usuario instaladas en su sistema operativo, ¿pero cómo sabemos cuales son?. Bueno, existen [algunas fuentes que se considera seguras](http://www.w3schools.com/cssref/css_websafe_fonts.asp) y que por tanto podemos contar con que estarán disponibles en casi cualquier sistema operativo.
 
 Además de esto podemos introducir una lista de fuentes separadas por comas, de este modo en caso de que no se encuentre la primera fuente especificada se intentará con las posteriores. 
 
@@ -175,4 +175,5 @@ Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste reco
 **Aclaraciones:**<br>
 
 1. En este artículo se puede leer cómo [la propiedad color no sólo afecta al texto](http://www.sitepoint.com/12-little-known-css-facts/#the-color-property-isnt-just-for-text)
-2. En CSS 2.1 no se podían usar fuentes personalizadas, esta es una nueva características incorporada en CSS3.<br>
+2. Una hoja de estilos de un proyecto mediano puede tener de cientos a miles de líneas, en estos casos reducir el número de caracteres puede ayudar a reducir el tamaño del fichero en bastantes KB lo que hace que la página cargue un poco más rápido.
+3. En CSS 2.1 no se podían usar fuentes personalizadas, esta es una nueva características incorporada en CSS3.<br>
