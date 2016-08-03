@@ -128,7 +128,7 @@ Es habitual utilizar varias clases en un mismo elemento<sup>1</sup>, por ejemplo
 ```html
 <a class="btn btn-primary">Entrar</a>
 ```
-A este elemento se le aplicarán los estilos de la clase "**.btn**" y la clase ".btn-primary"
+A este elemento se le aplicarán los estilos de la clase "**.btn**" y la clase "**.btn-primary**".
 
 ### Otros selectores
 
