@@ -15,7 +15,7 @@ En este caso el color de la fuente "Inicio" aparecerá en rojo y la de "Experien
 
 > **Nota**: te recuerdo que **no está recomendado** aplicar los estilos usando atributos. En este caso lo he hecho así porque creo que queda más clara la explicación.
 
-Del mismo modo y como ya adelantábamos al principio del capítulo, si un estilo se define dos veces, el último definido será el que prevalezcerá, por ejemplo si en nuestro fichero escribimos:
+Del mismo modo y como ya adelantábamos al principio del capítulo, si un estilo se define dos veces, el último definido será el que prevalecerá, por ejemplo si en nuestro fichero escribimos:
 
 ```css
 /* main.css */
@@ -141,7 +141,7 @@ p.title{
     font-weight: bold;
 }
 ```
-Esto significa que se tanto a las etiquetas con la clase "**bold**" como las "**&lt;strong&gt;**" como las "**&lt;p&gt;**" que contengan la clase "**title**" se les aplicará el estilo "**font-weight: bold;**".
+Esto significa que tanto a las etiquetas con la clase "**bold**" como las "**&lt;strong&gt;**" como las "**&lt;p&gt;**" que contengan la clase "**title**" se les aplicará el estilo "**font-weight: bold;**".
 
 También se puede usar el caracter "**&gt;**" para especificar un hijo directo de un elemento, y otros [pseudo-elementos](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements), pero no entraremos en estos detalles en este curso.
 
