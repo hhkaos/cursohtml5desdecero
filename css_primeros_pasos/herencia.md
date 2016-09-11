@@ -13,7 +13,7 @@ Por ejemplo:
 
 En este caso el color de la fuente "Inicio" aparecerá en rojo y la de "Experiencia" en azul.
 
-> **Nota**: te recuerdo que **no está recomendado** aplicar los estilos usando atributos. En este caso lo he hecho así porque creo que queda más clara la explicación.
+> **Nota**: te recuerdo que **no está recomendado** aplicar los estilos usando atributos. En este caso lo he hecho así porque creo que queda más clara la explicación.a
 
 Del mismo modo y como ya adelantábamos al principio del capítulo, si un estilo se define dos veces, el último definido será el que prevalecerá, por ejemplo si en nuestro fichero escribimos:
 
@@ -28,16 +28,17 @@ p {
 }
 ```
 
-En este caso el color de todas las etiquetas **&lt;p&gt;** será verde. Esto ocurre igual si el estilo está definido en dos hojas CSS distintas pero ambas están añadidas usando la etiqueta **&lt;link&gt;**, en este caso prevalence el estilo definido en la última hoja añadida.
+En este caso el color de todas las etiquetas **&lt;p&gt;** será verde. 
+
+Ocurre lo mismo si la misma regla está definida en dos hojas CSS distintas que hayan sido cargadas usando la etiqueta **&lt;link&gt;**, en este caso prevalence el estilo definido en la última hoja cargada.
 
 Si por error definiésemos la misma propiedad dos veces en un elemento también prevalecerá la segunda, por ejemplo:
 
 ```css
 /* main.css */
-p {
+strong {
     background: orange;
-    font-size: 24px;
-    background: green;
+    background: yellow;
 }
 ```
 
