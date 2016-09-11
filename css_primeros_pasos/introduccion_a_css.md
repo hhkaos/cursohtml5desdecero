@@ -59,4 +59,4 @@ Siempre que se use el elemento "**style**" debe estar anidado dentro del element
 ## Snippets interactivos
 
 Se ha creado un recurso que contiene múltiples ejemplos de código (*snippets*) que pueden consultarse en la siguiente URL: 
-: [http://libro.cursohtml5desdecero.com/codigo/css/](css/?lesson=2&snippet=1).
+: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/).
