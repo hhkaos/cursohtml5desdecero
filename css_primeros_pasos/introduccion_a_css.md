@@ -62,6 +62,6 @@ En lugar de incluir "pantallazos" mostrando el resultado de cada ejemplo he opta
 
 A lo largo de las lecciones haré referencia a ellos para que puedas consultarlos antes de continuar con la lección.
 
-También los he creado con el objetivo de que estos snippets te sean de utilidad más adelante en tus desarrollos.
+También los he creado con el objetivo de que estos snippets te sean de utilidad más adelante en tus futuros desarrollos.
 
 Puedes consultarlos en la siguiente URL: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/).
