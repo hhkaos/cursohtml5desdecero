@@ -101,7 +101,7 @@ body{
 
 1. Una regla no es más que la forma de específicar el elemento HTML a los que se les debe aplicar un estilo definido.
 
-2. El navegador cargará y leerás los ficheros de manera secuencial, esto significa que lee empezando por la primera línea de un fichero y termina por la última.
+2. El navegador cargará y leerás los ficheros de manera secuencial, esto significa que lee empezando por la primera línea de un fichero y termina por la última, por tanto para facilitarnos la compresión podemos imaginarnos que cuando se carga un fichero con una etiqueta (**link** o **script**), esta etiqueta es reemplazada por el contenido del fichero al que haga referencia dicha etiqueta.
 
 
 
