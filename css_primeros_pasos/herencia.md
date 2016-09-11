@@ -130,6 +130,8 @@ Es habitual utilizar varias clases en un mismo elemento<sup>1</sup>, por ejemplo
 ```
 A este elemento se le aplicarán los estilos de la clase "**.btn**" y la clase "**.btn-primary**".
 
+Si se diese caso de que ambas clases especifican una misma propiedad, por ejemplo **color** predominará la de la última indicada, en este caso la de la clase "**.btn-primary**".
+
 ### Otros selectores
 
 Por último añadir que se puede aplicar el mismo estilo a varios selectores o conjunto de selectores separándolos por una coma, por ejemplo
