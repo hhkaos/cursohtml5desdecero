@@ -1,0 +1,13 @@
+iframe{
+  width: 100%;
+  background-color: white;
+  height: 350px;
+  border: 2px solid #FFF;
+}
+
+.code .css{
+  padding-left: 20px;
+}
+.mt1{
+  margin-top: 1.5rem;
+}
