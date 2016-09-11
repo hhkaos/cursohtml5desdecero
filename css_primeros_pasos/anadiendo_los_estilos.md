@@ -1,6 +1,6 @@
 # Formas de añadir CSS
 
-Ahora vamos a repasar las tres formas que existen de añadir estilos a nuestro HTML y una muy breve presentación de los selectores.
+Ahora vamos a repasar las tres formas que existen de añadir estilos a nuestro HTML y una muy breve presentación a los selectores.
 
 ## Estilos en línea
 
