@@ -91,3 +91,18 @@ body{
 
 > **Nota**: al añadir múltiples nombres de fuente separados por coma lo que estamos indicándole al navegador es que si tuviese problemas para cargar la primera fuente lo intente con la segunda, y si tuviese problemas con la segunda lo intentase con la tercera, y así tantas veces como queramos. Por ejemplo: el problema podría deberse a que el navegador no soporte CSS3 y fuentes personalizadas o por ejemplo porque el fichero que contiene la fuente y que tiene que descargar el navegador no estuviese disponible.
 
+<hr>
+
+
+
+**Aclaraciones:**<br>
+
+
+
+1. Una regla no es más que la forma de específicar el elemento HTML a los que se les debe aplicar un estilo definido.
+
+2. El navegador cargará y leerás los ficheros de manera secuencial, esto significa que lee empezando por la primera línea de un fichero y termina por la última.
+
+
+
+
