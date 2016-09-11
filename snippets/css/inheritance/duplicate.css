@@ -1,0 +1,13 @@
+p {
+    color: orange;
+    font-size: 24px;
+}
+
+p {
+    color: green;
+}
+
+strong {
+    background: orange;
+    background: yellow;
+}

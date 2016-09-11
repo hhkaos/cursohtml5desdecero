@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">  
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Snippets en CSS</title>
   <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600%7CSource+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>-->
-  
+
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  
+
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
-  
+
 
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="../assets/css/css_styles.css">
   <link rel="stylesheet" href="../assets/css/monokai-sublime.css">
 </head>
- 
+
 <body>
   <div id="header" class="dispensable">
     <h1 class="text-center">Snippets en CSS</h1>
   </div>
-  
+
   <div class="container">
     <div class="row text-center mb1 dispensable">
       <div class="col-md-12 mt1 mb1">
-      
+
         <form class="form-inline">
-          
+
           <label for="lesson">Lección: </label>
           <select id="lesson" class="form-control btn btn-success">
-            
+
           </select>
 
           <label for="snippets" class="ml1">Snippets: </label>
           <select id="snippets" class="form-control btn btn-info">
-            
+
           </select>
         </form>
-      
+
         <button id="prev" class="btn btn-primary pull-left">< Anterior</button>
         <button id="next" class="btn btn-primary pull-right">Siguiente ></button>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <p>Código HTML del &lt;body&gt;: <a href="https://github.com/hhkaos/master-esri/issues" class="pull-right doubts">¿Tienes alguna duda?</a></p>
-        <pre class="code"><code id="code" class="html"></code></pre>
-
-        <p class="mt1">Código CSS:</p>
+        <p>Código CSS: <a href="https://github.com/hhkaos/master-esri/issues" class="pull-right doubts">¿Tienes alguna duda?</a></p>
         <pre class="code"><code class="css"></code></pre>
+
+        <p class="mt1">Código HTML del &lt;body&gt;:</p>
+        <pre class="code"><code id="code" class="html"></code></pre>
         <!--<button id="btnRun" class="btn btn-primary btn-block">Ejecutar</button>-->
       </div>
       <div class="col-md-6">
@@ -65,14 +65,14 @@
       <p class="text-muted"><a href="https://github.com/hhkaos/master-esri/">Código disponible en Github</a> | Autor: Raúl Jiménez Ortega | Licencia Creative Commons: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0 International</a>.</p>
     </div>
   </footer>
-  
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  
+
   <!-- Snippets de código de ejemplo de esta lección -->
-  
+
   <!--
-  
+
   <script src="other.js"></script>
   -->
 
@@ -100,6 +100,13 @@
         }
       },
 
+      "Herencia": {
+        "folder": "inheritance",
+        "snippets":{
+          "Reglas duplicadas": "duplicate"
+        }
+      }
+
       /*
       "Modelo de caja"
       */
@@ -107,6 +114,6 @@
   </script>
   <script src="../assets/js/css_utils.js"></script>
 
-  
+
 </body>
 </html>
