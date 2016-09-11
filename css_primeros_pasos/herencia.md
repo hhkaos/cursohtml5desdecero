@@ -42,7 +42,7 @@ strong {
 }
 ```
 
-En este caso también prevalecerá el verde.
+En este caso el fondo de la etiqueta prevalecerá en amarillo como se puede ver aquí: [http://libro.cursohtml5desdecero.com/css/?lesson=2&snippet=1](css/?lesson=2&snippet=1).
 
 ## Predominancia del estilo más específico
 
