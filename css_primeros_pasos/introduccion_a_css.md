@@ -64,4 +64,4 @@ A lo largo de las lecciones haré referencia a ellos para que puedas consultarlo
 
 También los he creado con el objetivo de que estos snippets te sean de utilidad más adelante en tus futuros desarrollos.
 
-Puedes consultarlos en la siguiente URL: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/).
+Puedes acceder a ellos a través de la siguiente URL: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/).
