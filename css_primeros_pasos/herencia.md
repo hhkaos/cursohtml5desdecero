@@ -20,11 +20,11 @@ Del mismo modo y como ya adelantábamos al principio del capítulo, si un estilo
 ```css
 /* main.css */
 p { 
-    background: orange; 
+    color: orange; 
     font-size: 24px; 
 } 
 p { 
-    background: green; 
+    color: green; 
 }
 ```
 
