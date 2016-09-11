@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Snippets en JavaScript</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600%7CSource+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
+  <link rel="stylesheet" href="../assets/css/monokai-sublime.css">
+
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+ 
+<body>
+  <div id="header" class="dispensable">
+    <h1 class="text-center">Snippets en JavaScript</h1>
+  </div>
+  
+  <div class="container">
+    <div class="row text-center mb1 dispensable">
+      <div class="col-md-12 mt1 mb1">
+      
+        <form class="form-inline">
+          
+          <label for="lesson">Lección: </label>
+          <select id="lesson" class="form-control btn btn-success">
+            
+          </select>
+
+          <label for="snippets" class="ml1">Snippets: </label>
+          <select id="snippets" class="form-control btn btn-info">
+            
+          </select>
+        </form>
+      
+        <button id="prev" class="btn btn-primary pull-left">< Anterior</button>
+        <button id="next" class="btn btn-primary pull-right">Siguiente ></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Código JavaScript: <a href="https://github.com/hhkaos/master-esri/issues" class="pull-right doubts">¿Tienes alguna duda?</a></p>
+        <pre class="code"><code id="code" class="javascript"></code></pre>
+      </div>
+      <div class="col-md-6">
+        <p>Respuesta en la consola:</p>
+        <pre class="code console"><code id="console" class="javascript"></code></pre>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer" class="footer dispensable">
+    <div class="container text-center">
+      <p class="text-muted"><a href="https://github.com/hhkaos/master-esri/">Código disponible en Github</a> | Autor: Raúl Jiménez Ortega | Licencia Creative Commons: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0 International</a>.</p>
+    </div>
+  </footer>
+ 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  
+  <!-- Snippets de código -->
+  <script src="variables.js"></script>
+  <script src="operators.js"></script>
+  <script src="flow.js"></script>
+  <script src="objects.js"></script>
+  <script src="functions.js"></script>
+  <script src="window.js"></script>
+  <script src="events.js"></script>
+  <script src="jquery.js"></script>
+  
+
+  <!-- Utilidades para añadir interacción a esta página -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+
+
+  <script>
+    var samples = {
+      "Variables": variables,
+      "Operadores": operators,
+      "Control del flujo": flow,
+      "Objetos": objects,
+      "Funciones": functions,
+      "Objeto window": windowObjSnippets,
+      "Eventos": events,
+      "jQuery": jQuerySnippets
+    };
+  </script>
+  <script src="../assets/js/js_utils.js"></script>
+
+  
+</body>
+</html>

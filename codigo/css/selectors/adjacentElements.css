@@ -1,0 +1,4 @@
+/* Aplica a los elementos <h2> adyancetes a un <h1> */
+h1 + h2 {
+  color: green;
+}

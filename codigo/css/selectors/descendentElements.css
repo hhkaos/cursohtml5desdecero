@@ -1,0 +1,17 @@
+/* 
+  Aplica a los elementos que contengan la 
+  clase active descendientes de #menu 
+*/    
+#menu .active{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+/* 
+  Aplica a los elementos que contengan la
+  clase primary descendientes de un elemento <p>
+*/    
+p .primary{
+  color: red;
+}

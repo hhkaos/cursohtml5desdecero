@@ -1,0 +1,5 @@
+ul{ list-style-type: square; }
+ol{ list-style-type: lower-roman; }
+
+/* Aplica a los elementos <ul> y los <ol> */
+ul, ol{ color: #4CAF50; }

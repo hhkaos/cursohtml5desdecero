@@ -1,0 +1,16 @@
+/* 
+  Aplica a los elementos <a> que sean descendientes de 
+  elementos <ul> y estos a su vez de body descendientes
+  directos de body
+*/
+body > ul a{
+  text-decoration: none;
+}
+
+/* 
+  Aplica a los elementos <a> que sean descendientes directos
+  de elementos <li> y estos a su vez de elementos <ul> 
+*/
+li > a{
+  color: green;
+}

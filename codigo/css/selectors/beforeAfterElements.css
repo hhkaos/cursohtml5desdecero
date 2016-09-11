@@ -1,0 +1,21 @@
+/* 
+  Añade contenido antes de los elementos que contengan 
+  la clase inline
+*/
+.inline:before{
+  content: "Lista inline: ";
+  font-weight: 600;
+  color: green;
+}
+
+/* 
+  Añade contenido después de los elementos <li> que sean
+  descendientes de elementos que contengan la clase inline
+*/
+.inline li:after{
+  content: ", ";
+}
+
+/* Estilos auxiliares para el ejemplo */
+.inline { padding-left: 0; }
+.inline li{ display: inline-block; }

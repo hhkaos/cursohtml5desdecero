@@ -1,0 +1,9 @@
+/* Todos los elementos que tengan atributo id */
+[id]{
+  color: red;
+}
+
+/* Todos los elementos que tengan atributo target="blank" */
+[target="blank"]{
+  color: green;
+}

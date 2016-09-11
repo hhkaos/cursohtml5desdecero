@@ -1,0 +1,14 @@
+/* Todos los elementos que contengan la clase btn */
+.button{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  font-size: 12px;
+  padding: .3rem;
+  font-family: Arial;
+}
+
+/* Todos los elementos que contengan la clase bgRed */
+.bgRed{
+  background-color: rgba(232, 101, 101, 0.58);
+}

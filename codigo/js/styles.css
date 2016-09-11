@@ -1,0 +1,52 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+html{
+  font-size: 17px;
+}
+html,body{
+  height: 100%;
+  font-size: 1rem;
+}
+body > iframe{
+  left: 0;
+  position: absolute;
+  /* border-left: 1px solid #000; */
+  height: 83%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  display: block;
+  /* border-right: 1px solid black; */
+  /* border-bottom: 1px solid #000; */
+  width: 99.8%;
+  padding-top: 12%;
+}
+body{
+  position: relative;
+  
+  text-align: center;
+}
+
+#header{
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  background: #efefef;
+  top: 0;
+  padding: 1rem;
+  right: 0;
+}
+
+h1{text-align: center;text-transform: uppercase;}
+
+
+p.back a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
