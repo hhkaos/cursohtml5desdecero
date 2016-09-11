@@ -146,7 +146,7 @@ p.title{
 ```
 Esto significa que tanto a las etiquetas con la clase "**bold**" como las "**&lt;strong&gt;**" como las "**&lt;p&gt;**" que contengan la clase "**title**" se les aplicará el estilo "**font-weight: bold;**".
 
-También se puede usar el caracter "**&gt;**" para especificar un hijo directo de un elemento, y otros [pseudo-elementos](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements), pero no entraremos en estos detalles en este curso. Si quieres, puedes [ver algunos ejemplos interactivos](/codigo/css/).
+También se puede usar el caracter "**&gt;**" para especificar un hijo directo de un elemento, y otros [pseudo-elementos](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements), pero no entraremos en estos detalles en este curso.
 
 ---
 **Aclaraciones**:
