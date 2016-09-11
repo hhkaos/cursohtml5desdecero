@@ -20,13 +20,13 @@ Este es el ejemplo que hemos visto hasta ahora, añadiendo la etiqueta "**&lt;st
 
 ## Estilos externos
 
-Y por último la forma recomendada \(**siempre**\) de aplicar estilos: creando un fichero con extensión "**.css**" e indicarle al navegador que la cargue, para ello usaremos un elemento auto-contenido llamado **&lt;link&gt;**:
+Y por último la forma recomendada \(**siempre**\) de aplicar estilos: creando un fichero con extensión "**.css**" e indicarle al navegador que cargue dicho dichero, para ello usaremos un elemento auto-contenido llamado **&lt;link&gt;** del siguiente modo:
 
 ```html
 <link rel="stylesheet" href="resources/css/main.css">
 ```
 
-> **Nota**: Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: _múltiples hojas de estilos_, pero en caso de tener un estilo duplicado siempre prevalecerá el último estilo definido. Cuando veamos la herencia veremos qué significa esto.
+> **Nota**: Una página puede incluir varias etiquetas **link**, o lo que es lo mismo: _múltiples hojas de estilos_. En caso de que una regla<sup>1</sup> esté duplicada siempre prevalecerá la que se cargue en último lugar<sup>2</sup>. Cuando veamos la herencia veremos qué significa esto.
 
 # Selectores de etiquetas
 
