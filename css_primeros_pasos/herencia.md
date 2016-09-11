@@ -1,4 +1,4 @@
-## Herencia
+## Selectores y herencia
 
 La palabra CSS viene de _Cascading StyleSheets_, esto quiere decir: Hojas de Estilo en Cascada. La palabra **cascada** hace referencia a una propiedad **muy importante** de las hojas de estilo, y es que los estilos aplicados a un elemento padre son heredados por su hijo.
 
