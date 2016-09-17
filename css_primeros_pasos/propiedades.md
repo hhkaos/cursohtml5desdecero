@@ -17,7 +17,7 @@ Ahora vamos a ver tres formas equivalentes de representar el color rojo:
 
 ```css
 h1{
-    color: rgb(100%, 0, 0);
+    color: rgb(255, 0, 0);
 }
 ```
 
@@ -29,7 +29,7 @@ h1{
 
 ```css
 h1{
-    color: rgba(100%, 0, 0, 1);
+    color: rgba(255, 0, 0, 1);
 }
 ```
 
