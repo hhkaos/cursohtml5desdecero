@@ -42,7 +42,7 @@
     * [Colaborar con un proyecto](github/colaborar_con_un_proyecto.md?71)
     * [Ejercicio](WIP.md?38)
     * [Recursos](WIP.md?38)
-* [CSS: Primero pasos](css_primeros_pasos.md)
+* [CSS: Primeros pasos](css_primeros_pasos.md)
     * [Introducción a CSS](css_primeros_pasos/introduccion_a_css.md)
     * [Propiedades](css_primeros_pasos/propiedades.md)
     * [Añadiendo los estilos](css_primeros_pasos/anadiendo_los_estilos.md)
