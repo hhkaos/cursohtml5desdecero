@@ -1,13 +1,13 @@
 h1{
   color: #F00;
   font-size: 26px;
-  font-style: italic;
-  font-weight: 300;
+  font-style: italic; /* Estilo: normal u obliqua */
+  font-weight: 300; /* Ancho: fino */
 }
 
 p{
   font-family: Verdana, Times, serif;
-  font-weight: 700;
+  font-weight: 700; /* Ancho: grueso */
 }
 
 strong{
