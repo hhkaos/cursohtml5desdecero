@@ -10,9 +10,11 @@ Es importante que sepas que cada navegador incluye siempre una serie de estilos 
 * Los encabezados `<h1>`, `<h2>`, etc para que se muestren de un tamaño mayor que el del resto.
 * Etc
 
-Esto es algo común en todos los navegadores, el problema es que no todos definen los estilos de igual manera y esto puede ser fuente de errores en el futuro. Por eso veremos que es una práctica común que nuestros proyectos CSS empiecen cargando una hoja de estilos llamada [Reset.css](http://meyerweb.com/eric/tools/css/reset/) que uniformiza los estilos en todos los navegadores evitando que nuestra página no se vea igual en todos ellos.
+Esto lo hacen todos los navegadores, el problema es que no todos definen los estilos exactamente de la misma manera y si no tenemos en cuenta esto será fuente de errores en el futuro. 
 
-Vamos a empezar centrándonos en las propiedades de CSS3 que vienen heredadas de la versión 2.1. Dado que CSS3 al igual que HTML5 son estándares que se crean desde el W3C, la implementación en los navegadores no es inmediata, y por tanto no todos los elementos HTML5 ni todas las propiedades CSS3 están actualmente implementadas en todos los navegadores, por eso quiero dejarte este recurso con el que podrán consultar qué navegadores soportan cada propiedad: [CanIUse.com](http://caniuse.com/).
+Por este motivo vamos a empezar hablando de [Reset.css](http://meyerweb.com/eric/tools/css/reset/), una hoja de estilos comúnmente usada para uniformizar los estilos en todos los navegadores, lo que nos ayudará a que el resultado final después de aplicar nuestros estilos sean el mismo independientemente del navegador desde la que la abramos.
+
+En cuanto a los contenidos, vamos a empezar centrándonos en las propiedades de CSS3 que vienen heredadas de la [versión 2.1](). Dado que CSS3 al igual que HTML5 son estándares que se crean desde el W3C, la implementación en los navegadores no es inmediata, y por tanto no todos los elementos HTML5 ni todas las propiedades CSS3 están actualmente implementadas en todos los navegadores, por eso quiero dejarte este recurso con el que podrán consultar qué navegadores soportan cada propiedad: [CanIUse.com](http://caniuse.com/).
 
 Como ejemplo podrás comprobar que el elemento HTML5 `<video>` no está soportado por [Internet Explorer 8 ni por Opera mini](http://caniuse.com/#search=video) o que la propiedad CSS3 `background-attachment` no está soportada por el [buscador de Android ni por Opera mini](http://caniuse.com/#feat=background-attachment).
 
