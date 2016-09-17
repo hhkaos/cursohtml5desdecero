@@ -7,7 +7,7 @@ Es importante que sepas que cada navegador incluye siempre una serie de estilos 
 * Los elementos `<p>` tienen estilos para que se produzca un salto entre el párrafo y los elementos anterior y posterior.
 * El elemento `<strong>` para que se muestre en negrita.
 * Los elementos `<li>` para que aparezca un punto a la izquierda y una ligera indentación.
-* Los encabezados `<h1>`, `<h2>`, etc para que se muestren de un tamaño mayor que el por defecto.
+* Los encabezados `<h1>`, `<h2>`, etc para que se muestren de un tamaño mayor que el del resto.
 * Etc
 
 Esto es algo común en todos los navegadores, el problema es que no todos definen los estilos de igual manera y esto puede ser fuente de errores en el futuro. Por eso veremos que es una práctica común que nuestros proyectos CSS empiecen cargando una hoja de estilos llamada [Reset.css](http://meyerweb.com/eric/tools/css/reset/) que uniformiza los estilos en todos los navegadores evitando que nuestra página no se vea igual en todos ellos.
