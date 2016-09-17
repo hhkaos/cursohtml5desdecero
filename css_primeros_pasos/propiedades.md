@@ -13,7 +13,7 @@ Existen múltiples **formas de [especificar el color](https://www.w3.org/wiki/CS
 s
 El valor Alpha tiene que estar comprendido entre [0-1] y hace referencia a la transparencia del elemento, siendo 1 = opaco y 0 = transparente.
 
-Ahora vamos a ver tres formas equivalentes de representar el color rojo:
+Ahora vamos a ver tres formas equivalentes de representar el color rojo::
 
 ```css
 h1{
