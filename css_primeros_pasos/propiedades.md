@@ -33,6 +33,8 @@ h1{
 }
 ```
 
+> **Ejemplo interactivo**: [Lección 1 - Snippet 1](/snippets/css/?lesson=1&snippet=1).
+
 En RGB si indica en cada uno de los valores la cantidad de Rojo (**R**ed), Verde (**G**reen) y Azul (**B**lue) que tiene que combinar. Este valor puede ser un porcentaje o un valor comprendido entre 0 y 255, siendo 255 equivalente a 100%. 
 
 Por otro lado comentar que el valor [hexadecimal](https://es.wikipedia.org/wiki/Sistema_hexadecimal) "**FF**" equivale a "**255**". Existen múltiples [conversores de decimal a hexadecimal](http://www.binaryhexconverter.com/hex-to-decimal-converter) y viceversa, la principal ventaja de usar este formato es que ocupa menos caracteres y por tanto menos espacio en disco (lo cual es óptimo para mejorar los tiempos de carga de un fichero<sup>2</sup>). Por último, cuando un valor hexadecimal contiene 3 caracteres significa que cada uno de ellos se repite dos veces, ej: #faf es igual que #ffaaff.
