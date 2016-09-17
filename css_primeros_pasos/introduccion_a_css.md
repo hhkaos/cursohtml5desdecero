@@ -6,7 +6,7 @@ Es importante que sepas que cada navegador incluye siempre una serie de estilos 
 
 * Los elementos `<p>` tienen estilos para que se produzca un salto entre el párrafo y los elementos anterior y posterior.
 * El elemento `<strong>` para que se muestre en negrita.
-* Los elementos `<li>` para que aparezca un punto a la izquierda.
+* Los elementos `<li>` para que aparezca un punto a la izquierda y una ligera indentación.
 * Los encabezados `<h1>`, `<h2>`, etc para que se muestren de un tamaño mayor que el por defecto.
 * Etc
 
