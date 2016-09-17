@@ -174,7 +174,7 @@ Luego veremos cómo puedes probarlas con DevTools y ver qué es lo que hacen.
 # Chuleta CSS
 Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS3](https://github.com/hhkaos/cursohtml5desdecero/blob/master/images/css3-cheat-sheet.pdf) con sus propiedades, y no te asustes, no creo que haya nadie que se las conozca todas, a lo largo de este curso te explicaré sólo aquellas que necesitarás más amenudo y te enseñaré como seguir luego ampliando por tu cuenta.
 
-<hr>
+<hr> 
 
 **Aclaraciones:**<br>
 
