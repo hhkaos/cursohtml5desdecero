@@ -108,7 +108,7 @@
     hljs.initHighlightingOnLoad();
     setTimeout(function(){
       hljs.initLineNumbersOnLoad()
-    }, 300);
+    }, 500);
   });
 
   //{"title": "New Pen!", "html": "<div>Hello, World!</div>"}

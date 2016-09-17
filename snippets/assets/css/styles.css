@@ -45,8 +45,8 @@ pre,
 
 .code{
   border: 1px solid white;
-  /* padding-top: 0; */
-  /* padding-bottom: 0; */
+  padding-top: 0;
+  padding-bottom: 0;
   padding-left: 0;
   background-color: #23241f;
 }

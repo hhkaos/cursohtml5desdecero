@@ -8,6 +8,11 @@ iframe{
 .code .css{
   padding-left: 20px;
 }
+pre code.hljs{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  line-height: 2rem;
+}
 .mt1{
   margin-top: 1.5rem;
 }
