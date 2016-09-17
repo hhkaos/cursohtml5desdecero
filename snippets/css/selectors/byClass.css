@@ -1,5 +1,5 @@
 /* Todos los elementos que contengan la clase btn */
-.button{
+.btn{
   color: black;
   text-decoration: none;
   border: 1px solid black;
@@ -9,6 +9,6 @@
 }
 
 /* Todos los elementos que contengan la clase bgRed */
-.bgRed{
+.btn-red{
   background-color: rgba(232, 101, 101, 0.58);
 }

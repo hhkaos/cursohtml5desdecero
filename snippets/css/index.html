@@ -9,8 +9,8 @@
 
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/default.min.css">
+  <script src="../assets/js/highlight.min.js"></script>
   <script src="../assets/js/highlightjs-line-numbers-min.js"></script>
 
 
@@ -57,6 +57,10 @@
       <div class="col-md-6">
         <p>Resultado:</p>
         <div id="preview"></div>
+        <form action="http://codepen.io/pen/define?editors=1100#0" method="POST" id="codepen" target="_blank">
+          <input type="hidden" name="data" value='{"title": "", "html": "", "css": ""}'>
+          <input type="submit" value="Editar - CodePen.io">
+        </form>
       </div>
     </div>
   </div>
@@ -87,7 +91,8 @@
         "folder": "properties",
         "snippets":{
           "Color": "color",
-          "Font": "font"
+          "Fuente": "font",
+          "Texto": "text"
         }
       },
       "Selectores": {

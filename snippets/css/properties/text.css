@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+}
+
+p{
+  line-height: 2.5rem;
+}
+
+strong{
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+}

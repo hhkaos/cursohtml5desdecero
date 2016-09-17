@@ -1,12 +1,11 @@
-/* Aplica a los elementos <h2> adyancetes a un <h1> */
 h1{
-    color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 h2{
-    color: #F00;
+  color: #F00;
 }
 
 h3{
-    color: rgba(255, 0, 0, 1);
+  color: rgba(255, 0, 0, 1);
 }

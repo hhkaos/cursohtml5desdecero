@@ -123,3 +123,17 @@ pre code {
     -ms-user-select: none;
     user-select: none;
 }
+
+#codepen [type="submit"]{
+  width: 100%;
+  color: #fff;
+  position: relative;
+  top: -5px;
+  border: 1px solid #dadada;
+  background: #6f5bde;
+  padding: 1rem;
+  border-top: 2px solid #000;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}

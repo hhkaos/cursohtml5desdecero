@@ -63,14 +63,28 @@
     $('#snippets')[0].selectedIndex = qsSnippet - 1;
   }
 
+  var i = document.getElementById("lesson").selectedIndex;
+  var j = document.getElementById("snippets").selectedIndex;
   var l = $('#lesson').val();
   var s = $('#snippets').val();
+
+  var values = JSON.parse($("#codepen [name='data']").val());
+  values.title = 'Lección '+ i + ' - Snippet: '+ j+': ' +samples[l].snippets[s];
+  $("#codepen [name='data']").val(JSON.stringify(values));
+
+
 
   var htmlFile = samples[l].folder +'/'+ samples[l].snippets[s] + '.html';
   $.get( htmlFile, function( data ) {
     var body = data.replace(/^[\S\s]*<body[^>]*?>/i, "")
                     .replace(/<\/body[\S\s]*$/i, "");
-    $( ".html" ).text( '  ' + body.trim() );
+    body = body.trim()
+    $( ".html" ).text( '  ' + body );
+
+    var values = JSON.parse($("#codepen [name='data']").val());
+    values.html = body;
+    $("#codepen [name='data']").val(JSON.stringify(values));
+
     $('#code, #console').removeClass('prettyprinted');
     PR.prettyPrint();
   });
@@ -83,14 +97,21 @@
 
   console.log("url=",url)
   $.get( url, function( data ) {
-    $( ".css" ).text(data.trim() );
+    data = data.trim()
+    $( ".css" ).text( data );
+    var values = JSON.parse($("#codepen [name='data']").val());
+    values.css = data;
+    $("#codepen [name='data']").val(JSON.stringify(values));
+
     $('#code, #console').removeClass('prettyprinted');
     PR.prettyPrint();
     hljs.initHighlightingOnLoad();
     setTimeout(function(){
       hljs.initLineNumbersOnLoad()
-    },500);
+    }, 300);
   });
+
+  //{"title": "New Pen!", "html": "<div>Hello, World!</div>"}
 
   var iframe = $('<iframe></iframe>');
   iframe.attr('src', htmlFile);
