@@ -51,6 +51,8 @@ Para modificar las propiedades de la [fuente](https://www.w3.org/wiki/CSS/Proper
 * **[font-weight](https://www.w3.org/wiki/CSS/Properties/font-weight)**: nos permite especificar el ancho de la fuente (`bold`, `400`, `600`, ...)
 * **[font](https://www.w3.org/wiki/CSS/Properties/font)**: atajo para establecer varias propiedades
 
+> **Ejemplo interactivo**: [Lección 1 - Snippet 2](/snippets/css/?lesson=1&snippet=2).
+
 ### font-size
 En cuanto al tamaño hay [varias formas de especificarlo](https://www.w3.org/Style/Examples/007/units.en.html), pero vamos a ver cómo especificar el tamaño usando unidades de longitud, por ejemplo: 
 
