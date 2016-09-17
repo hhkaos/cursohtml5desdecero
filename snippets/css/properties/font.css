@@ -1,0 +1,16 @@
+/* Aplica a los elementos <h2> adyancetes a un <h1> */
+h1{
+  color: #F00;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+p{
+  font-family: Verdana, Times, serif;
+  font-weight: 700;
+}
+
+strong{
+  font: 300 1.2em Helvetica, Arial, sans-serif;
+}

@@ -20,10 +20,10 @@
   if(qs('min') === 'true'){
     $('.dispensable').hide();
   }
-  
+
   var loadSnippet = function(obj){
     var j = 0;
-    for(var snippet in obj) {    
+    for(var snippet in obj) {
       if (obj.hasOwnProperty(snippet)) {
         j++;
         $('#snippets').append('<option value="'+snippet+'">' + j + '.- '+snippet+'</option>');
@@ -32,13 +32,13 @@
   };
 
   var i = 0;
-  for(var lesson in samples) {    
+  for(var lesson in samples) {
     if (samples.hasOwnProperty(lesson)) {
       var s = samples[lesson].snippets;
       var tmp = Object.keys(s).length;
       i++;
       $('#lesson').append('<option value="'+lesson+'">' + i + '.- '+lesson+' ('+tmp+')</option>');
-      
+
       if(i == qsLesson){
         loadSnippet(s);
       }
@@ -75,13 +75,21 @@
     PR.prettyPrint();
   });
 
-  var url = samples[l].folder +'/'+ samples[l].snippets[s] + '.css';
+
+  var fileName = samples[l].snippets[s] + '.css';
+  var url = samples[l].folder +'/'+ fileName;
+  $("#css-file").attr("href",url);
+  $("#css-file").text(fileName);
+
   console.log("url=",url)
   $.get( url, function( data ) {
     $( ".css" ).text(data.trim() );
     $('#code, #console').removeClass('prettyprinted');
     PR.prettyPrint();
     hljs.initHighlightingOnLoad();
+    setTimeout(function(){
+      hljs.initLineNumbersOnLoad()
+    },500);
   });
 
   var iframe = $('<iframe></iframe>');
@@ -98,7 +106,7 @@
     updateURL();
   });
 
-  
+
 
   $('#snippets').change(function(){
     //refreshPreElements();
@@ -106,7 +114,7 @@
   });
 
   $('#prev').click(function(){
-    
+
     var lesson = document.getElementById('lesson');
     var snippets = document.getElementById('snippets');
     if((snippets.selectedIndex -1) >= 0){
@@ -121,7 +129,7 @@
   });
 
   $('#next').click(function(){
-    
+
     var lesson = document.getElementById('lesson');
     var snippets = document.getElementById('snippets');
     if((snippets.selectedIndex + 1) < $("#snippets option").length){
@@ -140,7 +148,5 @@
     }
   });
 
-  
+
 }());
-
-

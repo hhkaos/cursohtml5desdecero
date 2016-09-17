@@ -47,13 +47,13 @@ var getAJAXRequests = (function() {
   if(qs('min') === 'true'){
     $('.dispensable').hide();
   }
-  
+
   /*
-  
+
   */
   var loadSnippet = function(obj){
     var j = 0;
-    for(var snippet in obj) {    
+    for(var snippet in obj) {
       if (obj.hasOwnProperty(snippet)) {
         j++;
         $('#snippets').append('<option value="'+snippet+'">' + j + '.- '+snippet+'</option>');
@@ -62,13 +62,13 @@ var getAJAXRequests = (function() {
   };
 
   var i = 0;
-  for(var lesson in samples) {    
+  for(var lesson in samples) {
     if (samples.hasOwnProperty(lesson)) {
       var s = samples[lesson];
       var tmp = Object.keys(s).length;
       i++;
       $('#lesson').append('<option value="'+lesson+'">' + i + '.- '+lesson+' ('+tmp+')</option>');
-      
+
       if(i == qsLesson){
         loadSnippet(s);
       }
@@ -100,11 +100,11 @@ var getAJAXRequests = (function() {
   }
   var runCode = function(str, obj){
     var params = [str, obj];
-    
+
     for(var p in params){
       if(params[p] && params[p].toString){
         var tmp = params[p].toString();
-      
+
         if(params[p] && tmp === '[object Object]'){
           //prettyprint
           document.getElementById('console').innerHTML += JSON.stringify(params[p], null, 2);
@@ -122,13 +122,13 @@ var getAJAXRequests = (function() {
       }else if(params[p] === null){
         document.getElementById('console').innerHTML += 'null';
       }
-      
+
     }
-    
+
     document.getElementById('console').innerHTML += '\n';
     //document.getElementById('console').innerHTML += str;
 
-    
+
   };
 
   var oldLog = console.log;
@@ -139,22 +139,22 @@ var getAJAXRequests = (function() {
   };
 
   var cleanFn = function(fn){
-    fn = fn.toString(); 
-    fn = fn.substr(fn.indexOf('\n') + 1); 
+    fn = fn.toString();
+    fn = fn.substr(fn.indexOf('\n') + 1);
     fn = fn.substr(0, (fn.length - 2));
     return fn;
   };
   var refreshPreElements = function(){
     var l = $('#lesson').val();
     var s = $('#snippets').val();
-    
+
     if(samples[l] && samples[l][s]){
       var txt =cleanFn(samples[l][s]);
       $('#code, #console').removeClass('prettyprinted');
       $('#code').text(txt);
       $('#console').empty();
       samples[l][s]();
-      
+
       var reqs = getAJAXRequests();
       if($('#console').html() === '' && reqs.length == 0){
         $('#console').html('// El código no ha producido ningún mensaje en la consola');
@@ -174,7 +174,7 @@ var getAJAXRequests = (function() {
     var qsLesson = 1
   }
 
-  
+
 
   $('#lesson').change(function(){
     /*$('#snippets').empty();
@@ -185,27 +185,27 @@ var getAJAXRequests = (function() {
     updateURL();
   });
 
-  
+
 
   $('#snippets').change(function(){
     //refreshPreElements();
     updateURL();
   });
 
-  
+
 
   $('#btnRun').click(function(){
     $('#console').empty();
     var l = $('#lesson').val();
     var s = $('#snippets').val();
-    
+
   });
 
   //$('#code').text(cleanFn(samples['Objetos']['Nuevo objeto vacío']));
-  //$('#snippets').change();  
+  //$('#snippets').change();
 
   $('#prev').click(function(){
-    
+
     var lesson = document.getElementById('lesson');
     var snippets = document.getElementById('snippets');
     if((snippets.selectedIndex -1) >= 0){
@@ -220,7 +220,7 @@ var getAJAXRequests = (function() {
   });
 
   $('#next').click(function(){
-    
+
     var lesson = document.getElementById('lesson');
     var snippets = document.getElementById('snippets');
     if((snippets.selectedIndex + 1) < $("#snippets option").length){
@@ -239,7 +239,5 @@ var getAJAXRequests = (function() {
     }
   });
 
-//(document.getElementById('snippets')).selectedIndex  
+//(document.getElementById('snippets')).selectedIndex
 }());
-
-
