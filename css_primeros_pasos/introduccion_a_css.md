@@ -44,7 +44,7 @@ Y esto... ¿eso qué quiere decir?, ¿puedes o no?. Para tomar esta decisión yo
 
 Si estás actualizando una página antigua puedes usar Google Analytics o cualquier otra herramienta alternativa para obtener la información de tu tráfico actual.
 
-Por este motivo es por lo que empezaremos aprendiendo propiedades CSS de la versión 2.1, ya que actualmente está soportado por el 99% de los navegadores.
+Por este motivo es por lo que empezaremos aprendiendo propiedades CSS de la versión 2.1, ya que actualmente se puede considerar completamente soportado por el 99% de los navegadores.
 
 ## Mi primer CSS
 
