@@ -70,13 +70,7 @@ Siempre que se use el elemento "**style**" debe estar anidado dentro del element
 
 ## Snippets interactivos
 
-En esta lección en lugar de incluir "pantallazos" mostrando el resultado de cada ejemplo, he optado por crear un recurso que contiene múltiples ejemplos de código (*snippets*) y una vista preliminar de los mismos. 
-
-Dichos snippets están organizados por lección y número de snippet, por lo que a lo largo de las lecciones haré referencia a ellos para que si quieres puedas consultarlos antes de continuar con la lección.
-
-Además de como apoyo al libro, tienen un segundo propósito estos snippets: servite de recurso en el futuro para tus propios desarrollos.
-
-Aquí tienes la URL por si quieres echarles un vistazo ahora para ir familiarizándote con la interfaz: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/)
+Al igual que en la leccion anterior, en esta lección también usaremos snippets interactivos, puedes acceder a ellos a través de esta URL: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/)
 
 <hr>
 
