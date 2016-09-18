@@ -12,7 +12,7 @@
     * [Ejercicio](conceptos_basicos/ejercicio.md)
     * [Recursos](conceptos_basicos/extra_opcional.md)
 * [HTML5: Primeros pasos](html5_primeros_pasos.md)
-    * [Introducanción a HTML5](conceptos_basicos/introduccion_a_html5.md)
+    * [Introducción a HTML5](conceptos_basicos/introduccion_a_html5.md)
     * [Etiquetas](html5_primeros_pasos/etiquetas.md)
     * [Anidación](html5_primeros_pasos/anidacion_de_etiquetas.md)
     * [Estructura básica de una página](html5_primeros_pasos/estructura_basica_de_una_pagina.md)
