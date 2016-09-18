@@ -70,7 +70,9 @@ Siempre que se use el elemento "**style**" debe estar anidado dentro del element
 
 ## Snippets interactivos
 
-Al igual que en la leccion anterior, en esta lección también usaremos snippets interactivos, puedes acceder a ellos a través de esta URL: [http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/)
+Puedes acceder a los snippets interactivos de CSS a través de la siguiente URL:
+
+[http://libro.cursohtml5desdecero.com/snippets/css/](http://libro.cursohtml5desdecero.com/snippets/css/)
 
 <hr>
 
