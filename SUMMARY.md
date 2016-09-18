@@ -50,6 +50,7 @@
     * [Estilos con DevTools](css_primeros_pasos/estilos_con_chrome_devtools.md)
     * [Ejercicio](WIP.md)
     * [Recursos](css_primeros_pasos/recursos.md)
+    * [Anexo: Navegadores y estándares soportados](anexo-navegadores-y-estándares-soportados.md)
 * [CSS: Modelo de caja](css_modelo_de_caja.md)
     * [Elementos HTML](css_modelo_de_caja/elementos_html.md)
     * [Propiedades - Parte 2](css_modelo_de_caja/propiedades_parte_2.md)
