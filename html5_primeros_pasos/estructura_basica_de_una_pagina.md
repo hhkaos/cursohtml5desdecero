@@ -28,5 +28,10 @@ A continuación explicamos la función que cumple cada etiqueta:
  
 Observa que la etiqueta *html* contiene dos hijas: *head* y *body*, esto ya no es obligatorio en HTML5 ya que se puede omitir las etiquetas **html**, **body** y **head**, pero por convención es recomendable usarlas.
 
+> **Ejemplo interactivo**: [Lección 1 - Snippet 1](/snippets/html/?lesson=1&snippet=1)
+
+
+<hr>
+
 <small>Aclaraciones:</small><br>
 <small>1. Cuando digo **dentro** me refiero al contenido de la página, lo que no incluye la pestaña del navegador ni la barra de direcciones.</small><br>
