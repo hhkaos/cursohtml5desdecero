@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="../assets/css/css_styles.css">
   <link rel="stylesheet" href="../assets/css/monokai-sublime.css">
+  <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
   <style>
     code.html{
       padding-left: 15px;
@@ -58,9 +59,10 @@
         <!--<button id="btnRun" class="btn btn-primary btn-block">Ejecutar</button>-->
       </div>
       <div class="col-md-6">
-        <p>Resultado:</p>
+        <p>Resultado: <a href="" id="preview-link" class="pull-right doubts">Abrir en nueva pestaña <i class="fa fa-external-link" aria-hidden="true"></i>
+</a></p>
         <div id="preview"></div>
-        <form action="http://codepen.io/pen/define?editors=1100#0" method="POST" id="codepen" target="_blank">
+        <form action="http://codepen.io/pen/define?editors=1000#0" method="POST" id="codepen" target="_blank">
           <input type="hidden" name="data" value='{"title": "", "html": "", "css": ""}'>
           <input type="submit" value="Editar - CodePen.io">
         </form>
@@ -90,16 +92,33 @@
 
   <script>
     var samples = {
-      "Introducción": {
+      "Ejemplos": {
         "folder": "introduction",
         "snippets":{
-          "Estructura básica": "basic",
+          "Estructura básica": "structure",
           "Etiquetas básicas": "basic_tags"
+        }
+      },
+      "Etiquetas": {
+        "folder": "tags",
+        "snippets":{
+          "Párrafo + puntos y aparte": "p_br",
+          "Encabezados": "headings",
+          "Listas": "lists",
+          "Énfasis": "emphasis",
+          "Enlaces": "link",
+          "Imágenes": "image",
+          "Tablas": "table",
+          "Formularios": "form",
+          "Separador horizontal": "hr",
+          "Entidades HTML": "html_entities"
         }
       },
       "Embeber estilos": {
         "folder": "embed",
         "snippets":{
+          "Estilos en línea": "inline_styles",
+          "Etiqueta style": "style_tag",
           "Etiqueta link": "link_tag"
         }
       }

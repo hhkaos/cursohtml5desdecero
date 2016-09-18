@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Snippets HTML: Formularios</title>
+</head>
+<body>
+  <h1>Formularios</h1>
+  <form action="mailto:someone@example.com" method="GET">
+    <label for="to">Para:</label>
+    <input id="to" type="email">
+
+    <label for="topic">Temática: </label>
+    <select id="topic" name="topic">
+      <option>-- Elige un tema --</option>
+      <option value="proposal">Propuesta</option>
+      <option value="report">Reporte</option>
+      <option value="other">Otro</option>
+    </select>
+
+    <label for="subject">Asunto: </label>
+    <input id="subject" name="subject" type="text">
+
+    <label for="body">Cuerpo:</label>
+    <textarea id="body" name="body"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>

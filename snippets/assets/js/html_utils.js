@@ -75,21 +75,30 @@
 
 
   var htmlFile = samples[l].folder +'/'+ samples[l].snippets[s] + '.html';
+
+  $("#preview-link").attr("href", htmlFile);
+
   $.get( htmlFile, function( data ) {
     var body = data;
-    /*data.replace(/^[\S\s]*<body[^>]*?>/i, "")
-                    .replace(/<\/body[\S\s]*$/i, "");*/
-    body = body.trim()
-    $( ".html" ).text( '  ' + body );
 
-    var values = JSON.parse($("#codepen [name='data']").val());
-    values.html = body;
-    $("#codepen [name='data']").val(JSON.stringify(values));
+    body = body.trim()
+    $( ".html" ).text( body );
 
     $('#code, #console').removeClass('prettyprinted');
     $('pre code').each(function(i, block) {
       hljs.highlightBlock(block);
     });
+
+    var values = JSON.parse($("#codepen [name='data']").val());
+    body = data.replace(/^[\S\s]*<body[^>]*?>/i, "")
+                    .replace(/<\/body[\S\s]*$/i, "");
+    values.html = body;
+    var style = data.replace(/^[\S\s]*<style[^>]*?>/i, "")
+                    .replace(/<\/style[\S\s]*$/i, "");
+    values.css = style;
+    $("#codepen [name='data']").val(JSON.stringify(values));
+
+    $("#preview iframe").css("height",($("#code").height() - 12)+"px")
   });
 
 

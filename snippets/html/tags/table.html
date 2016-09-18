@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Snippets HTML: Tablas</title>
+  <!-- Ignora la siguiente línea (CSS) de momento -->
+  <style>td{border:1px solid black} table {border-collapse: collapse;}</style>
+</head>
+<body>
+  <h1>Tablas</h1>
+
+  <h2>Tabla simple</h2>
+
+  <table>
+    <!-- Fila 1 -->
+    <tr>
+        <td>Fila 1, columna 1</td>
+        <td>Fila 1, columna 2</td>
+    </tr>
+
+    <!-- Fila 2 -->
+    <tr>
+        <td>Fila 2, columna 1</td>
+        <td>Fila 2, columna 2</td>
+    </tr>
+  </table>
+
+  <h2>Tabla (uniendo celdas)</h2>
+  <table>
+    <tr>
+        <td>Fila 1, columna 1</td>
+        <td colspan="3"> Fila 1, columnas 2, 3 y 4</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Fila 2, columna 1 <br>+<br>Fila 3, columna 1</td>
+        <td>Fila 2 columna 2</td>
+        <td>Fila 2 columna 3</td>
+        <td>Fila 2 columna 4</td>
+    </tr>
+    <tr>
+        <td>Fila 3 columna 2</td>
+        <td>Fila 3 columna 3</td>
+        <td>Fila 3 columna 4</td>
+    </tr>
+  </table>
+</body>
+</html>
