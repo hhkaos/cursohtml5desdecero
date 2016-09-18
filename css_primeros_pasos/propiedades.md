@@ -167,6 +167,10 @@ li{ list-style-image: url("punto.jpg"); }
 li{ list-style-type: upper-roman; }
 ```
 
+> **Ejemplo interactivo**: 
+* Fondos: [Lección 1 - Snippet 4](/snippets/css/?lesson=1&snippet=4).
+
+
 Luego veremos cómo usar DevTools para editar estos estilos "en caliente", aprender los valores que admiten las propiedades y en definitiva cómo experimentar de manera rápida y sencilla.
 
 > **Nota**: en ocasiones cuando a elemento sólo se le define una propiedad te encontrarás que algunas personas lo escriben en una sola línea.
