@@ -26,7 +26,7 @@ Aunque lo lógico sería que todos los navegadores se pusiesen de acuerdo en def
 ## Soporte a estándares
 Por otro lado quería comentarte que vamos a empezar centrándonos en las propiedades de CSS3 que vienen heredadas de la [versión 2.1](https://www.w3.org/TR/CSS21/). 
 
-¿Por qué?, la versión resumida es: qué por evitarte quebraderos de cabeza iniciales. La versión extendida la he dejado como un "[Anexo - Navegadores y estándares soportados]".
+¿Por qué?, la versión resumida es: qué por evitarte quebraderos de cabeza iniciales. La versión extendida la he dejado como un "[Anexo - Navegadores y estándares soportados](anexo-navegadores-y-estándares-soportados.md)".
 
 ## Mi primer CSS
 
