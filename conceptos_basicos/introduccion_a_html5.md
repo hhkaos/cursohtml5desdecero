@@ -7,3 +7,7 @@ HTML fue creado y es mantenido por una organización sin ánimo de lucro llamada
 Desde el consorcio trabajan continuamente en definir cómo debe evolucionar este lenguaje y otros estándares que conforman *la web*. Posteriormente los fabricantes de navegadores preparan los mismos intentando conseguir que un código funcione igual en todos los navegadores. Aunque desafortunadamente no siempre es así, cada vez es una realidad más cercana.
 
 Por tanto, [a lo largo de los años las versiones de HTML han evolucionado](https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline): HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), **HTML5 (2014)**, etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de audio, vídeo, etc).
+
+## Snippets interactivos
+En esta lección igual que en todas iré haciendo referencia a ejemplos de código interactivos que podrás consultar en esta URL:
+[http://libro.cursohtml5desdecero.com/snippets/html/](http://libro.cursohtml5desdecero.com/snippets/html/)
