@@ -32,7 +32,7 @@ Estas ediciones que se celebran periódicamente consisten en ver una serie de v�
 El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 
 ## Snippets interactivos
-A lo largo de todo el libro utilizaré ejemplos de código (*snippets*) interactivos para facilitar la compresión y la interacción con el código. Estos snippets están organizados por lección y número de snippet, por lo que a lo largo de las lecciones haré referencia a ellos y así, en caso de que algo no te haya quedado claro, puedas consultarlos antes de continuar con la lección. 
+A lo largo de todo el libro utilizaré ejemplos de código (*snippets*) interactivos para facilitar la compresión y la interacción con el código [HTML](https://libro.cursohtml5desdecero.com/snippets/html), [CSS](https://libro.cursohtml5desdecero.com/snippets/css/) y [JavaScript](https://libro.cursohtml5desdecero.com/snippets/js/). Estos snippets están organizados por lección y número de snippet, por lo que a lo largo de las lecciones haré referencia a ellos y así, en caso de que algo no te haya quedado claro, puedas consultarlos antes de continuar con la lección. 
 
 Además de como apoyo al libro, tienen un segundo propósito: servirte de "libreta" en el futuro para tener una lista de ejemplos para tus propios desarrollos.
 
