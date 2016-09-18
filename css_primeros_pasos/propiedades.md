@@ -168,8 +168,8 @@ li{ list-style-type: upper-roman; }
 ```
 
 > **Ejemplo interactivo**: 
-* Propiedad "**background**": [Lección 1 - Snippet 4](/snippets/css/?lesson=1&snippet=4).
-* Propiedad "**list**": [Lección 1 - Snippet 5](/snippets/css/?lesson=1&snippet=5).
+* [Lección 1 - Snippet 4](/snippets/css/?lesson=1&snippet=4): propiedad "**background**".
+* [Lección 1 - Snippet 5](/snippets/css/?lesson=1&snippet=5): propiedad "**list**"
 
 Luego veremos cómo usar DevTools para editar estos estilos "en caliente", aprender los valores que admiten las propiedades y en definitiva cómo experimentar de manera rápida y sencilla.
 
