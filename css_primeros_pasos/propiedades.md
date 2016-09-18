@@ -176,7 +176,7 @@ Luego veremos cómo usar DevTools para editar estos estilos "en caliente", apren
 > **Nota**: en ocasiones cuando a elemento sólo se le define una propiedad te encontrarás que algunas personas lo escriben en una sola línea.
 
 # Chuleta CSS
-Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS3](https://github.com/hhkaos/cursohtml5desdecero/blob/master/images/css3-cheat-sheet.pdf) con sus propiedades, y no te asustes, no creo que haya nadie que se las conozca todas, a lo largo de este curso te explicaré sólo aquellas que necesitarás más amenudo y te enseñaré como seguir luego ampliando por tu cuenta.
+Ya hemos visto unos pocos estilos, conforme avancemos seguramente te cueste recordarlos así que al igual que con HTML aquí te dejo una [chuleta de CSS3](https://github.com/hhkaos/cursohtml5desdecero/blob/master/images/css3-cheat-sheet.pdf) con sus propiedades, y no te asustes, no creo que haya nadie que se las conozca todas, a lo largo de este curso te explicaré sólo aquellas que necesitarás con frecuencia y te enseñaré como puedes seguir luego descubriendo más por tu cuenta.
 
 <hr> 
 
