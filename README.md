@@ -31,6 +31,12 @@ Estas ediciones que se celebran periódicamente consisten en ver una serie de v�
 
 El formato MOOC tendrá una **duración aproximada de 6 semanas**.
 
+## Snippets interactivos
+A lo largo de todo el libro utilizaré ejemplos de código (*snippets*) interactivos para facilitar la compresión y la interacción con el código. Estos snippets están organizados por lección y número de snippet, por lo que a lo largo de las lecciones haré referencia a ellos y así, en caso de que algo no te haya quedado claro, puedas consultarlos antes de continuar con la lección. 
+
+Además de como apoyo al libro, tienen un segundo propósito: servirte de "libreta" en el futuro para tener una lista de ejemplos para tus propios desarrollos.
+
+
 ## Dudas, ideas, sugerencias, y contribuciones
 Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
 
