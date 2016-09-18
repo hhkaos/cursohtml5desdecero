@@ -9,5 +9,6 @@ Desde el consorcio trabajan continuamente en definir cómo debe evolucionar este
 Por tanto, [a lo largo de los años las versiones de HTML han evolucionado](https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline): HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), **HTML5 (2014)**, etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de audio, vídeo, etc).
 
 ## Snippets interactivos
-En esta lección igual que en todas iré haciendo referencia a ejemplos de código interactivos que podrás consultar en esta URL:
+Puedes acceder a los snippets interactivos de HTML a través de esta URL:
+
 [http://libro.cursohtml5desdecero.com/snippets/html/](http://libro.cursohtml5desdecero.com/snippets/html/)
