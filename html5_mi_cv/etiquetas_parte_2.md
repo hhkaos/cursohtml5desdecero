@@ -177,17 +177,17 @@ Por ejemplo:
 <label for="subject">Asunto: </label>
 <input id="subject" type="text" value="Formulario de contacto" readonly>
 ```
-> **Ver**: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
+> **Ver**: [Lección 2 - Snippet 9](/snippets/html/?lesson=2&snippet=9)
 
 ## Separadores
 Existe un elemento que nos permite añadir un separador (una línea horizontal), este elemento es **hr**.
 
-> **Ver**: [Lección 2 - Snippet 9](/snippets/html/?lesson=2&snippet=9)
+> **Ver**: [Lección 2 - Snippet 10](/snippets/html/?lesson=2&snippet=10)
 
 ## Otras consideraciones
 Para terminar este capítulo hay una última cosa que me gustaría comentar:
 * En HTML se ignoran todos los espacios a partir del primero, por lo tanto nunca podremos (*ni se debe*) alinear usando espacios. 
-* Las entidades HTML (*HTML entities*) se usan para pintar palabras, caracteres o símbolos reservados o que puede que no tengas en tu teclado como por ejemplo: <, >, &copy;, &amp;, &euro;, etc. <br>Existen [1446 entidades](https://dev.w3.org/html5/html-author/charref) reservadas que puedes consultar en la página del W3C.
+* Las entidades HTML (*HTML entities*) se usan para pintar palabras, caracteres o símbolos reservados o que puede que no tengas en tu teclado como por ejemplo: <, >, &copy;, &amp;, &euro;, etc. <br>Existen [1446 entidades](https://dev.w3.org/html5/html-author/charref) reservadas que puedes consultar en la página del W3C. (**ver**: [Lección 2 - Snippet 11](/snippets/html/?lesson=2&snippet=11))
 
 Para representar la entidades HTML se usa el siguiente formato:
 ```html
@@ -196,16 +196,16 @@ Para representar la entidades HTML se usa el siguiente formato:
 
 Veamos un ejemplo para entender mejor por qué existen las entidades HTML y cómo se usan. 
 
-Imaginemos que estamos haciendo una página sobre matemáticas y queremos expresar la siguiente frase:
+Imaginemos que estamos escribiendo un libro como este y necesitamos hablar sobre la etiqueta ```<hr>```:
 ```
-¿Qué valor tiene la variable X si sabemos que X < 2 y X > 0?
+<p>La etiqueta <hr> se utiliza para ...</p>
 ```
 
-En este caso cuando el navegador esté intepretando el código HTML encontrará "**< 2 y X >**" e intentaría interpretarlo como un elemento HTML pero no podría ya que ese elemento no existe.
+En este caso cuando el navegador esté intepretando el código HTML encontrará "**&lt;hr&gt;**" y en lugar de mostrar la cadena de texto (que es lo que queremos) nos mostrará un separador horizontal.
 
 Para evitar este problema usaríamos el siguiente cógido HTML:
 ```html
-¿Qué valor tiene la variable X si sabemos que X &lt; 2 y X &gt; 0?
+<p>La etiqueta <hr> se utiliza para ...</p>
 ```
 En este caso hemos modificado el símbolo "menor que" (**L**ower **T**han) por la entidad HTML **lt** y "mayor que" (**G**reater **T**han) por **gt**, así el navegador podrá representarlo sin ningún problema.
 
