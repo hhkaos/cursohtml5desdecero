@@ -160,8 +160,6 @@ Que nos dará como resultado algo así:
 
 [![](../images/formulario.png)](../images/formulario.png)
 
-> **Ver**: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
-
 Como ves los estilos por defecto serán muy poco atractivos, pero no te preocupes, ya aprenderemos a solucionar esto usando CSS.
 
 Por último comentar que *en muchos de los elementos*<sup>4</sup> podemos añadir (opcionalmente) otros atributos como:
@@ -179,6 +177,7 @@ Por ejemplo:
 <label for="subject">Asunto: </label>
 <input id="subject" type="text" value="Formulario de contacto" readonly>
 ```
+> **Ver**: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
 
 ## Separadores
 Existe un elemento que nos permite añadir un separador (una línea horizontal), este elemento es **hr**.
