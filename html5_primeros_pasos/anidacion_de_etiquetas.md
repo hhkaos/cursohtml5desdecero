@@ -18,7 +18,7 @@ En este caso vemos que la etiqueta **head** tiene como contenido a otra etiqueta
 Si nos fijamos, además, la etiqueta anidada (*title*) está en una nueva línea y con un nivel de [indentación](https://es.wikipedia.org/wiki/Indentaci%C3%B3n)/sangrado mayor. Esto es así por una [convención](http://lema.rae.es/drae/srv/search?id=j5dMxst0MDXX2F43uojM) mundial a la que se ha llegado para que los programadores escribamos código de una manera similar, tanto para hacernos más fácil y comprensible el código cuando este crezca, como para cuando tengamos que compartirlo con otros programadores.
 
 ## Orden de apertura y cierre
-Cuando anidamos etiqueta unas dentro de otras es muy importante cerrarlas *en orden*. Esto quiere decir que el cierre tiene la primera etiqueta en cerrarse tiene que ser la última que se abrió, así por ejemplo este ejemplo sería **incorrecto**:
+Cuando anidamos etiquetas unas dentro de otras es muy importante cerrarlas *en orden*. Esto quiere decir que el cierre tiene la primera etiqueta en cerrarse tiene que ser la última que se abrió, así por ejemplo este ejemplo sería **incorrecto**:
 
 ```html
 <p>El orden es <strong>muy importante</p></strong>
