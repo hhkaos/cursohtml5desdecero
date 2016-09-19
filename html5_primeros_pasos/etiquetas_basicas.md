@@ -77,11 +77,12 @@ El siguiente ejemplo muestra una página web que combina todas ellas:
 </html>
 ```
 
-Esto generaría una página como la siguiente (ver ejemplo en vivo: [Lección 1 - Snippet 2](/snippets/html/?lesson=1&snippet=2)):
+Esto generaría una página como la siguiente:
 <hr>
 ![](../images/primer_ejemplo.png)
 <hr>
-Si quieres puedes ver [el ejemplo en vivo aquí](https://hhkaos.gitbooks.io/cursohtml5desdecero/content/leccion2/ejemplo_con_etiquetas_basicas.html).
+
+Si quieres puedes ver el ejemplo en vivo aquí:[Lección 1 - Snippet 2](/snippets/html/?lesson=1&snippet=2)
 
 Es importante destacar que aunque el navegador le añade un estilo (CSS) por defecto a las etiquetas, por ejemplo:
 * ```h1``` y ```h2``` una fuente mayor y negrita
