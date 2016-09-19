@@ -31,7 +31,7 @@ Que hará referencia a la siguiente URL: http://www.cursohtml5desdecero.com/img/
 Esto estamos acostumbrado a verlo en la Wikipedia, por ejemplo: <br>
 https://en.wikipedia.org/wiki/Hyperlink#Hyperlinks_in_HTML
 
-Puedes ver estos ejemplos en vivo en la [Lección 2 - Snippet 6](/snippets/html/?lesson=1&snippet=2)
+Puedes ver estos ejemplos en vivo en la [Lección 2 - Snippet 6](/snippets/html/?lesson=2&snippet=6)
 
 ## Imágenes
 Para mostrar una imagen en una página tenemos dos formas de hacerlo, una es usando el elemento **[img](https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-img-element)** y otras es mediante CSS (que veremos en el capítulo correspondiente).
