@@ -82,7 +82,7 @@ Esto generaría una página como la siguiente:
 ![](../images/primer_ejemplo.png)
 <hr>
 
-Si quieres puedes ver el ejemplo en vivo aquí:[Lección 1 - Snippet 2](/snippets/html/?lesson=1&snippet=2)
+Si quieres puedes ver el ejemplo en vivo aquí: [Lección 1 - Snippet 2](/snippets/html/?lesson=1&snippet=2)
 
 Es importante destacar que aunque el navegador le añade un estilo (CSS) por defecto a las etiquetas, por ejemplo:
 * ```h1``` y ```h2``` una fuente mayor y negrita
