@@ -35,7 +35,7 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 * em = **em**phasis
 
 
-El siguiente ejemplo (ver en vivo: [Lección 1 - Snippet 2](/snippets/html/?lesson=1&snippet=2)) muestra una página web que combina todas ellas:
+El siguiente ejemplo muestra una página web que combina todas ellas:
 
 ```html
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ El siguiente ejemplo (ver en vivo: [Lección 1 - Snippet 2](/snippets/html/?less
 </html>
 ```
 
-Esto generaría una página como la siguiente:
+Esto generaría una página como la siguiente (ver ejemplo en vivo: [Lección 1 - Snippet 2](/snippets/html/?lesson=1&snippet=2)):
 <hr>
 ![](../images/primer_ejemplo.png)
 <hr>
