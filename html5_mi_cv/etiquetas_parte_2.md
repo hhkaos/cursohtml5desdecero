@@ -182,6 +182,8 @@ Por ejemplo:
 ## Separadores
 Existe un elemento que nos permite añadir un separador (una línea horizontal), este elemento es **hr**.
 
+> **Ver**: [Lección 2 - Snippet 9](/snippets/html/?lesson=2&snippet=9)
+
 ## Otras consideraciones
 Para terminar este capítulo hay una última cosa que me gustaría comentar:
 * En HTML se ignoran todos los espacios a partir del primero, por lo tanto nunca podremos (*ni se debe*) alinear usando espacios. 
