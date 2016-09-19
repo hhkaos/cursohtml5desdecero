@@ -31,7 +31,7 @@ Que hará referencia a la siguiente URL: http://www.cursohtml5desdecero.com/img/
 Esto estamos acostumbrado a verlo en la Wikipedia, por ejemplo: <br>
 https://en.wikipedia.org/wiki/Hyperlink#Hyperlinks_in_HTML
 
-Puedes ver estos ejemplos en vivo en la [Lección 2 - Snippet 6](/snippets/html/?lesson=2&snippet=6)
+> **Ver**: [Lección 2 - Snippet 6](/snippets/html/?lesson=2&snippet=6)
 
 ## Imágenes
 Para mostrar una imagen en una página tenemos dos formas de hacerlo, una es usando el elemento **[img](https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-img-element)** y otras es mediante CSS (que veremos en el capítulo correspondiente).
@@ -42,7 +42,7 @@ Esta etiqueta sólo requiere de dos atributos obligatorios que son: **src** (de 
 ```
 Como podemos deducir del código anterior, el atributo **src** lo usaremos para indicar la URL (absoluta o relativa) a la imagen, y **alt** como el texto (alternativo) que mostrará el navegador en caso de no encontrar la imagen<sup>1</sup>.
 
-> Ver: [Lección 2 - Snippet 7](/snippets/html/?lesson=2&snippet=7)
+> **Ver**: [Lección 2 - Snippet 7](/snippets/html/?lesson=2&snippet=7)
 
 ## Tablas
 Podemos crear tablas en HTML usando el elemento **[table](https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element)**<sup>2</sup>. Para ello como mínimo tendremos que indicar las filas y las columnas usando los elementos **tr** (*table row*) y **td** (*table data*) respectivamente, así por ejemplo:
@@ -103,7 +103,7 @@ Quedando algo como esto:
 
 Como podemos ver el atributo afecta a las celdas de las siguientes columnas/filas y el valor indica cuántas celdas debe abarcar.
 
-> Ver: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
+> **Ver**: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
 
 ## Formularios
 Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de sus propiedades:
@@ -160,7 +160,7 @@ Que nos dará como resultado algo así:
 
 [![](../images/formulario.png)](../images/formulario.png)
 
-> Ver: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
+> **Ver**: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
 
 Como ves los estilos por defecto serán muy poco atractivos, pero no te preocupes, ya aprenderemos a solucionar esto usando CSS.
 
