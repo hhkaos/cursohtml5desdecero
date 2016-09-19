@@ -15,7 +15,7 @@ Vamos a ver una breve introducción al funcionamiento de la interfaz:
 
 1. Cambiar entre las diferentes lecciones
 2. Cambiar entre los diferentes snippets
-3. Ejemplo de código HTML
+3. Ejemplo de código HTML (con la sintaxis resaltada)
 4. Resultado del código (3) en embebido en la página
 5. Nos permite abrir la previsualización a pantalla completa
 6. Nos permite usar el editor web [Codepen.io](http://codepen.io), un editor bastante popular para experimentar con el código.
