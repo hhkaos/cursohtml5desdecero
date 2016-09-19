@@ -30,7 +30,7 @@ La forma **correcta** de hacerlo sería:
 <p>El orden es <strong>muy importante</strong></p>
 ```
 
-Recordemos que hay etiquetas que no es necesario cerrarlas por lo que esto sería **correcto**
+Recordemos que hay etiquetas que no es necesario cerrarlas por lo que esto sería **correcto**:
 
 ```html
 <p>
