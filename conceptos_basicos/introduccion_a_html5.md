@@ -10,6 +10,7 @@ Por tanto, [a lo largo de los años las versiones de HTML han evolucionado](http
 
 ## Snippets interactivos
 Vamos a hacer una breve introducción al funcionamiento de la interfaz:
+
 ![Snippets HTML](../images/snippets_html.png)
 
 1. Cambiar entre las diferentes lecciones
@@ -21,6 +22,5 @@ Vamos a hacer una breve introducción al funcionamiento de la interfaz:
 7. Enlace a los **issues** de Github donde podremos publicar cualquier duda o problema sobre los ejemplos.
 
 
-Puedes acceder a los snippets interactivos de HTML a través de la siguiente URL:
-
+Puedes acceder a esta interfaz a través de la siguiente URL:
 [http://libro.cursohtml5desdecero.com/snippets/html/](http://libro.cursohtml5desdecero.com/snippets/html/)
