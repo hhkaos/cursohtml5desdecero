@@ -22,16 +22,17 @@ A continuación explicamos la función que cumple cada etiqueta:
 * ```<!DOCTYPE html>```: indicar al navegador que el código HTML en el que está escrita la página es en la versión 5, osea que es HTML5. [+info](http://www.w3.org/TR/2011/WD-html5-20110525/syntax.html#the-doctype)
 * ```<html lang="es">... </html>```: indica la raíz del documento y **todas** las etiquetas deben estar incluidas dentro. Además se especifica el idioma en el que está escrita, *es* = Español ([+idiomas](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)).
 * ```<head> ... </head>```: se usa para envolver otras etiquetas que ofrecen información principalmente a: el navegador, a los buscadores y a otras páginas (como pueden ser redes sociales, etc). La información especificada dentro del *head* no se muestra *dentro*<sup>1</sup> de la página web que ve el usuario.
-* ```<meta charset="UTF-8">```: indica al navegador qué tipo de caracteres contiene la página. Para especificar cuál de [todos los disponibles](http://www.iana.org/assignments/character-sets/character-sets.xhtml) usamos el atributo charset con el valor [UTF-8](http://tools.ietf.org/html/rfc3629) podremos crear contenido en la mayoría de los sistemas de escritura: español, inglés, francés, etc.
+* ```<meta charset="UTF-8">```: indica al navegador qué tipo de caracteres contiene la página. Con el atributo charset indicamos cuál de [todos los juegos de caractares disponibles](http://www.iana.org/assignments/character-sets/character-sets.xhtml) usamos. Con el valor [UTF-8](http://tools.ietf.org/html/rfc3629) podremos crear contenido en la mayoría de los sistemas de escritura: español, inglés, francés, etc.
 * ```<title> ... </title>```: indica el título de nuetra página. Este se muestra en: la pestaña del navegador, el enlace que indexan los buscadores, etc.
 * ```<body> ... </body>```: contiene todo el contenido visible por el usuario *dentro* de nuestra página.
  
 Observa que la etiqueta *html* contiene dos hijas: *head* y *body*, esto ya no es obligatorio en HTML5 ya que se puede omitir las etiquetas **html**, **body** y **head**, pero por convención es recomendable usarlas.
 
-> **Ejemplo interactivo**: [Lección 1 - Snippet 1](/snippets/html/?lesson=1&snippet=1)
+> Aquí puedes ver el **ejemplo interactivo**: [Lección 1 - Snippet 1](/snippets/html/?lesson=1&snippet=1)
 
 
 <hr>
 
 <small>Aclaraciones:</small><br>
+
 <small>1. Cuando digo **dentro** me refiero al contenido de la página, lo que no incluye la pestaña del navegador ni la barra de direcciones.</small><br>
