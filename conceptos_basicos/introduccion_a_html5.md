@@ -9,11 +9,16 @@ Desde el consorcio trabajan continuamente en definir cómo debe evolucionar este
 Por tanto, [a lo largo de los años las versiones de HTML han evolucionado](https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline): HTML 2.0 (1995), HTML 4.0 (1997), XHTML (2000), **HTML5 (2014)**, etc. con el objetivo de adaptarse a los nuevos tiempos y así dar soporte a nuevas necesidades (estandarización de los sistemas de audio, vídeo, etc).
 
 ## Snippets interactivos
-Vamos a hacer una breve introducción al funcionamientode la interfaz:
+Vamos a hacer una breve introducción al funcionamiento de la interfaz:
 ![Snippets HTML](../images/snippets_html.png)
 
-1. Este selector nos permite cambiar entre las diferentes lecciones
-2. El
+1. Cambiar entre las diferentes lecciones
+2. Cambiar entre los diferentes snippets
+3. Ejemplo de código HTML
+4. Resultado del código (3) en embebido en la página
+5. Nos permite abrir la previsualización a pantalla completa
+6. Nos permite usar el editor web [Codepen.io](http://codepen.io), un editor bastante popular para experimentar con el código.
+7. Enlace a los **issues** de Github donde podremos publicar cualquier duda o problema sobre los ejemplos.
 
 
 Puedes acceder a los snippets interactivos de HTML a través de la siguiente URL:
