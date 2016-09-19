@@ -4,9 +4,10 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 
 * ```<p></p>```: representa un párrafo ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-p-element) / [Lección 2 - Snippet 1](/snippets/html/?lesson=2&snippet=1)).
 
-* ```<h1></h1>```: esta etiqueta se utiliza para representar el encabezado de una página, como si fuera el índice de un libro. Puede variar desde 1 hasta 6 para diferenciar subniveles ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements) / [Lección 2 - Snippet 2](/snippets/html/?lesson=2&snippet=2)).
+* ```<br>```: representa un salto de línea ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-p-element) / [Lección 2 - Snippet 1](/snippets/html/?lesson=2&snippet=1)).
 
-* ```<br>```: representa un salto de línea ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-p-element) / [Lección 2 - Snippet 2](/snippets/html/?lesson=2&snippet=2)).
+
+* ```<h1></h1>```: esta etiqueta se utiliza para representar el encabezado de una página, como si fuera el índice de un libro. Puede variar desde 1 hasta 6 para diferenciar subniveles ([+info](http://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements) / [Lección 2 - Snippet 2](/snippets/html/?lesson=2&snippet=2)).
 
 * ```<ul></ul>```: representa una lista de elementos, donde el orden de los elementos no es importante - esto quiere decir que el cambio del orden no modifica el significado. ([+ìnfo](http://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-ul-element)).
 
