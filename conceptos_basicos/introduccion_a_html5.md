@@ -12,6 +12,10 @@ Por tanto, [a lo largo de los años las versiones de HTML han evolucionado](http
 Vamos a hacer una breve introducción al funcionamientode la interfaz:
 ![Snippets HTML](../images/snippets_html.png)
 
+1. Este selector nos permite cambiar entre las diferentes lecciones
+2. El
+
+
 Puedes acceder a los snippets interactivos de HTML a través de la siguiente URL:
 
 [http://libro.cursohtml5desdecero.com/snippets/html/](http://libro.cursohtml5desdecero.com/snippets/html/)
