@@ -103,6 +103,8 @@ Quedando algo como esto:
 
 Como podemos ver el atributo afecta a las celdas de las siguientes columnas/filas y el valor indica cuántas celdas debe abarcar.
 
+> Ver: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
+
 ## Formularios
 Vamos a hablar muy brevemente de los formularios, algunos de los elementos y de sus propiedades:
 * **[form](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-form-element)**: será el elemento padre que anide todos los elementos HTML que representarán los campos de nuestro formulario, incluído el botón de enviar.
@@ -157,6 +159,8 @@ Aquí tenemos un ejemplo de formulario:
 Que nos dará como resultado algo así:
 
 [![](../images/formulario.png)](../images/formulario.png)
+
+> Ver: [Lección 2 - Snippet 8](/snippets/html/?lesson=2&snippet=8)
 
 Como ves los estilos por defecto serán muy poco atractivos, pero no te preocupes, ya aprenderemos a solucionar esto usando CSS.
 
