@@ -10,7 +10,6 @@ Por tanto, [a lo largo de los años las versiones de HTML han evolucionado](http
 
 ## Snippets interactivos
 Vamos a hacer una breve introducción al funcionamientode la interfaz:
-![](../images/snippets_html.png)
 ![Snippets HTML](../images/snippets_html.png)
 
 Puedes acceder a los snippets interactivos de HTML a través de la siguiente URL:
