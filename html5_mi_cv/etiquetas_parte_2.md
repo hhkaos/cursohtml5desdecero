@@ -205,16 +205,17 @@ En este caso cuando el navegador esté intepretando el código HTML encontrará 
 
 Para evitar este problema usaríamos el siguiente cógido HTML:
 ```html
-<p>La etiqueta <hr> se utiliza para ...</p>
+<p>La etiqueta &lt;hr&gt; se utiliza para ...</p>
 ```
 En este caso hemos modificado el símbolo "menor que" (**L**ower **T**han) por la entidad HTML **lt** y "mayor que" (**G**reater **T**han) por **gt**, así el navegador podrá representarlo sin ningún problema.
 
 En alguna ocasión puede que navegues por una página con una codificación (encoding) que no soporte los acentos agudos (á, é, í, ó, ú), en ese caso usarán las entidades HTML (```&aacute;, &eacute;, &iacute;, &oacute;, &Uacute;```) para representarlos. Por cierto: "acute" en inglés significa "agudo".
 
+<hr>
+Aclaraciones:
 
-<small>Aclaraciones:</small><br>
-<small>1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.</small><br>
-<small>2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquetar.</small><br>
-<small>3. Con esto nos referimos a un nombre (o cadena de texto) que no contenga ningún otro elemento, por ejemplo no puede haber dos elementos con **id="email"**.</small><br>
-<small>4. En la documentación del W3C podemos ver qué atributos admite cada elemento: [input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#input-type-attr-summary), [textarea](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element), [select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element), etc.</small><br>
+1. Puede que no se encuentre la imagen porque alguien la borre del servidor o porque nos equivoquemos al introducir la URL.
+2. Las tablas sólo deben usarse para mostrar datos que tengan sentido en una tabla y nunca para maquetar.
+3. Con esto nos referimos a un nombre (o cadena de texto) que no contenga ningún otro elemento, por ejemplo no puede haber dos elementos con **id="email"**.
+4. En la documentación del W3C podemos ver qué atributos admite cada elemento: [input](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#input-type-attr-summary), [textarea](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element), [select](https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element), etc.
 
