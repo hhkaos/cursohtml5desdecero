@@ -35,7 +35,11 @@ Otro ejemplo de URL válida podría ser: ```file:///Users/hhkaos/index.html```
 
 En este caso le estamos indicando al navegador que acceda a un fichero que se encuentra en nuestro disco duro.
 
-<small>Aclaraciones:</small><br>
-<small>1. Un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede configurar para que apunte a distintas IPs o "carpetas de nuestro disco duro". Así por ejemplo www sería también un subdominio</small><br>
-<small>2. Los puertos son números enteros que nos permiten especificar a qué "*puerta*" o "*canal*" de una máquina nos queremos conectar. Por ejemplo en la web se suele usar el 80 para los servidores HTTP (aunque Skype también lo usa), el 21 para el FTP, el 22 para el SFTP, etc</small><br>
-<small>3. Un punto de anclaje nos permite introducir una URL al abrirla hace scroll hasta un punto de la página determinado ([ejemplo](https://es.wikipedia.org/wiki/HTML#C.C3.B3digos_HTML_b.C3.A1sicos)).</small><br>
+---
+Aclaraciones:
+
+1. Un subdominio es un prefijo que le ponemos al dominio, por ejemplo: mail.google.com, y se puede configurar para que apunte a distintas IPs o "carpetas de nuestro disco duro". Así por ejemplo www sería también un subdominio
+
+2. Los puertos son números enteros que nos permiten especificar a qué "*puerta*" o "*canal*" de una máquina nos queremos conectar. Por ejemplo en la web se suele usar el 80 para los servidores HTTP (aunque Skype también lo usa), el 21 para el FTP, el 22 para el SFTP, etc.
+
+3. Un punto de anclaje nos permite introducir una URL al abrirla hace scroll hasta un punto de la página determinado ([ejemplo](https://es.wikipedia.org/wiki/HTML#C.C3.B3digos_HTML_b.C3.A1sicos)).
