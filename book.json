@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "cursohtml5desdecero",
+            "useIdentifier": false
+        }
+    }
+}
