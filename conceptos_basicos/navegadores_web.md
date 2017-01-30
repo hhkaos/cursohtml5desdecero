@@ -17,5 +17,7 @@ Aquí te dejo además una gráfica que muestra la cuota de uso de los navegadore
 ![](../images/quota_navegadores.png)<br>
 Fuente: [StatCounter](http://gs.statcounter.com/#browser-ww-monthly-201411-201601-bar)
 
-<small>Aclaraciones:</small><br>
-<small>1. Normalmente a través de un servidor web HTTP</small><br>
+---
+Aclaraciones:
+
+1. Normalmente a través de un servidor web HTTP
