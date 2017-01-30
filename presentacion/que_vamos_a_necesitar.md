@@ -6,4 +6,4 @@ Es habitual encontrar profesionales que usen otros programas como: [Sublime Text
 
 **Nota**: Es posible que hayas oído hablar de programas como Dreamweaver, Frontpage, Aptana, etc. Personalmente no te recomiendo ninguno de ellos para aprender porque incluyen botones que introducen código, cosa que muchas veces nos incita a introducir código innecesario o código que no sabemos qué significa, y por tanto que no sabremos arreglar en caso de que contenga algún fallo. 
 
-El tercero no lo recomiendo porque además de ser un programa que consume bastantes recursos, considero que como decimos habitualmente en España: *es matar moscas a cañonazos*.
+El tercero (Aptana) no lo recomiendo porque además de necesitar un programa que consume bastantes recursos (Eclipse), considero que como decimos habitualmente en España: *es matar moscas a cañonazos* para el propósito de este curso.
