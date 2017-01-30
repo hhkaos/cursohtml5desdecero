@@ -65,8 +65,8 @@ En el siguiente apartado veremos las diferentes maneras de  contribuir a mejorar
  
 Todo esto ha sido más que suficiente para que me decida a dedicar **muchas horas** (y cariño) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
 
-<small>Aclaraciones:</small><br>
+---
+Aclaraciones:
 
-<small>1. A lo largo de todo el libro usaré el masculino por facilitar la lectura evitando los: "seguro/a", o los "segur@", espero que nadie se ofenda ;-P.</small><br>
-
-<small>2. Un programador front-end no es más que un programador que domina HTML, CSS y JavaScript.</small>
+1. A lo largo de todo el libro usaré el masculino por facilitar la lectura evitando los: "seguro/a", o los "segur@", espero que nadie se ofenda ;-P.
+2. Un programador front-end no es más que un programador que domina HTML, CSS y JavaScript.
