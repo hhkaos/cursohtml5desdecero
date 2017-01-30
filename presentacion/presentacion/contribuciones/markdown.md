@@ -6,11 +6,11 @@ Markdown es un lenguaje de marcas (al igual que HTML) aunque más parecido al [l
 
 Aquí pongo algunos ejemplos simples de cómo se da formato al texto con markdown:
 * **Títulos**: ```# Título```
-* **Encabezado 1**:  ```## Encabezado 1```
-* **Encabezado 2**:  ```### Encabezado 2```
-* **Negrita**:  ```**texto en negrita**```
-* **Enlaces**:  ```[texto del enlace](http://cursohtml5desdecero.com)```
-* **Cursiva**:  ```[texto en cursiva]```
-* **Imágenes**:  ```![texto a mostrar si la URL de la imagen se rompre](http://.../imagen.jpg)```
+* **Encabezado 1**: ```## Encabezado 1```
+* **Encabezado 2**: ```### Encabezado 2```
+* **Negrita**: ```**texto en negrita**```
+* **Enlaces**: ```[texto del enlace](http://cursohtml5desdecero.com)```
+* **Cursiva**: ```[texto en cursiva]```
+* **Imágenes**: ```![texto a mostrar si la URL de la imagen se rompre](http://.../imagen.jpg)```
 
-Para más detalles [revisa este tutorial]((https://guides.github.com/features/mastering-markdown/#examples).
+Para más detalles [revisa este tutorial](https://guides.github.com/features/mastering-markdown/#examples).
