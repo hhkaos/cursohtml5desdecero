@@ -63,8 +63,10 @@ En el siguiente apartado veremos las diferentes maneras de  contribuir a mejorar
 3. **Creo que los tiempos han cambiado**: y creo que hay muchísimas personas con mucho potencial a las que saber HTML, CSS y JavaScript les "daría alas" y les abrirían muchas puertas profesionales.
 4. **Disfruto compartiendo lo que sé y ayudando a los demás**: siempre quise montar una empresa para crear algún producto que mejorase aunque fuese un poco la vida de miles/millones de personas, pero después de 6 años me he dado cuenta de que también es posible cambiar la vida de muchas personas enseñándoles lo que sé.
  
-Todo esto ha sido más que suficiente para que decida a dedicar **muchas horas** (y cariño) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
+Todo esto ha sido más que suficiente para que me decida a dedicar **muchas horas** (y cariño) de mi tiempo libre para ir creando poco a poco los contenido de este curso.
 
 <small>Aclaraciones:</small><br>
+
 <small>1. A lo largo de todo el libro usaré el masculino por facilitar la lectura evitando los: "seguro/a", o los "segur@", espero que nadie se ofenda ;-P.</small><br>
+
 <small>2. Un programador front-end no es más que un programador que domina HTML, CSS y JavaScript.</small>
