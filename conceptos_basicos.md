@@ -1,6 +1,7 @@
 # Conceptos básicos
 
 En esta primera lección vamos a ver qué son y cómo funcionan:
+
 * Los servidores web y HTTP
 * Los navegadores
 * Las URLs
