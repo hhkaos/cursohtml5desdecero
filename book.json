@@ -1,7 +1,9 @@
 {
     "plugins": [
         "disqus",
-        "ga"
+        "ga",
+        "creativecommons",
+        "heading-anchors"
     ],
     "pluginsConfig": {
         "disqus": {
