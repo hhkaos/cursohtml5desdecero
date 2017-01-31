@@ -38,7 +38,12 @@ Además de como apoyo al libro, tienen un segundo propósito: servirte de "libre
 
 
 ## Dudas, ideas, sugerencias, y contribuciones
-Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento a través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/cursohtml5desdecero/issues).
+Además de resolver dudas en la sesiones online semanales, podrás realizar cualquier pregunta, o aportar cualquier idea o sugerencia en cualquier momento:
+* A través [del apartado de issues del proyecto en Github](https://github.com/hhkaos/cursohtml5desdecero/issues) (**opción recomendada**).
+* Añadiendo comentarios al final de la página:
+![](/assets/2017-01-31_1128.png)
+* Añadiendo comentarios en los párrafos del libro :
+![](/assets/2017-01-31_1103.png)
 
 Recuerda, que no te de vergüenza preguntar cualquier duda que te surja, por simple que te parezca, si te ha surgido a ti, ten por seguro que le surgirá a más personas. **Así me ayudarás también saber qué  aclaraciones añadir o qué mejoras puedo hacer al contenido del curso** para facilitarles el aprendizaje a otras personas que vengan detrás.
 
