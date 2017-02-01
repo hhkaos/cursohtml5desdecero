@@ -8,7 +8,7 @@ Por tanto con Git ya no volverá a ser necesario tener varias copias de una mism
 
 [Github](https://github.com/) es una compañía americana que ha creado una web donde podremos mantener una copia del código que estemos gestionando con Git y que además nos ayuda a hacer más sencillo colaborar y compartir este código.
 
-Vamos a empezar a crear una cuenta y te iré explicando los conceptos que te van a hacer falta entender para este curso sobre la marcha.
+Vamos a empezar a crear una cuenta y te iré explicando sobre la marcha los conceptos que te van a hacer falta para seguir este curso.
 
 <small>Aclaraciones:</small><br>
 <small>1. [GitHub, Inc](https://github.com/about). desarrolla una plataforma web que tiene viene el mismo nombre y que permite trabajar colaborativamente respositorios en [Git](https://en.wikipedia.org/wiki/Git_(software). La compañía fue fundada en 2008 y ya se ha convertido en el estandar mundial de facto para proyectos de software libre, desvancando a otras como [Google Code](https://code.google.com/) o [Sourceforge](http://sourceforge.net). En este tiempo [ha recibido 350 millones de dolares](https://www.crunchbase.com/organization/github#/entity) de inversión.</small><br>
