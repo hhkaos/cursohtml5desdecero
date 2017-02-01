@@ -35,7 +35,7 @@ Lo que hemos hecho ha sido ejecutar una orden que nos permite ver (**L**i**S**ta
 
 * **pwd**: significa "**P**rint **W**orking **D**irectory" y como su nombre indica no muestra el directorio actual.
 * **cd**: significa "**C**hange **D**irectory". Por defecto nos cambiará el "working directory" a nuestra carpeta de usuario del sistema (prueba a hacer un **ls** después y verás los ficheros y carpetas de tu carpeta de usuario).
-* **cd [DIRECTORIO]**: si después de "cd" añadimos el nombre de un directorio equivaldría a hacer doble clic sobre una carpseta (nos movemos dentro de esa carpeta).
+* **cd [DIRECTORIO]**: si después de "cd" añadimos el nombre de un directorio equivaldría a hacer doble clic sobre una carpeta (nos movemos dentro de esa carpeta).
 * **cd ..**:  si después de "cd" escribimos ".." nos salimos a la carpeta padre.
 * **cd /**: nos lleva al directorio raíz de nuestro disco duro (en el caso de Windows "**cd /C**" nos llevaría al disco raíz de la spartición "C:".
 
