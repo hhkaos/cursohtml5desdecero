@@ -41,6 +41,10 @@ Lo que hemos hecho ha sido ejecutar una orden que nos permite ver (**L**i**S**ta
 
 ## Comandos en Git
 
+Desde la consola se pueden ejecutar también otros programas, por ejemplo si tenemos [Atom](http://atom.io) instalado podemos escribir "**atom**" y se nos abrirá el programa. 
+
+Del mismo modo podemos ejecutar **git**, la única diferencia es que Git por defecto no tiene una interfaz gráfica.
+
 ## Enviar y recibir cambios
 Pendiente
 
