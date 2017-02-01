@@ -1,7 +1,7 @@
 # Enviar y recibir cambios
 
 ## Instalar y configurar Git
-Vamos a empezar por [descargar e instalar Git](https://git-scm.com/downloads):
+Ahora vamos a empezar por [descargar e instalar Git](https://git-scm.com/downloads):
 
 ![](/assets/2017-02-01_1218.png)
 
@@ -35,9 +35,11 @@ Lo que hemos hecho ha sido ejecutar una orden que nos permite ver (**L**i**S**ta
 
 * **pwd**: significa "**P**rint **W**orking **D**irectory" y como su nombre indica no muestra el directorio actual.
 * **cd**: significa "**C**hange **D**irectory". Por defecto nos cambiará el "working directory" a nuestra carpeta de usuario del sistema (prueba a hacer un **ls** después y verás los ficheros y carpetas de tu carpeta de usuario).
-* **cd [DIRECTORIO]**: si después de "cd" añadimos el nombre de un directorio equivaldría a hacer doble clic sobre una carpeta (nos movemos dentro de esa carpeta).
+* **cd *NOMBRE_DIRECTORIO***: si después de "cd" añadimos el nombre de un directorio equivaldría a hacer doble clic sobre una carpeta (nos movemos dentro de esa carpeta).
 * **cd ..**:  si después de "cd" escribimos ".." nos salimos a la carpeta padre.
-* **cd /**: nos lleva al directorio raíz de nuestro disco duro (en el caso de Windows "**cd /C**" nos llevaría al disco raíz de la spartición "C:".
+* **cd /**: nos lleva al directorio raíz de nuestro disco duro (en el caso de Windows "**cd /C**" nos llevaría al disco raíz de la partición "C:".
+* **ls -la**: nos permite mostrar todos los ficheros, incluyendo los ocultos.
+* **mkdir *NOMBRE_DIRECTORIO***: nos permite crear un directorio dentro de la carpeta.
 
 ## Comandos en Git
 
@@ -45,11 +47,29 @@ Desde la consola se pueden ejecutar también otros programas, por ejemplo si ten
 
 Del mismo modo podemos ejecutar **git**, la única diferencia es que Git por defecto no tiene una interfaz gráfica.
 
-## Enviar y recibir cambios
+Al igual que **cd**, para trabajar con **git** órdenes. Para facilitar el aprendizaje vamos a reducirnos al mínimo número de ordenes:
+
+* **git clone *URL_REPOSITORIO***:
+* **git status**:
+* **git add [*FICHERO*/*DIRECTORIO*/*-A*]**:
+* **git commit -m "*CAMBIOS*"**:
+* **git push origin master**:
+
+
+Git ofrece otras muchas órdenes muy útiles como son:
+* **git diff [NOMBRE_FICHERO]**:
+* **git checkout [NOMBRE_FICHERO]**:
+* **git log**:
+* ...
+
+Por eso, mi consejo es que hagas el curso gratuito [Try Git de CodeSchool](https://www.codeschool.com/courses/try-git) (en una mañana posiblemente lo puedas hacer) para descubrir parte de la potencia de esta tecnología.
+
+## Enviar nuestros cambios a Github
+Pendiente
+
+## Recibir nuestros cambios desde Github
 Pendiente
 
 ## Ver el histórico de cambios
 Pendiente
 
-<small>Aclaraciones:</small><br>
-<small>1. Mi recomendación es que hagas el curso gratuito [Try Git de CodeSchool](https://www.codeschool.com/courses/try-git) para aprender a usar Git desde la línea de comandos cuando te hayas acostumbrado a usar Git (  **yo nunca uso ninguna herramienta gráfica**).</small><br>
