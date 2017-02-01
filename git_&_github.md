@@ -10,5 +10,7 @@ Por tanto con Git ya no volverá a ser necesario tener varias copias de una mism
 
 Vamos a empezar a crear una cuenta y te iré explicando sobre la marcha los conceptos que te van a hacer falta para seguir este curso.
 
-<small>Aclaraciones:</small><br>
-<small>1. [GitHub, Inc](https://github.com/about). desarrolla una plataforma web que tiene viene el mismo nombre y que permite trabajar colaborativamente respositorios en [Git](https://en.wikipedia.org/wiki/Git_(software). La compañía fue fundada en 2008 y ya se ha convertido en el estandar mundial de facto para proyectos de software libre, desvancando a otras como [Google Code](https://code.google.com/) o [Sourceforge](http://sourceforge.net). En este tiempo [ha recibido 350 millones de dolares](https://www.crunchbase.com/organization/github#/entity) de inversión.</small><br>
+---
+Aclaraciones:
+
+1. [GitHub, Inc](https://github.com/about). desarrolla una plataforma web que tiene viene el mismo nombre y que permite trabajar colaborativamente respositorios en [Git](https://en.wikipedia.org/wiki/Git_(software). La compañía fue fundada en 2008 y ya se ha convertido en el estandar mundial de facto para proyectos de software libre, desvancando a otras como [Google Code](https://code.google.com/) o [Sourceforge](http://sourceforge.net). En este tiempo [ha recibido 350 millones de dolares](https://www.crunchbase.com/organization/github#/entity) de inversión.
