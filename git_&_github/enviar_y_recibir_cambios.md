@@ -27,7 +27,7 @@ Antes de aprender cómo usar Git vamos a aprender qué es y cómo funciona la co
 Podemos pensar en la consola de comandos como una especie de Buscador de ficheros ("Explorador de Windows"/"Finder de Mac"/"Nautilus en Ubuntu) que para realizar acciones necesita que "ejecutemos órdenes" en lugar de interactuar con el ratón funciona.
 
 **¿Qué significa esto?**
-Veamos un ejemplo, escribe en la consola "**pwd**" y pulsa intro, verás lo siguiente:
+Veamos un ejemplo, escribe en la consola "**ls**" y pulsa intro, verás lo siguiente:
 
 
 ## Comandos en Git
