@@ -1,19 +1,36 @@
 # Enviar y recibir cambios
 
-##Instalar y configurar Github Desktop
-Vamos a empezar por descargar, instalar y configurar [Github Desktop](https://desktop.github.com) que es una herramienta gráfica<sup>1</sup> que nos va a ayudar a gestionar las versiones.
- 
-Una vez descargado e instalado lo abrimos y nos identificamos con nuestra cuenta.
+## Instalar y configurar Git
+Vamos a empezar por [descargar e instalar Git](https://git-scm.com/downloads):
 
-[![](../images/github_desktop_1.png)](../images/github_desktop_1.png)
+![](/assets/2017-02-01_1218.png)
 
-Una vez hecho volvemos a la opción de clonar y seleccionamos el repositorio que acabamos de crear.
+Una vez descargado e instalado abrimos un programa (la **consola de comandos**) que usaremos para ejecutar Git y comunicarnos con Github. Para ello hacemos lo siguiente:
 
-[![](../images/github_desktop_2.png)](../images/github_desktop_2.png)
+* En Windows pulsamos la tecla de Windows y escribimos "**Git bash**".
+* En Mac abrimos el programa "**Terminal**" (o cualquier otra variante: [iTerm](https://www.iterm2.com/), etc.)
+* Linux abrimos una terminar con Ctrl-Alt+T.
 
-Esto nos pedirá que seleccionamos una carpeta en nuestro disco duro donde se va a clonar el repositorio (se creará una carpeta nueva en nuestro disco duro lista para controlar los cambios). La seleccionamos y le damos a "OK".
+En Windows veremos algo parecido a esto:
 
-Una vez clonada el repositorio vamos a ver una forma básica de usarlo.
+![](/assets/Captura de pantalla 2017-02-01 12.46.34.png)
+
+En Mac algo parecido a esto:
+![](/assets/Screenshot 2017-02-01 12.48.31.png)
+
+A este programa lo llamaremos genéricamente: **consola de comandos**.
+
+## Introducción a la consola de comandos
+
+Antes de aprender cómo usar Git vamos a aprender qué es y cómo funciona la consola de comandos (o simplemente **consola**).
+
+Podemos pensar en la consola de comandos como una especie de Buscador de ficheros ("Explorador de Windows"/"Finder de Mac"/"Nautilus en Ubuntu) que para realizar acciones necesita que "ejecutemos órdenes" en lugar de interactuar con el ratón funciona.
+
+**¿Qué significa esto?**
+Veamos un ejemplo, escribe en la consola "**pwd**" y pulsa intro, verás lo siguiente:
+
+
+## Comandos en Git
 
 ## Enviar y recibir cambios
 Pendiente
