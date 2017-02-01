@@ -67,7 +67,13 @@ Por eso, mi consejo es que hagas el curso gratuito [Try Git de CodeSchool](https
 
 ## Clonar el repositorio
 
-Pendiente
+Ahora vamos a vincular \(clonar es el término correcto\) el repositorio en nuestro disco duro, para ello nos dirigimos a **github.com/username** y seleccionamos el repositorio creado, nos aparecerá algo parecido a esto:
+
+![](/assets/Screenshot 2017-02-01 15.14.04.png)
+
+A continuación copiamos la URL que nos aparece dentro del cuadro azul \(https://github.com/raulEsri/raulEsri.github.io.git en mi caso\) y nos dirigimos a la consola para clonar el repositorio en el directorio que queramos, por ejemplo:
+
+![](/assets/Captura de pantalla 2017-02-01 15.19.04.png)
 
 ## Enviar nuestros cambios a Github
 
