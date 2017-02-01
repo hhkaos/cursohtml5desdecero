@@ -27,8 +27,17 @@ Antes de aprender cómo usar Git vamos a aprender qué es y cómo funciona la co
 Podemos pensar en la consola de comandos como una especie de Buscador de ficheros ("Explorador de Windows"/"Finder de Mac"/"Nautilus en Ubuntu) que para realizar acciones necesita que "ejecutemos órdenes" en lugar de interactuar con el ratón funciona.
 
 **¿Qué significa esto?**
-Veamos un ejemplo, escribe en la consola "**ls**" y pulsa intro, verás lo siguiente:
+Veamos un ejemplo, escribe en la consola "**ls**" y pulsa intro, verás algo parecido a lo siguiente:
 
+![](/assets/Captura de pantalla 2017-02-01 13.02.30.png)
+
+Lo que hemos hecho ha sido ejecutar una orden que nos permite ver (**L**i**S**ta) los ficheros y carpetas del directorio donde nos encontramos. Al igual que este hay otros comandos otros muchos, pero a nosotros nos bastará con saber movernos entre directorios usando principalmente el comando "**cd**":
+
+* **pwd**: significa "**P**rint **W**orking **D**irectory" y como su nombre indica no muestra el directorio actual.
+* **cd**: significa "**C**hange **D**irectory". Por defecto nos cambiará el "working directory" a nuestra carpeta de usuario del sistema (prueba a hacer un **ls** después y verás los ficheros y carpetas de tu carpeta de usuario).
+* **cd [DIRECTORIO]**: si después de "cd" añadimos el nombre de un directorio equivaldría a hacer doble clic sobre una carpseta (nos movemos dentro de esa carpeta).
+* **cd ..**:  si después de "cd" escribimos ".." nos salimos a la carpeta padre.
+* **cd /**: nos lleva al directorio raíz de nuestro disco duro (en el caso de Windows "**cd /C**" nos llevaría al disco raíz de la spartición "C:".
 
 ## Comandos en Git
 
