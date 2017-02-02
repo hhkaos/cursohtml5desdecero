@@ -132,8 +132,9 @@ En cualquier momento puedes ver un histórico de los cambios que has estado haci
 
 * Antes de poder enviar cambios a un repositorio tienes que asegurarte que tu copia local está actualizada.
 
+---
 
-
+Aclaraciones:
 
 [^1]: [Como podemos ver en la documentación de Github](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
@@ -142,3 +143,5 @@ En cualquier momento puedes ver un histórico de los cambios que has estado haci
 [^3]: Aunque esta palabra no está aceptada en la RAE es un término ampliamente usado en el mundo informático ([como muchos otros](http://luauf.com/2009/10/19/el-lexico-informatico/)) por lo que yo también lo usaré para que aprendas a hablar el mismo idioma que nosotros ;P.
 
 [^4]: Si esta orden te diese algún problema prueba con ```$ git push -u origin master``` y la próxima vez vuelve a probar sólo con ```git push```
+
+---
