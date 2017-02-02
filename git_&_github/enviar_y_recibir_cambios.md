@@ -101,44 +101,43 @@ Con esto sería suficiente, pero vamos pero a ver en detalle que estamos haciend
 
 Veamos qué estamos haciendo en cada uno de los pasos:
 
-1. Antes de hacer nada ejecutamos ```$ git status```  para ver el estado en el que se encuentra nuestro repositorio, y nos indica que "**docs**" está en estado "Untracked" y en rojo, esto significa que aún no se ha guardado nunca una versión de este directorio y que nunca se ha solicitado que se sincronice con el repositorio.
+1. Antes de hacer nada ejecutamos `$ git status`  para ver el estado en el que se encuentra nuestro repositorio, y nos indica que "**docs**" está en estado "Untracked" y en rojo, esto significa que aún no se ha guardado nunca una versión de este directorio y que nunca se ha solicitado que se sincronice con el repositorio.
 
-2. Para solucionar esto ejecutamos ```$ git add docs```, de este modo simplemente le indicamos a *git* que queremos que queremos guardar una versión del directorio (pero nada más[^2]).
+2. Para solucionar esto ejecutamos `$ git add docs`, de este modo simplemente le indicamos a _git_ que queremos que queremos guardar una versión del directorio \(pero nada más[^2]\).
 
-3. Volvemos a ejecutar ```$ git status``` a modo informativo simplemente para ver en qué estado se encuentra nuestro repositorio. En este caso nos indica que hay un fichero ("**docs/index.html**") pendiente de ser comiteado[^3] (será lo siguiente que hagamos).
+3. Volvemos a ejecutar `$ git status` a modo informativo simplemente para ver en qué estado se encuentra nuestro repositorio. En este caso nos indica que hay un fichero \("**docs/index.html**"\) pendiente de ser comiteado[^3] \(será lo siguiente que hagamos\).
 
-4. Ahora vamos a indicarle a **git** que queremos añadir a nuestro histórico de versiones una nueva versión de todos los ficheros que hayan aparecido en el paso anterior como "Changes to be commited", para ello ejecutamos: ```git commit -m "Adding initial version"```. En este caso el comentario que describe los cambios que hemos hecho es "Adding initial version".
+4. Ahora vamos a indicarle a **git** que queremos añadir a nuestro histórico de versiones una nueva versión de todos los ficheros que hayan aparecido en el paso anterior como "Changes to be commited", para ello ejecutamos: `git commit -m "Adding initial version"`. En este caso el comentario que describe los cambios que hemos hecho es "Adding initial version".
 
-5. Si volvemos a ejecutar ```$ git status``` veremos que nuestros cambios no están pendientes de "comitear".
+5. Si volvemos a ejecutar `$ git status` veremos que nuestros cambios no están pendientes de "comitear".
 
-6. Por último ejecutamos ```$ git push``` lo que enviará nuestros cambios a Github[^4].
+6. Por último ejecutamos `$ git push` lo que enviará nuestros cambios a Github[^4].
 
-Una vez hecho todo esto podremos volver al navegador y refrescar la página principal de nuestro repositorio (**github.com/username/nombre-del-repo**) y veremos los cambios enviados.
+Una vez hecho todo esto podremos volver al navegador y refrescar la página principal de nuestro repositorio \(**github.com/username/nombre-del-repo**\) y veremos los cambios enviados.
 
 ## Recibir nuestros cambios desde Github
 
-Si has sincronizado tu repositorio desde dos ordenadores distintos y has enviado cambios a Github que no tienes en la máquina con la que estás trabajando puedes traer los cambios ejecutando: ```$ git pull```
+Si has sincronizado tu repositorio desde dos ordenadores distintos y has enviado cambios a Github que no tienes en la máquina con la que estás trabajando puedes traer los cambios ejecutando: `$ git pull`
 
 Esto funciona igual cuando editas algún fichero desde la web de Github o cuando varias personas estáis colaborando en un mismo repositorio.
 
 ## Ver el histórico de cambios
 
-En cualquier momento puedes ver un histórico de los cambios que has estado haciendo (u otros han hecho) en el código ejecuntado ```$ git log```
+En cualquier momento puedes ver un histórico de los cambios que has estado haciendo \(u otros han hecho\) en el código ejecuntado `$ git log`
 
+![](/assets/Captura de pantalla 2017-02-02 09.30.47.png)
 
 ## Errores refrecuentes
 
-*Pendiente de terminar*:
+_Pendiente de terminar_:
 
 * Antes de poder enviar cambios a un repositorio tienes que asegurarte que tu copia local está actualizada.
 
-
-
+[^4] Si esta orden te diese algún problema prueba con `$ git push -u origin master` y la próxima vez vuelve a probar sólo con `git push`
 
 [^1]: [Como podemos ver en la documentación de Github](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
 [^2]: Al hacer un "**add**" en realidad lo que estamos añadiendo es añadir el fichero/carpeta a lo que se llama el [**staging area**](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#_the_three_states). Al hacer un commit estamos guardando una versión de todo lo que se encuentre en este área.
 
-[^3]: Aunque esta palabra no está aceptada en la RAE es un término ampliamente usado en el mundo informático ([como muchos otros](http://luauf.com/2009/10/19/el-lexico-informatico/)) por lo que yo también lo usaré para que aprendas a hablar el mismo idioma que nosotros ;P.
+[^3]: Aunque esta palabra no está aceptada en la RAE es un término ampliamente usado en el mundo informático \([como muchos otros](http://luauf.com/2009/10/19/el-lexico-informatico/)\) por lo que yo también lo usaré para que aprendas a hablar el mismo idioma que nosotros ;P.
 
-[^4] Si esta orden te diese algún problema prueba con ```$ git push -u origin master``` y la próxima vez vuelve a probar sólo con ```git push```
