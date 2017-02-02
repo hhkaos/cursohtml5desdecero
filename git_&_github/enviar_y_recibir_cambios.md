@@ -92,7 +92,7 @@ Ahora vamos a usar la consola para enviar los cambios, para ello primero debemos
 ```
 $ git add docs
 $ git commit -m "Adding initial version"
-$ git push -u origin master?<-
+$ git push
 ```
 
 Con esto sería suficiente, pero vamos pero a ver en detalle que estamos haciendo en cada uno de los pasos:
