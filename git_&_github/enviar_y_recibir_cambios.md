@@ -53,37 +53,61 @@ Al igual que **cd**, para trabajar con **git** órdenes. Para facilitar el apren
 * **git clone **_**URL\_REPOSITORIO**_: esta órden nos permite vincular una carpeta de nuestro disco duro con un repositorio de Github y posteriormente sincronizar los cambios 
 * **git status**: nos permite ver cambios en ficheros que no han sido guardados en el histórico \(o ficheros que no están sincronizados\).
 * **git add \[**_**FICHERO**_**/**_**DIRECTORIO**_**/**_**-A**_**\]**: nos permite indicar un fichero/directorio/"todos los ficheros"
-* **git commit -m "**_**CAMBIOS**_**"**:
-* **git push origin master**:
+* **git commit -m "**_**CAMBIOS**_**"**:este paso indica a GIT que para todos los ficheros que hayan sido añadidos \(mediante add\) guarde una copia en memoria \(una "versión"\) y le añada el comentario indicado como recordatorio. Lo habitual es añadir un comentario sobre los cambios que se hicieron en esta nueva versión.
+* **git push origin master**: con esta orden indicamos a Git que envíe los cambios desde nuestra máquina al repositorio "origen" \(en este caso, el que está en Github\).
 
 Git ofrece otras muchas órdenes muy útiles como son:
 
-* **git diff \[NOMBRE\_FICHERO\]**:
-* **git checkout \[NOMBRE\_FICHERO\]**:
-* **git log**:
+* **git diff \[**_**FICHERO**_**/**_**DIRECTORIO**_**\]**: este comando nos permite ver lo que ha cambiando en un fichero/directorio desde la última versión que guardamos \(desde el último commit\)
+* **git checkout \[**_**FICHERO**_**/**_**DIRECTORIO**_**\]**: con este comando podemos deshacer los cambios de un fichero y dejarlo como estab en el último commit.
+* **git log**: nos muestra un histórico de todas las versiones del fichero.
 * ...
 
 Por eso, mi consejo es que hagas el curso gratuito [Try Git de CodeSchool](https://www.codeschool.com/courses/try-git) \(en una mañana posiblemente lo puedas hacer\) para descubrir parte de la potencia de esta tecnología.
 
 ## Clonar el repositorio
 
-Ahora vamos a vincular \(clonar es el término correcto\) el repositorio en nuestro disco duro, para ello nos dirigimos a **github.com/username** y seleccionamos el repositorio creado, nos aparecerá algo parecido a esto:
+Ahora vamos a vincular \(clonar es el término correcto\) el repositorio en nuestro disco duro, pero antes de nada vamos a configurar la consola para que almacene nuestras credenciales siguiendo los siguientes tutoriales:
+
+* [Para Windows](https://help.github.com/articles/caching-your-github-password-in-git/#platform-windows)
+* [Para Mac](https://help.github.com/articles/caching-your-github-password-in-git/#platform-mac)
+* [Para todos](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux)
+
+Una vez hecho esto nos dirigimos a **github.com/username** y seleccionamos el repositorio creado, nos aparecerá algo parecido a esto:
 
 ![](/assets/Screenshot 2017-02-01 15.14.04.png)
 
-A continuación copiamos la URL que nos aparece dentro del cuadro azul \(https://github.com/raulEsri/raulEsri.github.io.git en mi caso\) y nos dirigimos a la consola para clonar el repositorio en el directorio que queramos, por ejemplo:
+A continuación **seleccionamos la opción HTTPS** y copiamos la URL que nos aparece dentro del cuadro azul \([https://github.com/raulEsri/raulEsri.github.io.git](https://github.com/raulEsri/raulEsri.github.io.git) en mi caso\) y nos dirigimos a la consola para clonar el repositorio en el directorio que queramos, por ejemplo:
 
 ![](/assets/Captura de pantalla 2017-02-01 15.19.04.png)
 
+Es posible[^1] que desde la consola nos pida nuestro usuario y contraseña, en ese caso simplemente los introducimos.
+
 ## Enviar nuestros cambios a Github
 
-Pendiente
+Para ello vamos a crear un directorio "docs" dentro de nuestra carpeta \(en mi caso raulEsri.github.io\) y allí vamos a copiar nuestro fichero "**index.html**" con nuestro curriculum \(esto podemos hacerlo desde el explorar de Windows/Finder/...\).
+
+Ahora vamos a usar la consola para enviar los cambios, para ello primero debemos movernos dentro de nuestra carpeta curriculum \("**cd raulEsri.github.io**" en mi caso\) y a continuación seguimos los siguientes pasos para guardar una versión del código y enviarla a Github:
+
+1. **git add **
+2. **git commit -m **
+3. git push origin master -u?
+
+
 
 ## Recibir nuestros cambios desde Github
 
 Pendiente
 
+Git pull
+
 ## Ver el histórico de cambios
 
 Pendiente
+
+git log
+
+
+
+[^1]: [Como podemos ver en la documentación de Github](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
