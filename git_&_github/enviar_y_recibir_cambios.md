@@ -89,15 +89,32 @@ Para ello vamos a crear un directorio "docs" dentro de nuestra carpeta \(en mi c
 
 Ahora vamos a usar la consola para enviar los cambios, para ello primero debemos movernos dentro de nuestra carpeta curriculum \("**cd raulEsri.github.io**" en mi caso\) y a continuación seguimos los siguientes pasos para guardar una versión del código y enviarla a Github:
 
+```
+$ git add docs
+$ git commit -m "Primera versión"
+$ git push -u origin master?<-
+```
+
+La ejecución de estas ordenes nos debe mostrar algo como:
+
+\(pendiente\)
+
 1. **git add docs**
 2. **git commit -m "Primera versión"**
-3. git push origin master -u?
+3. git push -u origin master
+
+```
+ git branch --set-upstream master origin/master
+
+```
+
+
 
 ## Recibir nuestros cambios desde Github
 
 Pendiente
 
-Git pull
+Git pull origin master
 
 ## Ver el histórico de cambios
 
