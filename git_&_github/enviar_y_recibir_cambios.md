@@ -95,6 +95,14 @@ $ git commit -m "Primera versión"
 $ git push -u origin master?<-
 ```
 
+Con esto sería suficiente, pero vamos pero a ver en detalle que estamos haciendo en cada uno de los pasos:
+
+![](/assets/2017-02-02_0826.png)
+
+Veamos qué estamos haciendo en cada uno de los pasos:
+
+1. Antes de hacer nada ejecutamos \`\`\`$ git status\`\`\`  para
+
 La ejecución de estas ordenes nos debe mostrar algo como:
 
 \(pendiente\)
@@ -105,10 +113,7 @@ La ejecución de estas ordenes nos debe mostrar algo como:
 
 ```
  git branch --set-upstream master origin/master
-
 ```
-
-
 
 ## Recibir nuestros cambios desde Github
 
