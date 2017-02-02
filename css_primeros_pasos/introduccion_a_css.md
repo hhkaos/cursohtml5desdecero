@@ -52,7 +52,7 @@ Hay múltiples formas de añadir CSS a nuestra página, una forma es utilizando 
 </html>
 ```
 
-De este modo estamos le indicamos al navegador que queremos que nos coloree el texto de todos los elementos **h1** en color rojo, para ello usamos la propiedad "**color**" y establecemos su valor a "**red**".
+De este modo le indicamos al navegador que queremos que nos coloree el texto de todos los elementos **h1** en color rojo, para ello usamos la propiedad "**color**" y establecemos su valor a "**red**".
 
 Los estilos aplicados a un elemento en CSS siempre tienen que estar envueltos entre llaves \("**{}**"\). Por cada propiedad definida \(en este caso `color`\) tenemos que terminar la línea con punto y coma.
 
