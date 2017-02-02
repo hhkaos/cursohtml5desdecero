@@ -91,7 +91,7 @@ Ahora vamos a usar la consola para enviar los cambios, para ello primero debemos
 
 ```
 $ git add docs
-$ git commit -m "Primera versión"
+$ git commit -m "Adding initial version"
 $ git push -u origin master?<-
 ```
 
@@ -101,19 +101,19 @@ Con esto sería suficiente, pero vamos pero a ver en detalle que estamos haciend
 
 Veamos qué estamos haciendo en cada uno de los pasos:
 
-1. Antes de hacer nada ejecutamos \`\`\`$ git status\`\`\`  para
+1. Antes de hacer nada ejecutamos ```$ git status```  para ver el estado en el que se encuentra nuestro repositorio, y nos indica que "**docs**" está en estado "Untracked" y en rojo, esto significa que aún no se ha guardado nunca una versión de este directorio y que nunca se ha solicitado que se sincronice con el repositorio.
 
-La ejecución de estas ordenes nos debe mostrar algo como:
+2. Para solucionar esto ejecutamos ```$ git add docs```, de este modo simplemente le indicamos a *git* que queremos que queremos guardar una versión del directorio (pero nada más[^2]).
 
-\(pendiente\)
+3. Volvemos a ejecutar ```$ git status``` a modo informativo simplemente para ver en qué estado se encuentra nuestro repositorio. En este caso nos indica que hay un fichero ("**docs/index.html**") pendiente de ser comiteado[^3] (será lo siguiente que hagamos).
 
-1. **git add docs**
-2. **git commit -m "Primera versión"**
-3. git push -u origin master
+4. Ahora vamos a indicarle a **git** que queremos añadir a nuestro histórico de versiones una nueva versión de todos los ficheros que hayan aparecido en el paso anterior como "Changes to be commited", para ello ejecutamos: ```git commit -m "Adding initial version"```. En este caso el comentario que describe los cambios que hemos hecho es "Adding initial version".
 
-```
- git branch --set-upstream master origin/master
-```
+5. Si volvemos a ejecutar ```$ git status``` veremos que nuestros cambios no están pendientes de "comitear".
+
+6. Por último ejecutamos ```$ git push``` lo que enviará nuestros cambios a Github[^4].
+
+Una vez hecho todo esto podremos volver al navegador y refrescar la página principal de nuestro repositorio y veremos los cambios enviados.
 
 ## Recibir nuestros cambios desde Github
 
@@ -129,3 +129,8 @@ git log
 
 [^1]: [Como podemos ver en la documentación de Github](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
+[^2]: Al hacer un "**add**" en realidad lo que estamos añadiendo es añadir el fichero/carpeta a lo que se llama el [**staging area**](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#_the_three_states). Al hacer un commit estamos guardando una versión de todo lo que se encuentre en este área.
+
+[^3]: Aunque esta palabra no está aceptada en la RAE es un término ampliamente usado en el mundo informático ([como muchos otros](http://luauf.com/2009/10/19/el-lexico-informatico/)) por lo que yo también lo usaré para que aprendas a hablar el mismo idioma que nosotros ;P.
+
+[^4] Si esta orden te diese algún problema prueba con ```$ git push -u origin master``` y la próxima vez vuelve a probar sólo con ```git push```
