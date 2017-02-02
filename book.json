@@ -3,7 +3,8 @@
         "disqus",
         "ga",
         "creativecommons",
-        "heading-anchors"
+        "heading-anchors",
+        "collapsible-chapters"
     ],
     "pluginsConfig": {
         "disqus": {
