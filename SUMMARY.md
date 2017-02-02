@@ -76,7 +76,7 @@
     * [Objetos, funciones y ámbitos](js_controlando_el_flujo/objetos_funciones_y_ambitos.md)
     * [Ejercicio](WIP.md)
     * [Recursos](WIP.md)
-* [JS: Trabajando como un profesional](WIP.md?59)
+* [JS: Trabajando como un profesional](WIP.md)
     * [Window & Document](WIP.md)
     * [Peticiones AJAX](js_trabajando_como_un_profesional/peticiones_ajax.md)
     * [Expresiones regulares](js_trabajando_como_un_profesional/expresiones_regulares.md)
