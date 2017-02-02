@@ -113,19 +113,27 @@ Veamos qué estamos haciendo en cada uno de los pasos:
 
 6. Por último ejecutamos ```$ git push``` lo que enviará nuestros cambios a Github[^4].
 
-Una vez hecho todo esto podremos volver al navegador y refrescar la página principal de nuestro repositorio y veremos los cambios enviados.
+Una vez hecho todo esto podremos volver al navegador y refrescar la página principal de nuestro repositorio (**github.com/username/nombre-del-repo**) y veremos los cambios enviados.
 
 ## Recibir nuestros cambios desde Github
 
-Pendiente
+Si has sincronizado tu repositorio desde dos ordenadores distintos y has enviado cambios a Github que no tienes en la máquina con la que estás trabajando puedes traer los cambios ejecutando: ```$ git pull```
 
-Git pull origin master
+Esto funciona igual cuando editas algún fichero desde la web de Github o cuando varias personas estáis colaborando en un mismo repositorio.
 
 ## Ver el histórico de cambios
 
-Pendiente
+En cualquier momento puedes ver un histórico de los cambios que has estado haciendo (u otros han hecho) en el código ejecuntado ```$ git log```
 
-git log
+
+## Errores refrecuentes
+
+*Pendiente de terminar*:
+
+* Antes de poder enviar cambios a un repositorio tienes que asegurarte que tu copia local está actualizada.
+
+
+
 
 [^1]: [Como podemos ver en la documentación de Github](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
