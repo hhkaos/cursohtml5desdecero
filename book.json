@@ -1,0 +1,18 @@
+{
+    "plugins": [
+        "disqus",
+        "ga",
+        "creativecommons",
+        "heading-anchors"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "cursohtml5desdecero",
+            "useIdentifier": false
+        },
+        "ga": {
+            "token": "UA-91167000-1",
+            "configuration": "auto"
+        }
+    }
+}
