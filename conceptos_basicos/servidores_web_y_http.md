@@ -16,7 +16,7 @@ Algunos de los servidores webs y empresas que ofrecen alojamiento web:
 
 A continuación tienes una gráfica que muestra el porcentaje de los servidores web más usados:
 
-![](/assets/Screen Shot 2017-03-25 at 18.45.48.png)<br>
+![](/assets/Servers.png)<br>
 *Fuente: [w3techs - 6 de Enero de 2016](http://w3techs.com/technologies/overview/web_server/all)*
 
 ---
