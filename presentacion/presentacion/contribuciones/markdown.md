@@ -1,6 +1,6 @@
 # Markdown
 
-Esta lección la he creado para las personas que estén pensando en contribuir con los contenido del curso y no saben [**Markdown**](https://es.wikipedia.org/wiki/Markdown()
+Esta lección la he creado para las personas que estén pensando en contribuir con los contenido del curso y no saben [**Markdown**](https://es.wikipedia.org/wiki/Markdown).
 
 Markdown es un lenguaje de marcas (al igual que HTML) aunque más parecido al [lenguaje usado en la Wikipedia](https://en.wikipedia.org/wiki/Help:Wiki_markup). Es bastante sencillo y parecido, aquí te dejo [un tutorial con ejemplos](https://guides.github.com/features/mastering-markdown/#examples) por si te hiciese falta.
 
