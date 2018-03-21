@@ -78,6 +78,12 @@
   $.get( htmlFile, function( data ) {
     var body = data.replace(/^[\S\s]*<body[^>]*?>/i, "")
                     .replace(/<\/body[\S\s]*$/i, "");
+
+    var tempDom = $('<output>').append($.parseHTML(body));
+    var aux = tempDom.find("div")
+    aux.remove("div");
+    body = tempDom.html();
+
     body = body.trim()
     $( ".html" ).text( '  ' + body );
 
