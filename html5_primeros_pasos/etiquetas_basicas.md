@@ -28,7 +28,7 @@ Para terminar esta lección vamos a aprender el significado de ocho de las etiqu
 **Truco**: Para que recuerdes mejor qué significa cada elemento, las etiquetas piensa en los acrónimos en inglés:
 * h1 = **h**eading**1**; h2 = **h**eading **2**; ...
 * p = **p**aragraph
-* br = **b**reak **l**ine
+* br = line **br**eak
 * ul = **u**nordered **l**ist
 * ol = **o**rdered **l**ist
 * li = **l**ist **i**tem
